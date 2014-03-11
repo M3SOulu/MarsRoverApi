@@ -1,4 +1,4 @@
-package training.tdd.day1.day1.test;
+package upm.tdd.training.tests;
 
 import static org.junit.Assert.*;
 
