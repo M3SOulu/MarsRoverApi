@@ -1,4 +1,4 @@
-package upm.tdd.training;
+package tdd.training.fsecure;
 
 public class MarsRover {
 	public MarsRover(int x, int y, String obstacles){
