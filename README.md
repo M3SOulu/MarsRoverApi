@@ -12,7 +12,7 @@ API for a Mars explorer rover
 -  Implement wrapping from one edge of the grid to another. (planets are spheres after all)
 -  Implement obstacle detection before each move to a new square. If a given sequence of commands encounters an obstacle, the rover moves up to the last possible point and reports the obstacle.
 
-**Examples**
+**Examples**  
 The rover starts on a 100x100 grid at location (0, 0) and facing N. The rover is given the commands "ffrff" and should end up at (2, 2) facing E.
 
 The return string is in the format: ?(x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)?  where x and y are the final coordinates, facing is the current direction the rover is pointing to. In the previous example it should report "(2,2,E)".
