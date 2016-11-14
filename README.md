@@ -18,5 +18,3 @@ The rover starts on a 100x100 grid at location (0, 0) and facing N. The rover is
 The return string is in the format: ?(x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)?  where x and y are the final coordinates, facing is the current direction the rover is pointing to. In the previous example it should report "(2,2,E)".
 
 The return string should also contain a list of coordinates of the encountered obstacles. No white spaces. 
-Obstacles are created by the constructor of the MarsRover class.  
-If there is an obstacle on (0,2) the execution of "ffrff" reports "(2,1,E)(0,2)".
