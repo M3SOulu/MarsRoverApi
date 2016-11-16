@@ -17,14 +17,16 @@ public class MarsRover {
 		
 		if(verifyObstacles(obstacles)) throw new MarsRoverException();
 		
+		String[] ostacoli = obstacles.split(")");
+		
 		xSize = x;
 		ySize = y;
 		
 		planet = new int[x][y];
-		planet[0][0] = 1;
-	
-		
+		planet[0][0] = 1;		
 	}
+	
+	
 	
 	public String executeCommand(String command){
 		
