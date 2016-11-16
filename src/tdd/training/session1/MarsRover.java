@@ -28,7 +28,10 @@ public class MarsRover {
 				if (!Utils.isInteger(xPos) || !Utils.isInteger(yPos)){
 					throw new MarsRoverException();
 				}
-				this.obstacles.add(new Position(Integer.parseInt(xPos), Integer.parseInt(yPos)));
+				System.out.println("ok1");
+				Position obsPos = new Position(Integer.parseInt(xPos), Integer.parseInt(yPos));
+				System.out.println("ok2");
+				this.obstacles.add(obsPos);
 			}
 		}
 		System.out.println(Utils.formatPosition(rPos.x, rPos.y, rDir));

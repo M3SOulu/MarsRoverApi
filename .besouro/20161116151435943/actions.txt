@@ -113,3 +113,6 @@ EditAction 1479308026655 MarsRover.java 2161 2 6 0
 UnitTestCaseAction 1479308028200 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479308028201 MarsRoverTest FAIL
 EditAction 1479308035122 MarsRover.java 2129 2 6 0
+RefactoringAction 1479308058003 MarsRover.java RENAME obstacles=>ArrayList<Position> obs FIELD
+RefactoringAction 1479308061077 MarsRover.java RENAME obs=>ArrayList<Position> obstacles FIELD
+EditAction 1479308106174 MarsRover.java 2221 2 6 0
