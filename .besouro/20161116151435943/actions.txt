@@ -321,3 +321,6 @@ RefactoringAction 1479311274344 MarsRoverTest.java RENAME testMarsRoverMove()=>v
 RefactoringAction 1479311277356 MarsRoverTest.java ADD void testMarsRoverMoveNoObstacle()/2 METHOD
 RefactoringAction 1479311279379 MarsRoverTest.java RENAME testMarsRoverMoveNoObstacle()/2=>void testMarsRoverMoveFindObstacle() METHOD
 EditAction 1479311281913 MarsRoverTest.java 1076 4 8 2
+UnitTestCaseAction 1479311283925 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311283926 MarsRoverTest FAIL
+EditAction 1479311289878 MarsRoverTest.java 1081 4 8 2
