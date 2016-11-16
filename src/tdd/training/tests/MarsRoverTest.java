@@ -2,6 +2,8 @@ package tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import java.util.regex.PatternSyntaxException;
+
 import tdd.training.session1.*;
 //import org.junit.Before;
 import org.junit.Test;
