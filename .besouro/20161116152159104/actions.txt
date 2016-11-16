@@ -400,3 +400,6 @@ CompilationAction 1479314933706 Navigation.java
 CompilationAction 1479315331216 Navigation.java
 EditAction 1479315478734 Navigation.java 2165 13 20 0
 EditAction 1479316121858 Navigation.java 2874 13 23 0
+CompilationAction 1479316122112 MarsRover.java
+CompilationAction 1479316141202 MarsRover.java
+EditAction 1479316146801 MarsRover.java 1345 2 2 0
