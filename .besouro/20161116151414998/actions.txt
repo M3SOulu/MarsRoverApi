@@ -52,3 +52,6 @@ UnitTestSessionAction 1479313773588 MarsRoverTest FAIL
 RefactoringAction 1479313795164 MarsRoverTest.java REMOVE import org.junit.Assert.* IMPORT
 RefactoringAction 1479313811985 Main.java REMOVE Main.java CLASS
 EditAction 1479313949211 MarsRover.java 6196 2 6 0
+UnitTestCaseAction 1479313954816 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313954817 MarsRoverTest FAIL
+EditAction 1479313967503 MarsRover.java 6195 2 6 0
