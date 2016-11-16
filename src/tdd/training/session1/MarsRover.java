@@ -126,7 +126,7 @@ public class MarsRover {
 
 	public static void main(String[] args) {
 
-		MarsRover rover = new MarsRover(3, 3, "(0,3)");
+		MarsRover rover = new MarsRover(3, 3, "(2,3)");
 		String test = rover.executeCommand("f");
 		System.out.println(test);
 		//Object array[][] = new Object[3][4];
