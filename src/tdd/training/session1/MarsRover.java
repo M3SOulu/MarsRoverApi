@@ -8,7 +8,6 @@ public class MarsRover {
 	private int xPos;
 	private int yPos;
 	private Direction direction;
-	private int[][] planet;
 	
 	public MarsRover(int x, int y, String obstacles) throws MarsRoverException{
 	/*	x and y represent the size of the grid.
@@ -22,7 +21,6 @@ public class MarsRover {
 		
 		xSize = x;
 		ySize = y;
-		planet = new int[x][y];	
 		
 		direction = Direction.NORTH;
 

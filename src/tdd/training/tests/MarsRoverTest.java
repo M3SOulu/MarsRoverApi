@@ -62,10 +62,6 @@ public class MarsRoverTest {
 		assertFalse(marsRover.verifyObstaclesRange(9, 10));
 	}
 	
-	@Test(expected = MarsRoverException.class)
-	public void testSetObstacles_ThrowException() throws MarsRoverException{
-		marsRover.setObstacles("(10,10)");
-	}
 	
 	@Test
 	public void testMoveRight(){	
@@ -146,11 +142,8 @@ public class MarsRoverTest {
 	@Test
 	public void testExecuteCommand() throws MarsRoverException{		
 		assertEquals("(0,1,N)", marsRover.executeCommand("f"));
+		assertEquals("(1,2,E)", marsRover.executeCommand("ffrf"));
 	}
 	
-	@Test
-	public void testExecuteCommand() throws MarsRoverException{		
-		assertEquals("(0,1,N)", marsRover.executeCommand("f"));
-	}
 
 }

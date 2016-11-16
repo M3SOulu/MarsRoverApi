@@ -406,3 +406,10 @@ EditAction 1479315744312 MarsRover.java 4138 13 32 0
 EditAction 1479315744419 MarsRoverTest.java 4306 17 69 47
 CompilationAction 1479315744680 MarsRoverTest.java
 EditAction 1479315750496 MarsRover.java 4114 13 30 0
+RefactoringAction 1479315760879 MarsRoverTest.java REMOVE testExecuteCommand()/2 METHOD
+UnitTestCaseAction 1479315796495 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315796496 MarsRoverTest FAIL
+RefactoringAction 1479315904027 MarsRover.java REMOVE planet FIELD
+RefactoringAction 1479315950048 MarsRover.java REMOVE setObstacles(String) METHOD
+RefactoringAction 1479315953000 MarsRoverTest.java REMOVE testSetObstacles_ThrowException() METHOD
+EditAction 1479315953343 MarsRoverTest.java 4078 15 68 47
