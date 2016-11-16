@@ -8,3 +8,8 @@ RefactoringAction 1479306541147 MarsRover.java ADD int xSize FIELD
 RefactoringAction 1479306547694 MarsRover.java ADD int ySize FIELD
 EditAction 1479306812224 MarsRoverTest.java 188 1 1 0
 EditAction 1479306812333 MarsRover.java 1367 3 6 0
+RefactoringAction 1479306825374 MarsRoverTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479306833613 MarsRoverTest.java ADD void setUp() METHOD
+RefactoringAction 1479306847642 MarsRoverTest.java ADD MarsRover marsRover FIELD
+RefactoringAction 1479306854019 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+EditAction 1479306892912 MarsRoverTest.java 361 2 2 0
