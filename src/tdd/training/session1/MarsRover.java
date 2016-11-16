@@ -17,7 +17,7 @@ public class MarsRover {
 		 */
 
 		// Crea il pianeta
-		planet = new Object[x+1][y+1];
+		planet = new Object[x + 1][y + 1];
 		// Rimuovi dalla stringa tutti i caratteri che non sono numeri
 		obstacles = obstacles.replaceAll("\\D+", "");
 		// System.out.println(obstacles);
@@ -47,7 +47,6 @@ public class MarsRover {
 
 	}
 
-	// TODO RIMETTERE STRING COME VALORE DI RITORNO
 	public String executeCommand(String command) {
 
 		/*
@@ -72,10 +71,11 @@ public class MarsRover {
 			int xRover = rover.getXRover();
 			int yRover = rover.getYRover();
 
+			//MUOVI IN AVANTI RISPETTO ALLA POSIZIONE DEL ROVER
 			if (actualCommand == 'f') {
-				
+
 				if (roverFacing == 'N') {
-					if ((planet.length-1) == yRover)
+					if ((planet.length - 1) == yRover)
 						yRover = -1;
 					if (planet[xRover][yRover + 1] == null) {
 						planet[xRover][rover.getYRover()] = null;
@@ -87,7 +87,7 @@ public class MarsRover {
 					}
 
 				}
-				
+
 				else if (roverFacing == 'S') {
 					if (yRover == 0)
 						yRover = planet[0].length;
@@ -100,22 +100,22 @@ public class MarsRover {
 						obPosition += obstacle;
 					}
 
-				}	
-				
+				}
+
 				else if (roverFacing == 'E') {
-					if ((planet[0].length-1) == xRover)
+					if ((planet[0].length - 1) == xRover)
 						xRover = -1;
 					if (planet[xRover + 1][yRover] == null) {
 						planet[rover.getXRover()][yRover] = null;
 						planet[xRover + 1][yRover] = rover;
 						rover.SetPosition(xRover + 1, yRover);
 					} else {
-						Obstacle obstacle = (Obstacle) planet[xRover +1][yRover];
+						Obstacle obstacle = (Obstacle) planet[xRover + 1][yRover];
 						obPosition += obstacle;
 					}
 
 				}
-				
+
 				else if (roverFacing == 'W') {
 					if (xRover == 0)
 						xRover = planet.length;
@@ -124,18 +124,18 @@ public class MarsRover {
 						planet[xRover - 1][yRover] = rover;
 						rover.SetPosition(xRover - 1, yRover);
 					} else {
-						Obstacle obstacle = (Obstacle) planet[xRover -1][yRover];
+						Obstacle obstacle = (Obstacle) planet[xRover - 1][yRover];
 						obPosition += obstacle;
 					}
 
 				}
-				
+
 			}
-			 System.out.println(rover.getXRover()+" "+rover.getYRover());
+			System.out.println(rover.getXRover() + " " + rover.getYRover());
 			i++;
 		}
 
-		return rover+obPosition;
+		return rover + obPosition;
 	}
 
 	public static void main(String[] args) {
@@ -143,8 +143,8 @@ public class MarsRover {
 		MarsRover rover = new MarsRover(3, 3, "(2,2)");
 		String test = rover.executeCommand("ffff");
 		System.out.println(test);
-		//Object array[][] = new Object[3][4];
-		//System.out.println(array[0].length);
+		// Object array[][] = new Object[3][4];
+		// System.out.println(array[0].length);
 	}
 
 }
