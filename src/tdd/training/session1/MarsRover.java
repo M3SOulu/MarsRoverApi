@@ -42,6 +42,7 @@ public class MarsRover {
 				moment = A.getPos_y() + 1;
 				A.setPos_y(moment);
 				result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
+				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 			} else if (cmd == 'b') {
 				moment = A.getPos_y() - 1;
 				A.setPos_y(moment);
