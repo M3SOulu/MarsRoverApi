@@ -36,7 +36,7 @@ package tdd.training.session1;
 		  coords=coords.replace("(", "");
 		  String[] xy=coords.split(",");
 		 this.x=Integer.parseInt(xy[0]);
-		 this.y=Integer.parseInt(xy(",")[1]);
+		 this.y=Integer.parseInt(xy[1]);
 	  }
 	  
 	  @Override

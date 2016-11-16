@@ -55,3 +55,5 @@ CompilationAction 1479308044307 MarsRoverTest.java
 UnitTestCaseAction 1479308047512 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479308047513 MarsRoverTest FAIL
 EditAction 1479308124718 Obstacle.java 932 8 14 0
+CompilationAction 1479308124941 Obstacle.java
+EditAction 1479308137529 Obstacle.java 927 8 14 0
