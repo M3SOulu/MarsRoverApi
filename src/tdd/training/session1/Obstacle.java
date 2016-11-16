@@ -23,8 +23,8 @@ public class Obstacle {
 		return coordY;
 	}
 
-	public void setCoordY(String coordY) {
-		int y = Integer.parseInt(coordY);
+	public void setCoordY(char coordY) {
+		int y = coordY;
 		this.coordY = y;
 	}
 	

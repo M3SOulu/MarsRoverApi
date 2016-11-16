@@ -58,11 +58,12 @@ public class MarsRover {
 		}
 		
 		for(int j = 0; j < obstacles.length(); j++){
-			
-			if(obstacles.charAt(i) == ','){
-				
+			int i = 0;
+			if(obstacles.charAt(j) == ','){
+				j++;
+				this.obstacles[i].setCoordY(obstacles.charAt(j));
 			}
-			if(!(obstacles.charAt(i) == '?'||obstacles.charAt(i) == '('||obstacles.charAt(i) == ')')){
+			if(!(obstacles.charAt(j) == '?'||obstacles.charAt(j) == '('||obstacles.charAt(j) == ')')){
 				
 			}
 		}
