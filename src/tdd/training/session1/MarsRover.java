@@ -66,9 +66,9 @@ public class MarsRover {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		System.out.println(commands);
+		char[] commandList = commands.toCharArray();
 		if(verifyCommand(commands)) throw new MarsRoverException();
-		char command;
-		System.out.println(commands);
+		
 		for(int i=0; i<commands.length(); i++){
 			command = commands.charAt(i);
 			
