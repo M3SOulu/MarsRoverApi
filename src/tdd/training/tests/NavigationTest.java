@@ -10,7 +10,7 @@ import tdd.training.session1.Navigation;
 
 public class NavigationTest {
 	//Act
-	Navigation navTest = new Navigation(5, 5, "?(1,2)(3,5)?");
+	//Navigation navTest = new Navigation(5, 5, "?(1,2)(3,5)?");
 	
 	@Test 
 	public void testGeneraOstacoli() {
