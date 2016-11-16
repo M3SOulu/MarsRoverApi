@@ -22,7 +22,8 @@ public class MarsRover {
 				throw new MarsRoverException();
 			}
 			System.out.println("ok-2");
-			String[] values = obstacles.replace(")", "").split("(");
+			String _obstacles = obstacles.replace(")", "");
+			String[] values = _obstacles.split("(");
 			System.out.println("ok-1");
 			for (String value : values){
 				String xPos = value.split(",")[0];
