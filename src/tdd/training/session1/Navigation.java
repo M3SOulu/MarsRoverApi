@@ -85,7 +85,7 @@ public class Navigation {
 					currentDirection --;
 					break;
 				default:
-					throw new MarsRoverException();					
+					throw new MarsRoverException("comando non valido");					
 			}
 			
 		}
