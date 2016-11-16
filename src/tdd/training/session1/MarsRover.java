@@ -6,12 +6,13 @@ import java.util.List;
 
 public class MarsRover {
 	
+	private static final int nObstacle = 10;
 	private static final List<String> movement = Arrays.asList("f","b","r","l");
 	private static final List<String> cardinalPosition = Arrays.asList("N","E","S","W");
 	private int coordX;
 	private int coordY;
 	private int direction;
-	private String[] obstacles;
+	private Obstacle[] obstacles = new Obstacle[nObstacle];
 	
 	public MarsRover(){
 		coordX = 0;

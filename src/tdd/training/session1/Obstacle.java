@@ -6,8 +6,8 @@ public class Obstacle {
 	private int coordY;
 	
 	public Obstacle(){
-		coordX = 0;
-		coordY = 0;
+		coordX = -1;
+		coordY = -1;
 	}
 
 	public int getCoordX() {

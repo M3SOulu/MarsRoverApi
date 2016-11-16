@@ -74,3 +74,12 @@ RefactoringAction 1479309240952 Obstacle.java RENAME setCoordX(int)=>void setCoo
 RefactoringAction 1479309270516 Obstacle.java RENAME setCoordY(int)=>void setCoordY(Stringf) METHOD
 RefactoringAction 1479309272037 Obstacle.java RENAME setCoordY(Stringf)=>void setCoordY(String) METHOD
 EditAction 1479309298318 Obstacle.java 485 5 8 0
+RefactoringAction 1479309325292 MarsRover.java REMOVE obstacles FIELD
+RefactoringAction 1479309327318 MarsRover.java ADD Obstacle FIELD
+RefactoringAction 1479309365012 MarsRover.java ADD int nObstalce FIELD
+RefactoringAction 1479309383644 MarsRover.java RENAME nObstalce=>int nObstace FIELD
+RefactoringAction 1479309384658 MarsRover.java RENAME nObstace=>int nObstacle FIELD
+RefactoringAction 1479309453425 MarsRover.java ADD int gridX FIELD
+RefactoringAction 1479309461971 MarsRover.java ADD int grid FIELD
+RefactoringAction 1479309463500 MarsRover.java RENAME grid=>int gridY FIELD
+EditAction 1479310022180 Obstacle.java 487 5 8 0
