@@ -361,3 +361,22 @@ EditAction 1479316641198 MarsRover.java 4333 10 25 0
 CompilationAction 1479316641450 MarsRover.java
 CompilationAction 1479316641450 MarsRover.java
 EditAction 1479316716070 MarsRover.java 4485 10 28 0
+RefactoringAction 1479316737783 MarsRoverTest.java RENAME TestChangeFace()=>void testChangeFace() METHOD
+RefactoringAction 1479316742801 MarsRoverTest.java ADD void test FIELD
+CompilationAction 1479316745232 MarsRoverTest.java
+CompilationAction 1479316745233 MarsRoverTest.java
+CompilationAction 1479316745233 MarsRoverTest.java
+RefactoringAction 1479316753831 MarsRoverTest.java RENAME test=>void testMove() METHOD
+RefactoringAction 1479316859019 MarsRover.java ADD int getX() METHOD
+RefactoringAction 1479316859019 MarsRover.java ADD void setX(int) METHOD
+RefactoringAction 1479316859020 MarsRover.java ADD int getY() METHOD
+RefactoringAction 1479316859020 MarsRover.java ADD void setY(int) METHOD
+RefactoringAction 1479316881562 MarsRover.java REMOVE getY() METHOD
+RefactoringAction 1479316881563 MarsRover.java REMOVE getX() METHOD
+RefactoringAction 1479316881563 MarsRover.java REMOVE setX(int) METHOD
+RefactoringAction 1479316881563 MarsRover.java REMOVE setY(int) METHOD
+RefactoringAction 1479316887090 MarsRover.java ADD int getX() METHOD
+RefactoringAction 1479316887090 MarsRover.java ADD void setX(int) METHOD
+RefactoringAction 1479316887090 MarsRover.java ADD int getY() METHOD
+RefactoringAction 1479316887096 MarsRover.java ADD void setY(int) METHOD
+EditAction 1479316889565 MarsRover.java 4634 14 32 0

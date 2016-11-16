@@ -176,6 +176,22 @@ public class MarsRover {
 	public void setFace(char face) {
 		this.face = face;
 	}
+	
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
 ///////////////////////////////////////////
 	/**
 	 * change the face given the right command
@@ -217,7 +233,7 @@ public class MarsRover {
 				
 	}
 	
-	//TODO to complete
+
 	public void move(char m){
 		
 		int chooser=1;
@@ -247,6 +263,8 @@ public class MarsRover {
 			break;
 		}
 	}
+
+	
 	
 	
 	

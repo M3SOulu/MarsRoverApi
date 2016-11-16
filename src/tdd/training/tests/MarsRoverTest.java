@@ -70,7 +70,7 @@ public class MarsRoverTest {
 	}
 	
 	@Test
-	public void TestChangeFace(){
+	public void testChangeFace(){
 		
 		rover.changeFace('r');
 		
@@ -81,6 +81,12 @@ public class MarsRoverTest {
 		rover.changeFace('r');
 		
 		Assert.assertEquals(rover.getFace(),'N');
+		
+	}
+	
+	@Test
+	public void  testMove(){
+		
 		
 	}
 
