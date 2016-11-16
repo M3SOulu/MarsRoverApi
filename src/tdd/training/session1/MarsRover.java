@@ -220,17 +220,17 @@ public class MarsRover {
 	//TODO to complete
 	public void move(char m){
 		
-		switch(m){
+		int chooser=1;
 		
-		case 'f':
-				
-				if()
+		if(m=='b')
+			chooser=-1;
+		
+		switch(this.face){
+		
+		case 'N':
 			
+			this.y
 			break;
-		
-		case 'b':
-			break;
-		
 		}
 	}
 	
