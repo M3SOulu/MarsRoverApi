@@ -19,6 +19,9 @@ public class MarsRover {
 		if (!obstacles.isEmpty()){
 			if (Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ")") ||
 				Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ",")){
+				System.out.println(Utils.countOccurencesOf(obstacles, "("));
+				System.out.println(Utils.countOccurencesOf(obstacles, ","));
+				System.out.println(Utils.countOccurencesOf(obstacles, ")"));
 				throw new MarsRoverException();
 			}
 			String[] values = obstacles.replace(")", "").split("(");
