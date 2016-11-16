@@ -64,6 +64,7 @@ public class MarsRover {
 		 */
 		
 		int i = 0;
+		String obPosition;
 		while (i < command.length()) {
 			
 			char actualCommand = command.charAt(i);
@@ -77,6 +78,10 @@ public class MarsRover {
 					planet[xRover][yRover+1]=rover;
 					rover.SetPosition(xRover, yRover+1);
 				}
+				else{
+					Obstacle obstacle = (Obstacle)planet[xRover][yRover+1];
+				}
+				
 			}
 				System.out.println(rover.getXRover()+" "+rover.getYRover());
 			i++;	
