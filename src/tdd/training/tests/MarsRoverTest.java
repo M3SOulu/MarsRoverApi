@@ -106,4 +106,12 @@ public class MarsRoverTest {
 		assertEquals(1, marsRover.getCurrentX());
 		assertEquals(0, marsRover.getCurrentY());
 	}
+	
+	@Test
+	public void testMoveForwardLeft(){
+		marsRover.moveLeft();	
+		marsRover.moveForward();
+		assertEquals(9, marsRover.getCurrentX());
+		assertEquals(0, marsRover.getCurrentY());
+	}
 }
