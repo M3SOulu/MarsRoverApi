@@ -74,10 +74,10 @@ public class MarsRover {
 		Position nextPosition = rPos;
 		switch (command){
 		case Utils.FORWARD:
-			nextPosition.moveForward(rDir, grid);
+			nextPosition.moveForward(rDir);
 			break;
 		case Utils.BACKWARD:
-			nextPosition.moveBackwards(rDir, grid);
+			nextPosition.moveBackwards(rDir);
 			break;
 		case Utils.LEFT:
 			rDir = Utils.cycleDirectionLeft(rDir);
@@ -87,6 +87,13 @@ public class MarsRover {
 			break;
 		default:
 			throw new MarsRoverException("Unknown command: " + command);
+		}
+
+		if (nextPosition.x > grid.x){
+			nextPosition.x = 0;
+		}
+		if (nextPosition.y > grid.y){
+			nextPosition.y = 0;
 		}
 		
 		if (obstacles.contains(nextPosition)){
