@@ -49,19 +49,6 @@ public class MarsRover {
 	}
 
 
-
-	public void setDirection(int direction) {
-		this.direction = direction;
-	}
-
-
-
-	public static List<String> getPosition() {
-		return position;
-	}
-
-
-
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
