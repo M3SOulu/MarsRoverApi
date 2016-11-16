@@ -84,6 +84,7 @@ public class MarsRover {
 				direction = moveRight(direction);
 				break;
 			case 'f':
+				moveForward();
 				break;
 			case 'b':
 				break;
@@ -100,13 +101,16 @@ public class MarsRover {
 			else yPos = 0;			
 			break;
 		case 'S':
-			
+			if(yPos>0) yPos--;
+			else yPos = ySize-1;
 			break;
 		case 'E':
-			
+			if(xPos<xSize-1) xPos++;
+			else xPos = 0;
 			break;
 		case 'W':
-			
+			if(xPos>0) xPos--;
+			else xPos = xSize-1;
 			break;
 		}
 	}
