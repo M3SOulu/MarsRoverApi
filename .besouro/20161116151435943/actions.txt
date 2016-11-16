@@ -60,3 +60,6 @@ EditAction 1479307318269 Utils.java 464 3 6 0
 RefactoringAction 1479307477788 Utils.java ADD static boolean isInteger(String, int) METHOD
 EditAction 1479307532547 Utils.java 836 4 9 0
 EditAction 1479307535081 MarsRover.java 1946 2 4 0
+CompilationAction 1479307535960 MarsRover.java
+RefactoringAction 1479307543854 Utils.java ADD static boolean isInteger(String) METHOD
+EditAction 1479307545238 Utils.java 919 5 10 0
