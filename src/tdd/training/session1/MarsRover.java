@@ -6,7 +6,7 @@ import javax.management.monitor.StringMonitor;
 
 
 public class MarsRover {
-	int planet[][];
+	int planet[];
 	
 	int x = 0;
 	int y = 0;
@@ -23,7 +23,9 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		planet = new int[x][y];
+		planet = new int[2];
+		planet[0]=x;
+		planet[2]=y;
 		
 		//positionObstacles(obstacles);
 		

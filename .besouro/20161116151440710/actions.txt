@@ -185,3 +185,8 @@ RefactoringAction 1479314556864 MarsRover.java RENAME x/2=>int y FIELD
 EditAction 1479315283406 MarsRoverTest.java 276 1 0 0
 CompilationAction 1479315283542 MarsRoverTest.java
 EditAction 1479315283561 MarsRover.java 2131 4 23 0
+CompilationAction 1479315284626 MarsRoverTest.java
+CompilationAction 1479315461476 MarsRoverTest.java
+UnitTestCaseAction 1479315463537 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315463538 MarsRoverTest FAIL
+EditAction 1479315533973 MarsRover.java 2156 4 25 0
