@@ -124,7 +124,6 @@ public class MarsRover {
 		}
 	}
 	
-	
 	public void moveLeft(){
 		
 		switch(direction.getValue()){
