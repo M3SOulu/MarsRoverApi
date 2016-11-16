@@ -90,8 +90,17 @@ public class MarsRoverTest {
 		rover.setFace('N');
 		rover.move('f');
 		
-		Assert.assertEquals(rover.ge);
+		Assert.assertEquals(rover.getX(),0);
+		Assert.assertEquals(rover.getY(),1);
 		
+		rover.move('f');
+		Assert.assertEquals(rover.getX(),0);
+		Assert.assertEquals(rover.getY(),2);
+		
+		rover.setFace('E');
+		rover.move('f');
+		Assert.assertEquals(rover.getX(),1);
+		Assert.assertEquals(rover.getY(),2);
 	}
 
 }

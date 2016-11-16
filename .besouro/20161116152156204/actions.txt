@@ -382,3 +382,13 @@ RefactoringAction 1479316887096 MarsRover.java ADD void setY(int) METHOD
 EditAction 1479316889565 MarsRover.java 4634 14 32 0
 CompilationAction 1479316889872 MarsRoverTest.java
 EditAction 1479316894233 MarsRover.java 4636 14 32 0
+CompilationAction 1479316926181 MarsRoverTest.java
+UnitTestCaseAction 1479316930123 MarsRoverTest.java OK
+UnitTestSessionAction 1479316930124 MarsRoverTest OK
+UnitTestCaseAction 1479317001576 MarsRoverTest.java OK
+UnitTestSessionAction 1479317001576 MarsRoverTest OK
+RefactoringAction 1479317038707 MarsRover.java REMOVE move(char) METHOD
+RefactoringAction 1479317039187 MarsRover.java ADD int chooser FIELD
+RefactoringAction 1479317043772 MarsRover.java REMOVE chooser FIELD
+RefactoringAction 1479317044818 MarsRover.java ADD void move(char) METHOD
+EditAction 1479317058492 MarsRover.java 4691 14 32 0

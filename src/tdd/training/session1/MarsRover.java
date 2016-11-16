@@ -234,8 +234,12 @@ public class MarsRover {
 				
 	}
 	
-
-	public void move(char m){
+	
+	/**
+	 * move forward or backward
+	 * @param m
+	 */
+	 	public void move(char m){
 		
 		int chooser=1;
 		
