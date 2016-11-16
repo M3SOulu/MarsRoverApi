@@ -69,18 +69,18 @@ public class MarsRoverTest {
 	
 	@Test
 	public void testMoveRight(){		
-		assertEquals(Direction.EAST, marsRover.moveRight(Direction.NORTH));
-		assertEquals(Direction.WEST, marsRover.moveRight(Direction.SOUTH));
-		assertEquals(Direction.NORTH, marsRover.moveRight(Direction.WEST));
-		assertEquals(Direction.SOUTH, marsRover.moveRight(Direction.EAST));
+		assertEquals(Direction.EAST, MarsRover.moveRight(Direction.NORTH));
+		assertEquals(Direction.WEST, MarsRover.moveRight(Direction.SOUTH));
+		assertEquals(Direction.NORTH, MarsRover.moveRight(Direction.WEST));
+		assertEquals(Direction.SOUTH, MarsRover.moveRight(Direction.EAST));
 	}
 	
 	@Test
 	public void testMoveLeft(){		
-		assertEquals(Direction.WEST, marsRover.moveLeft(Direction.NORTH));
-		assertEquals(Direction.EAST, marsRover.moveLeft(Direction.SOUTH));
-		assertEquals(Direction.SOUTH, marsRover.moveLeft(Direction.WEST));
-		assertEquals(Direction.NORTH, marsRover.moveLeft(Direction.EAST));
+		assertEquals(Direction.WEST, MarsRover.moveLeft(Direction.NORTH));
+		assertEquals(Direction.EAST, MarsRover.moveLeft(Direction.SOUTH));
+		assertEquals(Direction.SOUTH, MarsRover.moveLeft(Direction.WEST));
+		assertEquals(Direction.NORTH, MarsRover.moveLeft(Direction.EAST));
 	}
 	
 }

@@ -217,3 +217,4 @@ RefactoringAction 1479312251848 MarsRover.java ADD void move FIELD
 RefactoringAction 1479312261872 MarsRover.java RENAME move=>void moveForward() METHOD
 RefactoringAction 1479312283956 MarsRover.java ADD Direction direction FIELD
 EditAction 1479312329009 MarsRover.java 3782 9 28 0
+EditAction 1479312346007 MarsRoverTest.java 2678 8 36 33
