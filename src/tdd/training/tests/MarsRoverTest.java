@@ -11,4 +11,5 @@ public class MarsRoverTest {
 		fail("Not yet implemented");
 	}
 
+	@Test(expected = MarsRoverException.class)
 }
