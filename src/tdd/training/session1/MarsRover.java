@@ -86,7 +86,7 @@ public class MarsRover {
 		int countObstacle = 0;
 		String whereIAm = "?(";
 		String[] realObstacles = new String[nObstacle];
-		String whereIsObstacles = "(";
+		String whereIsObstacles;
 		
 		for(int i = 0; i < command.length(); i++){
 			if(command.charAt(i) == 'f'){
@@ -142,7 +142,7 @@ public class MarsRover {
 			
 			for(Obstacle o : this.obstacles){
 				if((coordX == o.getCoordX())&&(coordY == o.getCoordY())){
-					whereIsObstacles += coordX + "," + coordY + ")";
+					whereIsObstacles = "(" + coordX + "," + coordY + ")";
 					coordX += -1;
 					coordY += -1;
 					realObstacles[countObstacle] = whereIsObstacles;
