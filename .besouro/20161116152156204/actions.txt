@@ -22,3 +22,4 @@ RefactoringAction 1479307572819 MarsRoverException.java ADD MarsRoverException()
 RefactoringAction 1479307592867 MarsRoverException.java ADD MarsRoverException()/2 METHOD
 RefactoringAction 1479307597898 MarsRoverException.java RENAME MarsRoverException()/2=>MarsRoverException(String) METHOD
 EditAction 1479307602650 MarsRoverException.java 294 2 2 0
+EditAction 1479307654856 MarsRoverTest.java 189 1 1 0
