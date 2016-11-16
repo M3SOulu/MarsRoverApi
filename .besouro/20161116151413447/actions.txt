@@ -211,3 +211,32 @@ CompilationAction 1479315390431 MarsRover.java
 RefactoringAction 1479315442473 MarsRoverTest.java ADD void initialize() METHOD
 RefactoringAction 1479315500525 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
 EditAction 1479315504848 MarsRoverTest.java 323 2 2 0
+CompilationAction 1479315505104 MarsRoverTest.java
+RefactoringAction 1479315539558 MarsRoverTest.java RENAME test()=>void testExecuteComma() METHOD
+RefactoringAction 1479315541072 MarsRoverTest.java RENAME testExecuteComma()=>void testExecuteCommand() METHOD
+RefactoringAction 1479315591129 MarsRoverTest.java ADD MarsRover rover FIELD
+RefactoringAction 1479315619746 MarsRoverTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+CompilationAction 1479315687010 MarsRoverTest.java
+CompilationAction 1479315687169 MarsRoverTest.java
+CompilationAction 1479315687170 MarsRoverTest.java
+CompilationAction 1479315687170 MarsRoverTest.java
+RefactoringAction 1479315730865 MarsRoverTest.java RENAME import org.junit.Assert.*=>import org.junit.* IMPORT
+CompilationAction 1479315731165 MarsRoverTest.java
+CompilationAction 1479315731165 MarsRoverTest.java
+CompilationAction 1479315731166 MarsRoverTest.java
+CompilationAction 1479315731331 MarsRoverTest.java
+CompilationAction 1479315731331 MarsRoverTest.java
+CompilationAction 1479315731332 MarsRoverTest.java
+CompilationAction 1479315731332 MarsRoverTest.java
+RefactoringAction 1479315740374 MarsRoverTest.java RENAME import org.junit.*=>import org.junit.Assert.* IMPORT
+CompilationAction 1479315741709 MarsRoverTest.java
+CompilationAction 1479315741712 MarsRoverTest.java
+CompilationAction 1479315741712 MarsRoverTest.java
+CompilationAction 1479315741871 MarsRoverTest.java
+CompilationAction 1479315741871 MarsRoverTest.java
+CompilationAction 1479315741872 MarsRoverTest.java
+CompilationAction 1479315782445 MarsRoverTest.java
+CompilationAction 1479315782445 MarsRoverTest.java
+CompilationAction 1479315782605 MarsRoverTest.java
+CompilationAction 1479315782605 MarsRoverTest.java
+EditAction 1479315820625 MarsRover.java 4635 3 14 0
