@@ -39,9 +39,16 @@ public class MarsRoverTest {
 	}
 	
 	@Test
-	public void testMarsRoverMoveFindObstacle() throws MarsRoverException {
+	public void testMarsRoverMoveFindOneObstacle() throws MarsRoverException {
 		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
 		String result = rover.executeCommand("fffffrfffff");
+		assertEquals("(5,5,E)(5,5)", result);
+	}
+	
+	@Test
+	public void testMarsRoverMoveFindOneObstacleNoMove() throws MarsRoverException {
+		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
+		String result = rover.executeCommand("fffffrfffffffff");
 		assertEquals("(5,5,E)(5,5)", result);
 	}
 

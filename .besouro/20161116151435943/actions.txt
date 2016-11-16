@@ -392,3 +392,14 @@ EditAction 1479312094080 Position.java 971 5 16 0
 UnitTestCaseAction 1479312100107 MarsRoverTest.java OK
 UnitTestSessionAction 1479312100108 MarsRoverTest OK
 EditAction 1479312107250 MarsRover.java 3448 3 16 0
+UnitTestCaseAction 1479312108196 MarsRoverTest.java OK
+UnitTestSessionAction 1479312108196 MarsRoverTest OK
+RefactoringAction 1479312138041 MarsRoverTest.java ADD void testMarsRoverMoveFindObstacle()/2 METHOD
+RefactoringAction 1479312141052 MarsRoverTest.java RENAME testMarsRoverMoveFindObstacle()/2=>void testMarsRoverMoveFindOneObstacle() METHOD
+RefactoringAction 1479312143061 MarsRoverTest.java RENAME testMarsRoverMoveFindObstacle()=>void testMarsRoverMoveFindTwoObstacle() METHOD
+RefactoringAction 1479312146069 MarsRoverTest.java RENAME testMarsRoverMoveFindTwoObstacle()=>void testMarsRoverMoveFindTwoObstacles() METHOD
+RefactoringAction 1479312173088 MarsRoverTest.java RENAME testMarsRoverMoveFindTwoObstacles()=>void testMarsRoverMoveFindOneObstacles() METHOD
+RefactoringAction 1479312175092 MarsRoverTest.java RENAME testMarsRoverMoveFindOneObstacles()=>void testMarsRoverMoveFindOneObstacle()/2 METHOD
+RefactoringAction 1479312178096 MarsRoverTest.java RENAME testMarsRoverMoveFindOneObstacle()/2=>void testMarsRoverMoveFindOneObstacleNo() METHOD
+RefactoringAction 1479312179600 MarsRoverTest.java RENAME testMarsRoverMoveFindOneObstacleNo()=>void testMarsRoverMoveFindOneObstacleNoMove() METHOD
+EditAction 1479312194224 MarsRoverTest.java 1507 6 13 3
