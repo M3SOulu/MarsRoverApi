@@ -29,3 +29,15 @@ RefactoringAction 1479307712785 Obstacle.java RENAME Equals=>boolean Equals() ME
 RefactoringAction 1479307718833 Obstacle.java RENAME Equals()=>boolean erquals() METHOD
 RefactoringAction 1479307720342 Obstacle.java RENAME erquals()=>boolean equals() METHOD
 EditAction 1479307723744 Obstacle.java 605 4 6 0
+CompilationAction 1479307723886 Obstacle.java
+RefactoringAction 1479307734405 Obstacle.java RENAME equals()=>boolean equals(Obstacle) METHOD
+RefactoringAction 1479307764984 Obstacle.java ADD int getX() METHOD
+RefactoringAction 1479307764984 Obstacle.java ADD void setX(int) METHOD
+RefactoringAction 1479307764984 Obstacle.java ADD int getY() METHOD
+RefactoringAction 1479307764985 Obstacle.java ADD void setY(int) METHOD
+CompilationAction 1479307813642 Obstacle.java
+CompilationAction 1479307813781 Obstacle.java
+RefactoringAction 1479307827832 Obstacle.java RENAME equals(Obstacle)=>boolean equals(O) METHOD
+RefactoringAction 1479307830864 Obstacle.java RENAME equals(O)=>boolean equals() METHOD
+RefactoringAction 1479307832882 Obstacle.java RENAME equals()=>boolean equals(Obstacle) METHOD
+EditAction 1479307833946 Obstacle.java 931 8 13 0

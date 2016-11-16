@@ -15,7 +15,23 @@ package tdd.training.session1;
 				  
 	  }
 	  
-	  public Obstacle(String coords){
+	  public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+	public Obstacle(String coords){
 		  
 		  coords=coords.replace("(", "");
 		 this.x=Integer.parseInt(coords.split(",")[0]);
@@ -30,9 +46,16 @@ package tdd.training.session1;
 	  }
 	  
 	  @Override
-	  public boolean equals(){
+	  public boolean equals(Obstacle ob){
 		  
+		  boolean result=false;
 		  
+		  if(this.x==ob.getX() && this.y==ob.getY()){
+			  
+			  result=true;
+		  }
+		  
+		  return result;
 	  }
 	  
 }
