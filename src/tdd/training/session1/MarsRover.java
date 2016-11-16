@@ -56,8 +56,17 @@ public class MarsRover {
 		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		String result=null;
 		
-		return null;
+		if(isValidCommand(command)){
+			
+			
+		}else{
+			
+			throw new MarsRoverException("invalid command!");
+		}
+		
+		return result;
 	}
 	
 	/**
