@@ -28,7 +28,7 @@ public class Utils {
 	public final static char LEFT = 'l';
 	public final static char RIGHT = 'r';
 
-	public String cycleDirection(String dir, int value){
+	public static String cycleDirection(String dir, int value){
 		String newDir = dir;
 		if (value > 0){
 			if (newDir.equals("N")){
