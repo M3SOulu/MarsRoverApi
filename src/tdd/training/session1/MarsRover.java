@@ -4,6 +4,8 @@ public class MarsRover {
 	
 	
 	private Object planet[][];
+	private int x;
+	private int y;
 	
 	public MarsRover(int x, int y, String obstacles){
 		
@@ -13,8 +15,9 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		
 		planet = new Object[x][y];
+		obstacles.replaceAll("\\D+","");
+		
 		
 		
 		
