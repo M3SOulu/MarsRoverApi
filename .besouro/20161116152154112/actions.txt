@@ -103,3 +103,18 @@ RefactoringAction 1479311751097 MarsRoverTest.java ADD import org.junit.Before I
 RefactoringAction 1479311774119 MarsRoverTest.java ADD void initialize() METHOD
 EditAction 1479311953268 MarsRover.java 4808 8 18 0
 EditAction 1479311953433 MarsRoverTest.java 347 2 1 0
+CompilationAction 1479311953746 MarsRover.java
+CompilationAction 1479311953746 MarsRover.java
+CompilationAction 1479311953747 MarsRoverTest.java
+CompilationAction 1479311979848 MarsRover.java
+CompilationAction 1479311979848 MarsRover.java
+RefactoringAction 1479312017664 MarsRoverTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+CompilationAction 1479312031016 MarsRoverTest.java
+RefactoringAction 1479312052994 MarsRoverTest.java RENAME test()=>void One() METHOD
+RefactoringAction 1479312058505 MarsRoverTest.java RENAME One()=><initializer /1> null
+RefactoringAction 1479312061510 MarsRoverTest.java RENAME <initializer /1>=>void One() METHOD
+RefactoringAction 1479312063538 MarsRoverTest.java RENAME One()=>void OneMove() METHOD
+RefactoringAction 1479312065052 MarsRoverTest.java RENAME OneMove()=>void OneMoveFor() METHOD
+RefactoringAction 1479312066056 MarsRoverTest.java RENAME OneMoveFor()=>void OneMoveForwa() METHOD
+RefactoringAction 1479312067563 MarsRoverTest.java RENAME OneMoveForwa()=>void OneMoveForward() METHOD
+EditAction 1479312187721 MarsRoverTest.java 494 2 2 1

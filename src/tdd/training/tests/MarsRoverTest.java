@@ -6,19 +6,20 @@ import org.junit.Before;
 import org.junit.Test;
 
 import tdd.training.session1.MarsRover;
+import tdd.training.session1.MarsRoverException;
 
 public class MarsRoverTest {
 	
 	MarsRover sonic;
 	
 	@Before
-	public void initialize(){
-		sonic = new MarsRover(10,10,"?(")
+	public void initialize() throws MarsRoverException{
+		sonic = new MarsRover(10,10,"?(2,1)(4,5)?");
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void OneMoveForward() throws MarsRoverException {
+		assertEquals("?(0,1,N)?", sonic.executeCommand("f"));
 	}
 
 }

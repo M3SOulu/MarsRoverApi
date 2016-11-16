@@ -73,6 +73,8 @@ public class MarsRover {
 			if(!(obstacles.charAt(j) == '?'||obstacles.charAt(j) == '('||obstacles.charAt(j) == ')')){
 				if(!(obstacles.charAt(j)>gridX)){
 					this.obstacles[i].setCoordX(obstacles.charAt(j));
+				}else
+					throw new MarsRoverException();
 			}
 		}
 		
