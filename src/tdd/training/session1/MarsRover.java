@@ -2,8 +2,11 @@ package tdd.training.session1;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class MarsRover {
+	
 	
 	private int width;
 	private int height;
@@ -30,6 +33,13 @@ public class MarsRover {
 		
 		this.x=0;
 		this.y=0;
+		
+		//face can be
+		//N= north
+		//S= south
+		//E=east
+		//W=west
+		
 		this.face='N';
 
 		
@@ -97,13 +107,18 @@ public class MarsRover {
 		return result;
 	}
 	
-	public boolean isValidCommand(){
-	
-		boolean result=false;
+	/**
+	 * 
+	 * @param cmd
+	 * @return
+	 */
+	public boolean isValidCommand(String cmd){
 		
+		//the regex match the invalid char in the command
+		Pattern pattern=Pattern.compile("[^lrfb]"); 
+		Matcher matcher= pattern.matcher(cmd); 
 		
-		
-		return result;
+		return !matcher.find();
 	}
 	
 	

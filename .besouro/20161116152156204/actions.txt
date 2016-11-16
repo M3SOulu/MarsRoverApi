@@ -220,3 +220,20 @@ RefactoringAction 1479312396023 MarsRover.java RENAME isvALID=>boolean isValidCo
 EditAction 1479312416399 MarsRover.java 2412 5 16 0
 RefactoringAction 1479312452227 MarsRover.java ADD char face FIELD
 EditAction 1479312471891 MarsRover.java 2451 5 17 0
+RefactoringAction 1479312664464 MarsRover.java ADD import java.util.regex.Pattern IMPORT
+CompilationAction 1479312668774 MarsRover.java
+CompilationAction 1479312668774 MarsRover.java
+CompilationAction 1479312668775 MarsRover.java
+RefactoringAction 1479312683168 MarsRover.java ADD import java.util.regex.Matcher IMPORT
+CompilationAction 1479312683922 MarsRover.java
+CompilationAction 1479312683922 MarsRover.java
+CompilationAction 1479312683922 MarsRover.java
+CompilationAction 1479312684097 MarsRover.java
+CompilationAction 1479312684097 MarsRover.java
+RefactoringAction 1479312708148 MarsRover.java RENAME isValidCommand()=>boolean isValidCommand(String) METHOD
+CompilationAction 1479312747585 MarsRover.java
+CompilationAction 1479312747586 MarsRover.java
+CompilationAction 1479312747776 MarsRover.java
+RefactoringAction 1479312893756 MarsRover.java REMOVE isValidCommand(String) METHOD
+RefactoringAction 1479312897547 MarsRover.java ADD boolean isValidCommand(String) METHOD
+EditAction 1479312902096 MarsRover.java 2760 5 18 0
