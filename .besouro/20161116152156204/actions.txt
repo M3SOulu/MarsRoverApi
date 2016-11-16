@@ -1,0 +1,4 @@
+FileOpenedAction 1479306116688 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479306799165 Obstacle.java ADD Obstacle.java CLASS
+FileOpenedAction 1479306799606 Obstacle.java 64 0 0 0
+EditAction 1479306838358 Obstacle.java 105 0 0 0
