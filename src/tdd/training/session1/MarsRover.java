@@ -85,10 +85,10 @@ public class MarsRover {
 			
 			switch(command){
 			case 'l':
-				direction = moveLeft(direction);
+				moveLeft(direction);
 				break;
 			case 'r':
-				direction = moveRight(direction);
+				moveRight(direction);
 				break;
 			case 'f':
 				moveForward();
@@ -123,41 +123,37 @@ public class MarsRover {
 	}
 
 	
-	public static Direction moveLeft(Direction direction){
-		Direction newDirection = null;
+	public void moveLeft(){
 		
 		switch(direction.getValue()){
 		case 'N':
-			newDirection = Direction.WEST;
+			direction = Direction.WEST;
 			break;
 		case 'S':
-			newDirection = Direction.EAST;
+			direction = Direction.EAST;
 			break;
 		case 'E':
-			newDirection = Direction.NORTH;
+			direction = Direction.NORTH;
 			break;
 		case 'W':
-			newDirection = Direction.SOUTH;
+			direction = Direction.SOUTH;
 			break;
 		}
-		return newDirection;
 	}
 	
-	public static Direction moveRight(Direction direction){
-		Direction newDirection = null;
-		
+	public void moveRight(){		
 		switch(direction.getValue()){
 		case 'N':
-			newDirection = Direction.EAST;
+			direction = Direction.EAST;
 			break;
 		case 'S':
-			newDirection = Direction.WEST;
+			direction = Direction.WEST;
 			break;
 		case 'E':
-			newDirection = Direction.SOUTH;
+			direction = Direction.SOUTH;
 			break;
 		case 'W':
-			newDirection = Direction.NORTH;
+			direction = Direction.NORTH;
 			break;
 		}
 		return newDirection;
