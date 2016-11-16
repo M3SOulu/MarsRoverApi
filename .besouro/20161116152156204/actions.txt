@@ -2,3 +2,10 @@ FileOpenedAction 1479306116688 MarsRoverTest.java 184 1 1 0
 RefactoringAction 1479306799165 Obstacle.java ADD Obstacle.java CLASS
 FileOpenedAction 1479306799606 Obstacle.java 64 0 0 0
 EditAction 1479306838358 Obstacle.java 105 0 0 0
+RefactoringAction 1479306852755 Obstacle.java ADD int x FIELD
+RefactoringAction 1479306852764 Obstacle.java ADD int y FIELD
+RefactoringAction 1479306863801 Obstacle.java ADD Obstacle() METHOD
+RefactoringAction 1479306870323 Obstacle.java RENAME Obstacle()=>Obstacle(int) METHOD
+RefactoringAction 1479306871832 Obstacle.java RENAME Obstacle(int)=>Obstacle(int, int) METHOD
+RefactoringAction 1479306905206 Obstacle.java ADD String toString() METHOD
+EditAction 1479307067485 Obstacle.java 333 2 3 0
