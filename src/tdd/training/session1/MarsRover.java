@@ -88,8 +88,8 @@ public class MarsRover {
 				break;
 			}
 		}
-	
-		return null;
+		String executedCommand = "("+xPos+","+yPos+","+direction.getValue()+")";
+		return executedCommand;
 	}
 	
 	public void moveForward(){
