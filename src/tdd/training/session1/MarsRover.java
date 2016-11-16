@@ -94,7 +94,21 @@ public class MarsRover {
 	}
 	
 	public void moveForward(){
-		
+		switch(direction.getValue()){
+		case 'N':
+			if(yPos<ySize-1) yPos++;
+			else yPos = 0;			
+			break;
+		case 'S':
+			
+			break;
+		case 'E':
+			
+			break;
+		case 'W':
+			
+			break;
+		}
 	}
 
 	
