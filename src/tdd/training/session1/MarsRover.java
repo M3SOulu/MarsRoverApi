@@ -42,11 +42,11 @@ public class MarsRover {
 	 */
 	public  Obstacle[] makeObstacles(String obstacles){
 		
-		String[] obstaclesList= obstacles.split(")");
+		String[] obstaclesList= obstacles.split("\(");
 		
 		for(int i=0;i<obstaclesList.length;i++){
 			
-			String rowX=obstaclesList[i].substring(, )
+			//String rowX=obstaclesList[i].substring(, )
 		}
 		
 		return null;

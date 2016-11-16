@@ -103,3 +103,26 @@ CompilationAction 1479309181332 Obstacle.java
 CompilationAction 1479309186562 Obstacle.java
 EditAction 1479309248754 Obstacle.java 914 8 13 0
 EditAction 1479309248840 MarsRover.java 1585 3 4 0
+CompilationAction 1479309248965 MarsRover.java
+CompilationAction 1479309248966 MarsRover.java
+CompilationAction 1479309248966 MarsRover.java
+CompilationAction 1479309275770 MarsRoverTest.java
+CompilationAction 1479309313698 MarsRoverTest.java
+CompilationAction 1479309313862 MarsRoverTest.java
+CompilationAction 1479309317058 MarsRoverTest.java
+CompilationAction 1479309327252 MarsRover.java
+CompilationAction 1479309327253 MarsRover.java
+CompilationAction 1479309327253 MarsRover.java
+UnitTestCaseAction 1479309331441 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479309331442 MarsRoverTest FAIL
+CompilationAction 1479309457145 Obstacle.java
+CompilationAction 1479309474150 Obstacle.java
+UnitTestCaseAction 1479309478661 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479309478662 MarsRoverTest FAIL
+UnitTestCaseAction 1479309483908 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479309483908 MarsRoverTest FAIL
+UnitTestCaseAction 1479309552303 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479309552304 MarsRoverTest FAIL
+UnitTestCaseAction 1479309612886 MarsRoverTest.java OK
+UnitTestSessionAction 1479309612887 MarsRoverTest OK
+EditAction 1479309774883 MarsRover.java 1588 3 4 0
