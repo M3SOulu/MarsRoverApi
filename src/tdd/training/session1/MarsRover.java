@@ -215,6 +215,11 @@ public class MarsRover {
 				
 	}
 	
+	public void move(char m){
+		
+		
+	}
+	
 	
 	
 	
