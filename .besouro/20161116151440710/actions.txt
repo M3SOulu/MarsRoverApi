@@ -216,3 +216,18 @@ EditAction 1479315836793 MarsRover.java 2185 4 25 0
 UnitTestCaseAction 1479315838533 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479315838534 MarsRoverTest FAIL
 EditAction 1479315902425 MarsRoverTest.java 302 1 2 1
+UnitTestCaseAction 1479315904261 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315904262 MarsRoverTest FAIL
+UnitTestCaseAction 1479316059655 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316059655 MarsRoverTest FAIL
+UnitTestCaseAction 1479316206595 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316206595 MarsRoverTest FAIL
+UnitTestCaseAction 1479316237888 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316237889 MarsRoverTest FAIL
+UnitTestCaseAction 1479316313298 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316313299 MarsRoverTest FAIL
+RefactoringAction 1479316335531 MarsRover.java RENAME commandMove(char, Integer=>Integer METHOD
+RefactoringAction 1479316343565 MarsRover.java RENAME commandMove(char)=>Integer METHOD
+UnitTestCaseAction 1479316421162 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316421162 MarsRoverTest FAIL
+EditAction 1479316520918 MarsRoverTest.java 303 1 2 1

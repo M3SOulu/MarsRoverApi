@@ -39,8 +39,10 @@ public class MarsRover {
 		Integer[] move={0,0};
 		String result = "";
 		
-		for(int i = 0; i< comand.length; i++){
-			move = commandMove(comand[i], move);}
+		for(int i = 0; i< comand.length; i++)
+		{
+			commandMove(comand[i], move);
+			}
 		result = result.concat("(");
 		result = result.concat(move[0].toString());
 		result = result.concat(",");
@@ -67,26 +69,26 @@ public class MarsRover {
 	}
 	
 	
-	public Integer[] commandMove(char c, Integer[] pos){
-		Integer[] cordFin = {0,0};
-		if (c=='l')
-			cordFin[0]=-1;
-			if (cordFin[0]<0)
-			cordFin[0]=this.x;
-		if (c=='r')
-			cordFin[0]=+1;
-			if (cordFin[0]>this.x)
-			cordFin[0]=0;	
-		if (c=='f')
-			cordFin[1]=+1;
-			if (cordFin[1]>this.y)
-			cordFin[1]=0;
-		if (c=='b')
-			cordFin[1]=-1;
-			if (cordFin[1]<0)
-			cordFin[1]=this.y;	
+	public void commandMove(char c, Integer[] pos){
 		
-		return cordFin;
+		if (c=='l')
+			pos[0]=-1;
+			if (pos[0]<0)
+				pos[0]=this.x;
+		if (c=='r')
+			pos[0]=+1;
+			if (pos[0]>this.x)
+				pos[0]=0;	
+		if (c=='f'){
+			pos[1]=+1;}
+			if (pos[1]>this.y)
+			{pos[1]=0;}
+		if (c=='b')
+			pos[1]=-1;
+			if (pos[1]<0)
+				pos[1]=this.y;	
+		
+		
 			
 	}
 }
