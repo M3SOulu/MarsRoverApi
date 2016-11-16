@@ -15,3 +15,11 @@ RefactoringAction 1479306247719 Position.java ADD Position() METHOD
 RefactoringAction 1479306255776 Position.java ADD Position()/2 METHOD
 RefactoringAction 1479306259296 Position.java RENAME Position()/2=>Position(int, int) METHOD
 EditAction 1479306301616 Position.java 189 2 2 0
+RefactoringAction 1479306309326 MarsRover.java REMOVE r_x FIELD
+RefactoringAction 1479306309326 MarsRover.java REMOVE r_y FIELD
+RefactoringAction 1479306315865 MarsRover.java RENAME r_dir=>String r FIELD
+RefactoringAction 1479306317382 MarsRover.java RENAME r=>String rir FIELD
+RefactoringAction 1479306318402 MarsRover.java RENAME rir=>String rDir FIELD
+RefactoringAction 1479306344871 Position.java REMOVE Position() METHOD
+RefactoringAction 1479306344872 Position.java REMOVE Position(int, int) METHOD
+EditAction 1479306345118 Position.java 97 0 0 0
