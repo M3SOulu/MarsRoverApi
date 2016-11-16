@@ -15,7 +15,7 @@ public class Obstacle {
 	}
 
 	public void setCoordX(char coordX) {
-		this.coordX = coordX;
+		this.coordX = (int)coordX;
 	}
 
 	public int getCoordY() {
@@ -23,7 +23,7 @@ public class Obstacle {
 	}
 
 	public void setCoordY(char coordY) {
-		this.coordY = coordY;
+		this.coordY = (int)coordY;
 	}
 	
 	
