@@ -77,3 +77,7 @@ EditAction 1479314547970 MarsRover.java 7318 2 6 0
 EditAction 1479314571016 MarsRover.java 7446 2 6 0
 EditAction 1479314624569 Main.java 250 1 2 0
 EditAction 1479314655616 Main.java 251 1 2 0
+RefactoringAction 1479314777644 MarsRoverTest.java ADD void delete FIELD
+RefactoringAction 1479314784620 MarsRoverTest.java RENAME delete=>void cancello() METHOD
+RefactoringAction 1479314815682 MarsRoverTest.java ADD import org.junit.After IMPORT
+EditAction 1479315074091 MarsRover.java 6716 2 6 0

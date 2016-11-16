@@ -1,5 +1,6 @@
 package tdd.training.tests;
 
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -18,7 +19,13 @@ public class MarsRoverTest {
 	
 	@Test
 	public void test() throws MarsRoverException {
-		Assert.assertEquals("(0,1)", rover.executeCommand("f"));
+		Assert.assertEquals("(0,1)(0,2)(0,2)", rover.executeCommand("ffrr"));
+		Assert.assertNotEquals("(0,1)(0,2)(0,2)", rover.executeCommand("f"));
+	}
+	
+	@After
+	public void cancello(){
+		rover = null;
 	}
 
 }

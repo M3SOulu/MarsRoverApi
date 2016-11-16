@@ -193,24 +193,3 @@ public class MarsRover {
 		return result;
 	}
 }
-
-/*
- * int moment = 0; int moment1 = 0;
- * 
- * switch (command.charAt(i)) { case 'f': moment = A.getPos_y() + 1;
- * A.setPos_y(moment); System.out.print("(" + A.getPos_x() + "," + A.getPos_y()
- * + ")"); break;
- * 
- * case 'b': moment = A.getPos_y() - 1; A.setPos_y(moment); System.out.print("("
- * + A.getPos_x() + "," + A.getPos_y() + ")"); break;
- * 
- * case 'l': moment = A.getPos_x(); moment1 = A.getPos_y();
- * 
- * A.setPos_x(moment1); A.setPos_y(moment); System.out.print("(" + A.getPos_y()
- * + "," + A.getPos_x() + ")"); break;
- * 
- * case 'r': moment = A.getPos_x(); moment1 = A.getPos_y();
- * 
- * A.setPos_x(moment1); A.setPos_y(moment); System.out.print("(" + A.getPos_y()
- * + "," + A.getPos_x() + ")"); break; }
- */
