@@ -257,3 +257,14 @@ UnitTestSessionAction 1479312372170 NavigationTest OK
 UnitTestCaseAction 1479312450001 NavigationTest.java OK
 UnitTestSessionAction 1479312450002 NavigationTest OK
 EditAction 1479312629323 Navigation.java 800 3 7 0
+UnitTestCaseAction 1479312631527 NavigationTest.java OK
+UnitTestSessionAction 1479312631527 NavigationTest OK
+UnitTestCaseAction 1479312657774 NavigationTest.java OK
+UnitTestSessionAction 1479312657775 NavigationTest OK
+CompilationAction 1479312737892 Navigation.java
+RefactoringAction 1479312752939 Obstacle.java ADD Obstacle.java CLASS
+FileOpenedAction 1479312753085 Obstacle.java 64 0 0 0
+CompilationAction 1479312753105 Navigation.java
+CompilationAction 1479312753106 Navigation.java
+RefactoringAction 1479312771590 Obstacle.java ADD int x FIELD
+EditAction 1479312778548 Obstacle.java 96 0 0 0

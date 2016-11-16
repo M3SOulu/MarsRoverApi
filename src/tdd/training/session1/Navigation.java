@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Navigation {
 	private int x;
 	private int y;
-	private static ArrayList<String> obstacles;
+	private static ArrayList<Obstacle> obstacles;
 	
 	public Navigation(int x, int y, String obstacles){
 		this.x = x;

@@ -171,3 +171,5 @@
 1479312347429 refactoring 2A 60 true
 1479312372170 refactoring 2A 1 true
 1479312450002 regression 1 0 true
+1479312631527 refactoring 2A 2 true
+1479312657775 regression 1 0 true
