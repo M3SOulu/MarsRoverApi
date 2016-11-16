@@ -31,7 +31,6 @@ public class MarsRover {
 				this.obstacles.add(new Position(Integer.parseInt(xPos), Integer.parseInt(yPos)));
 			}
 		}
-		System.out.println(Utils.formatPosition(rPos.x, rPos.y, rDir));
 	}
 	
 	public String executeCommand(String command){
