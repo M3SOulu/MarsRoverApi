@@ -40,7 +40,7 @@ public class MarsRover {
 
 		// Crea il rover e mettilo nella posizione (0,0,N)
 
-		rover = new Rover(0, 0, 'S');
+		rover = new Rover(0, 0, 'W');
 		planet[0][0] = rover;
 
 		// System.out.println(planet[2][1]);
@@ -141,7 +141,7 @@ public class MarsRover {
 	public static void main(String[] args) {
 
 		MarsRover rover = new MarsRover(3, 3, "(2,2)");
-		String test = rover.executeCommand("");
+		String test = rover.executeCommand("f");
 		System.out.println(test);
 		//Object array[][] = new Object[3][4];
 		//System.out.println(array[0].length);
