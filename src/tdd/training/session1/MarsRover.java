@@ -33,7 +33,7 @@ public class MarsRover {
 		 * pointing to (N,S,W,E). The return string should also contain a list
 		 * of coordinates of the encountered obstacles. No white spaces.
 		 */
-
+		String result = null;
 		for (int i = 0; i <= command.length(); i++) {
 			char cmd = command.charAt(i);
 			int moment = 0;
@@ -41,7 +41,7 @@ public class MarsRover {
 			if (cmd == 'f') {
 				moment = A.getPos_y() + 1;
 				A.setPos_y(moment);
-				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
+				result += "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 			} else if (cmd == 'b') {
 				moment = A.getPos_y() - 1;
 				A.setPos_y(moment);
@@ -170,7 +170,7 @@ public class MarsRover {
 			}
 		}
 
-		return null;
+		return result;
 	}
 }
 
