@@ -24,7 +24,7 @@ public class MarsRoverTest {
 	@Test
 	public void TestMakeObstacles() {
 		String obstacles="(1,3)(4,8)";
-		Assert.assertEquals );
+		Assert.assertEquals(null,makeObstacles(obstacles));
 		
 	}
 

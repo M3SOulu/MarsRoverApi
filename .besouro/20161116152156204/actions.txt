@@ -135,3 +135,6 @@ RefactoringAction 1479309870739 MarsRoverTest.java RENAME TestMake()=>void Testm
 RefactoringAction 1479309872743 MarsRoverTest.java RENAME TestmakeObstacles()=>void TestMakeObstacles() METHOD
 EditAction 1479309901431 MarsRoverTest.java 488 2 5 2
 EditAction 1479309953189 MarsRoverTest.java 510 2 4 2
+CompilationAction 1479309953362 MarsRoverTest.java
+CompilationAction 1479309953363 MarsRoverTest.java
+EditAction 1479309980517 MarsRoverTest.java 539 2 6 3
