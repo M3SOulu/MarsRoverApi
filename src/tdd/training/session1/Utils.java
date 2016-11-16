@@ -1,7 +1,7 @@
 package tdd.training.session1;
 
 public class Utils {
-	public static enum Direction{
+	/*public static enum Direction{
 		FORWARD('f'),
 		BACKWARD('b');
 		
@@ -22,11 +22,45 @@ public class Utils {
 	    	}
 	    	return result;
 	    }
-	}
+	}*/
 	public final static char FORWARD = 'f';
 	public final static char BACKWARD = 'b';
 	public final static char LEFT = 'l';
 	public final static char RIGHT = 'r';
+
+	public String cycleDirection(String dir, int value){
+		String newDir = dir;
+		if (value > 0){
+			if (newDir.equals("N")){
+				newDir = "E";
+			}
+			if (newDir.equals("E")){
+				newDir = "S";
+			}
+			if (newDir.equals("S")){
+				newDir = "W";
+			}
+			if (newDir.equals("W")){
+				newDir = "N";
+			}
+		}
+		if (value < 0){
+			if (newDir.equals("N")){
+				newDir = "W";
+			}
+			if (newDir.equals("W")){
+				newDir = "S";
+			}
+			if (newDir.equals("S")){
+				newDir = "E";
+			}
+			if (newDir.equals("E")){
+				newDir = "N";
+			}
+		}
+		return newDir;
+	}
+	
 	public static int countOccurencesOf(String str, String chars){
 		int count = str.length() - str.replace(chars, "").length();
 		return count;

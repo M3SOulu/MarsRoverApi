@@ -271,3 +271,10 @@ RefactoringAction 1479310281393 MarsRover.java RENAME cycle=>String cycleDirecti
 RefactoringAction 1479310309420 MarsRover.java RENAME cycleDirection()=>String cycleDirection(int) METHOD
 RefactoringAction 1479310537617 MarsRover.java REMOVE cycleDirection(int) METHOD
 EditAction 1479310538076 MarsRover.java 2843 3 11 0
+CompilationAction 1479310538367 MarsRover.java
+CompilationAction 1479310543629 MarsRover.java
+CompilationAction 1479310543800 MarsRover.java
+RefactoringAction 1479310558902 Utils.java ADD String cycleDirection(int) METHOD
+RefactoringAction 1479310575435 Utils.java RENAME cycleDirection(int)=>String cycleDirection(String) METHOD
+RefactoringAction 1479310577450 Utils.java RENAME cycleDirection(String)=>String cycleDirection(String, int) METHOD
+EditAction 1479310661292 Utils.java 2147 6 14 0
