@@ -20,6 +20,9 @@ public class MarsRover {
 		coordX = 0;
 		coordY = 0;
 		direction = 0;
+		for(int i = 0; i < this.obstacles.length; i++){
+			this.obstacles[i] = new Obstacle();
+		}
 	}
 	
 	public int getCoordX() {
@@ -62,9 +65,10 @@ public class MarsRover {
 			if(obstacles.charAt(j) == ','){
 				j++;
 				this.obstacles[i].setCoordY(obstacles.charAt(j));
+				i++;
 			}
 			if(!(obstacles.charAt(j) == '?'||obstacles.charAt(j) == '('||obstacles.charAt(j) == ')')){
-				
+				this.obstacles[i].setCoordX(obstacles.charAt(j));
 			}
 		}
 		

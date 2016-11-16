@@ -92,3 +92,4 @@ CompilationAction 1479310381328 MarsRover.java
 CompilationAction 1479310382400 MarsRover.java
 RefactoringAction 1479310389055 Obstacle.java RENAME setCoordY(String)=>void setCoordY(char) METHOD
 EditAction 1479310397068 Obstacle.java 447 5 8 0
+EditAction 1479310739688 Obstacle.java 419 5 6 0
