@@ -68,7 +68,7 @@ public class MarsRover {
 		System.out.println(commands);
 		if(verifyCommand(commands)) throw new MarsRoverException();
 		char command;
-		
+		System.out.println(commands);
 		for(int i=0; i<commands.length(); i++){
 			command = commands.charAt(i);
 			
