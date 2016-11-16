@@ -403,3 +403,6 @@ RefactoringAction 1479312175092 MarsRoverTest.java RENAME testMarsRoverMoveFindO
 RefactoringAction 1479312178096 MarsRoverTest.java RENAME testMarsRoverMoveFindOneObstacle()/2=>void testMarsRoverMoveFindOneObstacleNo() METHOD
 RefactoringAction 1479312179600 MarsRoverTest.java RENAME testMarsRoverMoveFindOneObstacleNo()=>void testMarsRoverMoveFindOneObstacleNoMove() METHOD
 EditAction 1479312194224 MarsRoverTest.java 1507 6 13 3
+UnitTestCaseAction 1479312195334 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312195335 MarsRoverTest FAIL
+EditAction 1479312205186 MarsRoverTest.java 1507 6 13 3
