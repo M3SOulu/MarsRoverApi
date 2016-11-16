@@ -167,9 +167,7 @@ public class MarsRover {
 			}else{
 				
 				this.face='N';
-			}
-				
-			
+			}	
 			
 			break;
 		
