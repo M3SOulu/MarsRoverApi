@@ -2,7 +2,7 @@ package tdd.training.session1;
 
 public class MarsRover {
 	private String commandPattern = "[lrfb]+";
-	private String obstaclesPattern = "([(]{1}[0-9]+[,]{1}[0-9]+[)]{1})+";
+	private String obstaclesPattern = "([(]{1}[0-9]+[,]{1}[0-9]+[)]{1})*";
 	private int xSize;
 	private int ySize;
 	private int xPos;
