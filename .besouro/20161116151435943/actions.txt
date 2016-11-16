@@ -59,3 +59,4 @@ RefactoringAction 1479307307177 Utils.java RENAME formatPosition(int, int)/2=>st
 EditAction 1479307318269 Utils.java 464 3 6 0
 RefactoringAction 1479307477788 Utils.java ADD static boolean isInteger(String, int) METHOD
 EditAction 1479307532547 Utils.java 836 4 9 0
+EditAction 1479307535081 MarsRover.java 1946 2 4 0
