@@ -171,7 +171,8 @@ public class MarsRover {
 				}
 			}
 		}
-//		if(checkOstacoles(actualPositionX , 0)){
+//
+		//		if(checkOstacoles(actualPositionX , 0)){
 //			obstacoles = "(" + actualPositionX + "," + "0" + ")";
 //		}else if(checkOstacoles(actualPositionX, (actualPositionY+1))){
 //			obstacoles = "(" + actualPositionX + "," + (actualPositionY+1) + ")";
