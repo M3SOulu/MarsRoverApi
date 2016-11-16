@@ -153,3 +153,8 @@ RefactoringAction 1479311033782 MarsRover.java ADD void move FIELD
 RefactoringAction 1479311036819 MarsRover.java RENAME move=>void moveLeft() METHOD
 RefactoringAction 1479311047846 MarsRover.java RENAME moveLeft()=>void moveLeft(char) METHOD
 EditAction 1479311147196 MarsRover.java 3151 7 27 0
+CompilationAction 1479311147462 MarsRover.java
+CompilationAction 1479311233184 MarsRover.java
+RefactoringAction 1479311238540 MarsRover.java ADD char moveLeft(char)/2 METHOD
+RefactoringAction 1479311242549 MarsRover.java RENAME moveLeft(char)/2=>char moveRight(char) METHOD
+EditAction 1479311288632 MarsRover.java 3367 8 28 0

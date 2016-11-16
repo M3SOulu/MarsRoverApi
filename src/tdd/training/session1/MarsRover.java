@@ -90,24 +90,39 @@ public class MarsRover {
 	}
 	
 	public char moveLeft(char direction){
-		char newDirection;
 		switch(direction){
 		case 'N':
-			newDirection = 'W';
+			direction = 'W';
 			break;
 		case 'S':
-			newDirection = 'W';
+			direction = 'E';
 			break;
 		case 'E':
-			newDirection = 'W';
+			direction = 'N';
 			break;
 		case 'W':
-			newDirection = 'W';
+			direction = 'S';
 			break;
 		}
-		
-		
-		return newDirection;
+		return direction;
+	}
+	
+	public char moveRight(char direction){
+		switch(direction){
+		case 'N':
+			direction = 'E';
+			break;
+		case 'S':
+			direction = 'W';
+			break;
+		case 'E':
+			direction = 'S';
+			break;
+		case 'W':
+			direction = 'N';
+			break;
+		}
+		return direction;
 	}
 	
 	
