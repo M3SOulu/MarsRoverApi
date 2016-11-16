@@ -36,10 +36,11 @@ public class MarsRover {
 			int xObstacle = Integer.parseInt(temp[0]);
 			int yObstacle = Integer.parseInt(temp[1]);
 			
-			if(verifyObstaclesRange(xObstacle, yObstacle)) throw new MarsRoverException();
+			if(verifyObstaclesRange(xObstacle, yObstacle)) 
 			
 			planet[xObstacle][yObstacle] = -1;
 			*/
+			throw new MarsRoverException();
 		}
 	}
 	
