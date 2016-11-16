@@ -72,7 +72,6 @@ public class MarsRover {
 		if(verifyCommand(commands)) throw new MarsRoverException();
 		
 		for(int i=0; i<commandList.length; i++){
-			
 			switch(commandList[i]){
 			case 'l':
 				moveLeft();
