@@ -63,3 +63,10 @@ EditAction 1479309097845 MarsRover.java 2003 4 14 0
 EditAction 1479309136786 MarsRover.java 2025 4 14 0
 EditAction 1479309217145 MarsRover.java 2079 4 14 0
 EditAction 1479309281511 MarsRover.java 2091 4 14 0
+RefactoringAction 1479309304484 MarsRover.java ADD boolean verifyOb FIELD
+RefactoringAction 1479309307999 MarsRover.java RENAME verifyOb=>boolean verifyObobstacles FIELD
+RefactoringAction 1479309311516 MarsRover.java RENAME verifyObobstacles=>boolean verifyObstacles FIELD
+RefactoringAction 1479309314543 MarsRover.java RENAME verifyObstacles=>boolean verifyObstaclesRange() METHOD
+RefactoringAction 1479309321132 MarsRover.java RENAME verifyObstaclesRange()=>boolean verifyObstaclesRange(int) METHOD
+RefactoringAction 1479309329149 MarsRover.java RENAME verifyObstaclesRange(int)=>boolean verifyObstaclesRange(int, int) METHOD
+EditAction 1479309430305 MarsRover.java 2326 5 18 0

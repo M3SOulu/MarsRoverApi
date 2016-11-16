@@ -37,7 +37,14 @@ public class MarsRover {
 		planet[0][0] = 1;	
 	}
 	
-	
+	public boolean verifyObstaclesRange(int xObstacle, int yObstacle){
+		boolean verified = true;
+		
+		if(xObstacle<=0 || xObstacle>=xSize) verified = false;
+		if(yObstacle<=0 || yObstacle>=xSize) verified = false;
+		
+		return verified;
+	}
 	
 	public String executeCommand(String command){
 		
