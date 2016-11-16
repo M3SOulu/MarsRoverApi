@@ -45,6 +45,7 @@ public class MarsRover {
 				Left();		
 			}
 			if(a == 'r'){
+				
 				Right();		
 			}
 		}
