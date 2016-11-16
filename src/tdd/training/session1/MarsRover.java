@@ -34,7 +34,7 @@ public class MarsRover {
 			contObstacle++;
 			Obstacle obstacle = new Obstacle(xOb, yOb, "Obstacle" + contObstacle);
 			planet[xOb][yOb] = obstacle;
-			// System.out.println(xOb+" "+yOb);
+			 System.out.println(xOb+" "+yOb);
 			i++;
 		}
 
@@ -96,11 +96,11 @@ public class MarsRover {
 
 	public static void main(String[] args) {
 
-		MarsRover rover = new MarsRover(3, 3, "(0,1)");
+		MarsRover rover = new MarsRover(3, 3, "(2,2)");
 		String test = rover.executeCommand("f");
 		System.out.println(test);
-		Object array[][] = new Object[3][4];
-		System.out.println(array[0].length);
+		//Object array[][] = new Object[3][4];
+		//System.out.println(array[0].length);
 	}
 
 }
