@@ -181,3 +181,13 @@ CompilationAction 1479311546786 MarsRover.java
 CompilationAction 1479311546787 MarsRover.java
 CompilationAction 1479311546787 MarsRover.java
 EditAction 1479311618208 MarsRover.java 3440 8 23 0
+CompilationAction 1479311618458 MarsRover.java
+CompilationAction 1479311618459 MarsRover.java
+CompilationAction 1479311618459 MarsRover.java
+RefactoringAction 1479311699772 MarsRover.java RENAME moveRight(Direction)=>Direction moveLeft(Direction)/2 METHOD
+RefactoringAction 1479311702789 MarsRover.java RENAME moveLeft(Direction)/2=>Direction moveRight(Direction) METHOD
+CompilationAction 1479311727082 MarsRover.java
+CompilationAction 1479311727082 MarsRover.java
+CompilationAction 1479311727247 MarsRover.java
+CompilationAction 1479311763429 MarsRover.java
+EditAction 1479311777511 MarsRover.java 3657 8 30 0
