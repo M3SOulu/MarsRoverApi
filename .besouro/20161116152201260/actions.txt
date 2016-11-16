@@ -1,0 +1,11 @@
+FileOpenedAction 1479306121779 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479306486973 MarsRover.java ADD void set FIELD
+RefactoringAction 1479306489489 MarsRover.java RENAME set=>void setObstac FIELD
+RefactoringAction 1479306490504 MarsRover.java RENAME setObstac=>void setObstacles FIELD
+RefactoringAction 1479306492561 MarsRover.java RENAME setObstacles=>void setObstacles() METHOD
+RefactoringAction 1479306532176 MarsRover.java ADD int FIELD
+RefactoringAction 1479306563755 MarsRover.java RENAME setObstacles()=>void setObstacles(String) METHOD
+RefactoringAction 1479307971171 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+RefactoringAction 1479308016762 MarsRover.java ADD int FIELD
+RefactoringAction 1479308018806 MarsRover.java RENAME get=>int FIELD
+EditAction 1479308028727 MarsRover.java 1525 4 6 0
