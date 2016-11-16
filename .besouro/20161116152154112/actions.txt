@@ -59,3 +59,4 @@ CompilationAction 1479309098132 Obstacle.java
 CompilationAction 1479309098132 Obstacle.java
 RefactoringAction 1479309100732 Obstacle.java ADD Obstacle() METHOD
 EditAction 1479309107684 Obstacle.java 143 1 0 0
+EditAction 1479309124755 Obstacle.java 169 1 2 0
