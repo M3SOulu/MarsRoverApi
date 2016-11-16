@@ -20,5 +20,11 @@ public class Rover {
 	public char getFacing(){
 		return facing;
 	}
+	public int getXRover(){
+		return xRover;
+	}
+	public int getYRover(){
+		return yRover;
+	}
 	
 }

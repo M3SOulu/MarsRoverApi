@@ -79,3 +79,15 @@ RefactoringAction 1479309802938 Rover.java ADD String get FIELD
 RefactoringAction 1479309804465 Rover.java RENAME get=>String getFacing FIELD
 RefactoringAction 1479309805479 Rover.java RENAME getFacing=>String getFacing() METHOD
 EditAction 1479309821750 Rover.java 384 3 6 0
+CompilationAction 1479309822003 MarsRover.java
+CompilationAction 1479309938007 MarsRover.java
+CompilationAction 1479309938172 MarsRover.java
+CompilationAction 1479309938172 MarsRover.java
+RefactoringAction 1479310029067 Rover.java ADD int get FIELD
+RefactoringAction 1479310031083 Rover.java RENAME get=>int getX FIELD
+RefactoringAction 1479310032590 Rover.java RENAME getX=>int getXRover FIELD
+RefactoringAction 1479310035098 Rover.java RENAME getXRover=>int getX FIELD
+RefactoringAction 1479310037115 Rover.java RENAME getX=>int getXRover() METHOD
+RefactoringAction 1479310051145 Rover.java ADD int getYRover FIELD
+RefactoringAction 1479310053158 Rover.java RENAME getYRover=>int getYRover() METHOD
+EditAction 1479310059943 Rover.java 480 5 8 0

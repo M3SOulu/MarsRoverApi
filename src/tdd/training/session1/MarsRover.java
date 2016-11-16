@@ -64,7 +64,10 @@ public class MarsRover {
 		
 		int i = 0;
 		while (i < command.length()) {
-			if(command.charAt(i)=='f')
+			char actualCommand = command.charAt(i);
+			char roverFacing = rover.getFacing();
+			if(actualCommand =='f' && == roverFacing == 'N')
+				
 				
 		}
 		
@@ -75,9 +78,9 @@ public class MarsRover {
 	}
 
 	public static void main(String[] args) {
-		
+
 		MarsRover rover = new MarsRover(3, 3, "(2,1)(1,2)");
-	    
+
 	}
 
 }
