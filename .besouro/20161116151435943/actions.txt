@@ -57,3 +57,5 @@ RefactoringAction 1479307287617 Utils.java RENAME formatPosition()=>static Strin
 RefactoringAction 1479307304670 Utils.java ADD static String formatPosition(int, int)/2 METHOD
 RefactoringAction 1479307307177 Utils.java RENAME formatPosition(int, int)/2=>static String formatPosition(int, int, String) METHOD
 EditAction 1479307318269 Utils.java 464 3 6 0
+RefactoringAction 1479307477788 Utils.java ADD static boolean isInteger(String, int) METHOD
+EditAction 1479307532547 Utils.java 836 4 9 0
