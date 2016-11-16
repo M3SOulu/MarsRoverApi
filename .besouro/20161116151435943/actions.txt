@@ -110,3 +110,6 @@ EditAction 1479308015182 MarsRover.java 2129 2 6 0
 RefactoringAction 1479308018387 MarsRover.java ADD import org.junit.Test IMPORT
 RefactoringAction 1479308019406 MarsRover.java REMOVE import org.junit.Test IMPORT
 EditAction 1479308026655 MarsRover.java 2161 2 6 0
+UnitTestCaseAction 1479308028200 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308028201 MarsRoverTest FAIL
+EditAction 1479308035122 MarsRover.java 2129 2 6 0
