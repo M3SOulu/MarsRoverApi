@@ -11,6 +11,8 @@ public class MarsRover {
 	private int x;
 	private int y;
 	
+	private char face;
+	
 	
 	private ArrayList<Obstacle> obs;
 	
@@ -28,6 +30,7 @@ public class MarsRover {
 		
 		this.x=0;
 		this.y=0;
+		this.face='N';
 
 		
 	}

@@ -218,3 +218,5 @@ RefactoringAction 1479312389002 MarsRover.java ADD boolean isv FIELD
 RefactoringAction 1479312391011 MarsRover.java RENAME isv=>boolean isvALID FIELD
 RefactoringAction 1479312396023 MarsRover.java RENAME isvALID=>boolean isValidCommand() METHOD
 EditAction 1479312416399 MarsRover.java 2412 5 16 0
+RefactoringAction 1479312452227 MarsRover.java ADD char face FIELD
+EditAction 1479312471891 MarsRover.java 2451 5 17 0
