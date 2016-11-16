@@ -29,3 +29,4 @@ RefactoringAction 1479307363506 MarsRover.java ADD String obstacles FIELD
 RefactoringAction 1479307367016 MarsRover.java RENAME obstacles=>String obstaclesPattern FIELD
 RefactoringAction 1479307648634 MarsRover.java REMOVE obstaclesPattern FIELD
 EditAction 1479307649539 MarsRover.java 1421 3 7 0
+EditAction 1479307734608 MarsRover.java 1421 3 7 0
