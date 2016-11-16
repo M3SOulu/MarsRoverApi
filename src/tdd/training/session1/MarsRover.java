@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class MarsRover {
 	private Position rPos = new Position(0, 0);
+	private Position grid = new Position(0, 0);
 	private String rDir = "N";
 	private ArrayList<Position> obstacles = new ArrayList<Position>();
 	private Set<Position> obstaclesFound = new HashSet<Position>();
@@ -19,6 +20,11 @@ public class MarsRover {
 	public MarsRover(int x, int y, String obstacles) throws MarsRoverException {
 		rPos = new Position(0, 0);
 		rDir = "N";
+		if (x <= 0 || y <= 0){
+			throw new MarsRoverException("Grid size must be 1(one) or higher.");
+		}
+		grid.x = x;
+		grid.y = y;
 		if (!obstacles.isEmpty()){
 			if (Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ")") ||
 				Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ",")){
@@ -42,7 +48,7 @@ public class MarsRover {
 	 * Example: 
 	 * The rover is on a 100x100 grid at location (0, 0) and facing NORTH. The rover is given the commands "ffrff" and should end up at (2, 2) facing East.
 	 
-	 * The return string is in the format: ?(x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)?  
+	 * The return string is in the format: (x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)
 	 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 	 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 	 */
@@ -62,7 +68,7 @@ public class MarsRover {
 		return pathResult;
 	}
 	
-	//TODO grid size, return to other side when grid size limit exceded
+	//TODO grid size, return to other side when grid size limit exceeded
 	private Position move(char command) throws MarsRoverException{
 		Position obstacle = null;
 		Position nextPosition = rPos;
@@ -78,6 +84,7 @@ public class MarsRover {
 			break;
 		case Utils.RIGHT:
 			rDir = Utils.cycleDirectionRight(rDir);
+			System.out.println(rDir);
 			break;
 		default:
 			throw new MarsRoverException("Unknown command: " + command);

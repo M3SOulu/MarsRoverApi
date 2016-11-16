@@ -356,3 +356,7 @@ EditAction 1479311458151 MarsRoverTest.java 1087 4 8 2
 EditAction 1479311466971 MarsRover.java 3341 3 13 0
 EditAction 1479311471871 MarsRover.java 3274 3 13 0
 EditAction 1479311478245 Utils.java 1707 7 16 0
+RefactoringAction 1479311496030 MarsRover.java ADD Position rPos/2 FIELD
+RefactoringAction 1479311498045 MarsRover.java REMOVE rPos/2 FIELD
+RefactoringAction 1479311499557 MarsRover.java ADD Position grid FIELD
+EditAction 1479311636708 MarsRover.java 3474 3 16 0
