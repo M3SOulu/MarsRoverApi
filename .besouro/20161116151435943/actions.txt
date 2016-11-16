@@ -224,3 +224,25 @@ RefactoringAction 1479309110404 Utils.java ADD char LEFT/2 FIELD
 RefactoringAction 1479309112417 Utils.java RENAME LEFT/2=>char RIGHT FIELD
 EditAction 1479309113894 Utils.java 1055 5 10 0
 EditAction 1479309151994 Utils.java 1083 5 10 0
+RefactoringAction 1479309216743 MarsRover.java ADD Position move FIELD
+RefactoringAction 1479309219257 MarsRover.java RENAME move=>Position move() METHOD
+RefactoringAction 1479309249000 Utils.java ADD char FORWARD FIELD
+RefactoringAction 1479309249000 Utils.java ADD char BACKWARD FIELD
+RefactoringAction 1479309249001 Utils.java ADD char LEFT FIELD
+RefactoringAction 1479309249001 Utils.java ADD char RIGHT FIELD
+RefactoringAction 1479309249002 Utils.java ADD static int countOccurencesOf(String, String) METHOD
+RefactoringAction 1479309249002 Utils.java ADD static String formatPosition(int, int) METHOD
+RefactoringAction 1479309249002 Utils.java ADD static String formatPosition(int, int, String) METHOD
+RefactoringAction 1479309249003 Utils.java ADD static boolean isInteger(String) METHOD
+RefactoringAction 1479309249003 Utils.java ADD static boolean isInteger(String, int) METHOD
+RefactoringAction 1479309252010 Utils.java ADD Direction FORWARD FIELD
+RefactoringAction 1479309282593 Utils.java ADD int value FIELD
+RefactoringAction 1479309282594 Utils.java ADD void Tax(int) METHOD
+RefactoringAction 1479309282594 Utils.java ADD int getValue() METHOD
+RefactoringAction 1479309288111 Utils.java RENAME Tax(int)=>void Tax(char) METHOD
+RefactoringAction 1479309290130 Utils.java RENAME Tax(char)=>Direction(char) METHOD
+RefactoringAction 1479309297657 Utils.java RENAME getValue()=>char getChar() METHOD
+RefactoringAction 1479309314719 Utils.java RENAME FORWARD=>BACKW FORWARD() METHOD
+RefactoringAction 1479309315728 Utils.java RENAME FORWARD()=>Direction FORWARD FIELD
+RefactoringAction 1479309319737 Utils.java ADD Direction BACKWARD FIELD
+EditAction 1479309322515 Utils.java 1330 7 12 0
