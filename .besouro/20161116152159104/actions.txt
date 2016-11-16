@@ -448,3 +448,6 @@ UnitTestCaseAction 1479316516372 MarsRoverTest.java OK
 UnitTestSessionAction 1479316516373 MarsRoverTest OK
 RefactoringAction 1479316538136 MarsRoverTest.java RENAME test()=>void executeCommand() METHOD
 EditAction 1479316538232 MarsRoverTest.java 314 1 1 1
+UnitTestCaseAction 1479316541321 MarsRoverTest.java OK
+UnitTestSessionAction 1479316541321 MarsRoverTest.executeCommand OK
+EditAction 1479316582446 MarsRoverTest.java 373 1 2 2

@@ -187,3 +187,7 @@
 1479316338156 test-last 1 3600 false
 1479316476561 test-addition 1 109 true
 1479316516373 regression 2 10 true
+1479316541321 refactoring 1B 3 true
+1479316541322 refactoring 3 3 true
+1479316541323 refactoring 2B 3 true
+1479316541324 regression 1 3 true
