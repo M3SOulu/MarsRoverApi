@@ -28,8 +28,8 @@ public class MarsRover {
 			System.out.println("ok-1");
 			for (String value : values){
 				System.out.println(value);
-				String xPos = value.split("\\,")[0];
-				String yPos = value.split("\\,")[1];
+				String xPos = value.split(",")[0];
+				String yPos = value.split(",")[1];
 				System.out.println("ok0");
 				if (!Utils.isInteger(xPos) || !Utils.isInteger(yPos)){
 					throw new MarsRoverException();
