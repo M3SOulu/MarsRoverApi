@@ -10,7 +10,7 @@ public class MarsRoverException extends Exception {
 	
 	
 	public MarsRoverException(String messaggio){
-		
+		System.out.println(messaggio);
 	}
 
 }
