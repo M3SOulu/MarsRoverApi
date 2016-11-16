@@ -42,7 +42,10 @@ public class MarsRover {
 		if(command == roverStarts){
 			 move = 0;
 		}
-		else if(command)
-		return null;
+		else if(command == "f"){
+			move = 1;
+		}
+		
+		return ;
 	}
 }
