@@ -110,3 +110,21 @@ CompilationAction 1479315004950 MarsRoverTest.java
 CompilationAction 1479315004950 MarsRoverTest.java
 CompilationAction 1479315168261 MarsRoverTest.java
 EditAction 1479315168282 MarsRover.java 2201 3 5 0
+CompilationAction 1479315168531 MarsRover.java
+CompilationAction 1479315168532 MarsRover.java
+CompilationAction 1479315168532 MarsRoverTest.java
+CompilationAction 1479315189885 MarsRover.java
+CompilationAction 1479315189885 MarsRover.java
+CompilationAction 1479315190091 MarsRoverTest.java
+CompilationAction 1479315190091 MarsRoverTest.java
+RefactoringAction 1479315226735 MarsRover.java RENAME MarsRover(int, int, String)=>void MarsRovers(int, int, String) METHOD
+RefactoringAction 1479315235241 MarsRover.java RENAME MarsRovers(int, int, String)=>MarsRover(int, int, String) METHOD
+RefactoringAction 1479315294387 MarsRoverTest.java REMOVE import org.junit.Test IMPORT
+RefactoringAction 1479315294387 MarsRoverTest.java REMOVE import org.junit.Assert.* IMPORT
+RefactoringAction 1479315297392 MarsRoverTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479315297392 MarsRoverTest.java ADD import org.junit.Test IMPORT
+RefactoringAction 1479315300895 MarsRoverTest.java REMOVE import org.junit.Test IMPORT
+RefactoringAction 1479315303400 MarsRoverTest.java ADD import org.junit.Test IMPORT
+RefactoringAction 1479315310905 MarsRoverTest.java REMOVE import tdd.training.session1.* IMPORT
+RefactoringAction 1479315317429 MarsRoverTest.java ADD import tdd.training.session1.* IMPORT
+EditAction 1479315364678 MarsRover.java 2200 3 5 0

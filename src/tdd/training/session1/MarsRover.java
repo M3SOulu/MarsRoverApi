@@ -1,6 +1,6 @@
 package tdd.training.session1;
 
-public class MarsRovers {
+public class MarsRover {
 	public int posX = 0;
 	public int posY = 0;
 	public char facing = 'N';
