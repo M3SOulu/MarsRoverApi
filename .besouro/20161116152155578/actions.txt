@@ -43,3 +43,8 @@ RefactoringAction 1479308107612 MarsRover.java ADD String NORTH FIELD
 RefactoringAction 1479308135657 MarsRover.java REMOVE NORTH FIELD
 RefactoringAction 1479308146183 MarsRover.java ADD int GRID FIELD
 EditAction 1479308146325 MarsRover.java 1380 2 6 0
+RefactoringAction 1479308285930 MarsRover.java ADD String NORTH FIELD
+CompilationAction 1479308287418 MarsRover.java
+RefactoringAction 1479308338512 MarsRover.java REMOVE NORTH FIELD
+CompilationAction 1479308358276 MarsRover.java
+EditAction 1479308393226 MarsRoverTest.java 155 1 0 0
