@@ -79,7 +79,7 @@ public class MarsRover {
 				}
 			}
 				
-				
+			i++;	
 		}
 		
 		
@@ -91,7 +91,7 @@ public class MarsRover {
 	public static void main(String[] args) {
 
 		MarsRover rover = new MarsRover(3, 3, "(2,2)");
-		//rover.executeCommand("f");
+		rover.executeCommand("f");
 
 	}
 
