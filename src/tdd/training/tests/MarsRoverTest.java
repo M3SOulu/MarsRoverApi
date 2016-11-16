@@ -1,6 +1,7 @@
 package tdd.training.tests;
 
 import static org.junit.Assert.*;
+import java.util.*;
 
 import org.junit.Test;
 

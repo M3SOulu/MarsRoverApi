@@ -234,3 +234,4 @@ RefactoringAction 1479312589851 MarsRover.java RENAME yGridSize=>int ySizeGrid F
 EditAction 1479312825228 MarsRover.java 2069 6 7 0
 CompilationAction 1479312825360 MarsRover.java
 EditAction 1479312825369 Coordinates.java 1297 11 12 0
+EditAction 1479312825484 MarsRoverTest.java 204 1 1 0
