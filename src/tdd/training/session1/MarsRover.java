@@ -88,9 +88,7 @@ public class MarsRover {
 		default:
 			throw new MarsRoverException("Unknown command: " + command);
 		}
-		for (Position oPos : obstacles){
-			System.out.println(Utils.formatPosition(oPos.x, oPos.y) + " / " + Utils.formatPosition(nextPosition.x, nextPosition.y));
-		}
+		
 		if (obstacles.contains(nextPosition)){
 			obstacle = nextPosition;
 		}else{

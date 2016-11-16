@@ -389,3 +389,6 @@ RefactoringAction 1479311963869 Position.java ADD boolean equals(Object) METHOD
 RefactoringAction 1479311987464 Position.java RENAME equals(Object)=>boolean equals(Position) METHOD
 RefactoringAction 1479311996470 Position.java RENAME equals(Position)=>boolean equals(Object) METHOD
 EditAction 1479312094080 Position.java 971 5 16 0
+UnitTestCaseAction 1479312100107 MarsRoverTest.java OK
+UnitTestSessionAction 1479312100108 MarsRoverTest OK
+EditAction 1479312107250 MarsRover.java 3448 3 16 0
