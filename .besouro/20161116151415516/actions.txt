@@ -238,3 +238,8 @@ EditAction 1479312973036 MarsRoverTest.java 2750 9 37 33
 RefactoringAction 1479313009899 MarsRover.java RENAME getCurrenTy()=>int getCurrentY() METHOD
 EditAction 1479313010965 MarsRover.java 4180 11 33 0
 EditAction 1479313011112 MarsRoverTest.java 2779 9 36 33
+CompilationAction 1479313011383 MarsRoverTest.java
+CompilationAction 1479313011383 MarsRoverTest.java
+CompilationAction 1479313045870 MarsRoverTest.java
+CompilationAction 1479313045870 MarsRoverTest.java
+EditAction 1479313077003 MarsRoverTest.java 2841 9 39 35
