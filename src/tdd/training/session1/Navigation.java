@@ -18,8 +18,10 @@ public class Navigation {
 		
 		for (int i = 0; i < ob.length() ; i++){
 			if(ob.charAt(i) != '?' && ob.charAt(i) != '(' && ob.charAt(i) != ',')
-				if(ob.charAt(i) == ')')
+				if(ob.charAt(i) == ')'){
 					obstacles.add(currentObstacle);
+					currentObstacle = "";
+				}
 				else
 					currentObstacle += ob.charAt(i);	
 		}
