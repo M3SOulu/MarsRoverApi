@@ -13,6 +13,15 @@ public class Utils {
 	    public char getChar() {
 	        return value;
 	    }
+	    Direction getByValue(char value) {
+	    	Direction result = null;
+	    	for(Direction e: Direction.values()) {
+	    		if(e.value == value) {
+	    			result = e;
+	    		}
+	    	}
+	    	return result;
+	    }
 	}
 	public final static char FORWARD = 'f';
 	public final static char BACKWARD = 'b';

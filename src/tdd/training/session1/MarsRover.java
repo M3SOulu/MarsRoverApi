@@ -1,11 +1,14 @@
 package tdd.training.session1;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
 
 public class MarsRover {
 	private Position rPos = new Position(0, 0);
 	private String rDir = "N";
 	private ArrayList<Position> obstacles = new ArrayList<Position>();
+	private Set<Position> obstaclesFound = new HashSet<Position>();
 
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: (o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y) with no white spaces. 
@@ -34,18 +37,30 @@ public class MarsRover {
 			}
 		}
 	}
-	
+
+	/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
+	 * Example: 
+	 * The rover is on a 100x100 grid at location (0, 0) and facing NORTH. The rover is given the commands "ffrff" and should end up at (2, 2) facing East.
+	 
+	 * The return string is in the format: ?(x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)?  
+	 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
+	 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
+	 */
 	public String executeCommand(String command){
+		char[] commands = command.toCharArray();
+		for (char cmd : commands){
+			Position obstacleFound = move(cmd);
+			if (obstacleFound != null){
+				obstaclesFound.add(obstacleFound);
+			}
+		}
 		
-		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
-		 * Example: 
-		 * The rover is on a 100x100 grid at location (0, 0) and facing NORTH. The rover is given the commands "ffrff" and should end up at (2, 2) facing East.
-		 
-		 * The return string is in the format: ?(x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)?  
-		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
-		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
-		 */
-		
-		return null;
+		String pathResult = Utils.formatPosition(rPos.x, rPos.y, rDir);
+		return pathResult;
+	}
+	
+	public Position move(char command){
+		Position obstacle = null;
+		return obstacle;
 	}
 }

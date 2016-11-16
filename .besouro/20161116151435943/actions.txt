@@ -246,3 +246,14 @@ RefactoringAction 1479309314719 Utils.java RENAME FORWARD=>BACKW FORWARD() METHO
 RefactoringAction 1479309315728 Utils.java RENAME FORWARD()=>Direction FORWARD FIELD
 RefactoringAction 1479309319737 Utils.java ADD Direction BACKWARD FIELD
 EditAction 1479309322515 Utils.java 1330 7 12 0
+RefactoringAction 1479309331860 MarsRover.java ADD String pathResult FIELD
+RefactoringAction 1479309334882 MarsRover.java REMOVE pathResult FIELD
+RefactoringAction 1479309350504 MarsRover.java RENAME move()=>Position move(char) METHOD
+RefactoringAction 1479309374637 MarsRover.java ADD ArrayList<Position> obstacles/2 FIELD
+RefactoringAction 1479309376153 MarsRover.java RENAME obstacles/2=>ArrayList<Position> obstaclesFound FIELD
+RefactoringAction 1479309455197 MarsRover.java ADD import java.util.HashSet IMPORT
+RefactoringAction 1479309455198 MarsRover.java ADD import java.util.Set IMPORT
+RefactoringAction 1479309650376 Utils.java ADD MyEnum getValue(int) METHOD
+RefactoringAction 1479309656459 Utils.java RENAME getValue(int)=>Direction getByValue(int) METHOD
+RefactoringAction 1479309659015 Utils.java RENAME getByValue(int)=>Direction getByValue(char) METHOD
+EditAction 1479309808594 Utils.java 1550 8 15 0
