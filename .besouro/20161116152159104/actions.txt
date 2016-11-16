@@ -53,3 +53,11 @@ RefactoringAction 1479309449403 AllTests.java ADD import org.junit.runner.RunWit
 RefactoringAction 1479309449418 AllTests.java ADD AllTests.java CLASS
 FileOpenedAction 1479309449607 AllTests.java 261 0 0 0
 EditAction 1479309501657 NavigationTest.java 171 1 0 0
+RefactoringAction 1479309520112 NavigationTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479309538067 NavigationTest.java ADD Navigation navTest FIELD
+RefactoringAction 1479309544216 NavigationTest.java ADD import tdd.training.session1.Navigation IMPORT
+RefactoringAction 1479309586130 NavigationTest.java ADD void NavigatioTest() METHOD
+RefactoringAction 1479309716293 NavigationTest.java REMOVE NavigatioTest() METHOD
+RefactoringAction 1479309794331 NavigationTest.java RENAME test()=>void testGenera() METHOD
+RefactoringAction 1479309796838 NavigationTest.java RENAME testGenera()=>void testGeneraOstacoli() METHOD
+EditAction 1479309936326 NavigationTest.java 325 1 0 0
