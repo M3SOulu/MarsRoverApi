@@ -145,7 +145,7 @@ public class MarsRover {
 					whereIsObstacles = "(" + coordX + "," + coordY + ")";
 					coordX += -1;
 					coordY += -1;
-					realObstacles[countObstacle] = whereIsObstacles;
+					whereIAm.concat(whereIsObstacles);
 				}
 			}
 		}
