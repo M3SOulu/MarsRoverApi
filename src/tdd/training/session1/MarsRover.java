@@ -71,9 +71,9 @@ public class MarsRover {
 	
 	/**
 	 * check for obstacle in a given coords
-	 * @param x
+	 * @param x 
 	 * @param y
-	 * @return
+	 * @return true if there is an obstacle or false otherwise
 	 */
 	public boolean checkObstacle(int x, int y){
 		
