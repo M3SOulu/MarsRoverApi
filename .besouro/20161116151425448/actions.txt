@@ -247,3 +247,13 @@ CompilationAction 1479312951615 MarsRover.java
 RefactoringAction 1479313219850 MarsRover.java ADD MarsRover(int, int, Obstacle) METHOD
 EditAction 1479313234325 MarsRover.java 2220 7 10 0
 EditAction 1479313299202 Obstacle.java 209 1 0 0
+CompilationAction 1479313299466 Obstacle.java
+CompilationAction 1479313592569 Obstacle.java
+CompilationAction 1479313592731 Obstacle.java
+CompilationAction 1479313592732 Obstacle.java
+CompilationAction 1479313631177 Obstacle.java
+RefactoringAction 1479313843196 Obstacle.java ADD String get FIELD
+RefactoringAction 1479313846205 Obstacle.java RENAME get=>String getObstacle FIELD
+RefactoringAction 1479313848211 Obstacle.java RENAME getObstacle=>String getObstacle() METHOD
+RefactoringAction 1479313863739 Obstacle.java RENAME getObstacle()=>String getObstacle(Obstacle) METHOD
+EditAction 1479313907239 Obstacle.java 284 2 2 0
