@@ -9,9 +9,12 @@ public class MarsRover {
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 	String[][] obs;
-	String N = 10;
+	int N = 10;
 	for(int i = 0; i< N ; i++){
-		obs[i] = N;
+		obs[i] = 
+		for(int j=0; j<=N ; j++){
+			
+		}
 		
 	}
 	}

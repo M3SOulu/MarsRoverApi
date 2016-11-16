@@ -1,2 +1,19 @@
 FileOpenedAction 1479306116012 MarsRoverTest.java 184 1 1 0
 EditAction 1479306902711 MarsRover.java 1172 2 4 0
+CompilationAction 1479306902924 MarsRover.java
+CompilationAction 1479306902924 MarsRover.java
+CompilationAction 1479306902925 MarsRover.java
+CompilationAction 1479306914453 MarsRover.java
+CompilationAction 1479306914453 MarsRover.java
+CompilationAction 1479306914454 MarsRover.java
+CompilationAction 1479306914615 MarsRover.java
+CompilationAction 1479306914616 MarsRover.java
+CompilationAction 1479306914616 MarsRover.java
+CompilationAction 1479306921250 MarsRover.java
+CompilationAction 1479306921250 MarsRover.java
+CompilationAction 1479306921251 MarsRover.java
+CompilationAction 1479306921400 MarsRover.java
+CompilationAction 1479307022736 MarsRover.java
+CompilationAction 1479307022914 MarsRover.java
+CompilationAction 1479307027861 MarsRover.java
+EditAction 1479307075476 MarsRover.java 1203 2 1 0
