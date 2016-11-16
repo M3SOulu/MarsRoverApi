@@ -257,3 +257,38 @@ RefactoringAction 1479313846205 Obstacle.java RENAME get=>String getObstacle FIE
 RefactoringAction 1479313848211 Obstacle.java RENAME getObstacle=>String getObstacle() METHOD
 RefactoringAction 1479313863739 Obstacle.java RENAME getObstacle()=>String getObstacle(Obstacle) METHOD
 EditAction 1479313907239 Obstacle.java 284 2 2 0
+RefactoringAction 1479314158184 MarsRoverTest.java REMOVE import org.junit.Test IMPORT
+RefactoringAction 1479314159689 MarsRoverTest.java ADD import org.junit.* IMPORT
+RefactoringAction 1479314192741 MarsRoverTest.java ADD void setInitialCoordinates() METHOD
+RefactoringAction 1479314247827 MarsRoverTest.java ADD Coordinates coordinates FIELD
+RefactoringAction 1479314253953 MarsRoverTest.java ADD import tdd.training.session1.Coordinates IMPORT
+RefactoringAction 1479314281901 MarsRoverTest.java ADD Ostacle obs FIELD
+RefactoringAction 1479314291153 MarsRoverTest.java ADD import tdd.training.session1.Obstacle IMPORT
+RefactoringAction 1479314418136 MarsRoverTest.java RENAME setInitialCoordinates()=>void setInitialCoordinates(int) METHOD
+RefactoringAction 1479314419158 MarsRoverTest.java RENAME setInitialCoordinates(int)=>void setInitialCoordinates(int, int) METHOD
+RefactoringAction 1479314522356 MarsRoverTest.java RENAME test()=>void newInstanceShouldSetXAndYParams() METHOD
+RefactoringAction 1479314524860 MarsRoverTest.java RENAME newInstanceShouldSetXAndYParams()=>void test() METHOD
+RefactoringAction 1479314536878 MarsRoverTest.java RENAME test()=>void initialtest() METHOD
+RefactoringAction 1479314540390 MarsRoverTest.java RENAME initialtest()=>void initialCoordinatetest() METHOD
+RefactoringAction 1479314541902 MarsRoverTest.java RENAME initialCoordinatetest()=>void initialCoordinatestest() METHOD
+RefactoringAction 1479314543415 MarsRoverTest.java RENAME initialCoordinatestest()=>void initialCoordinatesest() METHOD
+RefactoringAction 1479314548929 MarsRoverTest.java RENAME initialCoordinatesest()=>void initialCoordinatesTest() METHOD
+RefactoringAction 1479314960937 MarsRoverTest.java ADD int x FIELD
+RefactoringAction 1479314964955 MarsRoverTest.java ADD int y FIELD
+RefactoringAction 1479315122307 MarsRoverTest.java REMOVE setInitialCoordinates(int, int) METHOD
+RefactoringAction 1479315152327 MarsRoverTest.java REMOVE x FIELD
+RefactoringAction 1479315152327 MarsRoverTest.java REMOVE y FIELD
+RefactoringAction 1479315265003 Coordinates.java RENAME setCoordinates(Coordinates)=>void setCoordinates() METHOD
+RefactoringAction 1479315347471 MarsRoverTest.java RENAME initialCoordinatesTest()=><initializer /1> null
+RefactoringAction 1479315365491 MarsRoverTest.java ADD void receiv FIELD
+RefactoringAction 1479315370499 MarsRoverTest.java RENAME receiv=>void receivSingleCommand FIELD
+RefactoringAction 1479315372509 MarsRoverTest.java RENAME receivSingleCommand=>void receivSingleCommandShould FIELD
+RefactoringAction 1479315374516 MarsRoverTest.java RENAME receivSingleCommandShould=>void receivSingleCommandShouldMove FIELD
+RefactoringAction 1479315376026 MarsRoverTest.java RENAME receivSingleCommandShouldMove=>void receivSingleCommandShouldMoveFor FIELD
+RefactoringAction 1479315377536 MarsRoverTest.java RENAME receivSingleCommandShouldMoveFor=>void receivSingleCommandShouldMoveForward FIELD
+RefactoringAction 1479315380043 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForward=>void receivSingleCommandShouldMoveForwardin FIELD
+RefactoringAction 1479315381050 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForwardin=>void receivSingleCommandShouldMoveForward FIELD
+RefactoringAction 1479315385059 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForward=>void receivSingleCommandShouldMoveForwardIfCommand FIELD
+RefactoringAction 1479315387066 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForwardIfCommand=>void receivSingleCommandShouldMoveForwardIfCommandIs FIELD
+RefactoringAction 1479315388075 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForwardIfCommandIs=>void receivSingleCommandShouldMoveForwardIfCommandIsF FIELD
+EditAction 1479315405058 MarsRoverTest.java 364 0 0 0
