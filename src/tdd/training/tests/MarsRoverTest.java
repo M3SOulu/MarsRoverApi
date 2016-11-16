@@ -23,8 +23,20 @@ public class MarsRoverTest {
 	@Test
 	public void testMarsRoverCorrectClassCreation() throws MarsRoverException {
 		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
-		rover.executeCommand("fff");
-		assertEquals("(0,3,N)", rover.getPosition());
+	}
+	
+	@Test
+	public void testMarsRoverMoveNoObstacle() throws MarsRoverException {
+		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
+		String result = rover.executeCommand("fff");
+		assertEquals("(0,3,N)", result);
+	}
+	
+	@Test
+	public void testMarsRoverMoveFindObstacle() throws MarsRoverException {
+		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
+		String result = rover.executeCommand("fffff");
+		assertEquals("(0,3,N)", result);
 	}
 
 }

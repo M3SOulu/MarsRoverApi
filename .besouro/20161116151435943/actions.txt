@@ -311,3 +311,13 @@ EditAction 1479311202874 MarsRover.java 3449 4 15 0
 RefactoringAction 1479311214660 MarsRover.java REMOVE getPosition() METHOD
 RefactoringAction 1479311215682 MarsRover.java ADD String getPosition() METHOD
 EditAction 1479311222088 MarsRover.java 3453 3 13 0
+CompilationAction 1479311222335 MarsRoverTest.java
+CompilationAction 1479311245965 MarsRoverTest.java
+UnitTestCaseAction 1479311247544 MarsRoverTest.java OK
+UnitTestSessionAction 1479311247545 MarsRoverTest OK
+RefactoringAction 1479311257789 MarsRoverTest.java ADD void testMarsRoverCorrectClassCreation()/2 METHOD
+RefactoringAction 1479311271814 MarsRoverTest.java RENAME testMarsRoverCorrectClassCreation()/2=>void testMarsRoverMove() METHOD
+RefactoringAction 1479311274344 MarsRoverTest.java RENAME testMarsRoverMove()=>void testMarsRoverMoveNoObstacle() METHOD
+RefactoringAction 1479311277356 MarsRoverTest.java ADD void testMarsRoverMoveNoObstacle()/2 METHOD
+RefactoringAction 1479311279379 MarsRoverTest.java RENAME testMarsRoverMoveNoObstacle()/2=>void testMarsRoverMoveFindObstacle() METHOD
+EditAction 1479311281913 MarsRoverTest.java 1076 4 8 2
