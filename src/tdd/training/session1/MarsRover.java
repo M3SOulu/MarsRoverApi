@@ -63,14 +63,14 @@ public class MarsRover {
 		for(int j = 0; j < obstacles.length(); j++){
 			if(obstacles.charAt(j) == ','){
 				j++;
-				if((obstacles.charAt(j)<=gridY)){
+				if(((int)obstacles.charAt(j)<=gridY)){
 					this.obstacles[i].setCoordY(obstacles.charAt(j));
 					i++;
 				}else 
 					throw new MarsRoverException();
 			}
 			if(!(obstacles.charAt(j) == '?'||obstacles.charAt(j) == '('||obstacles.charAt(j) == ')')){
-				if((obstacles.charAt(j)<=gridX)){
+				if(((int)obstacles.charAt(j)<=gridX)){
 					this.obstacles[i].setCoordX(obstacles.charAt(j));
 				}else
 					throw new MarsRoverException();
