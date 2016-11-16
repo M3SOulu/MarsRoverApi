@@ -1,11 +1,10 @@
 package tdd.training.session1;
-import static org.junit.Assert.*;
-import org.junit.Test;
 
 public class MarsRover {
 	public int posX = 0;
 	public int posY = 0;
 	public char facing = 'N';
+	public String position;
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -91,6 +90,7 @@ public class MarsRover {
 			}
 		}
 		
+		position = Integer.toString(posX) + Integer.toString(posY) + facing;
 		return null;
 	}
 }
