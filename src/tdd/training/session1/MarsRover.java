@@ -40,7 +40,7 @@ public class MarsRover {
 	 * @param obstacles
 	 * @return an array of obstacle or null
 	 */
-	public  Obstacle[] makeObstacles(String obstacles){
+	public  static Obstacle[] makeObstacles(String obstacles){
 		
 		String[] obstaclesList= obstacles.split("\\(");
 		
