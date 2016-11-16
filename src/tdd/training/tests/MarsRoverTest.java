@@ -8,8 +8,7 @@ public class MarsRoverTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
 	}
 
-	@Test(expected = MarsRoverException.class)
+	
 }

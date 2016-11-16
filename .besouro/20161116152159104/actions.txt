@@ -68,3 +68,14 @@ EditAction 1479310188928 Navigation.java 688 3 6 0
 EditAction 1479310239082 NavigationTest.java 372 1 1 1
 RefactoringAction 1479310271962 NavigationTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
 EditAction 1479310277843 NavigationTest.java 460 1 1 1
+CompilationAction 1479310283269 MarsRoverTest.java
+CompilationAction 1479310283269 MarsRoverTest.java
+UnitTestCaseAction 1479310288363 AllTests.java FAIL
+UnitTestSessionAction 1479310288374 AllTests FAIL
+UnitTestCaseAction 1479310316725 AllTests.java FAIL
+UnitTestSessionAction 1479310316725 AllTests FAIL
+UnitTestCaseAction 1479310318892 AllTests.java FAIL
+UnitTestSessionAction 1479310318893 AllTests FAIL
+UnitTestCaseAction 1479310320573 AllTests.java FAIL
+UnitTestSessionAction 1479310320574 AllTests FAIL
+EditAction 1479310345099 MarsRoverTest.java 155 1 0 0
