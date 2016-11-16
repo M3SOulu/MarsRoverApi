@@ -20,3 +20,7 @@ RefactoringAction 1479307415490 Navigation.java RENAME Navigation(int, int)=>Nav
 RefactoringAction 1479307424555 Navigation.java ADD int x FIELD
 RefactoringAction 1479307450083 Navigation.java ADD int y FIELD
 EditAction 1479307481672 Navigation.java 189 1 2 0
+RefactoringAction 1479307494965 MarsRover.java REMOVE actualPositionX FIELD
+RefactoringAction 1479307494965 MarsRover.java REMOVE actualPositionY FIELD
+RefactoringAction 1479307510501 MarsRover.java ADD Navigation nav FIELD
+EditAction 1479307565191 MarsRover.java 1156 2 2 0
