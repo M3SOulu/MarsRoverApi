@@ -58,3 +58,18 @@ RefactoringAction 1479312443565 MarsRoverTest.java RENAME import org.junit.tdd.t
 RefactoringAction 1479312455083 MarsRoverTest.java REMOVE import org.junit.tdd.training.tests IMPORT
 RefactoringAction 1479312665113 MarsRover.java ADD import java.util.Arrays IMPORT
 EditAction 1479312666129 MarsRoverTest.java 294 1 3 1
+CompilationAction 1479312666392 MarsRover.java
+CompilationAction 1479312666392 MarsRover.java
+CompilationAction 1479312666393 MarsRoverTest.java
+RefactoringAction 1479313045547 MarsRover.java ADD int i FIELD
+RefactoringAction 1479313051089 MarsRover.java ADD String Test(String) METHOD
+RefactoringAction 1479313051090 MarsRover.java ADD String executeCommand(String) METHOD
+CompilationAction 1479313325028 MarsRover.java
+CompilationAction 1479313325050 MarsRoverTest.java
+CompilationAction 1479313325192 MarsRoverTest.java
+CompilationAction 1479313325193 MarsRoverTest.java
+RefactoringAction 1479313546038 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+RefactoringAction 1479314184697 MarsRoverTest.java REMOVE import tdd.training.session1.MarsRover IMPORT
+RefactoringAction 1479314264655 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+CompilationAction 1479314267491 MarsRoverTest.java
+EditAction 1479314267524 MarsRover.java 2185 3 5 0

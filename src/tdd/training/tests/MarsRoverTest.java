@@ -1,20 +1,24 @@
 package tdd.training.tests;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
+
+import tdd.training.session1.MarsRover;
+
 
 public class MarsRoverTest {	
 	@Test
 	public void test1() {
+
 		//Arrange
-		MarsRover test = new MarsRover();
+		MarsRover mars = new MarsRover();
+		testRover.Test("ffrf");
 
 		//Act
-		String score = test.Test();
+		String score = testRover.Test();
 		
 		//Assert
-		assertEquals("love" + "love", score);
+		assertEquals("12E", score);
 }
 
 }

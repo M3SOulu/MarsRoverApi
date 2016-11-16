@@ -1,5 +1,4 @@
 package tdd.training.session1;
-import java.util.Arrays;
 
 public class MarsRover {
 	public int posX = 0;
@@ -15,20 +14,13 @@ public class MarsRover {
 	 */
 		
 	}
-	
-	public String EditPosition (int pos1, int pos2, String command) {
-		
-		String facing = new String();
-		String position = new String(pos1 + pos2 + facing);
-		return position; 
-	}
-	
+
 	public String Test (String command) {
-		Test prova = new executeCommand(command);
+		executeCommand(command);
 		String position = Integer.toString(posX) + Integer.toString(posY) + facing;
 		return position;
 	}
-	
+
 
 	
 	public String executeCommand(String command){
