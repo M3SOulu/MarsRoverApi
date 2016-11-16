@@ -9,3 +9,5 @@ RefactoringAction 1479306159055 Position.java REMOVE x/2 FIELD
 RefactoringAction 1479306160559 Position.java ADD int x/2 FIELD
 RefactoringAction 1479306167591 Position.java RENAME x/2=>int y FIELD
 EditAction 1479306171033 Position.java 92 0 0 0
+RefactoringAction 1479306194092 MarsRover.java ADD Position rPos FIELD
+EditAction 1479306230830 Position.java 97 0 0 0
