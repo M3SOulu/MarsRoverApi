@@ -27,19 +27,21 @@ public class MarsRover {
 
 		// Inserisci ostacoli sul pianeta
 		int i = 0;
+		int contObstacle=0;
 		while (i < obstacles.length()) {
 
 			int xOb = Character.getNumericValue(obstacles.charAt(i));
 			i++;
 			int yOb = Character.getNumericValue(obstacles.charAt(i));
-
-			Obstacle obstacle = new Obstacle(xOb, yOb);
+			
+			contObstacle++;
+			Obstacle obstacle = new Obstacle(xOb, yOb,"Obstacle"+contObstacle);
 			planet[xOb][yOb] = obstacle;
 			// System.out.println(xOb+" "+yOb);
 			i++;
 		}
 
-		// System.out.println(planet[1][2]);
+		 System.out.println(planet[2][1]);
 
 	}
 
