@@ -21,3 +21,5 @@ RefactoringAction 1479307663860 MarsRover.java REMOVE main FIELD
 RefactoringAction 1479307681938 MarsRover.java ADD static void main() METHOD
 RefactoringAction 1479307686477 MarsRover.java RENAME main()=>static void main(String METHOD
 EditAction 1479307749879 MarsRover.java 1470 3 5 0
+CompilationAction 1479307750133 MarsRover.java
+EditAction 1479307762230 MarsRover.java 1471 3 6 0

@@ -45,7 +45,7 @@ public class MarsRover {
 	
 	public static void main(String[] args){
 		
-		MarsRover rover = new MarsRover(3,3,"(1,1)(1,2)")
+		MarsRover rover = new MarsRover(3,3,"(1,1)(1,2)");
 		
 	}
 	
