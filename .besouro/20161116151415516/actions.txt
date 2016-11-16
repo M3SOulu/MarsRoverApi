@@ -260,3 +260,10 @@ RefactoringAction 1479313176278 MarsRover.java ADD Direction get FIELD
 RefactoringAction 1479313179302 MarsRover.java RENAME get=>Direction getDirection FIELD
 RefactoringAction 1479313180309 MarsRover.java RENAME getDirection=>Direction getDirection() METHOD
 EditAction 1479313187141 MarsRover.java 3998 12 30 0
+CompilationAction 1479313187402 MarsRoverTest.java
+CompilationAction 1479313187402 MarsRoverTest.java
+CompilationAction 1479313325030 MarsRoverTest.java
+CompilationAction 1479313325205 MarsRoverTest.java
+UnitTestCaseAction 1479313392829 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313392830 MarsRoverTest FAIL
+EditAction 1479313436141 MarsRoverTest.java 2950 9 47 35
