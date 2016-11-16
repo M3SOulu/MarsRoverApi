@@ -1,7 +1,8 @@
 package tdd.training.session1;
 
 public class MarsRover {
-	private String commandPattern = "[lrfb]+";
+	private String commandPattern = "^[lrfb]+";
+	private String obstaclesPattern = "^([(]{1}[0-9]+[,]{1}[0-9]+)+";
 	private int xSize;
 	private int ySize;
 	private int[][] planet;
@@ -33,6 +34,14 @@ public class MarsRover {
 		 */
 		
 		return null;
+	}
+	
+	public boolean verifyObstacles(String obstacles){
+		boolean verified = false;
+		
+		if(obstacles.matches(obstaclesPattern)) verified = true;
+		
+		return verified;
 	}
 	
 	public boolean verifyCommand(String command){

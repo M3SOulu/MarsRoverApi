@@ -22,6 +22,12 @@ public class MarsRoverTest {
 	}
 
 	@Test
+	public void testVerifyObstacles(){
+		assertTrue(marsRover.verifyObstacles("(0,1)"));
+	}
+	
+	
+	@Test
 	public void testVerifyCommand(){	
 		assertTrue(marsRover.verifyCommand("l"));
 		assertTrue(marsRover.verifyCommand("r"));

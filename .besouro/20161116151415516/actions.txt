@@ -31,3 +31,15 @@ RefactoringAction 1479307648634 MarsRover.java REMOVE obstaclesPattern FIELD
 EditAction 1479307649539 MarsRover.java 1421 3 7 0
 EditAction 1479307734608 MarsRover.java 1421 3 7 0
 EditAction 1479307746164 MarsRover.java 1421 3 7 0
+RefactoringAction 1479307925278 MarsRover.java ADD String commandPattern/2 FIELD
+RefactoringAction 1479307929290 MarsRover.java RENAME commandPattern/2=>String commandobstacles FIELD
+RefactoringAction 1479307931342 MarsRover.java RENAME commandobstacles=>String commandBbstacles FIELD
+RefactoringAction 1479307933353 MarsRover.java RENAME commandBbstacles=>String commandbstacles FIELD
+RefactoringAction 1479307935888 MarsRover.java RENAME commandbstacles=>String commandObstacles FIELD
+RefactoringAction 1479308129322 MarsRover.java ADD boolean verifyCommand(String)/2 METHOD
+RefactoringAction 1479308141331 MarsRover.java RENAME verifyCommand(String)/2=>boolean verifyObstacles(String) METHOD
+RefactoringAction 1479308157857 MarsRover.java RENAME commandObstacles=>String obstacles FIELD
+RefactoringAction 1479308162867 MarsRover.java RENAME obstacles=>String obstaclesPattern FIELD
+RefactoringAction 1479308202302 MarsRoverTest.java ADD void testverifyObstacles() METHOD
+RefactoringAction 1479308206819 MarsRoverTest.java RENAME testverifyObstacles()=>void testVerifyObstacles() METHOD
+EditAction 1479308231519 MarsRoverTest.java 816 4 10 8
