@@ -114,8 +114,8 @@ public class MarsRover {
 		MarsRover rover = new MarsRover(3, 3, "(0,3)");
 		String test = rover.executeCommand("fff");
 		System.out.println(test);
-		Object array[][] = new Object[3][4];
-		System.out.println(array[0].length);
+		//Object array[][] = new Object[3][4];
+		//System.out.println(array[0].length);
 	}
 
 }
