@@ -13,3 +13,7 @@ RefactoringAction 1479306833613 MarsRoverTest.java ADD void setUp() METHOD
 RefactoringAction 1479306847642 MarsRoverTest.java ADD MarsRover marsRover FIELD
 RefactoringAction 1479306854019 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
 EditAction 1479306892912 MarsRoverTest.java 361 2 2 0
+RefactoringAction 1479306914367 MarsRoverTest.java ADD void testverifyCommand FIELD
+RefactoringAction 1479306916876 MarsRoverTest.java RENAME testverifyCommand=>void testVerifyCommand FIELD
+RefactoringAction 1479306919498 MarsRoverTest.java RENAME testVerifyCommand=>void testVerifyCommand() METHOD
+EditAction 1479306923401 MarsRoverTest.java 406 3 2 0

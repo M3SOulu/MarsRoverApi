@@ -21,6 +21,9 @@ public class MarsRoverTest {
 		fail("Not yet implemented");
 	}
 
-	
+	@Test
+	public void testVerifyCommand(){
+		
+	}
 	
 }
