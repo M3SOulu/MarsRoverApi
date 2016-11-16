@@ -1,15 +1,13 @@
 package tdd.training.session1;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
 
 public class MarsRover {
 	private Position rPos = new Position(0, 0);
 	private Position grid = new Position(0, 0);
 	private String rDir = "N";
 	private ArrayList<Position> obstacles = new ArrayList<Position>();
-	private Set<Position> obstaclesFound = new HashSet<Position>();
+	private ArrayList<Position> obstaclesFound = new ArrayList<Position>();
 
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: (o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y) with no white spaces. 
@@ -56,7 +54,7 @@ public class MarsRover {
 		char[] commands = command.toCharArray();
 		for (char cmd : commands){
 			Position obstacleFound = move(cmd);
-			if (obstacleFound != null){
+			if (obstacleFound != null && !obstaclesFound.contains(obstacleFound)){
 				obstaclesFound.add(obstacleFound);
 			}
 		}
@@ -68,7 +66,6 @@ public class MarsRover {
 		return pathResult;
 	}
 	
-	//TODO grid size, return to other side when grid size limit exceeded
 	private Position move(char command) throws MarsRoverException{
 		Position obstacle = null;
 		Position nextPosition = new Position(rPos.x, rPos.y);

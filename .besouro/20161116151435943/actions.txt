@@ -414,3 +414,25 @@ EditAction 1479312336865 MarsRover.java 3567 3 18 0
 UnitTestCaseAction 1479312365580 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479312365581 MarsRoverTest FAIL
 EditAction 1479312417853 MarsRover.java 3591 3 18 0
+UnitTestCaseAction 1479312420221 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312420222 MarsRoverTest FAIL
+UnitTestCaseAction 1479312448268 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312448268 MarsRoverTest FAIL
+UnitTestCaseAction 1479312463518 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312463518 MarsRoverTest FAIL
+UnitTestCaseAction 1479312467428 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312467429 MarsRoverTest FAIL
+UnitTestCaseAction 1479312587915 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312587916 MarsRoverTest FAIL
+UnitTestCaseAction 1479312624960 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312624960 MarsRoverTest FAIL
+UnitTestCaseAction 1479312631808 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312631809 MarsRoverTest FAIL
+UnitTestCaseAction 1479312646079 MarsRoverTest.java OK
+UnitTestSessionAction 1479312646079 MarsRoverTest OK
+UnitTestCaseAction 1479312654176 MarsRoverTest.java OK
+UnitTestSessionAction 1479312654177 MarsRoverTest OK
+RefactoringAction 1479312677268 MarsRoverTest.java ADD void testMarsRoverMoveFindOneObstacle()/2 METHOD
+RefactoringAction 1479312679772 MarsRoverTest.java RENAME testMarsRoverMoveFindOneObstacle()/2=>void testMarsRoverMoveFindTwoObstacle() METHOD
+RefactoringAction 1479312680778 MarsRoverTest.java RENAME testMarsRoverMoveFindTwoObstacle()=>void testMarsRoverMoveFindTwoObstacles() METHOD
+EditAction 1479312743899 MarsRoverTest.java 1770 7 16 4
