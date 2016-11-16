@@ -5,8 +5,7 @@ import static org.junit.Assert.*;
 import tdd.training.session1.*;
 import org.junit.Test;
 
-public class MarsRoverTest {
-	
+public class MarsRoverTest {	
 	@Test(expected = MarsRoverException.class)
 	public void testMarsRoverWrongClassCreation() throws MarsRoverException {
 		new MarsRover(50, 50, "(10,)(");
