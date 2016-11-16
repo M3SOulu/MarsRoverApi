@@ -252,3 +252,4 @@ RefactoringAction 1479313400271 MarsRover.java RENAME grid=>ArrayList<Obstacle> 
 RefactoringAction 1479313408777 MarsRover.java ADD ArrayList<Obstacle> gridObs/2 FIELD
 RefactoringAction 1479313429784 MarsRover.java RENAME gridObs/2=>ArrayList<Obstacle> foundObs FIELD
 EditAction 1479313430996 MarsRover.java 2888 5 18 0
+EditAction 1479313458726 MarsRover.java 2926 5 19 0

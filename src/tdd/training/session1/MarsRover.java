@@ -30,6 +30,7 @@ public class MarsRover {
 		this.width=x;
 		this.height=y;
 		gridObs=makeObstacles(obstacles);
+		foundObs=new ArrayList<Obstacle>();
 		
 		this.x=0;
 		this.y=0;
