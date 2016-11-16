@@ -43,7 +43,7 @@ public class MarsRover {
 		rover = new Rover(0, 0, 'N');
 		planet[0][0] = rover;
 
-		System.out.println(planet[2][1]);
+		//System.out.println(planet[2][1]);
 
 	}
 
@@ -90,6 +90,7 @@ public class MarsRover {
 	public static void main(String[] args) {
 
 		MarsRover rover = new MarsRover(3, 3, "(2,2)");
+		executeCommand("f");
 
 	}
 
