@@ -21,7 +21,7 @@ public class MarsRover {
 		ySize = y;
 		
 		planet = new int[x][y];	
-		
+		/*
 		String[] ostacoli = obstacles.split("()");
 		
 		for(String ostacolo : ostacoli){
@@ -32,7 +32,7 @@ public class MarsRover {
 			if(verifyObstaclesRange(xObstacle, yObstacle)) throw new MarsRoverException();
 			
 			planet[xObstacle][yObstacle] = -1;
-		}
+		}*/
 		
 		planet[0][0] = 1;	
 	}
