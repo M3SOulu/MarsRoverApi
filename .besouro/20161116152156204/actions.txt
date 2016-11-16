@@ -14,3 +14,11 @@ EditAction 1479307105273 Obstacle.java 338 2 3 0
 RefactoringAction 1479307112094 Obstacle.java ADD Obstacle() METHOD
 RefactoringAction 1479307121646 Obstacle.java RENAME Obstacle()=>Obstacle(String) METHOD
 EditAction 1479307425109 Obstacle.java 539 3 6 0
+RefactoringAction 1479307447955 ObstacleCoordsException.java ADD ObstacleCoordsException.java CLASS
+FileOpenedAction 1479307448167 ObstacleCoordsException.java 79 0 0 0
+RefactoringAction 1479307515356 ObstacleCoordsException.java ADD ObstacleCoordsException() METHOD
+RefactoringAction 1479307554433 ObstacleCoordsException.java REMOVE ObstacleCoordsException.java CLASS
+RefactoringAction 1479307572819 MarsRoverException.java ADD MarsRoverException() METHOD
+RefactoringAction 1479307592867 MarsRoverException.java ADD MarsRoverException()/2 METHOD
+RefactoringAction 1479307597898 MarsRoverException.java RENAME MarsRoverException()/2=>MarsRoverException(String) METHOD
+EditAction 1479307602650 MarsRoverException.java 294 2 2 0
