@@ -6,8 +6,8 @@ import java.util.List;
 
 public class MarsRover {
 	
-	private static final List<String> position = Arrays.asList("f","b","r","l");
-	private static final List<String> cardinalPosition = Arrays.asList("N","S","E","W");
+	private static final List<String> movement = Arrays.asList("f","b","r","l");
+	private static final List<String> cardinalPosition = Arrays.asList("N","E","S","W");
 	private int coordX;
 	private int coordY;
 	private int direction;
@@ -60,6 +60,30 @@ public class MarsRover {
 		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		
+		for(int i = 0; i < command.length(); i++){
+			if(command.charAt(i) == 'f'){
+				if(this.getRealDirection() == "N"){
+					coordY += 1;
+				}else if(this.getRealDirection() == "E"){
+					coordX += 1;
+				}else if(this.getRealDirection() == "S"){
+					coordY += -1;
+				}else if(this.getRealDirection() == "W"){
+					coordX += -1;
+				}
+			}else if(command.charAt(i) == 'b'){
+				if(this.getRealDirection() == "N"){
+					coordY += -1;
+				}else if(this.getRealDirection() == "E"){
+					coordX += -1;
+				}else if(this.getRealDirection() == "S"){
+					coordY += 1;
+				}else if(this.getRealDirection() == "W"){
+					coordX += 1;
+				}
+			}
+		}
 		
 		return null;
 	}

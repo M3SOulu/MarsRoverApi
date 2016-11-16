@@ -41,3 +41,5 @@ RefactoringAction 1479307013571 MarsRover.java REMOVE setDirection(int) METHOD
 RefactoringAction 1479307013571 MarsRover.java REMOVE getPosition() METHOD
 EditAction 1479307017003 MarsRover.java 1762 8 9 0
 EditAction 1479307109116 MarsRover.java 1758 8 9 0
+RefactoringAction 1479307115354 MarsRover.java RENAME position=>List<String> movement FIELD
+EditAction 1479307917282 MarsRover.java 2403 8 10 0
