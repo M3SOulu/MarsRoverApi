@@ -14,7 +14,7 @@ public class MarsRoverTest {
 	
 	@Before
 	public void initialize() throws MarsRoverException{
-		sonic = new MarsRover(10,10,"?(2,1)?");
+		sonic = new MarsRover(10,10,"?(2,1)(4,5)?");
 	}
 	
 	@Test
