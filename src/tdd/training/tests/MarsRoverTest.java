@@ -66,4 +66,9 @@ public class MarsRoverTest {
 		marsRover.setObstacles("(10,10)");
 	}
 	
+	@Test
+	public void testMoveRight(){
+		
+	}
+	
 }

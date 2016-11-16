@@ -192,3 +192,8 @@ CompilationAction 1479311727247 MarsRover.java
 CompilationAction 1479311763429 MarsRover.java
 EditAction 1479311777511 MarsRover.java 3657 8 30 0
 EditAction 1479311793124 MarsRover.java 3695 8 30 0
+RefactoringAction 1479311858776 MarsRoverTest.java ADD void test FIELD
+RefactoringAction 1479311864286 MarsRoverTest.java RENAME test=>void testmoveRight FIELD
+RefactoringAction 1479311865799 MarsRoverTest.java RENAME testmoveRight=>void testMoveRight FIELD
+RefactoringAction 1479311868307 MarsRoverTest.java RENAME testMoveRight=>void testMoveRight() METHOD
+EditAction 1479311871365 MarsRoverTest.java 2040 7 28 25
