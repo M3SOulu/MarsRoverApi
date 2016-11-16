@@ -10,3 +10,4 @@ RefactoringAction 1479306871832 Obstacle.java RENAME Obstacle(int)=>Obstacle(int
 RefactoringAction 1479306905206 Obstacle.java ADD String toString() METHOD
 EditAction 1479307067485 Obstacle.java 333 2 3 0
 EditAction 1479307082730 Obstacle.java 333 2 3 0
+EditAction 1479307105273 Obstacle.java 338 2 3 0
