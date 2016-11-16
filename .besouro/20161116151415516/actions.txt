@@ -297,3 +297,7 @@ EditAction 1479313884714 MarsRover.java 4114 13 30 0
 RefactoringAction 1479313899294 MarsRoverTest.java ADD void testMoveForwardFromStart()/2 METHOD
 RefactoringAction 1479313910320 MarsRoverTest.java RENAME testMoveForwardFromStart()/2=>void testmoveBackwardFromStart() METHOD
 EditAction 1479313922339 MarsRoverTest.java 3503 12 58 41
+UnitTestCaseAction 1479313922845 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313922846 MarsRoverTest FAIL
+RefactoringAction 1479313931337 MarsRoverTest.java RENAME testmoveBackwardFromStart()=>void testMoveBackwardFromStart() METHOD
+EditAction 1479313932114 MarsRoverTest.java 3503 12 58 41

@@ -116,7 +116,7 @@ public class MarsRoverTest {
 	}
 	
 	@Test
-	public void testmoveBackwardFromStart(){
+	public void testMoveBackwardFromStart(){
 		marsRover.moveForward();
 		assertEquals(0, marsRover.getCurrentX());
 		assertEquals(9, marsRover.getCurrentY());
