@@ -62,6 +62,7 @@ public class MarsRover {
 		return pathResult;
 	}
 	
+	//TODO grid size, return to other side when grid size limit exceded
 	private Position move(char command) throws MarsRoverException{
 		Position obstacle = null;
 		//Utils.Direction moveDir = Utils.Direction.getByValue(command);
@@ -88,5 +89,10 @@ public class MarsRover {
 			rPos = nextPosition;
 		}
 		return obstacle;
+	}
+	
+	public String getPosition(){
+		String str = Utils.formatPosition(rPos.x, rPos.y, rDir);
+		return str;
 	}
 }
