@@ -98,7 +98,7 @@ public class MarsRover {
 
 		MarsRover rover = new MarsRover(3, 3, "(0,1)");
 		String test =rover.executeCommand("f");
-		System.out.println(test);
+		System.out.println("Test"+test);
 
 	}
 
