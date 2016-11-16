@@ -178,3 +178,4 @@ RefactoringAction 1479316582972 MarsRover.java RENAME executeCommand(String, int
 RefactoringAction 1479316587531 MarsRover.java RENAME MarsRover(int, int, String)=><initializer /1> null
 RefactoringAction 1479316590553 MarsRover.java RENAME <initializer /1>=>int posX FIELD
 EditAction 1479316591427 MarsRover.java 2253 3 8 0
+EditAction 1479316614905 MarsRover.java 2179 3 5 0
