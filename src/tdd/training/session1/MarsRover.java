@@ -26,10 +26,10 @@ public class MarsRover {
 		
 		for(String ostacolo : ostacoli){
 			String[] temp = ostacolo.split(",");
-			int xOb = Integer.parseInt(temp[0]);
-			int yOb = Integer.parseInt(temp[1]);
+			int xObstacle = Integer.parseInt(temp[0]);
+			int yObstacle = Integer.parseInt(temp[1]);
 			
-			if(xOb>=xSize || yOb>=ySize) throw new MarsRoverException();
+			if(verifyObstaclesRange(xObstacle, yObstacle)) throw new MarsRoverException();
 			
 			planet[xOb][yOb] = -1;
 		}

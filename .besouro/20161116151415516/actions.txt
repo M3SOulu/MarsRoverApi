@@ -70,3 +70,4 @@ RefactoringAction 1479309314543 MarsRover.java RENAME verifyObstacles=>boolean v
 RefactoringAction 1479309321132 MarsRover.java RENAME verifyObstaclesRange()=>boolean verifyObstaclesRange(int) METHOD
 RefactoringAction 1479309329149 MarsRover.java RENAME verifyObstaclesRange(int)=>boolean verifyObstaclesRange(int, int) METHOD
 EditAction 1479309430305 MarsRover.java 2326 5 18 0
+EditAction 1479309454823 MarsRover.java 2356 5 18 0
