@@ -230,3 +230,7 @@ RefactoringAction 1479312891176 MarsRover.java RENAME getCurrentX()/2=>int getCu
 RefactoringAction 1479312892192 MarsRover.java RENAME getCurrent()=>int getCurrent FIELD
 RefactoringAction 1479312895285 MarsRover.java RENAME getCurren()=>int getCurrenTy() METHOD
 EditAction 1479312901447 MarsRover.java 4180 11 33 0
+RefactoringAction 1479312936582 MarsRoverTest.java ADD void test FIELD
+RefactoringAction 1479312940588 MarsRoverTest.java RENAME test=>void testMoveFor FIELD
+RefactoringAction 1479312942094 MarsRoverTest.java RENAME testMoveFor=>void testMoveForward() METHOD
+EditAction 1479312964933 MarsRoverTest.java 2747 9 37 33
