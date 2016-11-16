@@ -77,8 +77,8 @@ public class MarsRover {
 		int len;
 		len=command.length();
 		face='N';
-		int maps[][];
-		maps= new int[this.x][this.y];
+		
+		
 		int [] pos={0,0};
 		for(i=0;i<len;i++){
 			char letter=command.charAt(i);

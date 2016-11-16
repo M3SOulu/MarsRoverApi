@@ -55,3 +55,13 @@ RefactoringAction 1479314176990 MarsRover.java REMOVE facing FIELD
 RefactoringAction 1479314181514 MarsRover.java ADD Char facing FIELD
 CompilationAction 1479315608570 MarsRover.java
 EditAction 1479316248612 MarsRover.java 3291 3 33 0
+RefactoringAction 1479316283094 MarsRover.java REMOVE obstacles FIELD
+RefactoringAction 1479316291134 MarsRover.java ADD String O FIELD
+RefactoringAction 1479316293647 MarsRover.java RENAME O=>String obstacles FIELD
+UnitTestCaseAction 1479316352992 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316352993 MarsRoverTest FAIL
+RefactoringAction 1479316432370 MarsRover.java ADD char command FIELD
+RefactoringAction 1479316437469 MarsRover.java RENAME command=>char commands FIELD
+RefactoringAction 1479316474499 MarsRover.java REMOVE commands FIELD
+RefactoringAction 1479316680962 MarsRoverTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+EditAction 1479316931121 MarsRoverTest.java 232 1 0 0
