@@ -26,7 +26,7 @@ public class MarsRover {
 		planet[0][0] = 1;	
 	}
 	
-	public final void setObstacles(String obstacles){
+	public final void setObstacles(String obstacles) throws MarsRoverException{
 		String[] ostacoli = obstacles.split("()");
 		
 		for(String ostacolo : ostacoli){

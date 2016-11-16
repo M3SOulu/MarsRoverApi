@@ -101,3 +101,6 @@ RefactoringAction 1479309913419 MarsRover.java ADD void setObsta FIELD
 RefactoringAction 1479309915464 MarsRover.java RENAME setObsta=>void setObstacles() METHOD
 RefactoringAction 1479309920478 MarsRover.java RENAME setObstacles()=>void setObstacles(String) METHOD
 EditAction 1479309950626 MarsRover.java 2424 6 18 0
+CompilationAction 1479309950892 MarsRover.java
+CompilationAction 1479309976635 MarsRover.java
+EditAction 1479309994178 MarsRoverTest.java 1839 5 27 25
