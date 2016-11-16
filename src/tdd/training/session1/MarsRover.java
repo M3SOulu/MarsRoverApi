@@ -70,6 +70,12 @@ public class MarsRover {
 		case Utils.BACKWARD:
 			nextPosition.moveBackwards(rDir);
 			break;
+		case Utils.LEFT:
+			rDir = cycleDirection(-1);
+			break;
+		case Utils.RIGHT:
+			rDir = cycleDirection(1);
+			break;
 		}
 		return obstacle;
 	}
