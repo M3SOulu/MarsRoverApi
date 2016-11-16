@@ -67,7 +67,7 @@ public class MarsRover {
 		 */
 		char[] commandList = commands.toCharArray();
 		if(verifyCommand(commands)) throw new MarsRoverException();
-		
+		System.out.println(commandList[0]);
 		for(int i=0; i<commandList.length; i++){
 			
 			switch(commandList[i]){
