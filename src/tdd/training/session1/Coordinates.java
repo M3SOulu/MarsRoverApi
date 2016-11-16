@@ -59,8 +59,6 @@ public class Coordinates {
 		
 	}
 
-//	public Coordinates setCoordinates(int x, int y){
-//		
-//	}
+
 }
 
