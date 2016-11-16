@@ -65,7 +65,6 @@ public class MarsRover {
 	//TODO grid size, return to other side when grid size limit exceded
 	private Position move(char command) throws MarsRoverException{
 		Position obstacle = null;
-		//Utils.Direction moveDir = Utils.Direction.getByValue(command);
 		Position nextPosition = rPos;
 		switch (command){
 		case Utils.FORWARD:
