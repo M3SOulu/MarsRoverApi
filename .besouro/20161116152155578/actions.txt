@@ -48,3 +48,22 @@ CompilationAction 1479308287418 MarsRover.java
 RefactoringAction 1479308338512 MarsRover.java REMOVE NORTH FIELD
 CompilationAction 1479308358276 MarsRover.java
 EditAction 1479308393226 MarsRoverTest.java 155 1 0 0
+RefactoringAction 1479308639622 MarsRover.java REMOVE executeCommand(String) METHOD
+RefactoringAction 1479308643131 MarsRover.java ADD String executeCommand(String) METHOD
+CompilationAction 1479308719734 MarsRover.java
+CompilationAction 1479308719735 MarsRover.java
+CompilationAction 1479308861393 MarsRover.java
+CompilationAction 1479308861393 MarsRover.java
+CompilationAction 1479308861547 MarsRover.java
+CompilationAction 1479308861548 MarsRover.java
+CompilationAction 1479308861548 MarsRover.java
+CompilationAction 1479308890351 MarsRover.java
+CompilationAction 1479308890352 MarsRover.java
+CompilationAction 1479308890352 MarsRover.java
+CompilationAction 1479308890497 MarsRover.java
+CompilationAction 1479308900001 MarsRover.java
+CompilationAction 1479308900144 MarsRover.java
+CompilationAction 1479309057391 MarsRover.java
+RefactoringAction 1479309521996 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+RefactoringAction 1479309583512 MarsRover.java REMOVE GRID FIELD
+EditAction 1479309596221 MarsRoverTest.java 251 1 1 0
