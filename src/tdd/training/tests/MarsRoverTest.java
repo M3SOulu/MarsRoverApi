@@ -14,10 +14,10 @@ public class MarsRoverTest {
 		MarsRover mars = new MarsRover(0, 0, null);
 
 		//Act
-		String score = mars.Test("ffrf");
+		String score = mars.Test("ffrff");
 		
 		//Assert
-		assertEquals("12E", score);
+		assertEquals("22E", score);
 	}
 
 }
