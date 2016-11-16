@@ -235,3 +235,11 @@ EditAction 1479312825228 MarsRover.java 2069 6 7 0
 CompilationAction 1479312825360 MarsRover.java
 EditAction 1479312825369 Coordinates.java 1297 11 12 0
 EditAction 1479312825484 MarsRoverTest.java 204 1 1 0
+RefactoringAction 1479312843644 MarsRover.java RENAME coordinates=>Obstacle Coordinates FIELD
+RefactoringAction 1479312850168 MarsRover.java RENAME Coordinates=>Coordinates coordinates FIELD
+RefactoringAction 1479312861217 MarsRover.java ADD Obstacle obs FIELD
+RefactoringAction 1479312898896 Obstacle.java ADD Obstacle.java CLASS
+CompilationAction 1479312899104 Obstacle.java
+FileOpenedAction 1479312899117 Obstacle.java 84 0 0 0
+RefactoringAction 1479312938333 Obstacle.java ADD Obstacle(int, int) METHOD
+EditAction 1479312951503 Obstacle.java 194 1 1 0
