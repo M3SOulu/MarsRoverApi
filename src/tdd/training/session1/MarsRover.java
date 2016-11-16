@@ -64,9 +64,19 @@ public class MarsRover {
 		
 		int i = 0;
 		while (i < command.length()) {
+			
 			char actualCommand = command.charAt(i);
 			char roverFacing = rover.getFacing();
-			if(actualCommand =='f' && == roverFacing == 'N')
+			int xRover = rover.getXRover();
+			int yRover = rover.getYRover();
+			
+			if(actualCommand =='f' && roverFacing == 'N'){
+				if(planet[xRover][yRover+1] == null){
+					planet[xRover][yRover]=null;
+					planet[xRover][yRover+1]=rover;
+					rover.SetPosition(xRover, yRover+1);
+				}
+			}
 				
 				
 		}
@@ -79,7 +89,7 @@ public class MarsRover {
 
 	public static void main(String[] args) {
 
-		MarsRover rover = new MarsRover(3, 3, "(2,1)(1,2)");
+		MarsRover rover = new MarsRover(3, 3, "(2,2)");
 
 	}
 

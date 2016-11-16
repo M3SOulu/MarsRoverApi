@@ -91,3 +91,12 @@ RefactoringAction 1479310037115 Rover.java RENAME getX=>int getXRover() METHOD
 RefactoringAction 1479310051145 Rover.java ADD int getYRover FIELD
 RefactoringAction 1479310053158 Rover.java RENAME getYRover=>int getYRover() METHOD
 EditAction 1479310059943 Rover.java 480 5 8 0
+CompilationAction 1479310060204 MarsRover.java
+CompilationAction 1479310060204 MarsRover.java
+CompilationAction 1479310306453 MarsRover.java
+CompilationAction 1479310306454 MarsRover.java
+CompilationAction 1479310306619 MarsRover.java
+CompilationAction 1479310306620 MarsRover.java
+CompilationAction 1479310378154 MarsRover.java
+CompilationAction 1479310378155 MarsRover.java
+EditAction 1479310444517 MarsRover.java 2489 3 12 0
