@@ -293,3 +293,8 @@ RefactoringAction 1479310725807 Utils.java RENAME cycleDirectionLeft(String, int
 EditAction 1479310746398 Utils.java 2179 7 22 0
 EditAction 1479310839162 MarsRover.java 2975 3 12 0
 EditAction 1479310882169 MarsRover.java 3073 3 12 0
+FileOpenedAction 1479310891418 MarsRoverException.java 155 0 0 0
+RefactoringAction 1479310907938 MarsRoverException.java ADD MarsRoverException() METHOD
+RefactoringAction 1479310914443 MarsRoverException.java ADD MarsRoverException()/2 METHOD
+RefactoringAction 1479310918962 MarsRoverException.java RENAME MarsRoverException()/2=>MarsRoverException(String) METHOD
+EditAction 1479310923800 MarsRoverException.java 243 2 2 0
