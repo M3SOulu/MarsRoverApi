@@ -52,3 +52,16 @@ EditAction 1479308898527 Obstacle.java 283 2 4 0
 CompilationAction 1479308898782 MarsRover.java
 CompilationAction 1479308946143 MarsRover.java
 EditAction 1479308967054 MarsRover.java 1993 3 8 0
+RefactoringAction 1479309107452 Rover.java ADD Rover.java CLASS
+FileOpenedAction 1479309107640 Rover.java 61 0 0 0
+RefactoringAction 1479309117265 MarsRover.java REMOVE xRover FIELD
+RefactoringAction 1479309117266 MarsRover.java REMOVE yRover FIELD
+RefactoringAction 1479309117266 MarsRover.java REMOVE facing FIELD
+RefactoringAction 1479309120639 Rover.java ADD int xRover FIELD
+RefactoringAction 1479309120640 Rover.java ADD int yRover FIELD
+RefactoringAction 1479309120640 Rover.java ADD char facing FIELD
+RefactoringAction 1479309137707 Rover.java ADD Rover() METHOD
+RefactoringAction 1479309195002 Rover.java RENAME Rover()=>Rover(int) METHOD
+RefactoringAction 1479309198013 Rover.java RENAME Rover(int)=>Rover(int, int) METHOD
+RefactoringAction 1479309200521 Rover.java RENAME Rover(int, int)=>Rover(int, int, char) METHOD
+EditAction 1479309202683 Rover.java 255 1 3 0
