@@ -155,13 +155,5 @@ public class MarsRover {
 		rover.setFacing(facing);
 	}
 
-	public static void main(String[] args) throws MarsRoverException{
-
-		MarsRover rover = new MarsRover(3, 3, "(0,2)");
-		String test = rover.executeCommand("ff");
-		System.out.println(test);
-		// Object array[][] = new Object[3][4];
-		// System.out.println(array[0].length);
-	}
 
 }
