@@ -8,8 +8,22 @@ public class MarsRover {
 	private int x;
 	private int y;
 	private String obstacles;
+	private char facing;
 	
-	public ArrayList<Integer> extractingNumbers () {
+	public ArrayList<Integer> extractingNumbers (String obstacles) {
+		
+		ArrayList<Integer> num = new ArrayList<Integer>();
+		Pattern p = Pattern.compile(obstacles);
+		Matcher m = p.matcher(obstacles);
+		
+		while(m.find()){
+			num.add(Integer.parseInt(m.group()));
+		}
+		
+		if(num.size()<=0){
+			num.add(-1);
+		}
+		return num;
 		
 		
 	}
@@ -27,28 +41,28 @@ public class MarsRover {
 		
 		int mappa[][];
 		mappa= new int[this.x][this.y];
+		ArrayList<Integer> numbers;
+		numbers=extractingNumbers(obstacles);
 		int i,j;
-		int num[];
-		num = new int[10];
-		for (i=0;i<9;i++){
-			num[i]=i;
-		}
-		for (i=0;i<this.obstacles.length();i++){
-			char lettera = this.obstacles.ch;
-			if(lettera==num){
 				
-			}
-		}
+
 		for (i=0;i<x;i++){
 			for (j=0;j<x;j++){
 			mappa[i][j]=0;
 			}
 		}
+		int size;
+		size=numbers.size();
 		
+		for(i=0;i<size;i+=2){
+			mappa[i][i+1]=1;
+		}
 		
 	}
 	
 	public String executeCommand(String command){
+		
+		char face=this.facing;
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -59,8 +73,90 @@ public class MarsRover {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		int i;
+		int len;
+		len=command.length();
+		face='N';
+		int maps[][];
+		maps= new int[this.x][this.y];
+		int [] pos={0,0};
+		for(i=0;i<len;i++){
+			char letter=command.charAt(i);
+			if(i==0){
+				if((letter=='b')||(letter=='l')){
+					pos[0]=0;
+					pos[1]=0;
+				break;
+				}
+			}
+			if(face=='N'){
+				if(letter=='f'){
+					pos[1]=pos[1]+1;
+				}
+				if(letter=='b'){
+					pos[1]=pos[1]-1;
+					face='S';
+				}
+				if(letter=='l'){
+					face='O';
+				}
+				if(letter=='r'){
+					face='E';
+				}
+			}
+			if(face=='S'){
+				if(letter=='f'){
+					pos[1]=pos[1]-1;
+				}
+				if(letter=='b'){
+					pos[1]=pos[1]+1;
+					face='N';
+				}
+				if(letter=='l'){
+					face='E';
+				}
+				if(letter=='r'){
+					face='O';
+				}
+			}
+			if(face=='E'){
+				if(letter=='f'){
+					pos[0]=pos[0]+1;
+				}
+				if(letter=='b'){
+					pos[0]=pos[0]-1;
+					face='O';
+				}
+				if(letter=='l'){
+					face='N';
+				}
+				if(letter=='r'){
+					face='S';
+				}
+			}
+			if(face=='O'){
+				if(letter=='f'){
+					pos[0]=pos[0]-1;
+				}
+				if(letter=='b'){
+					pos[0]=pos[0]+1;
+					face='E';
+				}
+				if(letter=='l'){
+					face='S';
+				}
+				if(letter=='r'){
+					face='N';
+				}
+			}
+			
+		}
 		
-		
-		return null;
+		String position;
+		String posx,posy;
+		posx=String.valueOf(pos[0]).toString();
+		posy=String.valueOf(pos[1]).toString();
+		position='('+posx+','+posy+','+face+')';
+		return position;
 	}
 }

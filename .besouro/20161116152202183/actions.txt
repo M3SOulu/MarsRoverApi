@@ -44,3 +44,14 @@ RefactoringAction 1479311494473 MarsRover.java RENAME extractingNumbers(String)=
 RefactoringAction 1479311497495 MarsRover.java RENAME extractingNumbers()=>ArrayList<Integer> extractingNumbers(String) METHOD
 RefactoringAction 1479311503509 MarsRover.java RENAME extractingNumbers(String)=>ArrayList<Integer> extractingNumbers() METHOD
 EditAction 1479311569388 MarsRover.java 1655 3 12 0
+CompilationAction 1479311569600 MarsRover.java
+CompilationAction 1479311569601 MarsRover.java
+CompilationAction 1479311569601 MarsRover.java
+RefactoringAction 1479311584743 MarsRover.java RENAME extractingNumbers()=>ArrayList<Integer> extractingNumbers(String) METHOD
+RefactoringAction 1479311632422 MarsRover.java RENAME extractingNumbers(String)=>ArrayList<Integer> extractingNumbers() METHOD
+RefactoringAction 1479311637953 MarsRover.java RENAME extractingNumbers()=>ArrayList<Integer> extractingNumbers(String) METHOD
+RefactoringAction 1479314107831 MarsRover.java ADD String facing FIELD
+RefactoringAction 1479314176990 MarsRover.java REMOVE facing FIELD
+RefactoringAction 1479314181514 MarsRover.java ADD Char facing FIELD
+CompilationAction 1479315608570 MarsRover.java
+EditAction 1479316248612 MarsRover.java 3291 3 33 0
