@@ -22,7 +22,7 @@ public class MarsRover {
 				throw new MarsRoverException();
 			}
 			System.out.println("ok-3");
-			String _obstacles = obstacles.replace("\\(", "");
+			String _obstacles = obstacles.replace("(", "");
 			System.out.println("ok-2" + _obstacles);
 			String[] values = _obstacles.split("\\)");
 			System.out.println("ok-1");
