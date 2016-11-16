@@ -495,3 +495,8 @@ UnitTestSessionAction 1479316874341 MarsRoverTest FAIL
 RefactoringAction 1479316893688 MarsRoverException.java RENAME MarsRoverException()=>MarsRoverException(String) METHOD
 EditAction 1479316896101 MarsRoverException.java 211 1 0 0
 EditAction 1479316910885 MarsRoverException.java 241 1 1 0
+UnitTestCaseAction 1479316915690 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316915690 MarsRoverTest FAIL
+UnitTestCaseAction 1479316937054 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316937055 MarsRoverTest FAIL
+EditAction 1479316943202 MarsRoverTest.java 545 1 1 1
