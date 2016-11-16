@@ -82,6 +82,34 @@ public class MarsRover {
 				}else if(this.getRealDirection() == "W"){
 					coordX += 1;
 				}
+			}else if(command.charAt(i) == 'r'){
+				if((direction > 3)){
+					direction = direction - 3;
+				}else{
+					if(this.getRealDirection() == "N"){
+						direction += 1;
+					}else if(this.getRealDirection() == "E"){
+						direction += 1;
+					}else if(this.getRealDirection() == "S"){
+						direction += 1;
+					}else if(this.getRealDirection() == "W"){
+						direction += 1;
+					}
+				}
+			}else if(command.charAt(i) == 'l'){
+				if((direction < 0)){
+					direction = direction + 3;
+				}else{
+					if(this.getRealDirection() == "N"){
+						direction += -1;
+					}else if(this.getRealDirection() == "E"){
+						direction += -1;
+					}else if(this.getRealDirection() == "S"){
+						direction += -1;
+					}else if(this.getRealDirection() == "W"){
+						direction += -1;
+					}
+				}
 			}
 		}
 		
