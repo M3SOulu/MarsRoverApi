@@ -10,19 +10,20 @@ public class Navigation {
 	public Navigation(int x, int y, String obstacles){
 		this.x = x;
 		this.y = y;
-		this.obstacles = new ArrayList<String>();
+		this.obstacles = new ArrayList<Obstacle>();
 		generaOstacoli(obstacles);
 	}
 
 	static void generaOstacoli(String ob){
-		String currentObstacle = "";
+		String currentXObstacle = "";
+		String currentYObstacle = "";
 		
 		for (int i = 0; i < ob.length() ; i++){
 			
 			if(ob.charAt(i) != '?' && ob.charAt(i) != '('){
 				
 				if(ob.charAt(i) == ')' && ob.charAt(i) != ','){
-					obstacles.add(currentObstacle);					
+					obstacles.add(new Obstacle(Integer.parseInt(currentXObstacle),Integer.parseInt(currentYObstacle));					
 					currentObstacle = "";
 				}
 				else{
