@@ -95,3 +95,10 @@ CompilationAction 1479308570735 MarsRover.java
 RefactoringAction 1479309108549 Obstacle.java ADD Obstacle() METHOD
 RefactoringAction 1479309114060 Obstacle.java RENAME Obstacle()=>Obstacle(String) METHOD
 EditAction 1479309153180 Obstacle.java 833 8 10 0
+CompilationAction 1479309153444 Obstacle.java
+CompilationAction 1479309175795 Obstacle.java
+CompilationAction 1479309175952 Obstacle.java
+CompilationAction 1479309181170 Obstacle.java
+CompilationAction 1479309181332 Obstacle.java
+CompilationAction 1479309186562 Obstacle.java
+EditAction 1479309248754 Obstacle.java 914 8 13 0
