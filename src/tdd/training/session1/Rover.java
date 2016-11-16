@@ -30,7 +30,6 @@ public class Rover {
 	@Override
 	public String toString(){
 		return "("+xRover+","+yRover+","+facing+")";
-		
 	}
 	
 }
