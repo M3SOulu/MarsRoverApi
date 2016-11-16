@@ -259,3 +259,6 @@ RefactoringAction 1479309659015 Utils.java RENAME getByValue(int)=>Direction get
 EditAction 1479309808594 Utils.java 1550 8 15 0
 EditAction 1479309855295 Utils.java 1557 8 15 0
 EditAction 1479310029121 MarsRover.java 2614 3 11 0
+RefactoringAction 1479310037084 Position.java ADD void moveForward() METHOD
+RefactoringAction 1479310042591 Position.java RENAME moveForward()=>void moveForward(String) METHOD
+EditAction 1479310158003 Position.java 415 3 7 0
