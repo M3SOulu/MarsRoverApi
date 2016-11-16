@@ -44,3 +44,6 @@ EditAction 1479307833946 Obstacle.java 931 8 13 0
 CompilationAction 1479307834071 Obstacle.java
 CompilationAction 1479307839949 Obstacle.java
 EditAction 1479307839968 MarsRoverTest.java 193 1 1 0
+RefactoringAction 1479307863903 MarsRoverTest.java RENAME Obstacle()=>void ObstacleTest() METHOD
+RefactoringAction 1479307908624 MarsRoverTest.java ADD import tdd.training.session1.Obstacle IMPORT
+EditAction 1479307909788 MarsRoverTest.java 241 1 1 0
