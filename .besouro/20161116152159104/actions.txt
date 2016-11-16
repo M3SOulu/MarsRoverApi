@@ -24,3 +24,4 @@ RefactoringAction 1479307494965 MarsRover.java REMOVE actualPositionX FIELD
 RefactoringAction 1479307494965 MarsRover.java REMOVE actualPositionY FIELD
 RefactoringAction 1479307510501 MarsRover.java ADD Navigation nav FIELD
 EditAction 1479307565191 MarsRover.java 1156 2 2 0
+EditAction 1479307597534 MarsRover.java 1200 2 2 0

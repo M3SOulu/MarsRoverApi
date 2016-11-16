@@ -1,7 +1,7 @@
 package tdd.training.session1;
 
 public class MarsRover {
-	private Navigation nav;
+	private Navigation nav;		//navigazione
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -10,7 +10,7 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		nav = new Navigation(x,y,obstacles);
+		nav = new Navigation(x,y,obstacles);	//creo una nuova navigazione
 	}
 	
 	public String executeCommand(String command){
