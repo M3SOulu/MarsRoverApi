@@ -39,6 +39,8 @@ public class MarsRover {
 		temp[1].replace('(', ' ');
 		temp[1] = temp[1].trim();
 		String locationTemp[] = temp[1].split(",");
+		obstacles.replaceAll(")", " ");
+		String coordinate[] = obstacles.split("\\s+");
 		
 		planet[Integer.parseInt(locationTemp[1])][Integer.parseInt(locationTemp[2])] = false;
 		

@@ -14,3 +14,5 @@ RefactoringAction 1479308031882 MarsRover.java ADD import javax.management.monit
 RefactoringAction 1479308681775 MarsRover.java RENAME positionObstacles(String)=>void positionObstacles(String, Boolean METHOD
 EditAction 1479309724532 MarsRover.java 1569 3 8 0
 EditAction 1479309727359 MarsRoverTest.java 156 1 0 0
+RefactoringAction 1479310114794 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+EditAction 1479310129734 MarsRoverTest.java 249 1 1 0
