@@ -33,3 +33,7 @@ EditAction 1479306798702 MarsRover.java 1825 10 11 0
 RefactoringAction 1479306916757 MarsRover.java REMOVE direction FIELD
 RefactoringAction 1479306918286 MarsRover.java ADD int direction FIELD
 EditAction 1479306954327 MarsRover.java 1825 10 11 0
+RefactoringAction 1479306964395 MarsRover.java ADD List<String> position/2 FIELD
+RefactoringAction 1479306969409 MarsRover.java RENAME position/2=>List<String> cardinaposition FIELD
+RefactoringAction 1479306971442 MarsRover.java RENAME cardinaposition=>List<String> cardinalPosition FIELD
+EditAction 1479306986095 MarsRover.java 1911 10 11 0

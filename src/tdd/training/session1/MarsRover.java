@@ -7,6 +7,7 @@ import java.util.List;
 public class MarsRover {
 	
 	private static final List<String> position = Arrays.asList("f","b","r","l");
+	private static final List<String> cardinalPosition = Arrays.asList("N","S","E","W");
 	private int coordX;
 	private int coordY;
 	private int direction;
