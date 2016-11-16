@@ -1,0 +1,2 @@
+FileOpenedAction 1479308012432 MarsRover.java 1090 5 12 0
+FileOpenedAction 1479308866958 MarsRoverException.java 155 0 0 0

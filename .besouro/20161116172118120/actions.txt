@@ -1,0 +1,2 @@
+FileOpenedAction 1479313278184 MarsRoverTest.java 376 1 5 0
+FileOpenedAction 1479315076942 Car.java 59 0 0 0
