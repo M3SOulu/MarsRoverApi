@@ -7,3 +7,4 @@ EditAction 1479306332555 MarsRover.java 1296 3 4 0
 RefactoringAction 1479306541147 MarsRover.java ADD int xSize FIELD
 RefactoringAction 1479306547694 MarsRover.java ADD int ySize FIELD
 EditAction 1479306812224 MarsRoverTest.java 188 1 1 0
+EditAction 1479306812333 MarsRover.java 1367 3 6 0

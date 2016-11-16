@@ -2,6 +2,9 @@ package tdd.training.session1;
 
 public class MarsRover {
 	private String commandPattern = "[lrfb]+";
+	private int xSize;
+	private int ySize;
+	
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -10,6 +13,9 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		xSize = x;
+		ySize = y;
+		
 	}
 	
 	public String executeCommand(String command){
