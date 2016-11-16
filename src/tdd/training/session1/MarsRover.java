@@ -157,7 +157,7 @@ public class MarsRover {
 
 	public static void main(String[] args) throws MarsRoverException{
 
-		MarsRover rover = new MarsRover(3, 3, "(2,2)");
+		MarsRover rover = new MarsRover(3, 3, "(0,2)");
 		String test = rover.executeCommand("ff");
 		System.out.println(test);
 		// Object array[][] = new Object[3][4];
