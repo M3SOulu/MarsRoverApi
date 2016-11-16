@@ -23,8 +23,8 @@ public class MarsRover {
 		return position; 
 	}
 	
-	public String Test (int x, int y, String command) {
-		
+	public String Test (String command) {
+		Test prova = new executeCommand(command);
 		String position = Integer.toString(posX) + Integer.toString(posY) + facing;
 		return position;
 	}

@@ -4,11 +4,17 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class MarsRoverTest {
-
+public class MarsRoverTest {	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
+	public void test1() {
+		//Arrange
+		MarsRover test = new MarsRover();
+
+		//Act
+		String score = test.Test();
+		
+		//Assert
+		assertEquals("love" + "love", score);
+}
 
 }

@@ -40,3 +40,21 @@ RefactoringAction 1479311968157 MarsRover.java RENAME Test()=>String Test(int) M
 RefactoringAction 1479311971203 MarsRover.java RENAME Test(int)=>String Test(int, int) METHOD
 RefactoringAction 1479311977253 MarsRover.java RENAME Test(int, int)=>String Test(int, int, String) METHOD
 EditAction 1479312179058 MarsRover.java 2383 4 7 0
+RefactoringAction 1479312201135 MarsRover.java RENAME Test(int, int, String)=>String Test(String) METHOD
+RefactoringAction 1479312308213 MarsRoverTest.java ADD void test1() METHOD
+RefactoringAction 1479312317225 MarsRoverTest.java REMOVE test() METHOD
+RefactoringAction 1479312363900 MarsRoverTest.java ADD import org.ju IMPORT
+RefactoringAction 1479312365413 MarsRoverTest.java RENAME import org.ju=>import org.junit.* IMPORT
+RefactoringAction 1479312366923 MarsRoverTest.java RENAME import org.junit.*=>import org.junit IMPORT
+RefactoringAction 1479312367935 MarsRoverTest.java REMOVE import org.junit IMPORT
+RefactoringAction 1479312381455 MarsRoverTest.java ADD import org.junit.t IMPORT
+RefactoringAction 1479312382965 MarsRoverTest.java REMOVE import org.junit.t IMPORT
+RefactoringAction 1479312384484 MarsRoverTest.java ADD import org.junit.t IMPORT
+RefactoringAction 1479312387010 MarsRoverTest.java RENAME import org.junit.t=>import org.junit.td IMPORT
+RefactoringAction 1479312390021 MarsRoverTest.java REMOVE import org.junit.td IMPORT
+RefactoringAction 1479312435550 MarsRoverTest.java ADD import org.junit.tdd IMPORT
+RefactoringAction 1479312442055 MarsRoverTest.java RENAME import org.junit.tdd=>import org.junit.tdd.training.test IMPORT
+RefactoringAction 1479312443565 MarsRoverTest.java RENAME import org.junit.tdd.training.test=>import org.junit.tdd.training.tests IMPORT
+RefactoringAction 1479312455083 MarsRoverTest.java REMOVE import org.junit.tdd.training.tests IMPORT
+RefactoringAction 1479312665113 MarsRover.java ADD import java.util.Arrays IMPORT
+EditAction 1479312666129 MarsRoverTest.java 294 1 3 1
