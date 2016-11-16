@@ -85,3 +85,6 @@ EditAction 1479310419228 NavigationTest.java 514 1 2 2
 UnitTestCaseAction 1479310421374 NavigationTest.java FAIL
 UnitTestSessionAction 1479310421380 NavigationTest FAIL
 EditAction 1479310429027 NavigationTest.java 514 1 2 2
+UnitTestCaseAction 1479310430742 NavigationTest.java FAIL
+UnitTestSessionAction 1479310430742 NavigationTest FAIL
+EditAction 1479310440778 NavigationTest.java 514 1 2 2
