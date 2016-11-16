@@ -1,1 +1,4 @@
 FileOpenedAction 1479308920430 MarsRover.java 1090 5 12 0
+FileOpenedAction 1479311713613 Point.java 61 0 0 0
+FileOpenedAction 1479311776672 Obstacle.java 64 0 0 0
+FileOpenedAction 1479311901944 Cooredinates.java 68 0 0 0
