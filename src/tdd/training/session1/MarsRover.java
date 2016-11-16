@@ -40,7 +40,7 @@ public class MarsRover {
 		
 		
 		char[] temp = obstacles.toCharArray();
-		for(int i=0; i<temp.length; i++){
+		for(int i=1; i<temp.length; i++){
 		System.out.println(temp[i+1]);
 		System.out.println(temp[i+2]);
 		}
