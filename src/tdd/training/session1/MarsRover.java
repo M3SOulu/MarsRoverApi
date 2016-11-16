@@ -5,6 +5,9 @@ public class MarsRover {
 	private String obstaclesPattern = "([(]{1}[0-9]+[,]{1}[0-9]+[)]{1})+";
 	private int xSize;
 	private int ySize;
+	private int xPos = 0;
+	private int yPos = 0;
+	private Direction direction;
 	private int[][] planet;
 	
 	public MarsRover(int x, int y, String obstacles) throws MarsRoverException{
@@ -21,6 +24,8 @@ public class MarsRover {
 		ySize = y;
 		
 		planet = new int[x][y];	
+		
+		direction = Direction.NORTH;
 
 	}
 	
@@ -65,10 +70,7 @@ public class MarsRover {
 		 */
 		
 		if(verifyCommand(commands)) throw new MarsRoverException();
-		
-		Direction direction = Direction.NORTH;
-		int xPos = 0;
-		int yPos = 0;
+
 		char command;
 		
 		for(int i=0; i<commands.length(); i++){
@@ -91,7 +93,12 @@ public class MarsRover {
 		return null;
 	}
 	
-	public Direction moveLeft(Direction direction){
+	public void moveForward(){
+		
+	}
+	
+	
+	public static Direction moveLeft(Direction direction){
 		Direction newDirection = null;
 		
 		switch(direction.getValue()){
@@ -111,7 +118,7 @@ public class MarsRover {
 		return newDirection;
 	}
 	
-	public Direction moveRight(Direction direction){
+	public static Direction moveRight(Direction direction){
 		Direction newDirection = null;
 		
 		switch(direction.getValue()){
