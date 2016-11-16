@@ -174,3 +174,10 @@ RefactoringAction 1479311486422 Direction.java RENAME to=>String toString FIELD
 RefactoringAction 1479311493947 Direction.java REMOVE toString FIELD
 RefactoringAction 1479311507452 Direction.java ADD char getValue() METHOD
 EditAction 1479311516141 MarsRover.java 3404 8 26 0
+CompilationAction 1479311516447 MarsRover.java
+CompilationAction 1479311516448 MarsRover.java
+CompilationAction 1479311516448 MarsRover.java
+CompilationAction 1479311546786 MarsRover.java
+CompilationAction 1479311546787 MarsRover.java
+CompilationAction 1479311546787 MarsRover.java
+EditAction 1479311618208 MarsRover.java 3440 8 23 0
