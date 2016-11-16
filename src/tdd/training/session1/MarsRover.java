@@ -25,6 +25,7 @@ public class MarsRover {
 			for (String value : values){
 				String xPos = value.split(",")[0];
 				String yPos = value.split(",")[1];
+				System.out.println("ok0");
 				if (!Utils.isInteger(xPos) || !Utils.isInteger(yPos)){
 					throw new MarsRoverException();
 				}
