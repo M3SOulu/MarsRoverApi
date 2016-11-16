@@ -10,7 +10,10 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		nav = new Navigation(x,y,obstacles);	//creo una nuova navigazione
+		if(obstacles == "")			
+			nav = new Navigation(x,y); //creo una nuova navigazione senza ostacoli
+		else
+			nav = new Navigation(x,y,obstacles); //creo una nuova navigazione con ostacoli
 	}
 	
 	public String executeCommand(String command){

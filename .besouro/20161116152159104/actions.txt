@@ -349,3 +349,14 @@ CompilationAction 1479313864107 Navigation.java
 CompilationAction 1479313864276 Navigation.java
 CompilationAction 1479313907849 Navigation.java
 EditAction 1479313917061 Navigation.java 990 3 8 0
+CompilationAction 1479313937588 Navigation.java
+CompilationAction 1479313950276 Navigation.java
+CompilationAction 1479313950434 Navigation.java
+CompilationAction 1479313979251 Navigation.java
+CompilationAction 1479313979410 Navigation.java
+CompilationAction 1479313998080 Navigation.java
+CompilationAction 1479313998240 Navigation.java
+CompilationAction 1479314064522 Navigation.java
+UnitTestCaseAction 1479314065992 NavigationTest.java FAIL
+UnitTestSessionAction 1479314065992 NavigationTest FAIL
+EditAction 1479314232160 MarsRover.java 1320 2 2 0
