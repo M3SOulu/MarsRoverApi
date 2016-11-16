@@ -47,7 +47,7 @@ public class MarsRover {
 
 	}
 
-	public String executeCommand(String command) {
+	public String executeCommand(String command) throws MarsRoverException {
 
 		/*
 		 * The command string is composed of "f" (forward), "b" (backward), "l"
@@ -130,6 +130,18 @@ public class MarsRover {
 
 				}
 
+			}
+			//TODO MUOVI INDIETRO RISPETTO ALLA POSIZIONE DEL ROVER
+			else if (actualCommand == 'b') {
+				
+			}
+			//TODO MUOVI A SINISTRA RISPETTO ALLA POSIZIONE DEL ROVER
+			else if (actualCommand == 'l') {
+				
+			}
+			//TODO MUOVI A DESTRA RISPERTTO ALLA POSIZIONE DEL ROVER
+			if (actualCommand == 'r') {
+				
 			}
 			System.out.println(rover.getXRover() + " " + rover.getYRover());
 			i++;
