@@ -128,3 +128,8 @@ RefactoringAction 1479315303400 MarsRoverTest.java ADD import org.junit.Test IMP
 RefactoringAction 1479315310905 MarsRoverTest.java REMOVE import tdd.training.session1.* IMPORT
 RefactoringAction 1479315317429 MarsRoverTest.java ADD import tdd.training.session1.* IMPORT
 EditAction 1479315364678 MarsRover.java 2200 3 5 0
+CompilationAction 1479315364782 MarsRoverTest.java
+CompilationAction 1479315364783 MarsRoverTest.java
+CompilationAction 1479315364960 MarsRoverTest.java
+RefactoringAction 1479315409801 MarsRover.java RENAME Test(String)=>String Test() METHOD
+EditAction 1479315410722 MarsRover.java 2186 3 5 0

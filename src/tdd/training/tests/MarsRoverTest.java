@@ -11,7 +11,7 @@ public class MarsRoverTest {
 	public void test1() {
 
 		//Arrange
-		MarsRover mars = new MarsRover();
+		MarsRover mars;
 		mars.executeCommand("ffrf");
 
 		//Act
