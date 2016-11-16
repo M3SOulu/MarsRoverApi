@@ -17,7 +17,7 @@ public class MarsRover {
 		 */
 
 		// Crea il pianeta
-		planet = new Object[x][y];
+		planet = new Object[x+1][y+1];
 		// Rimuovi dalla stringa tutti i caratteri che non sono numeri
 		obstacles = obstacles.replaceAll("\\D+", "");
 		// System.out.println(obstacles);
@@ -96,7 +96,7 @@ public class MarsRover {
 
 	public static void main(String[] args) {
 
-		MarsRover rover = new MarsRover(3, 3, "(2,2)");
+		MarsRover rover = new MarsRover(3, 3, "(3,3)");
 		String test = rover.executeCommand("f");
 		System.out.println(test);
 		//Object array[][] = new Object[3][4];
