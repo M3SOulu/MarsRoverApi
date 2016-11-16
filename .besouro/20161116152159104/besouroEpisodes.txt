@@ -90,3 +90,8 @@
 1479310951645 test-first 3 532 true
 1479310951646 test-first 3 532 true
 1479310951647 test-first 3 532 true
+1479311231184 test-last 1 272 false
+1479311231185 test-last 1 272 false
+1479311231186 test-last 1 272 false
+1479311233936 regression 1 0 true
+1479311237445 regression 1 0 true

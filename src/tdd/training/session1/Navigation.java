@@ -17,10 +17,11 @@ public class Navigation {
 		String currentObstacle = "";
 		
 		for (int i = 0; i < ob.length() ; i++){
+			System.out.println("Ciao");
 			if(ob.charAt(i) != '?' && ob.charAt(i) != '(' && ob.charAt(i) != ',')
 				if(ob.charAt(i) == ')'){
 					obstacles.add(currentObstacle);
-					System.out.println("Ciao");
+					
 					currentObstacle = "";
 				}
 				else
