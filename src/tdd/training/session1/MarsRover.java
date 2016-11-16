@@ -22,15 +22,16 @@ public class MarsRover {
 		while(i<obstacles.length()){
 			
 			int xOb=Character.getNumericValue(obstacles.charAt(i));
-			int yOb=Character.getNumericValue(obstacles.charAt(i++));
+			i++;
+			int yOb=Character.getNumericValue(obstacles.charAt(i));
 			
 			Obstacle obstacle = new Obstacle (xOb,yOb);
 			planet[xOb][yOb]= obstacle;
 			System.out.println(xOb+" "+yOb);
-			i+=2;
+			i++;
 		}
 		
-		System.out.println(planet[1][1]);
+		System.out.println(planet[2][1]);
 		
 	}
 	
