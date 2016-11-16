@@ -64,3 +64,11 @@ CompilationAction 1479307535960 MarsRover.java
 RefactoringAction 1479307543854 Utils.java ADD static boolean isInteger(String) METHOD
 EditAction 1479307545238 Utils.java 919 5 10 0
 EditAction 1479307621615 MarsRover.java 2129 2 6 0
+RefactoringAction 1479307659682 MarsRoverTest.java ADD void setUp() METHOD
+RefactoringAction 1479307663534 MarsRoverTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479307691704 MarsRoverTest.java ADD import tdd.tra IMPORT
+RefactoringAction 1479307692708 MarsRoverTest.java RENAME import tdd.tra=>import tdd.training.session1.* IMPORT
+RefactoringAction 1479307730229 MarsRoverTest.java REMOVE setUp() METHOD
+RefactoringAction 1479307733241 MarsRoverTest.java REMOVE import org.junit.Before IMPORT
+RefactoringAction 1479307743249 MarsRoverTest.java RENAME test()=>void testMarsRoverClassCreation() METHOD
+EditAction 1479307840996 MarsRoverTest.java 423 1 1 0
