@@ -60,3 +60,17 @@ CompilationAction 1479309098132 Obstacle.java
 RefactoringAction 1479309100732 Obstacle.java ADD Obstacle() METHOD
 EditAction 1479309107684 Obstacle.java 143 1 0 0
 EditAction 1479309124755 Obstacle.java 169 1 2 0
+RefactoringAction 1479309177819 Obstacle.java ADD int getCoordX() METHOD
+RefactoringAction 1479309177819 Obstacle.java ADD void setCoordX(int) METHOD
+RefactoringAction 1479309177820 Obstacle.java ADD int getCoordY() METHOD
+RefactoringAction 1479309177820 Obstacle.java ADD void setCoordY(int) METHOD
+RefactoringAction 1479309189855 Obstacle.java ADD Obstacle()/2 METHOD
+RefactoringAction 1479309191360 Obstacle.java RENAME Obstacle()/2=>Obstacle(int) METHOD
+RefactoringAction 1479309193870 Obstacle.java RENAME Obstacle(int)=>Obstacle(int, int) METHOD
+RefactoringAction 1479309212392 Obstacle.java RENAME Obstacle(int, int)=>Obstacle(String, int) METHOD
+RefactoringAction 1479309215404 Obstacle.java RENAME Obstacle(String, int)=>Obstacle(String, String) METHOD
+RefactoringAction 1479309234436 Obstacle.java REMOVE Obstacle(String, String) METHOD
+RefactoringAction 1479309240952 Obstacle.java RENAME setCoordX(int)=>void setCoordX(String) METHOD
+RefactoringAction 1479309270516 Obstacle.java RENAME setCoordY(int)=>void setCoordY(Stringf) METHOD
+RefactoringAction 1479309272037 Obstacle.java RENAME setCoordY(Stringf)=>void setCoordY(String) METHOD
+EditAction 1479309298318 Obstacle.java 485 5 8 0
