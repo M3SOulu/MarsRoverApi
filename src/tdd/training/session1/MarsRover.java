@@ -69,10 +69,10 @@ public class MarsRover {
 		if(verifyCommand(commands)) throw new MarsRoverException();
 
 		char command;
-		
+		System.out.println(commands.length());
 		for(int i=0; i<commands.length(); i++){
 			command = commands.charAt(i);
-			System.out.println(command);
+			
 			switch(command){
 			case 'l':
 				moveLeft();
