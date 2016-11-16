@@ -192,6 +192,7 @@ public class MarsRover {
 	public void setY(int y) {
 		this.y = y;
 	}
+	
 ///////////////////////////////////////////
 	/**
 	 * change the face given the right command

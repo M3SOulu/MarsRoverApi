@@ -87,6 +87,10 @@ public class MarsRoverTest {
 	@Test
 	public void  testMove(){
 		
+		rover.setFace('N');
+		rover.move('f');
+		
+		Assert.assertEquals(rover.ge);
 		
 	}
 

@@ -380,3 +380,5 @@ RefactoringAction 1479316887090 MarsRover.java ADD void setX(int) METHOD
 RefactoringAction 1479316887090 MarsRover.java ADD int getY() METHOD
 RefactoringAction 1479316887096 MarsRover.java ADD void setY(int) METHOD
 EditAction 1479316889565 MarsRover.java 4634 14 32 0
+CompilationAction 1479316889872 MarsRoverTest.java
+EditAction 1479316894233 MarsRover.java 4636 14 32 0
