@@ -19,7 +19,7 @@ public class MarsRover {
 			obstacles = obs_y;
 		}
 	}
-	MarsRover rover = new MarsRover(x,x,"(obs_x,obs_y)");
+	MarsRover rover = new MarsRover(x,y,"(obs_x,obs_y)");
 	
 	
 }

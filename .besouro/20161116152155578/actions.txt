@@ -67,3 +67,4 @@ CompilationAction 1479309057391 MarsRover.java
 RefactoringAction 1479309521996 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
 RefactoringAction 1479309583512 MarsRover.java REMOVE GRID FIELD
 EditAction 1479309596221 MarsRoverTest.java 251 1 1 0
+EditAction 1479309601180 MarsRover.java 1309 2 5 0
