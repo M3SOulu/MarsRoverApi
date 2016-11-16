@@ -9,7 +9,6 @@ import org.junit.Test;
 
 import junit.framework.Assert;
 import tdd.training.session1.MarsRover;
-import tdd.training.session1.MarsRoverException;
 import tdd.training.session1.Obstacle;
 
 public class MarsRoverTest {
@@ -70,8 +69,8 @@ public class MarsRoverTest {
 		Assert.assertFalse(rover.isValidCommand(cmd));
 	}
 	
-	@Test(expected=MarsRoverException.class)
-	public void TestChangeFace() throws MarsRoverException{
+	@Test
+	public void TestChangeFace(){
 		
 		rover.changeFace('r');
 		
@@ -82,8 +81,6 @@ public class MarsRoverTest {
 		rover.changeFace('r');
 		
 		Assert.assertEquals(rover.getFace(),'N');
-		
-		rover.changeFace('k');
 		
 	}
 

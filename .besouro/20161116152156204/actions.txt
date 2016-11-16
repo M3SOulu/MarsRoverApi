@@ -335,3 +335,7 @@ UnitTestSessionAction 1479315568812 MarsRoverTest.TestChangeFace OK
 UnitTestCaseAction 1479315615909 MarsRoverTest.java OK
 UnitTestSessionAction 1479315615910 MarsRoverTest OK
 EditAction 1479315696190 MarsRover.java 4131 9 25 0
+RefactoringAction 1479315716060 MarsRoverTest.java REMOVE import tdd.training.session1.MarsRoverException IMPORT
+RefactoringAction 1479315777643 MarsRover.java RENAME move(char)=>void readMo(char) METHOD
+RefactoringAction 1479315779660 MarsRover.java RENAME readMo(char)=>void readMovement(char) METHOD
+EditAction 1479315780925 MarsRover.java 4139 9 25 0
