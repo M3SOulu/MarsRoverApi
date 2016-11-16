@@ -265,3 +265,26 @@ RefactoringAction 1479313759908 MarsRover.java ADD void move(char) METHOD
 EditAction 1479313767058 MarsRover.java 3177 6 21 0
 EditAction 1479313797897 MarsRover.java 3212 6 21 0
 EditAction 1479313861503 MarsRover.java 3240 6 22 0
+CompilationAction 1479314360346 MarsRover.java
+CompilationAction 1479314360347 MarsRover.java
+RefactoringAction 1479314369616 MarsRover.java RENAME move(char)=>void move(String) METHOD
+CompilationAction 1479314370462 MarsRover.java
+CompilationAction 1479314370634 MarsRover.java
+CompilationAction 1479314370634 MarsRover.java
+RefactoringAction 1479314388173 MarsRover.java RENAME move(String)=>void move(char) METHOD
+CompilationAction 1479314389015 MarsRover.java
+CompilationAction 1479314389192 MarsRover.java
+CompilationAction 1479314389192 MarsRover.java
+CompilationAction 1479314399477 MarsRover.java
+CompilationAction 1479314399633 MarsRover.java
+RefactoringAction 1479314470414 MarsRover.java ADD String fa FIELD
+RefactoringAction 1479314471421 MarsRover.java RENAME fa=>String f FIELD
+RefactoringAction 1479314472428 MarsRover.java REMOVE f FIELD
+RefactoringAction 1479314475435 MarsRover.java ADD String fa FIELD
+RefactoringAction 1479314476941 MarsRover.java RENAME fa=>String faces FIELD
+CompilationAction 1479314507693 MarsRover.java
+RefactoringAction 1479314688250 MarsRover.java ADD void changeFace() METHOD
+RefactoringAction 1479314696762 MarsRover.java REMOVE changeFace() METHOD
+RefactoringAction 1479314700792 MarsRover.java ADD void changeFace() METHOD
+RefactoringAction 1479314707858 MarsRover.java RENAME changeFace()=>void changeFace(char) METHOD
+EditAction 1479314802492 MarsRover.java 3447 7 23 0

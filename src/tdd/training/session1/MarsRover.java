@@ -7,6 +7,7 @@ import java.util.regex.Pattern;
 
 public class MarsRover {
 	
+	private final static String faces="NESW";
 	
 	private int width;
 	private int height;
@@ -14,7 +15,7 @@ public class MarsRover {
 	private int x;
 	private int y;
 	
-	private char face;
+	private String face;
 	
 	private ArrayList<Obstacle> foundObs;
 	private ArrayList<Obstacle> gridObs;
@@ -41,7 +42,7 @@ public class MarsRover {
 		//E=east
 		//W=west
 		
-		this.face='N';
+		this.face="N";
 
 		
 	}
@@ -70,6 +71,8 @@ public class MarsRover {
 		
 		return result;
 	}
+	
+	
 	
 	/**
 	 * create some obstacles in the map
@@ -142,11 +145,33 @@ public class MarsRover {
 		
 		switch(mov){
 		
-		
+		case 'r':
+			 
+			
+			
 		}
 		
 		
 	}
+	
+	public void changeFace(char face){
+		
+		switch(face){
+		
+		case 'r':
+			break;
+		
+		case 'l':
+			break;
+			
+		}
+			
+			
+		
+		
+	}
+	
+	
 	
 	
 }
