@@ -26,6 +26,10 @@ public class MarsRoverTest {
 		String test = rover.executeCommand("ffff");
 		assertTrue(test.equals("(0,0,W)"));
 		
+		
+		rover.setRoverFacing('N');
+		String test = rover.executeCommand("ff");
+		assertTrue(test.equals("(0,0,W)"));
 	}
 
 }
