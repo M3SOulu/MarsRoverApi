@@ -14,15 +14,6 @@ package tdd.training.session1;
 		  this.y=y;
 				  
 	  }
-	  
-	  
-	  public Obstacle(String coords){
-		  
-		  coords=coords.replace("(", "");
-		  String[] xy=coords.split(",");
-		 this.x=Integer.parseInt(xy[0]);
-		 this.y=Integer.parseInt(xy[1]);
-	  }
 
 
 	  public int getX() {

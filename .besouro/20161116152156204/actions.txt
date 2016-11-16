@@ -62,3 +62,5 @@ UnitTestSessionAction 1479308141016 MarsRoverTest FAIL
 RefactoringAction 1479308169230 Obstacle.java REMOVE Obstacle(String) METHOD
 RefactoringAction 1479308174755 Obstacle.java ADD Obstacle(String) METHOD
 EditAction 1479308258789 Obstacle.java 941 8 14 0
+RefactoringAction 1479308272304 Obstacle.java REMOVE Obstacle(String) METHOD
+EditAction 1479308274984 Obstacle.java 738 7 10 0
