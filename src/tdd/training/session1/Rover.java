@@ -11,4 +11,9 @@ public class Rover {
 		this.yRover=yRover;
 		this.facing=facing;
 	}
+	
+	public void SetPosition(int x, int y){
+		xRover=x;
+		yRover=y;
+	}
 }

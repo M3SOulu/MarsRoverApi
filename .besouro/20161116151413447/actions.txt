@@ -65,3 +65,8 @@ RefactoringAction 1479309195002 Rover.java RENAME Rover()=>Rover(int) METHOD
 RefactoringAction 1479309198013 Rover.java RENAME Rover(int)=>Rover(int, int) METHOD
 RefactoringAction 1479309200521 Rover.java RENAME Rover(int, int)=>Rover(int, int, char) METHOD
 EditAction 1479309202683 Rover.java 255 1 3 0
+RefactoringAction 1479309213936 MarsRover.java ADD Rover rover FIELD
+CompilationAction 1479309254984 MarsRover.java
+RefactoringAction 1479309310140 Rover.java ADD void Set FIELD
+RefactoringAction 1479309318161 Rover.java RENAME Set=>void SetPosition(int, int) METHOD
+EditAction 1479309341931 Rover.java 329 2 5 0

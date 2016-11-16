@@ -3,9 +3,7 @@ package tdd.training.session1;
 public class MarsRover {
 
 	private Object planet[][];
-	private int xRover = 0;
-	private int yRover = 0;
-	private char facing = 'N';
+	private Rover rover;
 
 	public MarsRover(int x, int y, String obstacles) {
 
@@ -17,8 +15,7 @@ public class MarsRover {
 		 * Example use: MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")
 		 * //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8)
 		 */
-		
-		
+
 		// Crea il pianeta
 		planet = new Object[x][y];
 		// Rimuovi dalla stringa tutti i caratteri che non sono numeri
@@ -27,21 +24,26 @@ public class MarsRover {
 
 		// Inserisci ostacoli sul pianeta
 		int i = 0;
-		int contObstacle=0;
+		int contObstacle = 0;
 		while (i < obstacles.length()) {
 
 			int xOb = Character.getNumericValue(obstacles.charAt(i));
 			i++;
 			int yOb = Character.getNumericValue(obstacles.charAt(i));
-			
+
 			contObstacle++;
-			Obstacle obstacle = new Obstacle(xOb, yOb,"Obstacle"+contObstacle);
+			Obstacle obstacle = new Obstacle(xOb, yOb, "Obstacle" + contObstacle);
 			planet[xOb][yOb] = obstacle;
 			// System.out.println(xOb+" "+yOb);
 			i++;
 		}
 
-		 System.out.println(planet[2][1]);
+		// Crea il rover e mettilo nella posizione (0,0,N)
+
+		rover = new Rover(0, 0, 'N');
+		planet[0][0] = rover;
+
+		System.out.println(planet[2][1]);
 
 	}
 
