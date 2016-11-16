@@ -11,8 +11,8 @@ public class MarsRoverTest {
 
 	MarsRover marsRover = new MarsRover(3,3,"");
 	
-	@Test(expected = MarsRoverException.class)
+	@Test
 	public void executeCommand() throws MarsRoverException{
-		assertEquals(null,marsRover.executeCommand("q"));
+		assertEquals("(1,2,E)",marsRover.executeCommand("ffrf"));
 	}
 }
