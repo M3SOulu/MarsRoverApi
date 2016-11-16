@@ -54,7 +54,7 @@ public class Navigation {
 		}
 	}
 
-	public String esitoNavigazione(String command) {
+	public String esitoNavigazione(String command) throws MarsRoverException {
 		
 		for(char c : command.toCharArray()){
 			switch(c){
@@ -70,10 +70,44 @@ public class Navigation {
 					break;
 				case 'r':
 					currentDirection ++;
+					break;
+				case 'b':
+					if(currentDirection % 4 == 0) //Nord
+						currentY --;
+					if(currentDirection % 4 == 1) //Est
+						currentX --;
+					if(currentDirection % 4 == 2) //Sud
+						currentY ++;
+					if(currentDirection % 4 == 3) //Ovest
+						currentX ++;
+					break;
+				case 'l':
+					currentDirection --;
+					break;
+				default:
+					throw new MarsRoverException();					
 			}
 			
 		}
-		return null;
+		String out;
+		out = "(" + currentX % x + "," + currentY  % y + ",";
+		switch(currentDirection){
+			case 0:
+				out +="N)";
+				break;
+			case 1:
+				out +="E)";
+				break;
+			case 2:
+				out +="S)";
+				break;
+			case 3:
+				out +="O)";
+				break;
+				
+		}
+		
+		return out;
 	}
 	
 	public int getNumberOfObstacles(){
