@@ -56,6 +56,9 @@ public class MarsRover {
 		}
 		
 		String pathResult = Utils.formatPosition(rPos.x, rPos.y, rDir);
+		for (Position oPos : obstaclesFound){
+			pathResult += Utils.formatPosition(oPos.x, oPos.y);
+		}
 		return pathResult;
 	}
 	
