@@ -64,7 +64,7 @@ public class MarsRover {
 		 */
 		
 		int i = 0;
-		String obPosition = null;
+		String obPosition ="";
 		while (i < command.length()) {
 			
 			char actualCommand = command.charAt(i);
