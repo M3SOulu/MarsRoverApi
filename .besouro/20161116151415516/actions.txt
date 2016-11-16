@@ -158,3 +158,19 @@ CompilationAction 1479311233184 MarsRover.java
 RefactoringAction 1479311238540 MarsRover.java ADD char moveLeft(char)/2 METHOD
 RefactoringAction 1479311242549 MarsRover.java RENAME moveLeft(char)/2=>char moveRight(char) METHOD
 EditAction 1479311288632 MarsRover.java 3367 8 28 0
+RefactoringAction 1479311338667 Direction.java ADD Direction.java CLASS
+RefactoringAction 1479311358427 Direction.java ADD Direction Direction FIELD
+RefactoringAction 1479311365464 Direction.java ADD Char dire FIELD
+RefactoringAction 1479311367986 Direction.java RENAME dire=>Char direction FIELD
+RefactoringAction 1479311390588 Direction.java ADD Direction NORTH FIELD
+RefactoringAction 1479311402651 Direction.java ADD Direction SOUTH FIELD
+RefactoringAction 1479311412680 Direction.java ADD Direction WEST FIELD
+RefactoringAction 1479311415189 Direction.java ADD Direction EAST FIELD
+RefactoringAction 1479311444808 MarsRover.java RENAME moveLeft(char)=>char moveLeft(D) METHOD
+RefactoringAction 1479311446323 MarsRover.java RENAME moveLeft(D)=>char moveLeft(Direction) METHOD
+RefactoringAction 1479311451346 MarsRover.java RENAME moveRight(char)=>char moveRight(Direction) METHOD
+RefactoringAction 1479311484912 Direction.java ADD String to FIELD
+RefactoringAction 1479311486422 Direction.java RENAME to=>String toString FIELD
+RefactoringAction 1479311493947 Direction.java REMOVE toString FIELD
+RefactoringAction 1479311507452 Direction.java ADD char getValue() METHOD
+EditAction 1479311516141 MarsRover.java 3404 8 26 0

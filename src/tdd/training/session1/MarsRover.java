@@ -89,7 +89,9 @@ public class MarsRover {
 		return null;
 	}
 	
-	public char moveLeft(char direction){
+	public char moveLeft(Direction direction){
+		char dir = direction.
+		
 		switch(direction){
 		case 'N':
 			direction = 'W';
@@ -107,7 +109,7 @@ public class MarsRover {
 		return direction;
 	}
 	
-	public char moveRight(char direction){
+	public char moveRight(Direction direction){
 		switch(direction){
 		case 'N':
 			direction = 'E';
