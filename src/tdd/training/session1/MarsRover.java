@@ -17,15 +17,16 @@ public class MarsRover {
 	 */
 		planet = new Object[x][y];
 		obstacles=obstacles.replaceAll("\\D+","");
+		System.out.println(obstacles);
 		int i=0;
 		while(i<obstacles.length()){
 			
 			int xOb=Character.getNumericValue(obstacles.charAt(i));
-			int yOb=Character.getNumericValue(obstacles.charAt(i++));
+			int yOb=Character.getNumericValue(obstacles.charAt(++i));
 			
 			Obstacle obstacle = new Obstacle (xOb,yOb);
 			planet[xOb][yOb]= obstacle;
-			//System.out.println(xOb+" "+yOb);
+			System.out.println(xOb+" "+yOb);
 			i+=2;
 		}
 		

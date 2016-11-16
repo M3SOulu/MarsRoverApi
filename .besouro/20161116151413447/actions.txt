@@ -38,3 +38,4 @@ CompilationAction 1479308375822 Obstacle.java
 RefactoringAction 1479308410221 Obstacle.java RENAME ToString()=>String toString() METHOD
 CompilationAction 1479308414030 Obstacle.java
 EditAction 1479308427408 Obstacle.java 260 2 3 0
+EditAction 1479308487169 MarsRover.java 1712 3 8 0
