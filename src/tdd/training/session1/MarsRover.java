@@ -39,7 +39,7 @@ public class MarsRover {
 		Integer[] move={0,0};
 		String result = "";
 		
-		for(int i = 0; i< comand.length; i++)
+		for(int i = 0; i<comand.length; i++)
 		{
 			commandMove(comand[i], move);
 			}

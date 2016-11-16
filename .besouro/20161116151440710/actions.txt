@@ -231,3 +231,6 @@ RefactoringAction 1479316343565 MarsRover.java RENAME commandMove(char)=>Integer
 UnitTestCaseAction 1479316421162 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479316421162 MarsRoverTest FAIL
 EditAction 1479316520918 MarsRoverTest.java 303 1 2 1
+UnitTestCaseAction 1479316522487 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316522488 MarsRoverTest FAIL
+EditAction 1479316573838 MarsRoverTest.java 302 1 2 1
