@@ -1,70 +1,82 @@
 package tdd.training.session1;
 
-
-
 public class MarsRover {
-	private Coordinates coordinates;
-	 public void setCoordinates (Coordinates values){
-		 coordinates = values;
-	 }
-	 private Coordinates getCoordinates() {
-			return coordinates ;
-		}
-	 
-	public MarsRover(int x, int y, String obstacles){
-	
-		
-	/*	x and y represent the size of the grid.
-	 *  Obstacles is a String formatted as follows: (o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y) with no white spaces. 
-	 *  
-		Example use:
-		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8)*/ 
-	
+
+	public int xSizeGrid;
+	public int ySizeGrid;
+	public Obstacle
+	public Coordinates coordinates;
+
+	public void setCoordinates(Coordinates values) {
+		coordinates = values;
 	}
-	
-	public void executeCommand(String command) throws Exception {
+
+	private Coordinates getCoordinates() {
+		return coordinates;
+	}
+
+	public MarsRover(int x, int y, String obstacles) {
+
+		xSizeGrid=x;
+		ySizeGrid=y;
 		
-		for(char singleCommand : command.toCharArray()){
+		/*
+		 * x and y represent the size of the grid. Obstacles is a String
+		 * formatted as follows: (o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y) with no
+		 * white spaces.
+		 * 
+		 * Example use: MarsRover rover = new MarsRover(100,100,"(5,5)(7,8)")
+		 * //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8)
+		 */
+
+	}
+
+	public void executeCommand(String command) throws Exception {
+
+		for (char singleCommand : command.toCharArray()) {
 			if (!receivedSingleCommand(singleCommand))
 				break;
+			else {
+				receivedSingleCommand(singleCommand);
+			}
 		}
-		
-		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
-		 * Example: 
-		 * The rover is on a 100x100 grid at location (0, 0) and facing NORTH. The rover is given the commands "ffrff" and should end up at (2, 2) facing East.
-		 
-		 * The return string is in the format: ?(x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)?  
-		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
-		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
+
+		/*
+		 * The command string is composed of "f" (forward), "b" (backward), "l"
+		 * (left) and "r" (right) Example: The rover is on a 100x100 grid at
+		 * location (0, 0) and facing NORTH. The rover is given the commands
+		 * "ffrff" and should end up at (2, 2) facing East.
+		 * 
+		 * The return string is in the format:
+		 * ?(x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)? Where x and y are
+		 * the final coordinates, facing is the current direction the rover is
+		 * pointing to (N,S,W,E). The return string should also contain a list
+		 * of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
-		
+
 	}
 
-	
-	
-	
-	private boolean receivedSingleCommand(Character singleCommand)throws Exception {
-		switch (Character.toUpperCase(singleCommand)){
-		case 'F' :
+	private boolean receivedSingleCommand(Character singleCommand) throws Exception {
+		switch (Character.toUpperCase(singleCommand)) {
+		case 'F':
 			return getCoordinates().moveForward();
-		
-		case 'B' :
+
+		case 'B':
 			return getCoordinates().moveBackward();
-			
-		case 'L' :
+
+		case 'L':
 			getCoordinates().watchLeft();
 			return true;
-		case 'R' :
-			getCoordinates().watchRight();	
+		case 'R':
+			getCoordinates().watchRight();
 			return true;
+
+		default:
+			throw new Exception("Unknown command");
 		}
 	}
 
-
-	
-
-	public String getPosition(){
+	public String getPosition() {
 		return getCoordinates().toString();
 	}
 }

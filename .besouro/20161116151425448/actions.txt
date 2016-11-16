@@ -215,3 +215,20 @@ RefactoringAction 1479311243677 MarsRover.java RENAME receivedSingleCommand(Stri
 RefactoringAction 1479311249229 Coordinates.java ADD void watchLeft() METHOD
 RefactoringAction 1479311257775 Coordinates.java ADD void watchRight() METHOD
 EditAction 1479311273459 Coordinates.java 1360 11 12 0
+CompilationAction 1479311273730 MarsRover.java
+CompilationAction 1479311611711 MarsRover.java
+FileOpenedAction 1479311673808 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479311689809 MarsRoverTest.java REMOVE import org.junit.Assert.* IMPORT
+RefactoringAction 1479311690826 MarsRoverTest.java ADD import org.junit.* IMPORT
+RefactoringAction 1479311698849 MarsRoverTest.java RENAME import org.junit.*=>import org.junit.Assert.* IMPORT
+RefactoringAction 1479311711353 MarsRoverTest.java ADD import java IMPORT
+RefactoringAction 1479311712359 MarsRoverTest.java REMOVE import java IMPORT
+RefactoringAction 1479311714363 MarsRoverTest.java ADD import java.util IMPORT
+RefactoringAction 1479311715366 MarsRoverTest.java RENAME import java.util=>import java.util.* IMPORT
+RefactoringAction 1479312562754 MarsRover.java ADD int xGrid FIELD
+RefactoringAction 1479312564765 MarsRover.java RENAME xGrid=>int xGridSize FIELD
+RefactoringAction 1479312575815 MarsRover.java ADD int xGridSize/2 FIELD
+RefactoringAction 1479312578327 MarsRover.java RENAME xGridSize/2=>int yGridSize FIELD
+RefactoringAction 1479312586344 MarsRover.java RENAME xGridSize=>int xSizeGrid FIELD
+RefactoringAction 1479312589851 MarsRover.java RENAME yGridSize=>int ySizeGrid FIELD
+EditAction 1479312825228 MarsRover.java 2069 6 7 0
