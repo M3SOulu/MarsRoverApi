@@ -20,11 +20,9 @@ public class MarsRoverTest {
 	
 	
 	@Test
-	
 	public void getCoordinates() {
 		assertEquals(coordinates.getX_coordinate(),5);
 		assertEquals(coordinates.getY_coordinate(), 3);
-		assertEquals(coordinates.getCoordinates(), <5.3>);
 	}
 
 }
