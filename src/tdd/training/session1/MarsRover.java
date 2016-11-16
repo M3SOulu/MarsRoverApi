@@ -185,6 +185,10 @@ public class MarsRover {
 			break;
 			
 		}
+		
+		default:
+			
+			throw new MarsRoverException("Invalid face!");
 			
 			
 		
