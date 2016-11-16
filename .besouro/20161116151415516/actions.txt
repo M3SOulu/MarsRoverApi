@@ -4,3 +4,6 @@ RefactoringAction 1479306219127 MarsRover.java RENAME verify=>boolean verifyComm
 RefactoringAction 1479306222649 MarsRover.java RENAME verifyCommand()=>boolean verifyCommand(String) METHOD
 RefactoringAction 1479306247372 MarsRover.java ADD String commandPattern FIELD
 EditAction 1479306332555 MarsRover.java 1296 3 4 0
+RefactoringAction 1479306541147 MarsRover.java ADD int xSize FIELD
+RefactoringAction 1479306547694 MarsRover.java ADD int ySize FIELD
+EditAction 1479306812224 MarsRoverTest.java 188 1 1 0
