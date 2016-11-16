@@ -49,3 +49,6 @@ RefactoringAction 1479307148288 Position.java ADD String toString() METHOD
 EditAction 1479307170259 Position.java 304 3 5 0
 RefactoringAction 1479307250376 Position.java REMOVE toString() METHOD
 EditAction 1479307251510 Position.java 201 2 3 0
+RefactoringAction 1479307269373 MarsRover.java ADD String formatPosition FIELD
+RefactoringAction 1479307274910 MarsRover.java REMOVE formatPosition FIELD
+EditAction 1479307275051 MarsRover.java 1844 2 4 0
