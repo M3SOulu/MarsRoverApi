@@ -79,6 +79,7 @@ public class MarsRover {
 				direction = moveLeft(direction);
 				break;
 			case 'r':
+				direction = moveRight(direction);
 				break;
 			case 'f':
 				break;
