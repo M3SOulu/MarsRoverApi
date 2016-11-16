@@ -313,3 +313,10 @@ RefactoringAction 1479315384301 MarsRoverTest.java RENAME testChan=>void changeF
 RefactoringAction 1479315386342 MarsRoverTest.java RENAME changeFace=>void TestchangeFace FIELD
 RefactoringAction 1479315389852 MarsRoverTest.java RENAME TestchangeFace=>void TestchangeFace() METHOD
 EditAction 1479315391689 MarsRover.java 4127 9 25 0
+RefactoringAction 1479315422145 MarsRover.java REMOVE setFace(char) METHOD
+RefactoringAction 1479315422146 MarsRover.java REMOVE getFace() METHOD
+RefactoringAction 1479315422298 MarsRover.java ADD void setFace(char) METHOD
+RefactoringAction 1479315425678 MarsRover.java REMOVE setFace(char) METHOD
+RefactoringAction 1479315427695 MarsRover.java ADD char getFace() METHOD
+RefactoringAction 1479315427696 MarsRover.java ADD void setFace(char) METHOD
+EditAction 1479315458480 MarsRover.java 4260 9 25 0

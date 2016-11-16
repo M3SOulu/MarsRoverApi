@@ -162,6 +162,11 @@ public class MarsRover {
 		
 	}
 	
+	
+//////////////////////////////////////////////////
+	
+	//METODI INSERITI PER IL TEST//
+	
 	public char getFace() {
 		return face;
 	}
@@ -169,7 +174,7 @@ public class MarsRover {
 	public void setFace(char face) {
 		this.face = face;
 	}
-
+///////////////////////////////////////////
 	/**
 	 * change the face given the right command
 	 * @param face
