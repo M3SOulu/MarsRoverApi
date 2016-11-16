@@ -23,3 +23,23 @@ EditAction 1479307320752 MarsRover.java 1277 2 6 0
 CompilationAction 1479307587386 MarsRover.java
 CompilationAction 1479307587386 MarsRover.java
 EditAction 1479307596078 MarsRover.java 1174 2 1 0
+CompilationAction 1479307596328 MarsRover.java
+CompilationAction 1479307596329 MarsRover.java
+CompilationAction 1479307596329 MarsRover.java
+CompilationAction 1479307617674 MarsRover.java
+CompilationAction 1479307617675 MarsRover.java
+CompilationAction 1479307617675 MarsRover.java
+CompilationAction 1479307733163 MarsRover.java
+CompilationAction 1479307762328 MarsRover.java
+CompilationAction 1479308065987 MarsRover.java
+CompilationAction 1479308078328 MarsRover.java
+CompilationAction 1479308078494 MarsRover.java
+CompilationAction 1479308078494 MarsRover.java
+CompilationAction 1479308078495 MarsRover.java
+CompilationAction 1479308093832 MarsRover.java
+CompilationAction 1479308093833 MarsRover.java
+CompilationAction 1479308093833 MarsRover.java
+RefactoringAction 1479308107612 MarsRover.java ADD String NORTH FIELD
+RefactoringAction 1479308135657 MarsRover.java REMOVE NORTH FIELD
+RefactoringAction 1479308146183 MarsRover.java ADD int GRID FIELD
+EditAction 1479308146325 MarsRover.java 1380 2 6 0
