@@ -72,7 +72,9 @@ public class MarsRover {
 			int xRover = rover.getXRover();
 			int yRover = rover.getYRover();
 			
-			if(actualCommand =='f' && roverFacing == 'N'){
+			if(actualCommand =='f'){
+				if(roverFacing == 'N'){
+					if()
 				if(planet[xRover][yRover+1] == null){
 					planet[xRover][yRover]=null;
 					planet[xRover][yRover+1]=rover;
@@ -84,6 +86,7 @@ public class MarsRover {
 				}
 				
 			}
+		}
 				//System.out.println(rover.getXRover()+" "+rover.getYRover());
 			i++;	
 		}
@@ -98,8 +101,9 @@ public class MarsRover {
 
 		MarsRover rover = new MarsRover(3, 3, "(0,1)");
 		String test =rover.executeCommand("f");
-		System.out.println("Test"+test);
-
+		System.out.println(test);
+		Object array [][] = new Object [3][3];
+		System.out.println(array.length);
 	}
 
 }
