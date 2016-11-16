@@ -33,7 +33,6 @@ public class MarsRoverTest {
 		
 		rover.setRoverFacing('E');
 		test = rover.executeCommand("f");
-		System.out.println(test);
 		assertTrue(test.equals("(1,1,E)"));
 		
 	}
