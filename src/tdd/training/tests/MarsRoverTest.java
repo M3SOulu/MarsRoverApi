@@ -28,7 +28,7 @@ public class MarsRoverTest {
 		
 		
 		rover.setRoverFacing('N');
-		String test = rover.executeCommand("ff");
+		test = rover.executeCommand("ff");
 		assertTrue(test.equals("(0,1,N)(0,2)"));
 	}
 
