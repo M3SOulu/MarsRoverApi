@@ -14,7 +14,7 @@ public class MarsRoverTest {
 	private MarsRover rover;
 	private Coordinates coordinates = new Coordinates(5, 3);
 	
-	private Obstacle obs;
+	//private Obstacle obs;
 	
  
 	
