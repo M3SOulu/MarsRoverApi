@@ -14,17 +14,34 @@ public class Position {
 	}
 	
 	public void moveForward(String dir){
+		int distance = 1;
 		if (dir.equals("N")){
-			y += 1;
+			y += distance;
 		}
 		if (dir.equals("S")){
-			y -= 1;
+			y -= distance;
 		}
 		if (dir.equals("E")){
-			x += 1;
+			x += distance;
 		}
 		if (dir.equals("W")){
-			x -= 1;
+			x -= distance;
+		}
+	}
+	
+	public void moveBackwards(String dir){
+		int distance = -1;
+		if (dir.equals("N")){
+			y += distance;
+		}
+		if (dir.equals("S")){
+			y -= distance;
+		}
+		if (dir.equals("E")){
+			x += distance;
+		}
+		if (dir.equals("W")){
+			x -= distance;
 		}
 	}
 }
