@@ -94,5 +94,14 @@ public class MarsRover {
 		return result;
 	}
 	
+	public boolean isValidCommand(){
+	
+		boolean result=false;
+		
+		
+		
+		return result;
+	}
+	
 	
 }
