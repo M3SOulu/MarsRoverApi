@@ -268,3 +268,11 @@ CompilationAction 1479312753105 Navigation.java
 CompilationAction 1479312753106 Navigation.java
 RefactoringAction 1479312771590 Obstacle.java ADD int x FIELD
 EditAction 1479312778548 Obstacle.java 96 0 0 0
+CompilationAction 1479312778669 Navigation.java
+CompilationAction 1479312778670 Navigation.java
+RefactoringAction 1479312789105 Obstacle.java ADD void obstacle() METHOD
+RefactoringAction 1479312794612 Obstacle.java RENAME obstacle()=>Obstacle() METHOD
+RefactoringAction 1479312805125 Obstacle.java ADD void setX() METHOD
+RefactoringAction 1479312811136 Obstacle.java RENAME setX()=>void setX(int) METHOD
+RefactoringAction 1479312830664 Obstacle.java ADD void setX(int)/2 METHOD
+EditAction 1479312841265 Obstacle.java 226 3 2 0
