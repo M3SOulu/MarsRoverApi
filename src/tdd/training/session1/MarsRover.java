@@ -42,14 +42,6 @@ public class MarsRover {
 		}
 	}
 
-	/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
-	 * Example: 
-	 * The rover is on a 100x100 grid at location (0, 0) and facing NORTH. The rover is given the commands "ffrff" and should end up at (2, 2) facing East.
-	 
-	 * The return string is in the format: (x,y,facing)(o1_x,o1_y)(o2_x,o2_y)?..(on_x,on_y)
-	 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
-	 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
-	 */
 	public String executeCommand(String command) throws MarsRoverException{
 		char[] commands = command.toCharArray();
 		for (char cmd : commands){
