@@ -46,7 +46,7 @@ public class MarsRover {
 	 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 	 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 	 */
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws MarsRoverException{
 		char[] commands = command.toCharArray();
 		for (char cmd : commands){
 			Position obstacleFound = move(cmd);
@@ -59,7 +59,7 @@ public class MarsRover {
 		return pathResult;
 	}
 	
-	public Position move(char command){
+	public Position move(char command) throws MarsRoverException{
 		Position obstacle = null;
 		//Utils.Direction moveDir = Utils.Direction.getByValue(command);
 		Position nextPosition = rPos;
@@ -76,6 +76,8 @@ public class MarsRover {
 		case Utils.RIGHT:
 			rDir = Utils.cycleDirectionRight(rDir);
 			break;
+		default:
+			throw new MarsRoverException();
 		}
 		if (obstacles.contains(nextPosition)){
 			obstacle = nextPosition;
