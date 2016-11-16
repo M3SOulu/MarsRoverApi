@@ -1,11 +1,15 @@
 package tdd.training.session1;
 
+
+
 public class MarsRover {
 	private Coordinates coordinates;
 	 public void setCoordinates (Coordinates values){
 		 coordinates = values;
 	 }
-	 
+	 private Coordinates getCoordinates() {
+			return coordinates ;
+		}
 	 
 	public MarsRover(int x, int y, String obstacles){
 	
@@ -18,7 +22,7 @@ public class MarsRover {
 	
 	}
 	
-	public String executeCommand(String command) throws Exception {
+	public void executeCommand(String command) throws Exception {
 		
 		for(char singleCommand : command.toCharArray()){
 			if (!receivedSingleCommand(singleCommand))
@@ -34,21 +38,31 @@ public class MarsRover {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		
 	}
 
 	
 	
 	
-	private boolean receivedSingleCommand(String singleCommand) {
-		// TODO Auto-generated method stub
-		return singleCommand.length() == 1;
+	private boolean receivedSingleCommand(Character singleCommand)throws Exception {
+		switch (Character.toUpperCase(singleCommand)){
+		case 'F' :
+			return getCoordinates().moveForward();
+		
+		case 'B' :
+			return getCoordinates().moveBackward();
+			
+		case 'L' :
+			getCoordinates().watchLeft();
+			return true;
+		case 'R' :
+			getCoordinates().watchRight();	
+			return true;
+		}
 	}
 
 
-	private Coordinates getCoordinates() {
-		return coordinates ;
-	}
+	
 
 	public String getPosition(){
 		return getCoordinates().toString();

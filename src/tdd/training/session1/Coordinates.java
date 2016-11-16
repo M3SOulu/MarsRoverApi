@@ -34,13 +34,33 @@ public class Coordinates {
 	
 	int x_coordinate;
 	int y_coordinate;
-	
+	Coordinates coordinates;
+	/**
+	 * @param coordinates the coordinates to set
+	 */
+	public void setCoordinates(Coordinates coordinates) {
+		this.coordinates = coordinates;
+	}
 	public Coordinates getCoordinates(){
 		return new Coordinates(getX_coordinate(), getY_coordinate());
 	}
-
-	public Coordinates setCoordinates(int x, int y){
-		return new Coordinates(coordinates.setX_coordinate(x), coordinates.setY_coordinate(y));
+	public 	boolean moveForward() {
+	coordinates.x_coordinate++;
+	return true;
 	}
+	public boolean moveBackward() {
+		coordinates.x_coordinate--;
+		return true;
+	}
+	public void watchLeft() {
+		
+	}
+	public void watchRight() {
+		
+	}
+
+//	public Coordinates setCoordinates(int x, int y){
+//		
+//	}
 }
 

@@ -196,3 +196,22 @@ RefactoringAction 1479309904589 MarsRover.java ADD boolean receivedSingleCommand
 RefactoringAction 1479309938707 MarsRover.java RENAME receivedSingleCommand(char)=>boolean receivedSingleCommand(S) METHOD
 RefactoringAction 1479309942216 MarsRover.java RENAME receivedSingleCommand(S)=>boolean receivedSingleCommand(String) METHOD
 EditAction 1479309967397 MarsRover.java 1633 6 6 0
+CompilationAction 1479309967659 MarsRover.java
+RefactoringAction 1479310086337 MarsRover.java RENAME receivedSingleCommand(String)=>boolean receivedSingleCommand(char) METHOD
+RefactoringAction 1479310226789 MarsRover.java ADD import org.hamcrest.core.IsInstanceOf IMPORT
+CompilationAction 1479310313842 MarsRover.java
+CompilationAction 1479310314007 MarsRover.java
+FileOpenedAction 1479310333308 MarsRoverException.java 155 0 0 0
+RefactoringAction 1479310392434 MarsRover.java REMOVE getCoordinates() METHOD
+RefactoringAction 1479310398984 MarsRover.java ADD Coordinates getCoordinates() METHOD
+CompilationAction 1479310414060 MarsRover.java
+CompilationAction 1479310414212 MarsRover.java
+RefactoringAction 1479310638295 MarsRover.java RENAME receivedSingleCommand(char)=>boolean receivedSingleCommand(boolean) METHOD
+RefactoringAction 1479310643651 MarsRover.java RENAME receivedSingleCommand(boolean)=>boolean receivedSingleCommand(char) METHOD
+RefactoringAction 1479310652167 MarsRover.java RENAME receivedSingleCommand(char)=>boolean receivedSingleCommand(String) METHOD
+RefactoringAction 1479310872746 Coordinates.java ADD boolean moveForward() METHOD
+RefactoringAction 1479311051914 Coordinates.java ADD boolean moveBackward() METHOD
+RefactoringAction 1479311243677 MarsRover.java RENAME receivedSingleCommand(String)=>boolean receivedSingleCommand(Character) METHOD
+RefactoringAction 1479311249229 Coordinates.java ADD void watchLeft() METHOD
+RefactoringAction 1479311257775 Coordinates.java ADD void watchRight() METHOD
+EditAction 1479311273459 Coordinates.java 1360 11 12 0
