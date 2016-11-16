@@ -141,11 +141,19 @@ public class MarsRover {
 	 * move the rover in  a given position
 	 * @param mov a movement
 	 */
-	public void move(char mov){
+	public void move(char mov) throws MarsRoverException{
 		
 		switch(mov){
 		
 		case 'r':
+			
+			changeFace(mov);
+			break;
+		
+		case 'l':
+			
+			changeFace(mov);
+			break;
 			 
 			
 			
