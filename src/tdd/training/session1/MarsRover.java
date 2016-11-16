@@ -77,7 +77,7 @@ public class MarsRover {
 					if ((planet.length-1) == yRover)
 						yRover = -1;
 					if (planet[xRover][yRover + 1] == null) {
-						planet[xRover][yRover] = null;
+						planet[xRover][rover.getYRover()] = null;
 						planet[xRover][yRover + 1] = rover;
 						rover.SetPosition(xRover, yRover + 1);
 					} else {
