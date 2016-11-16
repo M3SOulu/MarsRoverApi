@@ -61,6 +61,12 @@ public class MarsRover {
 	
 	public Position move(char command){
 		Position obstacle = null;
+		//Utils.Direction moveDir = Utils.Direction.getByValue(command);
+		Position nextPosition = rPos;
+		switch (command){
+		case Utils.FORWARD:
+			
+		}
 		return obstacle;
 	}
 }
