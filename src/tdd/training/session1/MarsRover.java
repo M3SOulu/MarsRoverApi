@@ -20,7 +20,6 @@ public class MarsRover {
 			if (Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ")") ||
 				Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ",")){
 				throw new MarsRoverException();
-				System.out.println("bad");
 			}
 			String[] values = obstacles.replace(")", "").split("(");
 			for (String value : values){
