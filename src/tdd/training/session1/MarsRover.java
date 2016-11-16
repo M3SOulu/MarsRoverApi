@@ -25,7 +25,7 @@ public class MarsRover {
 	 */
 		planet = new int[2];
 		planet[0]=x;
-		planet[2]=y;
+		planet[1]=y;
 		
 		//positionObstacles(obstacles);
 		
