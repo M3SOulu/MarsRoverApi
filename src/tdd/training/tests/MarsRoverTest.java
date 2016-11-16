@@ -44,7 +44,21 @@ public class MarsRoverTest {
 	
 	@Test
 	public void testVerifyObstaclesRange(){
+		assertTrue(marsRover.verifyObstaclesRange(1, 1));
+		assertTrue(marsRover.verifyObstaclesRange(2, 1));
+		assertTrue(marsRover.verifyObstaclesRange(1, 2));
+		assertTrue(marsRover.verifyObstaclesRange(2, 2));
+		assertTrue(marsRover.verifyObstaclesRange(9, 9));
+		assertTrue(marsRover.verifyObstaclesRange(8, 9));
+		assertTrue(marsRover.verifyObstaclesRange(9, 8));
+		assertTrue(marsRover.verifyObstaclesRange(8, 8));
 		
+		assertFalse(marsRover.verifyObstaclesRange(0, 0));
+		assertFalse(marsRover.verifyObstaclesRange(0, 1));
+		assertFalse(marsRover.verifyObstaclesRange(1, 0));
+		assertFalse(marsRover.verifyObstaclesRange(10, 10));
+		assertFalse(marsRover.verifyObstaclesRange(10, 9));
+		assertFalse(marsRover.verifyObstaclesRange(9, 10));
 	}
 	
 }
