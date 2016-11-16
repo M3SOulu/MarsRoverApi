@@ -21,7 +21,7 @@ public class MarsRoverTest {
 	public void testExecuteCommand() throws MarsRoverException {
 		
 		String test = rover.executeCommand("ffff");
-		assertEquals(test,"(0,0,W)")
+		assertEquals(test,"(0,0,W)");
 		
 	}
 
