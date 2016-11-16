@@ -46,7 +46,11 @@ public class MarsRover {
 				break;
 
 			case 'l':
+				moment = A.getPos_x();
+				moment1 = A.getPos_y();
 				
+				A.setPos_x(moment);
+				A.setPos_y(moment1);
 				break;
 
 			case 'r':
