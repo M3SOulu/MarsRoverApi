@@ -65,7 +65,11 @@ public class MarsRover {
 		Position nextPosition = rPos;
 		switch (command){
 		case Utils.FORWARD:
-			
+			nextPosition.moveForward(rDir);
+			break;
+		case Utils.BACKWARD:
+			nextPosition.moveBackwards(rDir);
+			break;
 		}
 		return obstacle;
 	}
