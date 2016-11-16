@@ -295,3 +295,8 @@ EditAction 1479315069865 MarsRover.java 3586 7 23 0
 EditAction 1479315106689 MarsRover.java 3718 7 23 0
 EditAction 1479315114296 MarsRover.java 3718 7 23 0
 EditAction 1479315153086 MarsRover.java 3786 7 22 0
+CompilationAction 1479315153374 MarsRover.java
+CompilationAction 1479315168696 MarsRover.java
+CompilationAction 1479315168868 MarsRover.java
+CompilationAction 1479315185324 MarsRover.java
+EditAction 1479315250384 MarsRover.java 3916 7 23 0

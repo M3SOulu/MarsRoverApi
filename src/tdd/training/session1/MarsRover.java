@@ -154,7 +154,12 @@ public class MarsRover {
 		
 	}
 	
-	public void changeFace(char face){
+	/**
+	 * change the face given the right command
+	 * @param face
+	 * @throws MarsRoverException
+	 */
+	public void changeFace(char face) throws MarsRoverException{
 		
 		switch(face){
 		
@@ -184,11 +189,12 @@ public class MarsRover {
 			
 			break;
 			
-		}
-		
 		default:
 			
 			throw new MarsRoverException("Invalid face!");
+		}
+		
+		
 			
 			
 		
