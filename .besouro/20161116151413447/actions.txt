@@ -249,3 +249,6 @@ RefactoringAction 1479315862606 Rover.java ADD void setPosition() METHOD
 RefactoringAction 1479315871618 Rover.java RENAME setPosition()=>void setPosition(char) METHOD
 RefactoringAction 1479315883159 Rover.java RENAME setPosition(char)=>void setFacing(char) METHOD
 EditAction 1479315897004 Rover.java 638 7 10 0
+CompilationAction 1479315897252 Rover.java
+CompilationAction 1479315901083 Rover.java
+EditAction 1479315977675 MarsRoverTest.java 505 2 4 1
