@@ -151,10 +151,11 @@ public class MarsRover {
 						coordY += 1;
 					else
 						coordX += 1;
-					whereIAm = whereIAm + whereIsObstacles;
 				}
 				else
 					break;
+				realObstacles[countObstacle] = whereIsObstacles;
+				countObstacle++;
 			}
 		}
 		
@@ -162,6 +163,9 @@ public class MarsRover {
 			throw new MarsRoverException();
 		
 		whereIAm += coordX + "," + coordY + "," + this.getRealDirection() + ")";
+		for(int i = 0; i < countObstacle; i++){
+			whereIAm += realObstacles[i];
+		}
 		
 		return whereIAm.concat("?");
 	}
