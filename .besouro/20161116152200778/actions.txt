@@ -89,3 +89,7 @@ CompilationAction 1479314636823 MarsRoverTest.java
 RefactoringAction 1479314685088 MarsRover.java ADD String position FIELD
 RefactoringAction 1479314689135 MarsRover.java RENAME MarsRover(int, int, String)=>int x FIELD
 EditAction 1479314754792 MarsRover.java 2254 3 5 0
+CompilationAction 1479314755055 MarsRoverTest.java
+CompilationAction 1479314755055 MarsRoverTest.java
+RefactoringAction 1479314764196 MarsRover.java REMOVE Test(String) METHOD
+EditAction 1479314798963 MarsRover.java 2112 2 3 0

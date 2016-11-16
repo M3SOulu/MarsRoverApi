@@ -13,12 +13,9 @@ public class MarsRoverTest {
 		//Arrange
 		MarsRover mars = new MarsRover();
 		mars.executeCommand("ffrf");
-
-		//Act
-		String score = mars.Test();
 		
 		//Assert
-		assertEquals("12E", score);
+		assertEquals("12E", position);
 }
 
 }
