@@ -206,3 +206,8 @@ CompilationAction 1479315282047 MarsRover.java
 RefactoringAction 1479315351375 MarsRoverException.java ADD MarsRoverException() METHOD
 RefactoringAction 1479315356389 MarsRoverException.java RENAME MarsRoverException()=>MarsRoverException(String) METHOD
 EditAction 1479315366255 MarsRoverException.java 215 1 1 0
+CompilationAction 1479315366635 MarsRover.java
+CompilationAction 1479315390431 MarsRover.java
+RefactoringAction 1479315442473 MarsRoverTest.java ADD void initialize() METHOD
+RefactoringAction 1479315500525 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+EditAction 1479315504848 MarsRoverTest.java 323 2 2 0

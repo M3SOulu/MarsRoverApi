@@ -140,9 +140,10 @@ public class MarsRover {
 				
 			}
 			//TODO MUOVI A DESTRA RISPERTTO ALLA POSIZIONE DEL ROVER
-			if (actualCommand == 'r') {
+			else if (actualCommand == 'r') {
 				
 			}
+			else throw new MarsRoverException("Invalid command");
 			System.out.println(rover.getXRover() + " " + rover.getYRover());
 			i++;
 		}
@@ -150,7 +151,7 @@ public class MarsRover {
 		return rover + obPosition;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws MarsRoverException{
 
 		MarsRover rover = new MarsRover(3, 3, "(2,2)");
 		String test = rover.executeCommand("ffff");
