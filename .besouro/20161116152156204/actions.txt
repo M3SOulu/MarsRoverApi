@@ -393,3 +393,5 @@ RefactoringAction 1479317043772 MarsRover.java REMOVE chooser FIELD
 RefactoringAction 1479317044818 MarsRover.java ADD void move(char) METHOD
 EditAction 1479317058492 MarsRover.java 4691 14 32 0
 EditAction 1479317108171 MarsRover.java 4649 14 32 0
+CompilationAction 1479317108415 MarsRover.java
+EditAction 1479317126691 MarsRover.java 4665 14 32 0

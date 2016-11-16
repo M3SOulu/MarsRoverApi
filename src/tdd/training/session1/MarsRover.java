@@ -150,7 +150,9 @@ public class MarsRover {
 		case 'r':
 		case 'l':
 			
-			changeFace();
+			changeFace(mov);
+			
+		break;
 			
 			
 			 
