@@ -65,8 +65,7 @@ public class MarsRover {
 				j++;
 				this.obstacles[i].setCoordY(obstacles.charAt(j));
 				i++;
-			}
-			if(!(obstacles.charAt(j) == '?'||obstacles.charAt(j) == '('||obstacles.charAt(j) == ')')){
+			}else if(!(obstacles.charAt(j) == '?'||obstacles.charAt(j) == '('||obstacles.charAt(j) == ')')){
 				this.obstacles[i].setCoordX(obstacles.charAt(j));
 			}
 		}
