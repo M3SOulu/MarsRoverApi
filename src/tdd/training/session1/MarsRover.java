@@ -1,14 +1,12 @@
 package tdd.training.session1;
 
+import tdd.training.session1.Rover;
+
 public class MarsRover {
 	
-	public static final Integer N = 1;
-	public static final Integer E = 2;
-	public static final Integer S = 3;
-	public static final Integer W = 4;
-	Integer x = 0;
-	Integer y = 0;
-	Integer facing = N;
+	static int x;
+	static int y;
+	String obstacles;
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
@@ -16,7 +14,14 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		this.x = x;
+		this.y = y;
+		this.obstacles = obstacles;
+		
 	}
+	
+	MarsRover rover = new MarsRover(x,y,obstacles);
+	Rover Car= new Rover();
 	
 	public String executeCommand(String command){
 		
@@ -28,48 +33,57 @@ public class MarsRover {
 		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
-		for (int idx = 0; idx < command.length(); idx++) {
-			executeCommand(command.charAt(idx));
+		for(int i=0; i<command.length(); i++){
+			char a = command.charAt(i);
+			if(a == 'f'){
+				Forward();
+			}
+			if(a == 'b'){
+				Backward();		
+			}
+			if(a == 'l'){
+				Left();		
+			}
+			if(a == 'r'){
+				Right();		
+			}
 		}
-		
+
 		return null;
 	}
 	
 
-	private void executeCommand(Character command) {
-		if (command.equals('L')) {
-			turnLeft();
-		} else if (command.equals('R')) {
-			turnRight();
-		} else if (command.equals('M')) {
-			move();
-		} else {
-			throw new IllegalArgumentException(
-					"Speak in Mars language, please!");
+	public Rover Forward(){
+		if(Car.y<=MarsRover.y && Car.facing=="N"){
+			Car.y++;
+		}else if(Car.facing=="S" || Car.facing=="E" || Car.facing=="W"){
+			Car.facing="N";
 		}
+		return Car; //torna lo stato del veicolo dopo forward (x,y,facing)
 	}
-	public void move() {
-		if (facing == N) {
-			this.y++  ;
-		} else if (facing == E) {
-			this.x++  ;
-		} else if (facing == S) {
-			this.y--;
-		} else if (facing == W) {
-			this.x--;
+	public Rover Backward(){
+		if(Car.y>0 && Car.facing=="S"){
+			Car.y++;
+		}else if(Car.facing=="N"|| Car.facing=="E" || Car.facing=="W"){
+			Car.facing="S";
 		}
+		return Car; //torna lo stato del veicolo dopo backward (x,y,facing)
 	}
-	public void turnLeft() {
-		facing = (facing - 1) < N ? W : facing - 1;
+	public Rover Left(){
+		if(Car.facing=="N" || Car.facing=="S" || Car.facing=="E"){
+			Car.facing="W";
+		}else if(Car.x>0 && Car.facing=="W"){
+			Car.x--;
+		}
+		return Car; //torna lo stato del veicolo dopo left (x,y,facing)
 	}
-	public void turnRight() {
-		facing = (facing +  1) > W ? N : facing + 1;
-	}
-	
-	public void setPosition(Integer x, Integer y, Integer facing) {
-		this.x = x;
-		this.y = y;
-		this.facing = facing;
+	public Rover Right(){
+		if(Car.facing=="N" || Car.facing=="S" || Car.facing=="W"){
+			Car.facing="W";
+		}else if(Car.x<MarsRover.x && Car.facing=="E"){
+			Car.x++;
+		}
+		return Car; //torna lo stato del veicolo dopo right (x,y,facing)
 	}
 }
+
