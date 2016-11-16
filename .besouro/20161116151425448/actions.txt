@@ -293,3 +293,33 @@ RefactoringAction 1479315387066 MarsRoverTest.java RENAME receivSingleCommandSho
 RefactoringAction 1479315388075 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForwardIfCommandIs=>void receivSingleCommandShouldMoveForwardIfCommandIsF FIELD
 EditAction 1479315405058 MarsRoverTest.java 364 0 0 0
 EditAction 1479315405139 Coordinates.java 1227 11 12 0
+CompilationAction 1479315405406 MarsRoverTest.java
+CompilationAction 1479315405407 MarsRoverTest.java
+CompilationAction 1479315405408 MarsRoverTest.java
+RefactoringAction 1479315429599 MarsRoverTest.java RENAME import org.junit.*=>import org.junit.Test IMPORT
+RefactoringAction 1479315434112 MarsRoverTest.java REMOVE import org.junit.Test IMPORT
+RefactoringAction 1479315437138 MarsRoverTest.java ADD import org.junit.* IMPORT
+RefactoringAction 1479315488176 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+RefactoringAction 1479315491712 MarsRoverTest.java ADD MarsRover rover FIELD
+CompilationAction 1479315586387 MarsRoverTest.java
+CompilationAction 1479315586388 MarsRoverTest.java
+CompilationAction 1479315586388 MarsRoverTest.java
+CompilationAction 1479315586559 MarsRoverTest.java
+CompilationAction 1479315586559 MarsRoverTest.java
+CompilationAction 1479315586559 MarsRoverTest.java
+CompilationAction 1479315586560 MarsRoverTest.java
+CompilationAction 1479315586560 MarsRoverTest.java
+RefactoringAction 1479315901664 MarsRoverTest.java RENAME coordinates=>Coordinates coordinates() METHOD
+RefactoringAction 1479315928698 MarsRoverTest.java RENAME coordinates()=>Coordinates coordinates FIELD
+CompilationAction 1479316180167 MarsRoverTest.java
+CompilationAction 1479316180167 MarsRoverTest.java
+CompilationAction 1479316180168 MarsRoverTest.java
+CompilationAction 1479316180168 MarsRoverTest.java
+RefactoringAction 1479316191633 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForwardIfCommandIsF()=>void gett() METHOD
+RefactoringAction 1479316193651 MarsRoverTest.java RENAME gett()=>void getting() METHOD
+RefactoringAction 1479316196165 MarsRoverTest.java RENAME getting()=>void gettingCoord() METHOD
+RefactoringAction 1479316199707 MarsRoverTest.java RENAME gettingCoord()=>void gettingCoords() METHOD
+RefactoringAction 1479316202228 MarsRoverTest.java RENAME gettingCoords()=>void gettingCoordsAre() METHOD
+RefactoringAction 1479316205764 MarsRoverTest.java RENAME gettingCoordsAre()=>void get() METHOD
+RefactoringAction 1479316209778 MarsRoverTest.java RENAME get()=>void getCoordinates() METHOD
+EditAction 1479316211071 MarsRoverTest.java 573 1 3 3

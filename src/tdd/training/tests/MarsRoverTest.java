@@ -6,11 +6,14 @@ import java.util.*;
 import org.junit.*;
 
 import tdd.training.session1.Coordinates;
+import tdd.training.session1.MarsRover;
 import tdd.training.session1.Obstacle;
 
 public class MarsRoverTest {
 
-	private Coordinates coordinates;
+	private MarsRover rover;
+	private Coordinates coordinates = new Coordinates(5, 3);
+	
 	private Obstacle obs;
 	
  
@@ -18,8 +21,10 @@ public class MarsRoverTest {
 	
 	@Test
 	
-	public void receivSingleCommandShouldMoveForwardIfCommandIsF {
-		
+	public void getCoordinates() {
+		assertEquals(coordinates.getX_coordinate(),5);
+		assertEquals(coordinates.getY_coordinate(), 3);
+		assertEquals(coordinates.getCoordinates(), (5.3));
 	}
 
 }
