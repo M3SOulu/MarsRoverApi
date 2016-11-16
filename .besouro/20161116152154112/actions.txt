@@ -97,3 +97,8 @@ RefactoringAction 1479310747629 MarsRover.java REMOVE movement FIELD
 EditAction 1479311125608 MarsRover.java 4399 8 19 0
 EditAction 1479311393436 MarsRover.java 4525 8 21 0
 EditAction 1479311606475 MarsRover.java 4655 8 22 0
+RefactoringAction 1479311642884 MarsRoverTest.java ADD MarsRover sonic FIELD
+RefactoringAction 1479311657981 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+RefactoringAction 1479311751097 MarsRoverTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479311774119 MarsRoverTest.java ADD void initialize() METHOD
+EditAction 1479311953268 MarsRover.java 4808 8 18 0

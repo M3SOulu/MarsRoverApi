@@ -46,7 +46,7 @@ public class MarsRover {
 	}
 
 
-	public MarsRover(int x, int y, String obstacles){
+	public MarsRover(int x, int y, String obstacles) throws MarsRoverException{
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
 	 *  
@@ -64,11 +64,15 @@ public class MarsRover {
 			int i = 0;
 			if(obstacles.charAt(j) == ','){
 				j++;
-				this.obstacles[i].setCoordY(obstacles.charAt(j));
-				i++;
+				if(!(obstacles.charAt(j)>gridY)){
+					this.obstacles[i].setCoordY(obstacles.charAt(j));
+					i++;
+				}else 
+					throw new MarsRoverException();
 			}
 			if(!(obstacles.charAt(j) == '?'||obstacles.charAt(j) == '('||obstacles.charAt(j) == ')')){
-				this.obstacles[i].setCoordX(obstacles.charAt(j));
+				if(!(obstacles.charAt(j)>gridX)){
+					this.obstacles[i].setCoordX(obstacles.charAt(j));
 			}
 		}
 		
