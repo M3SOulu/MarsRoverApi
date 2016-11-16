@@ -1,6 +1,11 @@
 package tdd.training.session1;
+import java.util.Arrays;
 
 public class MarsRover {
+	public int pos1 = 0;
+	public int pos2 = 0;
+	public String facing = new String("N");
+	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
@@ -8,6 +13,19 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		
+	}
+	
+	public String EditPosition (int pos1, int pos2, String command) {
+		
+		String facing = new String();
+		String position = new String(pos1 + pos2 + facing);
+		return position; 
+	}
+	
+	public void basePoint () {
+		pos1 = 0;
+		pos2 = 0;
 	}
 	
 	public String executeCommand(String command){

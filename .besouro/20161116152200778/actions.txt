@@ -1,0 +1,27 @@
+FileOpenedAction 1479306121281 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479308092219 MarsRover.java ADD void EditPositio() METHOD
+RefactoringAction 1479308106392 MarsRover.java RENAME EditPositio()=>void EditPosition() METHOD
+RefactoringAction 1479308303255 MarsRover.java RENAME EditPosition()=>String EditPosition(int) METHOD
+RefactoringAction 1479308315785 MarsRover.java RENAME EditPosition(int)=>String EditPosition(int, int) METHOD
+RefactoringAction 1479308468647 MarsRover.java RENAME EditPosition(int, int)=>String EditPosition(int, int, String) METHOD
+RefactoringAction 1479308638316 MarsRover.java ADD import java IMPORT
+RefactoringAction 1479308640339 MarsRover.java RENAME import java=>import java.ut IMPORT
+RefactoringAction 1479308643349 MarsRover.java RENAME import java.ut=>import java.util IMPORT
+RefactoringAction 1479308649405 MarsRover.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1479308723630 MarsRover.java ADD int pos1 FIELD
+RefactoringAction 1479308728660 MarsRover.java ADD int po FIELD
+RefactoringAction 1479308730169 MarsRover.java RENAME po=>int pos2 FIELD
+RefactoringAction 1479308767822 MarsRover.java ADD String oi FIELD
+RefactoringAction 1479308769334 MarsRover.java REMOVE oi FIELD
+RefactoringAction 1479308800460 MarsRover.java ADD String facing FIELD
+RefactoringAction 1479308829506 MarsRover.java REMOVE facing FIELD
+RefactoringAction 1479308870630 MarsRover.java ADD void basePoint() METHOD
+RefactoringAction 1479309275875 MarsRover.java ADD import java IMPORT
+RefactoringAction 1479309278905 MarsRover.java ADD import java.ut IMPORT
+RefactoringAction 1479309322950 MarsRover.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1479309377555 MarsRover.java RENAME MarsRover(int, int, String)=>int x FIELD
+RefactoringAction 1479309405177 MarsRover.java ADD String N FIELD
+RefactoringAction 1479309446846 MarsRover.java REMOVE N FIELD
+RefactoringAction 1479309455412 MarsRover.java ADD String fac FIELD
+RefactoringAction 1479309456427 MarsRover.java RENAME fac=>String facing FIELD
+EditAction 1479309601093 MarsRover.java 1443 4 6 0
