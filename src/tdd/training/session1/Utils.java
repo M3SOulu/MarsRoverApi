@@ -1,28 +1,6 @@
 package tdd.training.session1;
 
 public class Utils {
-	/*public static enum Direction{
-		FORWARD('f'),
-		BACKWARD('b');
-		
-	    private final char value;
-	    private Direction(char value) {
-	        this.value = value;
-	    }
-
-	    public char getChar() {
-	        return value;
-	    }
-	    static Direction getByValue(char value) {
-	    	Direction result = null;
-	    	for(Direction e: Direction.values()) {
-	    		if(e.value == value) {
-	    			result = e;
-	    		}
-	    	}
-	    	return result;
-	    }
-	}*/
 	public final static char FORWARD = 'f';
 	public final static char BACKWARD = 'b';
 	public final static char LEFT = 'l';
