@@ -9,3 +9,4 @@ RefactoringAction 1479307971171 MarsRoverTest.java ADD import tdd.training.sessi
 RefactoringAction 1479308016762 MarsRover.java ADD int FIELD
 RefactoringAction 1479308018806 MarsRover.java RENAME get=>int FIELD
 EditAction 1479308028727 MarsRover.java 1525 4 6 0
+EditAction 1479308075084 MarsRoverTest.java 283 1 2 1
