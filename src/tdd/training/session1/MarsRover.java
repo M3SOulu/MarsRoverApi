@@ -91,7 +91,7 @@ public class MarsRover {
 			i++;
 		}
 
-		return obPosition;
+		return rover+obPosition;
 	}
 
 	public static void main(String[] args) {
