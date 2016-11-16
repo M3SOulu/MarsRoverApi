@@ -84,6 +84,7 @@ public class MarsRover {
 				moveForward();
 				break;
 			case 'b':
+				moveBackward();
 				break;
 			}
 		}
