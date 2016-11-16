@@ -1,4 +1,6 @@
 package tdd.training.session1;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class MarsRover {
 	public int posX = 0;

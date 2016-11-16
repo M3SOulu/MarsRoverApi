@@ -79,3 +79,5 @@ CompilationAction 1479314466834 MarsRoverTest.java
 CompilationAction 1479314467003 MarsRoverTest.java
 CompilationAction 1479314467003 MarsRoverTest.java
 EditAction 1479314468134 MarsRover.java 2158 3 4 0
+RefactoringAction 1479314537371 MarsRover.java ADD import org.junit.Assert.* IMPORT
+EditAction 1479314541216 MarsRover.java 2215 3 4 0
