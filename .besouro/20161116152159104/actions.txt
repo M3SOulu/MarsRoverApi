@@ -276,3 +276,7 @@ RefactoringAction 1479312805125 Obstacle.java ADD void setX() METHOD
 RefactoringAction 1479312811136 Obstacle.java RENAME setX()=>void setX(int) METHOD
 RefactoringAction 1479312830664 Obstacle.java ADD void setX(int)/2 METHOD
 EditAction 1479312841265 Obstacle.java 226 3 2 0
+CompilationAction 1479312841525 Navigation.java
+CompilationAction 1479312841526 Navigation.java
+CompilationAction 1479312841526 Obstacle.java
+EditAction 1479312846099 Obstacle.java 226 3 2 0

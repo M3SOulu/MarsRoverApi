@@ -12,7 +12,7 @@ public class Obstacle {
 		this.x = x;
 	}
 	
-	public void setX(int y){
+	public void setY(int y){
 		this.y = y;
 	}
 }
