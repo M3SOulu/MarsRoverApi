@@ -321,3 +321,6 @@ RefactoringAction 1479316620469 MarsRover.java REMOVE main(String METHOD
 EditAction 1479316620904 MarsRover.java 4430 3 12 0
 EditAction 1479316628870 MarsRoverTest.java 812 2 11 3
 EditAction 1479316633211 MarsRoverTest.java 811 2 11 3
+UnitTestCaseAction 1479316634129 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316634130 MarsRoverTest FAIL
+EditAction 1479316665643 MarsRoverTest.java 839 2 12 3
