@@ -46,8 +46,9 @@ public class MarsRover {
 		//System.out.println(planet[2][1]);
 
 	}
-
-	public String executeCommand(String command) {
+	
+//TODO RIMETTERE STRING COME VALORE DI RITORNO
+	public void executeCommand(String command) {
 
 		/*
 		 * The command string is composed of "f" (forward), "b" (backward), "l"
@@ -84,13 +85,13 @@ public class MarsRover {
 		
 		
 
-		return null;
+		//return null;
 	}
 
 	public static void main(String[] args) {
 
 		MarsRover rover = new MarsRover(3, 3, "(2,2)");
-		executeCommand("f");
+		//rover.executeCommand("f");
 
 	}
 
