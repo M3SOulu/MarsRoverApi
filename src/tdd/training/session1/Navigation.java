@@ -7,18 +7,21 @@ public class Navigation {
 	private int y;
 	private int currentX;
 	private int currentY;
+	private int currentDirection;
 	private static ArrayList<Obstacle> obstacles;
 	
 	public Navigation(int x ,int y){
-		this.x = x;
-		this.y = y;
+		this(x, y, "");
 	}
 	
 	public Navigation(int x, int y, String obstaclesList){
 		this.x = x;
 		this.y = y;
-		this.obstacles = new ArrayList<Obstacle>();
-		generaOstacoli(obstaclesList);
+		this.currentDirection = 0;
+		if(obstaclesList != ""){
+			this.obstacles = new ArrayList<Obstacle>();
+			generaOstacoli(obstaclesList);
+		}
 	}
 
 	static void generaOstacoli(String ob){
@@ -49,6 +52,28 @@ public class Navigation {
 				}
 			}
 		}
+	}
+
+	public String esitoNavigazione(String command) {
+		
+		for(char c : command.toCharArray()){
+			switch(c){
+				case 'f':
+					if(currentDirection % 4 == 0) //Nord
+						currentY ++;
+					if(currentDirection % 4 == 1) //Est
+						currentX ++;
+					if(currentDirection % 4 == 2) //Sud
+						currentY --;
+					if(currentDirection % 4 == 3) //Ovest
+						currentX --;
+					break;
+				case 'r':
+					currentDirection ++;
+			}
+			
+		}
+		return null;
 	}
 	
 	public int getNumberOfObstacles(){
@@ -87,14 +112,7 @@ public class Navigation {
 		this.currentY = currentY;
 	}
 
-	public String esitoNavigazione(String command) {
-		
-		for(char c : command.toCharArray()){
-			
-			
-		}
-		return null;
-	}
+
 	
 
 }

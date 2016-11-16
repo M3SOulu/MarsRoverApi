@@ -382,3 +382,20 @@ EditAction 1479314614028 MarsRover.java 1345 2 2 0
 CompilationAction 1479314614145 MarsRover.java
 RefactoringAction 1479314618088 Navigation.java ADD String esitoNavigazione(String) METHOD
 EditAction 1479314673827 Navigation.java 1738 13 21 0
+RefactoringAction 1479314805850 Navigation.java ADD int currentD FIELD
+RefactoringAction 1479314808355 Navigation.java RENAME currentD=>int currentDirection FIELD
+CompilationAction 1479314870566 Navigation.java
+CompilationAction 1479314870566 Navigation.java
+RefactoringAction 1479314881001 Navigation.java REMOVE esitoNavigazione(String) METHOD
+RefactoringAction 1479314885011 Navigation.java ADD String esitoNavigazione(String) METHOD
+CompilationAction 1479314920568 Navigation.java
+CompilationAction 1479314920569 Navigation.java
+CompilationAction 1479314920569 Navigation.java
+CompilationAction 1479314922315 Navigation.java
+CompilationAction 1479314922316 Navigation.java
+CompilationAction 1479314922475 Navigation.java
+CompilationAction 1479314922475 Navigation.java
+CompilationAction 1479314933546 Navigation.java
+CompilationAction 1479314933706 Navigation.java
+CompilationAction 1479315331216 Navigation.java
+EditAction 1479315478734 Navigation.java 2165 13 20 0
