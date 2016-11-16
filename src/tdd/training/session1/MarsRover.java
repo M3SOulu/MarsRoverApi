@@ -140,7 +140,7 @@ public class MarsRover {
 	
 	//TODO to complete
 	/**
-	 * move the rover in  a given position
+	 * red a single command and execute it
 	 * @param mov a movement
 	 */
 	public void readMovement(char mov){
