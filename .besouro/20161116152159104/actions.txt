@@ -66,3 +66,5 @@ RefactoringAction 1479310173970 Navigation.java RENAME get=>ArrayList<String> ge
 RefactoringAction 1479310178490 Navigation.java RENAME getObstacles=>ArrayList<String> getObstacles() METHOD
 EditAction 1479310188928 Navigation.java 688 3 6 0
 EditAction 1479310239082 NavigationTest.java 372 1 1 1
+RefactoringAction 1479310271962 NavigationTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+EditAction 1479310277843 NavigationTest.java 460 1 1 1
