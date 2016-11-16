@@ -1,0 +1,544 @@
+FileOpenedAction 1479306119526 MarsRoverTest.java 184 1 1 0
+FileOpenedAction 1479306814720 MarsRover.java 1090 2 1 0
+FileOpenedAction 1479306815846 MarsRoverException.java 155 0 0 0
+RefactoringAction 1479307084105 MarsRover.java ADD int ac FIELD
+RefactoringAction 1479307086125 MarsRover.java RENAME ac=>int actu FIELD
+RefactoringAction 1479307087677 MarsRover.java RENAME actu=>int actual FIELD
+RefactoringAction 1479307090688 MarsRover.java RENAME actual=>int actualPositionx FIELD
+RefactoringAction 1479307092704 MarsRover.java RENAME actualPositionx=>int actualPositionX FIELD
+RefactoringAction 1479307105254 MarsRover.java ADD int actual FIELD
+RefactoringAction 1479307107768 MarsRover.java RENAME actual=>int actualPosition FIELD
+RefactoringAction 1479307110283 MarsRover.java RENAME actualPosition=>int actualPositionY FIELD
+RefactoringAction 1479307349638 Navigation.java ADD Navigation.java CLASS
+FileOpenedAction 1479307349876 Navigation.java 66 0 0 0
+RefactoringAction 1479307359380 Navigation.java ADD void navigatio() METHOD
+RefactoringAction 1479307364390 Navigation.java RENAME navigatio()=>void Navigatio() METHOD
+RefactoringAction 1479307367406 Navigation.java RENAME Navigatio()=>Navigation() METHOD
+EditAction 1479307371972 Navigation.java 97 1 0 0
+RefactoringAction 1479307407445 Navigation.java RENAME Navigation()=>Navigation(int, int) METHOD
+RefactoringAction 1479307415490 Navigation.java RENAME Navigation(int, int)=>Navigation(int, int, String) METHOD
+RefactoringAction 1479307424555 Navigation.java ADD int x FIELD
+RefactoringAction 1479307450083 Navigation.java ADD int y FIELD
+EditAction 1479307481672 Navigation.java 189 1 2 0
+RefactoringAction 1479307494965 MarsRover.java REMOVE actualPositionX FIELD
+RefactoringAction 1479307494965 MarsRover.java REMOVE actualPositionY FIELD
+RefactoringAction 1479307510501 MarsRover.java ADD Navigation nav FIELD
+EditAction 1479307565191 MarsRover.java 1156 2 2 0
+EditAction 1479307597534 MarsRover.java 1200 2 2 0
+RefactoringAction 1479307667754 Navigation.java ADD Obstacle ob FIELD
+EditAction 1479307697871 Navigation.java 246 1 3 0
+CompilationAction 1479307698148 Navigation.java
+RefactoringAction 1479307862334 Navigation.java RENAME ob=>int obs FIELD
+RefactoringAction 1479307863846 Navigation.java RENAME obs=>int obstacle FIELD
+RefactoringAction 1479307908948 Navigation.java ADD void genera FIELD
+RefactoringAction 1479307910961 Navigation.java RENAME genera=>static void generaOstacoli() METHOD
+RefactoringAction 1479307918491 Navigation.java RENAME generaOstacoli()=>static void generaOstacoli(String) METHOD
+CompilationAction 1479308216709 Navigation.java
+RefactoringAction 1479308882044 Navigation.java REMOVE obstacle FIELD
+RefactoringAction 1479308883557 Navigation.java ADD ArrayList<> FIELD
+RefactoringAction 1479308889893 Navigation.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1479309061276 Navigation.java RENAME obstacle=>ArrayList<String> FIELD
+EditAction 1479309304254 MarsRoverTest.java 228 1 1 0
+CompilationAction 1479309304510 MarsRoverTest.java
+CompilationAction 1479309304510 MarsRoverTest.java
+RefactoringAction 1479309360773 AllTests.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479309360787 AllTests.java ADD AllTests.java CLASS
+FileOpenedAction 1479309360914 AllTests.java 239 0 0 0
+RefactoringAction 1479309385041 AllTests.java REMOVE AllTests.java CLASS
+RefactoringAction 1479309428340 NavigationTest.java ADD void test() METHOD
+RefactoringAction 1479309428348 NavigationTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479309428358 NavigationTest.java ADD NavigationTest.java CLASS
+FileOpenedAction 1479309428490 NavigationTest.java 199 1 1 0
+RefactoringAction 1479309449403 AllTests.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479309449418 AllTests.java ADD AllTests.java CLASS
+FileOpenedAction 1479309449607 AllTests.java 261 0 0 0
+EditAction 1479309501657 NavigationTest.java 171 1 0 0
+RefactoringAction 1479309520112 NavigationTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479309538067 NavigationTest.java ADD Navigation navTest FIELD
+RefactoringAction 1479309544216 NavigationTest.java ADD import tdd.training.session1.Navigation IMPORT
+RefactoringAction 1479309586130 NavigationTest.java ADD void NavigatioTest() METHOD
+RefactoringAction 1479309716293 NavigationTest.java REMOVE NavigatioTest() METHOD
+RefactoringAction 1479309794331 NavigationTest.java RENAME test()=>void testGenera() METHOD
+RefactoringAction 1479309796838 NavigationTest.java RENAME testGenera()=>void testGeneraOstacoli() METHOD
+EditAction 1479309936326 NavigationTest.java 325 1 0 0
+RefactoringAction 1479310170454 Navigation.java ADD ArrayList<String> get FIELD
+RefactoringAction 1479310173970 Navigation.java RENAME get=>ArrayList<String> getObstacles FIELD
+RefactoringAction 1479310178490 Navigation.java RENAME getObstacles=>ArrayList<String> getObstacles() METHOD
+EditAction 1479310188928 Navigation.java 688 3 6 0
+EditAction 1479310239082 NavigationTest.java 372 1 1 1
+RefactoringAction 1479310271962 NavigationTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+EditAction 1479310277843 NavigationTest.java 460 1 1 1
+CompilationAction 1479310283269 MarsRoverTest.java
+CompilationAction 1479310283269 MarsRoverTest.java
+UnitTestCaseAction 1479310288363 AllTests.java FAIL
+UnitTestSessionAction 1479310288374 AllTests FAIL
+UnitTestCaseAction 1479310316725 AllTests.java FAIL
+UnitTestSessionAction 1479310316725 AllTests FAIL
+UnitTestCaseAction 1479310318892 AllTests.java FAIL
+UnitTestSessionAction 1479310318893 AllTests FAIL
+UnitTestCaseAction 1479310320573 AllTests.java FAIL
+UnitTestSessionAction 1479310320574 AllTests FAIL
+EditAction 1479310345099 MarsRoverTest.java 155 1 0 0
+UnitTestCaseAction 1479310347333 MarsRoverTest.java OK
+UnitTestSessionAction 1479310347338 MarsRoverTest OK
+EditAction 1479310419228 NavigationTest.java 514 1 2 2
+UnitTestCaseAction 1479310421374 NavigationTest.java FAIL
+UnitTestSessionAction 1479310421380 NavigationTest FAIL
+EditAction 1479310429027 NavigationTest.java 514 1 2 2
+UnitTestCaseAction 1479310430742 NavigationTest.java FAIL
+UnitTestSessionAction 1479310430742 NavigationTest FAIL
+EditAction 1479310440778 NavigationTest.java 514 1 2 2
+UnitTestCaseAction 1479310442479 NavigationTest.java FAIL
+UnitTestSessionAction 1479310442479 NavigationTest FAIL
+EditAction 1479310484903 NavigationTest.java 570 1 2 1
+UnitTestCaseAction 1479310486782 NavigationTest.java FAIL
+UnitTestSessionAction 1479310486783 NavigationTest FAIL
+UnitTestCaseAction 1479310542355 NavigationTest.java FAIL
+UnitTestSessionAction 1479310542355 NavigationTest FAIL
+EditAction 1479310604351 Navigation.java 740 3 6 0
+EditAction 1479310607689 NavigationTest.java 520 1 1 1
+UnitTestCaseAction 1479310608203 NavigationTest.java FAIL
+UnitTestSessionAction 1479310608204 NavigationTest FAIL
+EditAction 1479310658417 Navigation.java 736 3 6 0
+UnitTestCaseAction 1479310660486 NavigationTest.java FAIL
+UnitTestSessionAction 1479310660487 NavigationTest FAIL
+EditAction 1479310685440 Navigation.java 738 3 6 0
+UnitTestCaseAction 1479310687656 NavigationTest.java FAIL
+UnitTestSessionAction 1479310687656 NavigationTest FAIL
+UnitTestCaseAction 1479310690934 AllTests.java FAIL
+UnitTestSessionAction 1479310690935 AllTests FAIL
+EditAction 1479310737528 Navigation.java 688 3 6 0
+UnitTestCaseAction 1479310741336 AllTests.java FAIL
+UnitTestSessionAction 1479310741337 AllTests FAIL
+EditAction 1479310754441 NavigationTest.java 464 1 1 1
+UnitTestCaseAction 1479310759291 NavigationTest.java FAIL
+UnitTestSessionAction 1479310759292 NavigationTest FAIL
+EditAction 1479310803224 NavigationTest.java 518 1 2 1
+UnitTestCaseAction 1479310804618 NavigationTest.java FAIL
+UnitTestSessionAction 1479310804618 NavigationTest FAIL
+EditAction 1479310820856 NavigationTest.java 462 1 1 1
+EditAction 1479310828496 NavigationTest.java 464 1 0 0
+UnitTestCaseAction 1479310831011 NavigationTest.java FAIL
+UnitTestSessionAction 1479310831012 NavigationTest FAIL
+EditAction 1479310852848 NavigationTest.java 427 1 0 0
+UnitTestCaseAction 1479310854113 NavigationTest.java FAIL
+UnitTestSessionAction 1479310854114 NavigationTest FAIL
+EditAction 1479310918798 Navigation.java 724 3 6 0
+UnitTestCaseAction 1479310925955 NavigationTest.java FAIL
+UnitTestSessionAction 1479310925955 NavigationTest FAIL
+RefactoringAction 1479310947943 NavigationTest.java REMOVE navTest FIELD
+EditAction 1479310949935 NavigationTest.java 429 1 0 0
+UnitTestCaseAction 1479310951610 NavigationTest.java OK
+UnitTestSessionAction 1479310951610 NavigationTest OK
+EditAction 1479310958348 NavigationTest.java 427 1 0 0
+UnitTestCaseAction 1479310959799 NavigationTest.java FAIL
+UnitTestSessionAction 1479310959800 NavigationTest FAIL
+RefactoringAction 1479310969976 NavigationTest.java REMOVE import tdd.training.session1.MarsRoverException IMPORT
+UnitTestCaseAction 1479310982324 NavigationTest.java FAIL
+UnitTestSessionAction 1479310982324 NavigationTest FAIL
+UnitTestCaseAction 1479311002034 NavigationTest.java FAIL
+UnitTestSessionAction 1479311002035 NavigationTest FAIL
+UnitTestCaseAction 1479311025428 NavigationTest.java FAIL
+UnitTestSessionAction 1479311025429 NavigationTest FAIL
+RefactoringAction 1479311060958 Navigation.java RENAME getObstacles()=>int getNumberObstacles() METHOD
+RefactoringAction 1479311062965 Navigation.java RENAME getNumberObstacles()=>int getNumberoFObstacles() METHOD
+RefactoringAction 1479311064984 Navigation.java RENAME getNumberoFObstacles()=>int getNumberOfObstacles() METHOD
+EditAction 1479311070292 Navigation.java 725 3 6 0
+CompilationAction 1479311070549 NavigationTest.java
+CompilationAction 1479311086198 NavigationTest.java
+UnitTestCaseAction 1479311088462 NavigationTest.java FAIL
+UnitTestSessionAction 1479311088462 NavigationTest FAIL
+EditAction 1479311150238 Navigation.java 768 3 6 0
+UnitTestCaseAction 1479311152185 NavigationTest.java FAIL
+UnitTestSessionAction 1479311152185 NavigationTest FAIL
+EditAction 1479311163568 Navigation.java 759 3 6 0
+UnitTestCaseAction 1479311165296 NavigationTest.java FAIL
+UnitTestSessionAction 1479311165297 NavigationTest FAIL
+EditAction 1479311183325 NavigationTest.java 407 1 2 1
+UnitTestCaseAction 1479311185172 NavigationTest.java FAIL
+UnitTestSessionAction 1479311185173 NavigationTest FAIL
+EditAction 1479311193324 NavigationTest.java 409 1 1 0
+UnitTestCaseAction 1479311194964 NavigationTest.java FAIL
+UnitTestSessionAction 1479311194965 NavigationTest FAIL
+EditAction 1479311209725 NavigationTest.java 378 1 0 0
+UnitTestCaseAction 1479311214898 NavigationTest.java FAIL
+UnitTestSessionAction 1479311214899 NavigationTest FAIL
+EditAction 1479311229046 NavigationTest.java 380 1 0 0
+UnitTestCaseAction 1479311231183 NavigationTest.java OK
+UnitTestSessionAction 1479311231184 NavigationTest OK
+UnitTestCaseAction 1479311233935 NavigationTest.java OK
+UnitTestSessionAction 1479311233936 NavigationTest OK
+UnitTestCaseAction 1479311237444 NavigationTest.java OK
+UnitTestSessionAction 1479311237445 NavigationTest OK
+EditAction 1479311300288 Navigation.java 764 3 6 0
+UnitTestCaseAction 1479311302323 NavigationTest.java OK
+UnitTestSessionAction 1479311302323 NavigationTest OK
+EditAction 1479311315420 NavigationTest.java 410 1 0 0
+CompilationAction 1479311315706 NavigationTest.java
+CompilationAction 1479311315706 NavigationTest.java
+EditAction 1479311349916 Navigation.java 762 3 6 0
+UnitTestCaseAction 1479311351927 NavigationTest.java OK
+UnitTestSessionAction 1479311351928 NavigationTest OK
+EditAction 1479311358519 NavigationTest.java 376 1 0 0
+UnitTestCaseAction 1479311359951 NavigationTest.java FAIL
+UnitTestSessionAction 1479311359952 NavigationTest FAIL
+EditAction 1479311367261 NavigationTest.java 379 1 0 0
+UnitTestCaseAction 1479311368983 NavigationTest.java FAIL
+UnitTestSessionAction 1479311368983 NavigationTest FAIL
+EditAction 1479311387805 Navigation.java 768 3 6 0
+UnitTestCaseAction 1479311389880 NavigationTest.java FAIL
+UnitTestSessionAction 1479311389881 NavigationTest FAIL
+EditAction 1479311564779 Navigation.java 782 3 6 0
+UnitTestCaseAction 1479311566701 NavigationTest.java FAIL
+UnitTestSessionAction 1479311566701 NavigationTest FAIL
+EditAction 1479311582913 Navigation.java 784 3 6 0
+UnitTestCaseAction 1479311584454 NavigationTest.java FAIL
+UnitTestSessionAction 1479311584455 NavigationTest FAIL
+EditAction 1479311594878 Navigation.java 791 3 6 0
+UnitTestCaseAction 1479311595324 NavigationTest.java FAIL
+UnitTestSessionAction 1479311595327 NavigationTest FAIL
+EditAction 1479311611122 Navigation.java 794 3 6 0
+UnitTestCaseAction 1479311612678 NavigationTest.java FAIL
+UnitTestSessionAction 1479311612678 NavigationTest FAIL
+EditAction 1479311843056 Navigation.java 798 3 6 0
+UnitTestCaseAction 1479311844830 NavigationTest.java FAIL
+UnitTestSessionAction 1479311844831 NavigationTest FAIL
+EditAction 1479311852097 NavigationTest.java 377 1 1 1
+UnitTestCaseAction 1479311854098 NavigationTest.java FAIL
+UnitTestSessionAction 1479311854099 NavigationTest FAIL
+EditAction 1479311860409 NavigationTest.java 377 1 1 1
+UnitTestCaseAction 1479311860865 NavigationTest.java FAIL
+UnitTestSessionAction 1479311860865 NavigationTest FAIL
+EditAction 1479311865225 NavigationTest.java 377 1 1 1
+EditAction 1479311902488 Navigation.java 800 3 6 0
+UnitTestCaseAction 1479311903950 NavigationTest.java FAIL
+UnitTestSessionAction 1479311903951 NavigationTest FAIL
+EditAction 1479311927415 Navigation.java 798 3 6 0
+UnitTestCaseAction 1479311929258 NavigationTest.java FAIL
+UnitTestSessionAction 1479311929259 NavigationTest FAIL
+EditAction 1479311998408 Navigation.java 800 3 6 0
+UnitTestCaseAction 1479312001056 NavigationTest.java FAIL
+UnitTestSessionAction 1479312001057 NavigationTest FAIL
+EditAction 1479312014511 Navigation.java 798 3 6 0
+UnitTestCaseAction 1479312018479 NavigationTest.java FAIL
+UnitTestSessionAction 1479312018480 NavigationTest FAIL
+EditAction 1479312074270 Navigation.java 800 3 6 0
+UnitTestCaseAction 1479312074713 NavigationTest.java FAIL
+UnitTestSessionAction 1479312074713 NavigationTest FAIL
+EditAction 1479312102094 Navigation.java 843 3 6 0
+UnitTestCaseAction 1479312103613 NavigationTest.java FAIL
+UnitTestSessionAction 1479312103614 NavigationTest FAIL
+EditAction 1479312108706 Navigation.java 800 3 6 0
+UnitTestCaseAction 1479312110393 NavigationTest.java FAIL
+UnitTestSessionAction 1479312110394 NavigationTest FAIL
+EditAction 1479312117055 Navigation.java 798 3 6 0
+UnitTestCaseAction 1479312118702 NavigationTest.java FAIL
+UnitTestSessionAction 1479312118702 NavigationTest FAIL
+EditAction 1479312129190 Navigation.java 800 3 6 0
+CompilationAction 1479312129337 Navigation.java
+CompilationAction 1479312129338 Navigation.java
+UnitTestCaseAction 1479312132757 NavigationTest.java FAIL
+UnitTestSessionAction 1479312132758 NavigationTest FAIL
+CompilationAction 1479312135232 Navigation.java
+CompilationAction 1479312135233 Navigation.java
+RefactoringAction 1479312196807 Navigation.java RENAME Navigation(int, int, String)=>Navigation(int, int, ArrayList<String>) METHOD
+RefactoringAction 1479312206420 Navigation.java RENAME Navigation(int, int, ArrayList<String>)=>Navigation(int, int, String) METHOD
+EditAction 1479312232798 Navigation.java 843 3 7 0
+UnitTestCaseAction 1479312234599 NavigationTest.java OK
+UnitTestSessionAction 1479312234600 NavigationTest OK
+EditAction 1479312286741 Navigation.java 800 3 7 0
+CompilationAction 1479312316908 Navigation.java
+EditAction 1479312345029 Navigation.java 801 3 7 0
+UnitTestCaseAction 1479312347429 NavigationTest.java OK
+UnitTestSessionAction 1479312347429 NavigationTest OK
+EditAction 1479312370548 Navigation.java 844 3 7 0
+UnitTestCaseAction 1479312372169 NavigationTest.java OK
+UnitTestSessionAction 1479312372170 NavigationTest OK
+UnitTestCaseAction 1479312450001 NavigationTest.java OK
+UnitTestSessionAction 1479312450002 NavigationTest OK
+EditAction 1479312629323 Navigation.java 800 3 7 0
+UnitTestCaseAction 1479312631527 NavigationTest.java OK
+UnitTestSessionAction 1479312631527 NavigationTest OK
+UnitTestCaseAction 1479312657774 NavigationTest.java OK
+UnitTestSessionAction 1479312657775 NavigationTest OK
+CompilationAction 1479312737892 Navigation.java
+RefactoringAction 1479312752939 Obstacle.java ADD Obstacle.java CLASS
+FileOpenedAction 1479312753085 Obstacle.java 64 0 0 0
+CompilationAction 1479312753105 Navigation.java
+CompilationAction 1479312753106 Navigation.java
+RefactoringAction 1479312771590 Obstacle.java ADD int x FIELD
+EditAction 1479312778548 Obstacle.java 96 0 0 0
+CompilationAction 1479312778669 Navigation.java
+CompilationAction 1479312778670 Navigation.java
+RefactoringAction 1479312789105 Obstacle.java ADD void obstacle() METHOD
+RefactoringAction 1479312794612 Obstacle.java RENAME obstacle()=>Obstacle() METHOD
+RefactoringAction 1479312805125 Obstacle.java ADD void setX() METHOD
+RefactoringAction 1479312811136 Obstacle.java RENAME setX()=>void setX(int) METHOD
+RefactoringAction 1479312830664 Obstacle.java ADD void setX(int)/2 METHOD
+EditAction 1479312841265 Obstacle.java 226 3 2 0
+CompilationAction 1479312841525 Navigation.java
+CompilationAction 1479312841526 Navigation.java
+CompilationAction 1479312841526 Obstacle.java
+EditAction 1479312846099 Obstacle.java 226 3 2 0
+CompilationAction 1479312846361 Navigation.java
+CompilationAction 1479312846362 Navigation.java
+RefactoringAction 1479313306729 Obstacle.java RENAME Obstacle()=>Obstacle(int) METHOD
+RefactoringAction 1479313311233 Obstacle.java RENAME Obstacle(int)=>Obstacle(int, int) METHOD
+EditAction 1479313324600 Obstacle.java 264 3 4 0
+CompilationAction 1479313324739 Navigation.java
+CompilationAction 1479313324739 Navigation.java
+EditAction 1479313327768 Navigation.java 905 3 5 0
+CompilationAction 1479313327916 Navigation.java
+CompilationAction 1479313327916 Navigation.java
+CompilationAction 1479313337886 Navigation.java
+CompilationAction 1479313337887 Navigation.java
+CompilationAction 1479313338046 Navigation.java
+CompilationAction 1479313338047 Navigation.java
+CompilationAction 1479313338047 Navigation.java
+CompilationAction 1479313340567 Navigation.java
+CompilationAction 1479313340727 Navigation.java
+CompilationAction 1479313437398 Navigation.java
+CompilationAction 1479313437555 Navigation.java
+CompilationAction 1479313448573 Navigation.java
+CompilationAction 1479313448741 Navigation.java
+UnitTestCaseAction 1479313505882 NavigationTest.java FAIL
+UnitTestSessionAction 1479313505882 NavigationTest FAIL
+CompilationAction 1479313629123 Navigation.java
+CompilationAction 1479313629249 Navigation.java
+CompilationAction 1479313629249 Navigation.java
+CompilationAction 1479313629250 Navigation.java
+CompilationAction 1479313633628 Navigation.java
+CompilationAction 1479313633628 Navigation.java
+CompilationAction 1479313633628 Navigation.java
+CompilationAction 1479313633772 Navigation.java
+CompilationAction 1479313633772 Navigation.java
+CompilationAction 1479313633773 Navigation.java
+CompilationAction 1479313646691 Navigation.java
+CompilationAction 1479313646842 Navigation.java
+CompilationAction 1479313646842 Navigation.java
+CompilationAction 1479313650902 Navigation.java
+CompilationAction 1479313651063 Navigation.java
+CompilationAction 1479313651064 Navigation.java
+CompilationAction 1479313655548 Navigation.java
+CompilationAction 1479313655700 Navigation.java
+CompilationAction 1479313686075 Navigation.java
+CompilationAction 1479313686240 Navigation.java
+CompilationAction 1479313686240 Navigation.java
+CompilationAction 1479313706493 Navigation.java
+CompilationAction 1479313706494 Navigation.java
+UnitTestCaseAction 1479313709750 NavigationTest.java FAIL
+UnitTestSessionAction 1479313709750 NavigationTest FAIL
+EditAction 1479313742116 Navigation.java 990 3 8 0
+UnitTestCaseAction 1479313743687 NavigationTest.java FAIL
+UnitTestSessionAction 1479313743688 NavigationTest FAIL
+EditAction 1479313752586 NavigationTest.java 377 1 1 1
+UnitTestCaseAction 1479313760200 NavigationTest.java FAIL
+UnitTestSessionAction 1479313760201 NavigationTest FAIL
+CompilationAction 1479313839817 Navigation.java
+CompilationAction 1479313839818 Navigation.java
+RefactoringAction 1479313845937 Navigation.java RENAME Navigation(int, int, String)=>Navigation(int, int, ArrayList<Obstacle>) METHOD
+CompilationAction 1479313852347 Navigation.java
+CompilationAction 1479313852348 Navigation.java
+CompilationAction 1479313852504 MarsRover.java
+CompilationAction 1479313852504 Navigation.java
+CompilationAction 1479313852505 Navigation.java
+CompilationAction 1479313852505 NavigationTest.java
+RefactoringAction 1479313855805 Navigation.java RENAME Navigation(int, int, ArrayList<Obstacle>)=>Navigation(int, int, String) METHOD
+CompilationAction 1479313864107 Navigation.java
+CompilationAction 1479313864107 Navigation.java
+CompilationAction 1479313864276 Navigation.java
+CompilationAction 1479313907849 Navigation.java
+EditAction 1479313917061 Navigation.java 990 3 8 0
+CompilationAction 1479313937588 Navigation.java
+CompilationAction 1479313950276 Navigation.java
+CompilationAction 1479313950434 Navigation.java
+CompilationAction 1479313979251 Navigation.java
+CompilationAction 1479313979410 Navigation.java
+CompilationAction 1479313998080 Navigation.java
+CompilationAction 1479313998240 Navigation.java
+CompilationAction 1479314064522 Navigation.java
+UnitTestCaseAction 1479314065992 NavigationTest.java FAIL
+UnitTestSessionAction 1479314065992 NavigationTest FAIL
+EditAction 1479314232160 MarsRover.java 1320 2 2 0
+CompilationAction 1479314232409 MarsRover.java
+RefactoringAction 1479314262024 Navigation.java ADD Navigation() METHOD
+RefactoringAction 1479314292553 Navigation.java RENAME Navigation()=>Navigation(int, int) METHOD
+RefactoringAction 1479314423074 Navigation.java ADD int currentX FIELD
+RefactoringAction 1479314427079 Navigation.java ADD int c FIELD
+RefactoringAction 1479314429584 Navigation.java RENAME c=>int currentY FIELD
+RefactoringAction 1479314455116 Navigation.java ADD int get FIELD
+RefactoringAction 1479314458123 Navigation.java REMOVE get FIELD
+RefactoringAction 1479314477130 Navigation.java ADD int getX() METHOD
+RefactoringAction 1479314477131 Navigation.java ADD void setX(int) METHOD
+RefactoringAction 1479314477131 Navigation.java ADD int getY() METHOD
+RefactoringAction 1479314477131 Navigation.java ADD void setY(int) METHOD
+RefactoringAction 1479314477131 Navigation.java ADD int getCurrentX() METHOD
+RefactoringAction 1479314477132 Navigation.java ADD void setCurrentX(int) METHOD
+RefactoringAction 1479314477132 Navigation.java ADD int getCurrentY() METHOD
+RefactoringAction 1479314477132 Navigation.java ADD void setCurrentY(int) METHOD
+UnitTestCaseAction 1479314499509 NavigationTest.java FAIL
+UnitTestSessionAction 1479314499509 NavigationTest FAIL
+EditAction 1479314614028 MarsRover.java 1345 2 2 0
+CompilationAction 1479314614145 MarsRover.java
+RefactoringAction 1479314618088 Navigation.java ADD String esitoNavigazione(String) METHOD
+EditAction 1479314673827 Navigation.java 1738 13 21 0
+RefactoringAction 1479314805850 Navigation.java ADD int currentD FIELD
+RefactoringAction 1479314808355 Navigation.java RENAME currentD=>int currentDirection FIELD
+CompilationAction 1479314870566 Navigation.java
+CompilationAction 1479314870566 Navigation.java
+RefactoringAction 1479314881001 Navigation.java REMOVE esitoNavigazione(String) METHOD
+RefactoringAction 1479314885011 Navigation.java ADD String esitoNavigazione(String) METHOD
+CompilationAction 1479314920568 Navigation.java
+CompilationAction 1479314920569 Navigation.java
+CompilationAction 1479314920569 Navigation.java
+CompilationAction 1479314922315 Navigation.java
+CompilationAction 1479314922316 Navigation.java
+CompilationAction 1479314922475 Navigation.java
+CompilationAction 1479314922475 Navigation.java
+CompilationAction 1479314933546 Navigation.java
+CompilationAction 1479314933706 Navigation.java
+CompilationAction 1479315331216 Navigation.java
+EditAction 1479315478734 Navigation.java 2165 13 20 0
+EditAction 1479316121858 Navigation.java 2874 13 23 0
+CompilationAction 1479316122112 MarsRover.java
+CompilationAction 1479316141202 MarsRover.java
+EditAction 1479316146801 MarsRover.java 1345 2 2 0
+CompilationAction 1479316146984 MarsRover.java
+CompilationAction 1479316165450 MarsRover.java
+EditAction 1479316189457 MarsRover.java 1421 2 1 0
+CompilationAction 1479316189665 MarsRover.java
+CompilationAction 1479316189665 MarsRover.java
+EditAction 1479316196819 MarsRover.java 1438 2 1 0
+CompilationAction 1479316196943 MarsRover.java
+CompilationAction 1479316196944 MarsRover.java
+CompilationAction 1479316196944 MarsRover.java
+CompilationAction 1479316213345 MarsRover.java
+CompilationAction 1479316213345 MarsRover.java
+CompilationAction 1479316213346 MarsRover.java
+CompilationAction 1479316213496 MarsRover.java
+CompilationAction 1479316213496 MarsRover.java
+CompilationAction 1479316213497 MarsRover.java
+CompilationAction 1479316213497 MarsRover.java
+CompilationAction 1479316218492 MarsRover.java
+CompilationAction 1479316218492 MarsRover.java
+CompilationAction 1479316218493 MarsRover.java
+CompilationAction 1479316218648 MarsRover.java
+CompilationAction 1479316228547 MarsRover.java
+UnitTestCaseAction 1479316231787 NavigationTest.java FAIL
+UnitTestSessionAction 1479316231788 NavigationTest FAIL
+EditAction 1479316252913 MarsRoverTest.java 158 1 0 0
+RefactoringAction 1479316281962 MarsRoverTest.java ADD void executeCommand(String) METHOD
+RefactoringAction 1479316293489 MarsRoverTest.java ADD MarsRover marsRover FIELD
+RefactoringAction 1479316308533 MarsRoverTest.java REMOVE executeCommand(String) METHOD
+RefactoringAction 1479316316760 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+EditAction 1479316336074 MarsRoverTest.java 280 1 1 0
+UnitTestCaseAction 1479316338144 MarsRoverTest.java OK
+UnitTestSessionAction 1479316338145 MarsRoverTest OK
+UnitTestCaseAction 1479316366805 AllTests.java FAIL
+UnitTestSessionAction 1479316366806 AllTests FAIL
+EditAction 1479316445159 MarsRoverTest.java 297 1 1 1
+EditAction 1479316475080 MarsRoverTest.java 304 1 1 1
+UnitTestCaseAction 1479316476561 MarsRoverTest.java OK
+UnitTestSessionAction 1479316476561 MarsRoverTest OK
+EditAction 1479316506144 MarsRoverTest.java 306 1 1 1
+UnitTestCaseAction 1479316508190 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316508191 MarsRoverTest FAIL
+EditAction 1479316514795 MarsRoverTest.java 304 1 1 1
+UnitTestCaseAction 1479316516372 MarsRoverTest.java OK
+UnitTestSessionAction 1479316516373 MarsRoverTest OK
+RefactoringAction 1479316538136 MarsRoverTest.java RENAME test()=>void executeCommand() METHOD
+EditAction 1479316538232 MarsRoverTest.java 314 1 1 1
+UnitTestCaseAction 1479316541321 MarsRoverTest.java OK
+UnitTestSessionAction 1479316541321 MarsRoverTest.executeCommand OK
+EditAction 1479316582446 MarsRoverTest.java 373 1 2 2
+UnitTestCaseAction 1479316584022 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316584023 MarsRoverTest FAIL
+UnitTestCaseAction 1479316597256 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316597257 MarsRoverTest FAIL
+EditAction 1479316635189 MarsRoverTest.java 373 1 2 2
+UnitTestCaseAction 1479316636630 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316636630 MarsRoverTest FAIL
+EditAction 1479316640351 MarsRoverTest.java 375 1 1 1
+UnitTestCaseAction 1479316642210 MarsRoverTest.java OK
+UnitTestSessionAction 1479316642211 MarsRoverTest OK
+EditAction 1479316648236 MarsRoverTest.java 377 1 1 1
+UnitTestCaseAction 1479316648677 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316648677 MarsRoverTest FAIL
+EditAction 1479316651822 MarsRoverTest.java 375 1 1 1
+UnitTestCaseAction 1479316655178 MarsRoverTest.java OK
+UnitTestSessionAction 1479316655179 MarsRoverTest OK
+EditAction 1479316684750 MarsRoverTest.java 435 1 2 2
+CompilationAction 1479316684978 MarsRoverTest.java
+CompilationAction 1479316684979 MarsRoverTest.java
+RefactoringAction 1479316688144 MarsRoverTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+CompilationAction 1479316692294 MarsRoverTest.java
+CompilationAction 1479316692294 MarsRoverTest.java
+UnitTestCaseAction 1479316692646 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316692647 MarsRoverTest FAIL
+EditAction 1479316699806 MarsRoverTest.java 486 1 1 1
+EditAction 1479316713118 MarsRoverTest.java 543 1 2 2
+UnitTestCaseAction 1479316714715 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316714716 MarsRoverTest FAIL
+EditAction 1479316732568 MarsRoverTest.java 542 1 2 2
+UnitTestCaseAction 1479316734040 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316734040 MarsRoverTest FAIL
+EditAction 1479316738076 MarsRoverTest.java 543 1 2 2
+UnitTestCaseAction 1479316738957 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316738957 MarsRoverTest FAIL
+EditAction 1479316769157 MarsRover.java 1469 2 4 0
+EditAction 1479316840630 Navigation.java 2894 13 23 0
+CompilationAction 1479316840887 Navigation.java
+RefactoringAction 1479316867681 MarsRoverException.java ADD MarsRoverException() METHOD
+EditAction 1479316870484 MarsRoverException.java 191 1 0 0
+UnitTestCaseAction 1479316874340 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316874341 MarsRoverTest FAIL
+RefactoringAction 1479316893688 MarsRoverException.java RENAME MarsRoverException()=>MarsRoverException(String) METHOD
+EditAction 1479316896101 MarsRoverException.java 211 1 0 0
+EditAction 1479316910885 MarsRoverException.java 241 1 1 0
+UnitTestCaseAction 1479316915690 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316915690 MarsRoverTest FAIL
+UnitTestCaseAction 1479316937054 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316937055 MarsRoverTest FAIL
+EditAction 1479316943202 MarsRoverTest.java 545 1 1 1
+UnitTestCaseAction 1479316943676 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316943677 MarsRoverTest FAIL
+EditAction 1479316949246 MarsRoverTest.java 547 1 0 0
+UnitTestCaseAction 1479316949692 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316949692 MarsRoverTest FAIL
+EditAction 1479316958244 MarsRoverTest.java 545 1 1 1
+UnitTestCaseAction 1479316959266 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316959266 MarsRoverTest FAIL
+EditAction 1479316965525 MarsRoverTest.java 545 1 1 1
+UnitTestCaseAction 1479316966600 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316966600 MarsRoverTest FAIL
+EditAction 1479316981412 MarsRoverTest.java 424 1 1 1
+UnitTestCaseAction 1479316982914 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316982915 MarsRoverTest FAIL
+UnitTestCaseAction 1479316994163 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316994163 MarsRoverTest FAIL
+EditAction 1479317051106 MarsRoverTest.java 419 1 1 1
+UnitTestCaseAction 1479317051581 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479317051582 MarsRoverTest FAIL
+EditAction 1479317064388 MarsRoverTest.java 412 1 1 1
+UnitTestCaseAction 1479317065720 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479317065720 MarsRoverTest FAIL
+EditAction 1479317069295 MarsRoverTest.java 413 1 1 1
+CompilationAction 1479317069416 MarsRoverTest.java
+EditAction 1479317070555 MarsRoverTest.java 414 1 1 1
+UnitTestCaseAction 1479317072660 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479317072660 MarsRoverTest FAIL
+EditAction 1479317089538 MarsRoverTest.java 385 1 1 1
+UnitTestCaseAction 1479317091090 MarsRoverTest.java OK
+UnitTestSessionAction 1479317091090 MarsRoverTest OK
+EditAction 1479317098485 MarsRoverTest.java 422 1 1 1
+UnitTestCaseAction 1479317098992 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479317098992 MarsRoverTest FAIL
+EditAction 1479317202514 MarsRoverTest.java 422 1 1 1
+RefactoringAction 1479317217502 MarsRoverTest.java ADD void executeCommand()/2 METHOD
+RefactoringAction 1479317226512 MarsRoverTest.java RENAME executeCommand()/2=>void executeCommandE() METHOD
+RefactoringAction 1479317230515 MarsRoverTest.java RENAME executeCommandE()=>void executeCommandException() METHOD
+EditAction 1479317237922 MarsRoverTest.java 531 2 2 2
+UnitTestCaseAction 1479317239734 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479317239734 MarsRoverTest FAIL
+RefactoringAction 1479317294072 MarsRoverTest.java REMOVE executeCommandException() METHOD
+EditAction 1479317294105 MarsRoverTest.java 361 1 1 1
