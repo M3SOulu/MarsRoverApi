@@ -65,3 +65,4 @@ RefactoringAction 1479316437469 MarsRover.java RENAME command=>char commands FIE
 RefactoringAction 1479316474499 MarsRover.java REMOVE commands FIELD
 RefactoringAction 1479316680962 MarsRoverTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
 EditAction 1479316931121 MarsRoverTest.java 232 1 0 0
+EditAction 1479316931268 MarsRover.java 3248 3 31 0
