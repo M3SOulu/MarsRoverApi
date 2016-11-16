@@ -32,6 +32,8 @@ public class Rover {
 		return "("+xRover+","+yRover+","+facing+")";
 	}
 	
-	public 
+	public setFacing(char facing){
+		this.facing=facing;
+	}
 	
 }
