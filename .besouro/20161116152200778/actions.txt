@@ -99,3 +99,14 @@ RefactoringAction 1479314815746 MarsRover.java ADD String Test(String) METHOD
 RefactoringAction 1479314822785 MarsRover.java REMOVE position FIELD
 RefactoringAction 1479314823812 MarsRover.java ADD import org.junit.Assert.* IMPORT
 EditAction 1479314897089 MarsRover.java 2185 3 5 0
+CompilationAction 1479314897345 MarsRoverTest.java
+CompilationAction 1479314897346 MarsRoverTest.java
+CompilationAction 1479314943269 MarsRoverTest.java
+CompilationAction 1479314943440 MarsRoverTest.java
+CompilationAction 1479314943440 MarsRoverTest.java
+CompilationAction 1479315004686 MarsRoverTest.java
+CompilationAction 1479315004687 MarsRoverTest.java
+CompilationAction 1479315004950 MarsRoverTest.java
+CompilationAction 1479315004950 MarsRoverTest.java
+CompilationAction 1479315168261 MarsRoverTest.java
+EditAction 1479315168282 MarsRover.java 2201 3 5 0

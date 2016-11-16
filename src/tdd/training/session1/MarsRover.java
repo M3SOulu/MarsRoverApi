@@ -1,6 +1,6 @@
 package tdd.training.session1;
 
-public class MarsRover {
+public class MarsRovers {
 	public int posX = 0;
 	public int posY = 0;
 	public char facing = 'N';
@@ -50,7 +50,7 @@ public class MarsRover {
 				}
 			}
 			
-			if (facing == 'S') {
+			else if (facing == 'S') {
 				switch (action) {
 					case 'f':
 						posY--;
@@ -63,7 +63,7 @@ public class MarsRover {
 				}
 			}
 			
-			if (facing == 'E') {
+			else if (facing == 'E') {
 				switch (action) {
 					case 'f':
 						posX++;
@@ -76,7 +76,7 @@ public class MarsRover {
 				}
 			}
 			
-			if (facing == 'O') {
+			else if (facing == 'O') {
 				switch (action) {
 					case 'f':
 						posX--;
