@@ -1,17 +1,66 @@
 package tdd.training.session1;
 
+
+import java.util.Arrays;
+import java.util.List;
+
 public class MarsRover {
 	
-	private static String[] position = {"N","S","E","W"};
+	private static final List<String> position = Arrays.asList("N","S","E","W");
 	private int coordX;
 	private int coordY;
-	private String direction;
+	private int direction;
 	
 	public MarsRover(){
 		coordX = 0;
 		coordY = 0;
+		direction = 0;
 	}
 	
+	
+	
+	public int getCoordX() {
+		return coordX;
+	}
+
+
+
+	public void setCoordX(int coordX) {
+		this.coordX = coordX;
+	}
+
+
+
+	public int getCoordY() {
+		return coordY;
+	}
+
+
+
+	public void setCoordY(int coordY) {
+		this.coordY = coordY;
+	}
+
+
+
+	public String getRealDirection() {
+		return position.get(direction);
+	}
+
+
+
+	public void setDirection(int direction) {
+		this.direction = direction;
+	}
+
+
+
+	public static List<String> getPosition() {
+		return position;
+	}
+
+
+
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 

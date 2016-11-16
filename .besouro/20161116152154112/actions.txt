@@ -12,3 +12,21 @@ RefactoringAction 1479306407628 MarsRover.java ADD Stirng FIELD
 RefactoringAction 1479306410146 MarsRover.java RENAME posizi=>Stirng FIELD
 RefactoringAction 1479306501878 MarsRover.java RENAME posizioni=>String FIELD
 EditAction 1479306503132 MarsRover.java 1278 3 3 0
+RefactoringAction 1479306636041 MarsRover.java RENAME position=><initializer /1> null
+RefactoringAction 1479306638059 MarsRover.java RENAME <initializer /1>=>List position FIELD
+RefactoringAction 1479306668456 MarsRover.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1479306681443 MarsRover.java ADD import java.awt.List IMPORT
+RefactoringAction 1479306687191 MarsRover.java REMOVE import java.awt.List IMPORT
+RefactoringAction 1479306688792 MarsRover.java ADD import java.util.List IMPORT
+RefactoringAction 1479306715912 MarsRover.java ADD int getCoordX() METHOD
+RefactoringAction 1479306715913 MarsRover.java ADD void setCoordX(int) METHOD
+RefactoringAction 1479306715913 MarsRover.java ADD int getCoordY() METHOD
+RefactoringAction 1479306715913 MarsRover.java ADD void setCoordY(int) METHOD
+RefactoringAction 1479306715914 MarsRover.java ADD int getDirection() METHOD
+RefactoringAction 1479306715914 MarsRover.java ADD void setDirection(int) METHOD
+RefactoringAction 1479306715914 MarsRover.java ADD static List<String> getPosition() METHOD
+RefactoringAction 1479306734460 MarsRover.java RENAME getDirection()=>int getDesDirection() METHOD
+RefactoringAction 1479306735512 MarsRover.java RENAME getDesDirection()=>int getDescrDirection() METHOD
+RefactoringAction 1479306737533 MarsRover.java RENAME getDescrDirection()=>int getDirection() METHOD
+RefactoringAction 1479306768050 MarsRover.java RENAME getDirection()=>int getRealDirection() METHOD
+EditAction 1479306798702 MarsRover.java 1825 10 11 0
