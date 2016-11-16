@@ -162,6 +162,14 @@ public class MarsRover {
 		
 	}
 	
+	public char getFace() {
+		return face;
+	}
+
+	public void setFace(char face) {
+		this.face = face;
+	}
+
 	/**
 	 * change the face given the right command
 	 * @param face

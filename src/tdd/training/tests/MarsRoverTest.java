@@ -34,7 +34,7 @@ public class MarsRoverTest {
 	
 	
 	@Test
-	public void TestMakeObstacles() {
+	public void testMakeObstacles() {
 		
 		ArrayList<Obstacle> obsList= MarsRover.makeObstacles(obstacles);
 				
@@ -44,7 +44,7 @@ public class MarsRoverTest {
 	}
 	
 	@Test
-	public void TestCheckObstacles() {
+	public void testCheckObstacles() {
 		
 		ArrayList<Obstacle> obsList= MarsRover.makeObstacles(obstacles);
 				
@@ -54,7 +54,7 @@ public class MarsRoverTest {
 	}
 	
 	@Test
-	public void TestIsValidCommand(){
+	public void testIsValidCommand(){
 		
 		//right command
 		String cmd="ffrlfb";	
@@ -67,6 +67,12 @@ public class MarsRoverTest {
 		//all command wrong
 		cmd= new String("kkqkw1238");
 		Assert.assertFalse(rover.isValidCommand(cmd));
+	}
+	
+	@Test
+	public void TestchangeFace(){
+		
+		
 	}
 
 }

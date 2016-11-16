@@ -301,3 +301,15 @@ CompilationAction 1479315168868 MarsRover.java
 CompilationAction 1479315185324 MarsRover.java
 EditAction 1479315250384 MarsRover.java 3916 7 23 0
 EditAction 1479315318111 MarsRover.java 4025 7 23 0
+RefactoringAction 1479315342097 MarsRover.java ADD char getFace() METHOD
+RefactoringAction 1479315342100 MarsRover.java ADD void setFace(char) METHOD
+RefactoringAction 1479315359229 MarsRoverTest.java ADD void test FIELD
+RefactoringAction 1479315360742 MarsRoverTest.java REMOVE test FIELD
+RefactoringAction 1479315363249 MarsRoverTest.java RENAME TestCheckObstacles()=>void testCheckObstacles() METHOD
+RefactoringAction 1479315365274 MarsRoverTest.java RENAME TestIsValidCommand()=>void testIsValidCommand() METHOD
+RefactoringAction 1479315367786 MarsRoverTest.java RENAME TestMakeObstacles()=>void testMakeObstacles() METHOD
+RefactoringAction 1479315374295 MarsRoverTest.java ADD void testChan FIELD
+RefactoringAction 1479315384301 MarsRoverTest.java RENAME testChan=>void changeFace FIELD
+RefactoringAction 1479315386342 MarsRoverTest.java RENAME changeFace=>void TestchangeFace FIELD
+RefactoringAction 1479315389852 MarsRoverTest.java RENAME TestchangeFace=>void TestchangeFace() METHOD
+EditAction 1479315391689 MarsRover.java 4127 9 25 0
