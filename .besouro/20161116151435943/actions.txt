@@ -52,3 +52,8 @@ EditAction 1479307251510 Position.java 201 2 3 0
 RefactoringAction 1479307269373 MarsRover.java ADD String formatPosition FIELD
 RefactoringAction 1479307274910 MarsRover.java REMOVE formatPosition FIELD
 EditAction 1479307275051 MarsRover.java 1844 2 4 0
+RefactoringAction 1479307283606 Utils.java ADD static String formatPosition() METHOD
+RefactoringAction 1479307287617 Utils.java RENAME formatPosition()=>static String formatPosition(int, int) METHOD
+RefactoringAction 1479307304670 Utils.java ADD static String formatPosition(int, int)/2 METHOD
+RefactoringAction 1479307307177 Utils.java RENAME formatPosition(int, int)/2=>static String formatPosition(int, int, String) METHOD
+EditAction 1479307318269 Utils.java 464 3 6 0
