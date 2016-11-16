@@ -139,6 +139,7 @@ public class MarsRover {
 					}
 				}
 				if (cmd1 == 'l') {
+					result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 					System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 					i++;
 					char cmd2 = command.charAt(i);
@@ -146,18 +147,21 @@ public class MarsRover {
 						if (cmd2 == 'f') {
 							moment = A.getPos_y() - 1;
 							A.setPos_y(moment);
+							result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 							System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 							i++;
 							cmd2 = command.charAt(i);
 						} else if (cmd2 == 'b') {
 							moment = A.getPos_y() + 1;
 							A.setPos_y(moment);
+							result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 							System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 							i++;
 							cmd2 = command.charAt(i);
 						}
 					}
 					if (cmd2 == 'l') {
+						result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 						System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 						i++;
 						char cmd3 = command.charAt(i);
