@@ -6,13 +6,14 @@ import org.junit.Before;
 import org.junit.Test;
 
 import tdd.training.session1.MarsRover;
+import tdd.training.session1.MarsRoverException;
 
 public class MarsRoverTest {
 
 	private MarsRover marsRover;
 	
 	@Before
-	public void setUp(){
+	public void setUp() throws MarsRoverException{
 		marsRover = new MarsRover(3, 3, "");
 	}
 	

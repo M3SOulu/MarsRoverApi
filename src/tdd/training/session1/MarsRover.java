@@ -21,6 +21,7 @@ public class MarsRover {
 		ySize = y;
 		
 		planet = new int[x][y];
+		planet[0][0] = 1;
 	
 		
 	}

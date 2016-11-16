@@ -54,3 +54,7 @@ EditAction 1479308387605 MarsRoverTest.java 964 4 13 11
 UnitTestCaseAction 1479308388104 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479308388105 MarsRoverTest FAIL
 EditAction 1479308447199 MarsRover.java 1758 4 11 0
+CompilationAction 1479308447449 MarsRoverTest.java
+RefactoringAction 1479308455514 MarsRoverTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+CompilationAction 1479308460013 MarsRoverTest.java
+EditAction 1479308496787 MarsRover.java 1778 4 12 0
