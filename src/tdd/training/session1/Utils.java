@@ -32,14 +32,11 @@ public class Utils {
 		String newDir = dir;
 		if (newDir.equals("N")){
 			newDir = "W";
-		}
-		if (newDir.equals("W")){
+		}else if (newDir.equals("W")){
 			newDir = "S";
-		}
-		if (newDir.equals("S")){
+		}else if (newDir.equals("S")){
 			newDir = "E";
-		}
-		if (newDir.equals("E")){
+		}else if (newDir.equals("E")){
 			newDir = "N";
 		}
 		return newDir;
@@ -49,14 +46,11 @@ public class Utils {
 		String newDir = dir;
 		if (newDir.equals("N")){
 			newDir = "E";
-		}
-		if (newDir.equals("E")){
+		}else if (newDir.equals("E")){
 			newDir = "S";
-		}
-		if (newDir.equals("S")){
+		}else if (newDir.equals("S")){
 			newDir = "W";
-		}
-		if (newDir.equals("W")){
+		}else if (newDir.equals("W")){
 			newDir = "N";
 		}
 		return newDir;
