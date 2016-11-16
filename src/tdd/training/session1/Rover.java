@@ -17,6 +17,7 @@ public class Rover {
 		yRover=y;
 	}
 	
+	
 	public char getFacing(){
 		return facing;
 	}

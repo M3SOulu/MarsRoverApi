@@ -13,12 +13,6 @@ public class MarsRoverTest {
 	
 	MarsRover rover;
 	
-	@Before
-	public void initialize(){
-		MarsRover rover = new MarsRover(3, 3, "(2,2)");
-	}
-	
-	
 	@Test
 	public void testExecuteCommand() throws MarsRoverException {
 		MarsRover rover = new MarsRover(3, 3, "(0,2)");
