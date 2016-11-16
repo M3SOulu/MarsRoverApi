@@ -257,3 +257,4 @@ RefactoringAction 1479309650376 Utils.java ADD MyEnum getValue(int) METHOD
 RefactoringAction 1479309656459 Utils.java RENAME getValue(int)=>Direction getByValue(int) METHOD
 RefactoringAction 1479309659015 Utils.java RENAME getByValue(int)=>Direction getByValue(char) METHOD
 EditAction 1479309808594 Utils.java 1550 8 15 0
+EditAction 1479309855295 Utils.java 1557 8 15 0

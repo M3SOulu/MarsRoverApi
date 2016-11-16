@@ -13,7 +13,7 @@ public class Utils {
 	    public char getChar() {
 	        return value;
 	    }
-	    Direction getByValue(char value) {
+	    static Direction getByValue(char value) {
 	    	Direction result = null;
 	    	for(Direction e: Direction.values()) {
 	    		if(e.value == value) {
