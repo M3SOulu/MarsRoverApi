@@ -28,35 +28,36 @@ public class Utils {
 	public final static char LEFT = 'l';
 	public final static char RIGHT = 'r';
 
-	public static String cycleDirection(String dir, int value){
+	public static String cycleDirectionLeft(String dir){
 		String newDir = dir;
-		if (value > 0){
-			if (newDir.equals("N")){
-				newDir = "E";
-			}
-			if (newDir.equals("E")){
-				newDir = "S";
-			}
-			if (newDir.equals("S")){
-				newDir = "W";
-			}
-			if (newDir.equals("W")){
-				newDir = "N";
-			}
+		if (newDir.equals("N")){
+			newDir = "W";
 		}
-		if (value < 0){
-			if (newDir.equals("N")){
-				newDir = "W";
-			}
-			if (newDir.equals("W")){
-				newDir = "S";
-			}
-			if (newDir.equals("S")){
-				newDir = "E";
-			}
-			if (newDir.equals("E")){
-				newDir = "N";
-			}
+		if (newDir.equals("W")){
+			newDir = "S";
+		}
+		if (newDir.equals("S")){
+			newDir = "E";
+		}
+		if (newDir.equals("E")){
+			newDir = "N";
+		}
+		return newDir;
+	}
+
+	public static String cycleDirectionRight(String dir){
+		String newDir = dir;
+		if (newDir.equals("N")){
+			newDir = "E";
+		}
+		if (newDir.equals("E")){
+			newDir = "S";
+		}
+		if (newDir.equals("S")){
+			newDir = "W";
+		}
+		if (newDir.equals("W")){
+			newDir = "N";
 		}
 		return newDir;
 	}

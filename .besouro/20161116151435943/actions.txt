@@ -283,3 +283,11 @@ EditAction 1479310671805 Utils.java 2154 6 14 0
 CompilationAction 1479310672056 MarsRover.java
 CompilationAction 1479310686060 MarsRover.java
 EditAction 1479310708173 MarsRover.java 2869 3 11 0
+CompilationAction 1479310708408 MarsRover.java
+CompilationAction 1479310708409 MarsRover.java
+RefactoringAction 1479310712218 Utils.java RENAME cycleDirection(String, int)=>static String cycleDirectionLeft(String, int) METHOD
+RefactoringAction 1479310716760 Utils.java ADD static String cycleDirectionLeft(String, int)/2 METHOD
+RefactoringAction 1479310720777 Utils.java RENAME cycleDirectionLeft(String, int)/2=>static String cycleDirectionRight(String, int) METHOD
+RefactoringAction 1479310723301 Utils.java RENAME cycleDirectionRight(String, int)=>static String cycleDirectionRight(String) METHOD
+RefactoringAction 1479310725807 Utils.java RENAME cycleDirectionLeft(String, int)=>static String cycleDirectionLeft(String) METHOD
+EditAction 1479310746398 Utils.java 2179 7 22 0
