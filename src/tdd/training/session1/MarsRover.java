@@ -89,7 +89,7 @@ public class MarsRover {
 				}
 				
 				if (roverFacing == 'S') {
-					if ((planet.length-1) == yRover)
+					if (yRover == 0)
 						yRover = 1;
 					if (planet[xRover][yRover - 1] == null) {
 						planet[xRover][rover.getYRover()] = null;
