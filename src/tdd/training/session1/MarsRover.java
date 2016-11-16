@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 import javax.management.monitor.StringMonitor;
 
+
 public class MarsRover {
 	int planet[][];
 	public MarsRover(int x, int y, String obstacles){
@@ -15,7 +16,7 @@ public class MarsRover {
 	 */
 		//planet = new int[x][y];
 		//Arrays.fill(planet, false);
-		positionObstacles(obstacles);
+		//positionObstacles(obstacles);
 		
 		
 
@@ -37,15 +38,27 @@ public class MarsRover {
 	
 	public void positionObstacles(String obstacles){
 		
+		
+		String word2 ="";
+		for (int i = 1; i<obstacles.length()-1;i++) {
+		    word2 = obstacles.substring(i, 5*i);
+		    System.out.println(word2);
+		}
+		
+		obstacles.replaceAll(")"," ");
+		String coordinate[] = obstacles.split("\\s+");
+		
+		System.out.println(coordinate);
+		
+		
 		String temp[] = obstacles.split(")");
+		System.out.println("XC");
 		temp[1].replace('(', ' ');
 		temp[1] = temp[1].trim();
 		String locationTemp[] = temp[1].split(",");
 		obstacles.replaceAll(")", " ");
-		String coordinate[] = obstacles.split("\\s+");
-		@SuppressWarnings("unused")
-		String coo;
-		coo="gh";
+		
+		
 		
 		//planet[Integer.parseInt(locationTemp[1])][Integer.parseInt(locationTemp[2])] = 0;
 		
