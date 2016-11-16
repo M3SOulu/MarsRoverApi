@@ -96,7 +96,7 @@ public class MarsRover {
 
 	public static void main(String[] args) {
 
-		MarsRover rover = new MarsRover(3, 3, "(2,2)");
+		MarsRover rover = new MarsRover(3, 3, "(0,1)");
 		String test =rover.executeCommand("f");
 		System.out.println(test);
 
