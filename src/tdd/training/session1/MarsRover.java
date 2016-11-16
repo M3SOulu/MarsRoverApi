@@ -48,6 +48,13 @@ public class MarsRover {
 		throw new MarsRoverException();
 	}
 	
+	public int getCurrentX(){
+		return xPos;
+	}
+	
+	public int getCurrenTy(){
+		return yPos;
+	}
 	
 	public boolean verifyObstaclesRange(int xObstacle, int yObstacle){
 		boolean verified = true;

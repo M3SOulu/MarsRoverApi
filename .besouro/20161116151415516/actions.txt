@@ -222,3 +222,11 @@ EditAction 1479312419224 MarsRover.java 3794 9 30 0
 EditAction 1479312441850 MarsRover.java 3761 9 30 0
 EditAction 1479312631094 MarsRover.java 3943 9 31 0
 EditAction 1479312845864 MarsRover.java 4088 9 31 0
+RefactoringAction 1479312867021 MarsRover.java ADD int getCurrentXpos FIELD
+RefactoringAction 1479312868046 MarsRover.java RENAME getCurrentXpos=>int getCurrentXp FIELD
+RefactoringAction 1479312869573 MarsRover.java RENAME getCurrentXp=>int getCurrentX() METHOD
+RefactoringAction 1479312886666 MarsRover.java ADD int getCurrentX()/2 METHOD
+RefactoringAction 1479312891176 MarsRover.java RENAME getCurrentX()/2=>int getCurrent() METHOD
+RefactoringAction 1479312892192 MarsRover.java RENAME getCurrent()=>int getCurrent FIELD
+RefactoringAction 1479312895285 MarsRover.java RENAME getCurren()=>int getCurrenTy() METHOD
+EditAction 1479312901447 MarsRover.java 4180 11 33 0
