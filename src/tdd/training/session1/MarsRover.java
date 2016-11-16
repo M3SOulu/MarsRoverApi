@@ -67,8 +67,6 @@ public class MarsRover {
 		 */
 		
 		char[] commandList = commands.toCharArray();
-		System.out.println(commands);
-		System.out.println(commandList[0]);
 		if(!verifyCommand(commands)) throw new MarsRoverException();
 		
 		for(int i=0; i<commandList.length; i++){
@@ -88,7 +86,6 @@ public class MarsRover {
 			}
 		}
 		String executedCommand = "("+xPos+","+yPos+","+direction.getValue()+")";
-		System.out.println(executedCommand);
 		return executedCommand;
 	}
 	
