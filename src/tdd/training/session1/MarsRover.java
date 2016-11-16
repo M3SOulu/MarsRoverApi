@@ -32,9 +32,6 @@ public class MarsRover {
 			}
 		}
 		System.out.println(Utils.formatPosition(rPos.x, rPos.y, rDir));
-		for (Position obstacle : this.obstacles){
-			System.out.println(Utils.formatPosition(obstacle.x, obstacle.y));
-		}
 	}
 	
 	public String executeCommand(String command){

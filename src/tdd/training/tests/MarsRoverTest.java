@@ -14,8 +14,13 @@ public class MarsRoverTest {
 	}*/
 	
 	@Test(expected = MarsRoverException.class)
-	public void testMarsRoverClassCreation() throws MarsRoverException {
+	public void testMarsRoverWrongClassCreation() throws MarsRoverException {
 		MarsRover rover = new MarsRover(50, 50, "(10,10)(");
+	}
+	
+	@Test
+	public void testMarsRoverCorrectClassCreation() throws MarsRoverException {
+		MarsRover rover = new MarsRover(50, 50, "(10,10)");
 	}
 
 }
