@@ -1,14 +1,23 @@
 package tdd.training.tests;
 
 import static org.junit.Assert.*;
-
 import org.junit.Test;
 
-public class MarsRoverTest {
+import tdd.training.session1.*;
 
+
+public class MarsRoverTest {	
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void test1() { 
+
+		//Arrange
+		MarsRover mars = new MarsRover(0, 0, null);
+
+		//Act
+		String score = mars.runner("ffrff");
+		
+		//Assert
+		assertEquals("22E", score);
 	}
 
 }
