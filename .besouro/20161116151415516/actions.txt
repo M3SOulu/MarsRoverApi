@@ -25,3 +25,7 @@ UnitTestSessionAction 1479307097698 MarsRoverTest FAIL
 RefactoringAction 1479307168246 MarsRover.java ADD int pianeta FIELD
 RefactoringAction 1479307171755 MarsRover.java RENAME pianeta=>int FIELD
 EditAction 1479307215679 MarsRover.java 1419 3 7 0
+RefactoringAction 1479307363506 MarsRover.java ADD String obstacles FIELD
+RefactoringAction 1479307367016 MarsRover.java RENAME obstacles=>String obstaclesPattern FIELD
+RefactoringAction 1479307648634 MarsRover.java REMOVE obstaclesPattern FIELD
+EditAction 1479307649539 MarsRover.java 1421 3 7 0
