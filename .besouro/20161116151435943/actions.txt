@@ -100,3 +100,10 @@ UnitTestCaseAction 1479307952866 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479307952867 MarsRoverTest FAIL
 EditAction 1479307956910 MarsRover.java 2129 2 6 0
 EditAction 1479307988114 MarsRover.java 2324 2 6 0
+UnitTestCaseAction 1479307989554 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479307989554 MarsRoverTest FAIL
+RefactoringAction 1479308000634 MarsRoverTest.java REMOVE testMarsRoverWrongClassCreation() METHOD
+UnitTestCaseAction 1479308001869 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308001870 MarsRoverTest FAIL
+RefactoringAction 1479308006538 MarsRoverTest.java ADD void testMarsRoverWrongClassCreation() METHOD
+EditAction 1479308015182 MarsRover.java 2129 2 6 0
