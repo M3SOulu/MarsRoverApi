@@ -320,3 +320,18 @@ RefactoringAction 1479315425678 MarsRover.java REMOVE setFace(char) METHOD
 RefactoringAction 1479315427695 MarsRover.java ADD char getFace() METHOD
 RefactoringAction 1479315427696 MarsRover.java ADD void setFace(char) METHOD
 EditAction 1479315458480 MarsRover.java 4260 9 25 0
+CompilationAction 1479315531386 MarsRoverTest.java
+CompilationAction 1479315547926 MarsRoverTest.java
+CompilationAction 1479315548108 MarsRoverTest.java
+CompilationAction 1479315548108 MarsRoverTest.java
+CompilationAction 1479315548108 MarsRoverTest.java
+CompilationAction 1479315553126 MarsRoverTest.java
+CompilationAction 1479315553301 MarsRoverTest.java
+RefactoringAction 1479315561106 MarsRoverTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+CompilationAction 1479315562750 MarsRoverTest.java
+RefactoringAction 1479315566331 MarsRoverTest.java RENAME TestchangeFace()=>void TestChangeFace() METHOD
+UnitTestCaseAction 1479315568812 MarsRoverTest.java OK
+UnitTestSessionAction 1479315568812 MarsRoverTest.TestChangeFace OK
+UnitTestCaseAction 1479315615909 MarsRoverTest.java OK
+UnitTestSessionAction 1479315615910 MarsRoverTest OK
+EditAction 1479315696190 MarsRover.java 4131 9 25 0

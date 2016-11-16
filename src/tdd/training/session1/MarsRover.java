@@ -141,7 +141,7 @@ public class MarsRover {
 	 * move the rover in  a given position
 	 * @param mov a movement
 	 */
-	public void move(char mov) throws MarsRoverException{
+	public void move(char mov){
 		
 		switch(mov){
 		
@@ -180,7 +180,7 @@ public class MarsRover {
 	 * @param face
 	 * @throws MarsRoverException
 	 */
-	public void changeFace(char face) throws MarsRoverException{
+	public void changeFace(char face){
 		
 		switch(face){
 		
@@ -210,16 +210,9 @@ public class MarsRover {
 			
 			break;
 			
-		default:
-			
-			throw new MarsRoverException("Invalid face!");
 		}
 		
-		
-			
-			
-		
-		
+				
 	}
 	
 	
