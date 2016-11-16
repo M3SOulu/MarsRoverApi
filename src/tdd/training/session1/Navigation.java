@@ -22,7 +22,7 @@ public class Navigation {
 				
 				if(ob.charAt(i) == ')'){
 					System.out.println(currentObstacle);
-					//obstacles.add(currentObstacle);					
+					obstacles.add(currentObstacle);					
 					currentObstacle = "";
 				}
 				else{
