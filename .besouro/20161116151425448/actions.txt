@@ -1,0 +1,29 @@
+FileOpenedAction 1479305665958 MarsRover.java 1090 2 1 0
+RefactoringAction 1479307020347 MarsRover.java ADD boolean receivedSingleCommand(String) METHOD
+RefactoringAction 1479307199061 MarsRover.java RENAME receivedSingleCommand(String)=>boolean receivedSingleCommand(char) METHOD
+RefactoringAction 1479307860584 MarsRover.java ADD String getPositio FIELD
+RefactoringAction 1479307861592 MarsRover.java RENAME getPositio=>String getPosition FIELD
+RefactoringAction 1479307863129 MarsRover.java RENAME getPosition=>String getPosition() METHOD
+RefactoringAction 1479307995794 Coordinates.java ADD Coordinates.java CLASS
+FileOpenedAction 1479307995960 Coordinates.java 67 0 0 0
+RefactoringAction 1479308036787 MarsRover.java ADD Coordinates coordinates FIELD
+RefactoringAction 1479308036798 MarsRover.java ADD void setCoordinates(Coordinate) METHOD
+RefactoringAction 1479308037831 MarsRover.java REMOVE coordinates FIELD
+RefactoringAction 1479308037832 MarsRover.java REMOVE setCoordinates(Coordinate) METHOD
+RefactoringAction 1479308166551 Coordinates.java ADD int x_coordinate FIELD
+RefactoringAction 1479308175571 Coordinates.java ADD int y FIELD
+RefactoringAction 1479308178577 Coordinates.java RENAME y=>int y_coordinate FIELD
+RefactoringAction 1479308192123 Coordinates.java ADD Coordinates(int, int) METHOD
+RefactoringAction 1479308212131 Coordinates.java ADD int getX_coordinate() METHOD
+RefactoringAction 1479308212132 Coordinates.java ADD void setX_coordinate(int) METHOD
+RefactoringAction 1479308212132 Coordinates.java ADD int getY_coordinate() METHOD
+RefactoringAction 1479308212133 Coordinates.java ADD void setY_coordinate(int) METHOD
+RefactoringAction 1479308280376 MarsRover.java ADD Coordinates coordinates FIELD
+RefactoringAction 1479308280376 MarsRover.java ADD void setCoordinates(Coordinates) METHOD
+RefactoringAction 1479308290462 MarsRover.java REMOVE setCoordinates(Coordinates) METHOD
+RefactoringAction 1479308290462 MarsRover.java REMOVE coordinates FIELD
+RefactoringAction 1479308396593 MarsRover.java ADD Coordinates coordinates FIELD
+RefactoringAction 1479308431420 Coordinates.java ADD Coordinate get FIELD
+RefactoringAction 1479308434928 Coordinates.java RENAME get=>Coordinate getCoordinates FIELD
+RefactoringAction 1479308489996 Coordinates.java RENAME getCoordinates=>Coordinate getCoordinates() METHOD
+EditAction 1479308561408 Coordinates.java 854 6 6 0
