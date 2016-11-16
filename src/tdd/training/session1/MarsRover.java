@@ -1,6 +1,8 @@
 package tdd.training.session1;
 
 public class MarsRover {
+	private String commandPattern = "[lrfb]+";
+	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
@@ -22,5 +24,13 @@ public class MarsRover {
 		 */
 		
 		return null;
+	}
+	
+	public boolean verifyCommand(String command){
+		boolean verified = false;
+		
+		if(command.matches(commandPattern)) verified = true;
+		
+		return verified;
 	}
 }

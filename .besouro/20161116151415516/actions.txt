@@ -1,0 +1,6 @@
+FileOpenedAction 1479305655970 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479306216611 MarsRover.java ADD boolean verify FIELD
+RefactoringAction 1479306219127 MarsRover.java RENAME verify=>boolean verifyCommand() METHOD
+RefactoringAction 1479306222649 MarsRover.java RENAME verifyCommand()=>boolean verifyCommand(String) METHOD
+RefactoringAction 1479306247372 MarsRover.java ADD String commandPattern FIELD
+EditAction 1479306332555 MarsRover.java 1296 3 4 0
