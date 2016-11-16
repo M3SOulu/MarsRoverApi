@@ -252,3 +252,15 @@ EditAction 1479315897004 Rover.java 638 7 10 0
 CompilationAction 1479315897252 Rover.java
 CompilationAction 1479315901083 Rover.java
 EditAction 1479315977675 MarsRoverTest.java 505 2 4 1
+CompilationAction 1479315977884 MarsRoverTest.java
+CompilationAction 1479315977884 MarsRoverTest.java
+RefactoringAction 1479316019822 MarsRover.java ADD void set FIELD
+RefactoringAction 1479316020835 MarsRover.java RENAME set=>void setR FIELD
+RefactoringAction 1479316021853 MarsRover.java RENAME setR=>void set FIELD
+RefactoringAction 1479316024387 MarsRover.java RENAME set=>void setRoverFac FIELD
+RefactoringAction 1479316026099 MarsRover.java RENAME setRoverFac=>void setRoverFacing FIELD
+RefactoringAction 1479316054266 MarsRoverTest.java ADD import org.junit.Before IMPORT
+CompilationAction 1479316057786 MarsRoverTest.java
+RefactoringAction 1479316064135 MarsRover.java RENAME setRoverFacing=>void setRoverFacing() METHOD
+RefactoringAction 1479316098258 MarsRover.java RENAME setRoverFacing()=>void setRoverFacing(char) METHOD
+EditAction 1479316100714 MarsRover.java 4709 4 15 0

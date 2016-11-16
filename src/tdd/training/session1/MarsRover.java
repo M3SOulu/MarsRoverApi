@@ -150,6 +150,10 @@ public class MarsRover {
 
 		return rover + obPosition;
 	}
+	
+	public void setRoverFacing(char facing){
+		rover.setFacing(facing);
+	}
 
 	public static void main(String[] args) throws MarsRoverException{
 

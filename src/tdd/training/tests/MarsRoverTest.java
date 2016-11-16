@@ -2,6 +2,7 @@ package tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import tdd.training.session1.MarsRover;
@@ -12,7 +13,8 @@ public class MarsRoverTest {
 	
 	MarsRover rover;
 	
-	@Before public void initialize(){
+	@Before
+	public void initialize(){
 		MarsRover rover = new MarsRover(3, 3, "(2,2)");
 	}
 	
@@ -20,7 +22,6 @@ public class MarsRoverTest {
 	@Test
 	public void testExecuteCommand() throws MarsRoverException {
 		
-		rover.setFacing('W');
 		String test = rover.executeCommand("ffff");
 		assertEquals(test,"(0,0,W)");
 		
