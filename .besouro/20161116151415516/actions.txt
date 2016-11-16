@@ -403,3 +403,4 @@ RefactoringAction 1479315682822 MarsRoverTest.java ADD void testExecuteCommand()
 RefactoringAction 1479315687842 MarsRoverTest.java REMOVE testExecuteCommand()/2 METHOD
 RefactoringAction 1479315692853 MarsRoverTest.java ADD void testExecuteCommand()/2 METHOD
 EditAction 1479315744312 MarsRover.java 4138 13 32 0
+EditAction 1479315744419 MarsRoverTest.java 4306 17 69 47

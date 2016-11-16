@@ -147,5 +147,10 @@ public class MarsRoverTest {
 	public void testExecuteCommand() throws MarsRoverException{		
 		assertEquals("(0,1,N)", marsRover.executeCommand("f"));
 	}
+	
+	@Test
+	public void testExecuteCommand() throws MarsRoverException{		
+		assertEquals("(0,1,N)", marsRover.executeCommand("f"));
+	}
 
 }
