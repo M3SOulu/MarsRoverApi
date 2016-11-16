@@ -235,3 +235,12 @@ EditAction 1479312117055 Navigation.java 798 3 6 0
 UnitTestCaseAction 1479312118702 NavigationTest.java FAIL
 UnitTestSessionAction 1479312118702 NavigationTest FAIL
 EditAction 1479312129190 Navigation.java 800 3 6 0
+CompilationAction 1479312129337 Navigation.java
+CompilationAction 1479312129338 Navigation.java
+UnitTestCaseAction 1479312132757 NavigationTest.java FAIL
+UnitTestSessionAction 1479312132758 NavigationTest FAIL
+CompilationAction 1479312135232 Navigation.java
+CompilationAction 1479312135233 Navigation.java
+RefactoringAction 1479312196807 Navigation.java RENAME Navigation(int, int, String)=>Navigation(int, int, ArrayList<String>) METHOD
+RefactoringAction 1479312206420 Navigation.java RENAME Navigation(int, int, ArrayList<String>)=>Navigation(int, int, String) METHOD
+EditAction 1479312232798 Navigation.java 843 3 7 0
