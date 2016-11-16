@@ -1,0 +1,68 @@
+FileOpenedAction 1479306122713 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479307023060 MarsRover.java ADD int x FIELD
+RefactoringAction 1479307036190 MarsRover.java ADD int y FIELD
+RefactoringAction 1479307039732 MarsRover.java ADD String obstacles FIELD
+RefactoringAction 1479307902948 MarsRover.java ADD void maps(int, int) METHOD
+RefactoringAction 1479307944920 MarsRover.java REMOVE maps(int, int) METHOD
+RefactoringAction 1479311186354 MarsRover.java ADD void arraylist() METHOD
+RefactoringAction 1479311212926 MarsRover.java ADD import java.util IMPORT
+RefactoringAction 1479311215975 MarsRover.java RENAME import java.util=>import java.util.regex.* IMPORT
+RefactoringAction 1479311226024 MarsRover.java ADD import java.util IMPORT
+RefactoringAction 1479311227055 MarsRover.java REMOVE import java.util IMPORT
+RefactoringAction 1479311228062 MarsRover.java ADD import java.util.a IMPORT
+RefactoringAction 1479311229080 MarsRover.java RENAME import java.util.a=>import java.util.arr IMPORT
+RefactoringAction 1479311230606 MarsRover.java RENAME import java.util.arr=>import java.util.array IMPORT
+RefactoringAction 1479311233123 MarsRover.java RENAME import java.util.array=>import java.util.arraylist IMPORT
+RefactoringAction 1479311247706 MarsRover.java RENAME import java.util.arraylist=>import java.util IMPORT
+RefactoringAction 1479311248721 MarsRover.java RENAME import java.util=>import java.util.A IMPORT
+RefactoringAction 1479311250245 MarsRover.java RENAME import java.util.A=>import java.util.Ar IMPORT
+RefactoringAction 1479311252266 MarsRover.java RENAME import java.util.Ar=>import java.util.ArrayList IMPORT
+RefactoringAction 1479311269837 MarsRover.java ADD import java.util.regex.* IMPORT
+RefactoringAction 1479311277861 MarsRover.java REMOVE arraylist() METHOD
+RefactoringAction 1479311288006 MarsRover.java ADD void arraylist() METHOD
+RefactoringAction 1479311307031 MarsRover.java REMOVE arraylist() METHOD
+RefactoringAction 1479311345365 MarsRover.java ADD ArrayList<Integer> estrazione FIELD
+RefactoringAction 1479311349239 MarsRover.java RENAME estrazione=>ArrayList<Integer> ex FIELD
+RefactoringAction 1479311355322 MarsRover.java RENAME ex=>ArrayList<Integer> extracting FIELD
+RefactoringAction 1479311357836 MarsRover.java RENAME extracting=>ArrayList<Integer> extractingNumbers FIELD
+RefactoringAction 1479311363908 MarsRover.java RENAME extractingNumbers=>ArrayList<Integer> extractingNumbers() METHOD
+RefactoringAction 1479311387558 MarsRover.java RENAME extractingNumbers()=>ArrayList<Integer> extractingNumbers(String) METHOD
+RefactoringAction 1479311393567 MarsRover.java RENAME extractingNumbers(String)=>ArrayList<Integer> extractingNumbers() METHOD
+RefactoringAction 1479311416603 MarsRover.java RENAME extractingNumbers()=><initializer /1> null
+RefactoringAction 1479311417672 MarsRover.java ADD ArrayList<Integer> ex FIELD
+RefactoringAction 1479311418730 MarsRover.java RENAME ex=>ArrayList<Integer> extra FIELD
+RefactoringAction 1479311422244 MarsRover.java REMOVE extra FIELD
+RefactoringAction 1479311423770 MarsRover.java ADD ArrayList<Integer> ex FIELD
+RefactoringAction 1479311429291 MarsRover.java RENAME ex=>ArrayList<Integer> exIntegers FIELD
+RefactoringAction 1479311446837 MarsRover.java RENAME exIntegers()=><initializer /1> null
+RefactoringAction 1479311451858 MarsRover.java ADD ArrayList<Integer> e FIELD
+RefactoringAction 1479311453364 MarsRover.java RENAME e=>ArrayList<Integer> ex FIELD
+RefactoringAction 1479311454874 MarsRover.java RENAME ex=>ArrayList<Integer> exstra FIELD
+RefactoringAction 1479311457391 MarsRover.java RENAME exstra=>ArrayList<Integer> ex FIELD
+RefactoringAction 1479311490469 MarsRover.java RENAME extractingNumbers()=>ArrayList<Integer> extractingNumbers(String) METHOD
+RefactoringAction 1479311494473 MarsRover.java RENAME extractingNumbers(String)=>ArrayList<Integer> extractingNumbers() METHOD
+RefactoringAction 1479311497495 MarsRover.java RENAME extractingNumbers()=>ArrayList<Integer> extractingNumbers(String) METHOD
+RefactoringAction 1479311503509 MarsRover.java RENAME extractingNumbers(String)=>ArrayList<Integer> extractingNumbers() METHOD
+EditAction 1479311569388 MarsRover.java 1655 3 12 0
+CompilationAction 1479311569600 MarsRover.java
+CompilationAction 1479311569601 MarsRover.java
+CompilationAction 1479311569601 MarsRover.java
+RefactoringAction 1479311584743 MarsRover.java RENAME extractingNumbers()=>ArrayList<Integer> extractingNumbers(String) METHOD
+RefactoringAction 1479311632422 MarsRover.java RENAME extractingNumbers(String)=>ArrayList<Integer> extractingNumbers() METHOD
+RefactoringAction 1479311637953 MarsRover.java RENAME extractingNumbers()=>ArrayList<Integer> extractingNumbers(String) METHOD
+RefactoringAction 1479314107831 MarsRover.java ADD String facing FIELD
+RefactoringAction 1479314176990 MarsRover.java REMOVE facing FIELD
+RefactoringAction 1479314181514 MarsRover.java ADD Char facing FIELD
+CompilationAction 1479315608570 MarsRover.java
+EditAction 1479316248612 MarsRover.java 3291 3 33 0
+RefactoringAction 1479316283094 MarsRover.java REMOVE obstacles FIELD
+RefactoringAction 1479316291134 MarsRover.java ADD String O FIELD
+RefactoringAction 1479316293647 MarsRover.java RENAME O=>String obstacles FIELD
+UnitTestCaseAction 1479316352992 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316352993 MarsRoverTest FAIL
+RefactoringAction 1479316432370 MarsRover.java ADD char command FIELD
+RefactoringAction 1479316437469 MarsRover.java RENAME command=>char commands FIELD
+RefactoringAction 1479316474499 MarsRover.java REMOVE commands FIELD
+RefactoringAction 1479316680962 MarsRoverTest.java ADD import tdd.training.session1.MarsRoverException IMPORT
+EditAction 1479316931121 MarsRoverTest.java 232 1 0 0
+EditAction 1479316931268 MarsRover.java 3248 3 31 0
