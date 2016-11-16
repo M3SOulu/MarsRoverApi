@@ -1,2 +1,13 @@
 FileOpenedAction 1479305655746 MarsRoverTest.java 184 1 1 0
 EditAction 1479307281069 MarsRover.java 1361 2 1 0
+CompilationAction 1479307283148 MarsRover.java
+RefactoringAction 1479307425403 Rover.java ADD Rover.java CLASS
+FileOpenedAction 1479307425718 Rover.java 61 0 0 0
+RefactoringAction 1479307438762 Rover.java ADD Rover() METHOD
+RefactoringAction 1479307474325 Rover.java ADD int pos_x FIELD
+RefactoringAction 1479307477330 Rover.java ADD int pos_y FIELD
+RefactoringAction 1479307510901 Rover.java ADD int getPos_x() METHOD
+RefactoringAction 1479307510902 Rover.java ADD void setPos_x(int) METHOD
+RefactoringAction 1479307510902 Rover.java ADD int getPos_y() METHOD
+RefactoringAction 1479307510903 Rover.java ADD void setPos_y(int) METHOD
+EditAction 1479307515358 Rover.java 388 5 6 0
