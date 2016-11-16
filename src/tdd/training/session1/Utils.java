@@ -1,7 +1,10 @@
 package tdd.training.session1;
 
 public class Utils {
-	public String acceptedInput = "fblr";
+	public final char FORWARD = 'f';
+	public final char BACKWARD = 'b';
+	public final char LEFT = 'l';
+	public final char RIGHT = 'r';
 	public static int countOccurencesOf(String str, String chars){
 		int count = str.length() - str.replace(chars, "").length();
 		return count;

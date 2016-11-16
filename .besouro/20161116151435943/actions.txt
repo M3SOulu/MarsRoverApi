@@ -213,3 +213,13 @@ UnitTestCaseAction 1479308721426 MarsRoverTest.java OK
 UnitTestSessionAction 1479308721427 MarsRoverTest OK
 RefactoringAction 1479308783531 Utils.java ADD String acceptedInput FIELD
 EditAction 1479308803460 Utils.java 959 5 10 0
+RefactoringAction 1479309085258 Utils.java RENAME acceptedInput=>char FORWARD FIELD
+RefactoringAction 1479309095787 Utils.java ADD char FORWARD/2 FIELD
+RefactoringAction 1479309095787 Utils.java ADD char FORWARD/3 FIELD
+RefactoringAction 1479309097809 Utils.java RENAME FORWARD/3=>char BACKWARD FIELD
+RefactoringAction 1479309100338 Utils.java RENAME BACKWARD=>char BACK FIELD
+RefactoringAction 1479309102850 Utils.java RENAME BACK=>char BACKWARD FIELD
+RefactoringAction 1479309106888 Utils.java RENAME FORWARD/2=>char LEFT FIELD
+RefactoringAction 1479309110404 Utils.java ADD char LEFT/2 FIELD
+RefactoringAction 1479309112417 Utils.java RENAME LEFT/2=>char RIGHT FIELD
+EditAction 1479309113894 Utils.java 1055 5 10 0
