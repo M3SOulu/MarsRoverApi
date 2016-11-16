@@ -74,18 +74,17 @@ public class MarsRover {
 
 			if (actualCommand == 'f') {
 				if (roverFacing == 'N') {
-					if (planet.length == yRover) 
-						yRover=-1;						
-						if (planet[xRover][yRover + 1] == null) {
-							planet[xRover][yRover] = null;
-							planet[xRover][yRover + 1] = rover;
-							rover.SetPosition(xRover, yRover + 1);
-						} else {
-							Obstacle obstacle = (Obstacle) planet[xRover][yRover + 1];
-							obPosition += obstacle;
-						}
+					if (planet.length == yRover)
+						yRover = -1;
+					if (planet[xRover][yRover + 1] == null) {
+						planet[xRover][yRover] = null;
+						planet[xRover][yRover + 1] = rover;
+						rover.SetPosition(xRover, yRover + 1);
+					} else {
+						Obstacle obstacle = (Obstacle) planet[xRover][yRover + 1];
+						obPosition += obstacle;
+					}
 
-					
 				}
 			}
 			// System.out.println(rover.getXRover()+" "+rover.getYRover());
