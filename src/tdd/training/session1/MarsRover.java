@@ -9,6 +9,8 @@ public class MarsRover {
 	private static final int nObstacle = 10;
 	private static final List<String> movement = Arrays.asList("f","b","r","l");
 	private static final List<String> cardinalPosition = Arrays.asList("N","E","S","W");
+	private static int gridX;
+	private static int gridY;
 	private int coordX;
 	private int coordY;
 	private int direction;
@@ -48,7 +50,22 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		gridX = x;
+		gridY = y;
 		
+		for(int i = 0; i < this.obstacles.length; i++){
+			this.obstacles[i] = new Obstacle();
+		}
+		
+		for(int j = 0; j < obstacles.length(); j++){
+			
+			if(obstacles.charAt(i) == ','){
+				
+			}
+			if(!(obstacles.charAt(i) == '?'||obstacles.charAt(i) == '('||obstacles.charAt(i) == ')')){
+				
+			}
+		}
 		
 	}
 	

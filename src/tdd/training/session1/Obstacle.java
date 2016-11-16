@@ -14,8 +14,8 @@ public class Obstacle {
 		return coordX;
 	}
 
-	public void setCoordX(String coordX) {
-		int x = Integer.parseInt(coordX);
+	public void setCoordX(char coordX) {
+		int x = coordX;
 		this.coordX = x;
 	}
 
