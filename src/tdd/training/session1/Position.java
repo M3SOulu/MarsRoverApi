@@ -1,6 +1,13 @@
 package tdd.training.session1;
 
-public abstract class Position {
+public class Position {
 	int x = 0;
 	int y = 0;
+	public Position(){
+		this(0, 0);
+	}
+	public Position(int x, int y){
+		this.x = x;
+		this.y = y;
+	}
 }
