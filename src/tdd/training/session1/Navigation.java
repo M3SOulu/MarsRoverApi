@@ -21,7 +21,7 @@ public class Navigation {
 			if(ob.charAt(i) != '?' && ob.charAt(i) != '(' && ob.charAt(i) != ','){
 				
 				if(ob.charAt(i) == ')'){
-					obstacles.add(i,currentObstacle);					
+					obstacles.add(currentObstacle);					
 					currentObstacle = "";
 				}
 				else{
