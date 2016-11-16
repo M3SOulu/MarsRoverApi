@@ -64,3 +64,9 @@ RefactoringAction 1479308174755 Obstacle.java ADD Obstacle(String) METHOD
 EditAction 1479308258789 Obstacle.java 941 8 14 0
 RefactoringAction 1479308272304 Obstacle.java REMOVE Obstacle(String) METHOD
 EditAction 1479308274984 Obstacle.java 738 7 10 0
+CompilationAction 1479308275228 MarsRoverTest.java
+CompilationAction 1479308283428 MarsRoverTest.java
+RefactoringAction 1479308335861 MarsRover.java ADD int width FIELD
+RefactoringAction 1479308342391 MarsRover.java ADD int height FIELD
+RefactoringAction 1479308424063 MarsRover.java ADD Obstacles FIELD
+EditAction 1479308427179 MarsRover.java 1188 2 1 0
