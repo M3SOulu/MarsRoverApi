@@ -75,4 +75,12 @@ public class MarsRoverTest {
 		assertEquals(Direction.SOUTH, marsRover.moveRight(Direction.EAST));
 	}
 	
+	@Test
+	public void testMoveLeft(){		
+		assertEquals(Direction.WEST, marsRover.moveLeft(Direction.NORTH));
+		assertEquals(Direction.EAST, marsRover.moveLeft(Direction.SOUTH));
+		assertEquals(Direction.NORTH, marsRover.moveLeft(Direction.WEST));
+		assertEquals(Direction.SOUTH, marsRover.moveLeft(Direction.EAST));
+	}
+	
 }

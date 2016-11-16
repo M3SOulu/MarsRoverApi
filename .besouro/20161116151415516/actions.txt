@@ -199,3 +199,8 @@ RefactoringAction 1479311868307 MarsRoverTest.java RENAME testMoveRight=>void te
 EditAction 1479311871365 MarsRoverTest.java 2040 7 28 25
 RefactoringAction 1479311901890 MarsRoverTest.java ADD import tdd.training.session1.Direction IMPORT
 EditAction 1479311987012 MarsRoverTest.java 2359 7 32 29
+RefactoringAction 1479311992090 MarsRoverTest.java ADD void testMoveRight()/2 METHOD
+RefactoringAction 1479311997624 MarsRoverTest.java RENAME testMoveRight()/2=>void testMovelEFT() METHOD
+RefactoringAction 1479311999662 MarsRoverTest.java RENAME testMovelEFT()=>void testMovel() METHOD
+RefactoringAction 1479312002673 MarsRoverTest.java RENAME testMovel()=>void testMoveLeft() METHOD
+EditAction 1479312048278 MarsRoverTest.java 2678 8 36 33
