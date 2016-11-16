@@ -71,7 +71,7 @@ public class MarsRover {
 	//TODO grid size, return to other side when grid size limit exceeded
 	private Position move(char command) throws MarsRoverException{
 		Position obstacle = null;
-		Position nextPosition = rPos;
+		Position nextPosition = new Position(rPos.x, rPos.y);
 		switch (command){
 		case Utils.FORWARD:
 			nextPosition.moveForward(rDir);
