@@ -57,7 +57,7 @@ public class MarsRover {
 		 */
 		
 		
-		return null;
+		return result;
 	}
 	
 	public void positionObstacles(String obstacles){
