@@ -95,3 +95,4 @@ EditAction 1479310397068 Obstacle.java 447 5 8 0
 EditAction 1479310739688 Obstacle.java 419 5 6 0
 RefactoringAction 1479310747629 MarsRover.java REMOVE movement FIELD
 EditAction 1479311125608 MarsRover.java 4399 8 19 0
+EditAction 1479311393436 MarsRover.java 4525 8 21 0

@@ -84,8 +84,9 @@ public class MarsRover {
 		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
+		int countObstacle = 0;
 		String whereIAm = "?(";
+		String[] realObstacles = new String[nObstacle];
 		String whereIsObstacles = "(";
 		
 		for(int i = 0; i < command.length(); i++){
@@ -145,6 +146,7 @@ public class MarsRover {
 					whereIsObstacles += coordX + "," + coordY + ")";
 					coordX += -1;
 					coordY += -1;
+					realObstacles[countObstacle] = whereIsObstacles;
 				}
 			}
 		}
