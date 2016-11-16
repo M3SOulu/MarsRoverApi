@@ -48,7 +48,7 @@ public class MarsRover {
 	}
 	
 //TODO RIMETTERE STRING COME VALORE DI RITORNO
-	public void executeCommand(String command) {
+	public String executeCommand(String command) {
 
 		/*
 		 * The command string is composed of "f" (forward), "b" (backward), "l"
@@ -64,7 +64,7 @@ public class MarsRover {
 		 */
 		
 		int i = 0;
-		String obPosition;
+		String obPosition = null;
 		while (i < command.length()) {
 			
 			char actualCommand = command.charAt(i);
@@ -80,6 +80,7 @@ public class MarsRover {
 				}
 				else{
 					Obstacle obstacle = (Obstacle)planet[xRover][yRover+1];
+					obPosition+=obstacle;
 				}
 				
 			}
@@ -90,13 +91,13 @@ public class MarsRover {
 		
 		
 
-		//return null;
+		return obPosition;
 	}
 
 	public static void main(String[] args) {
 
 		MarsRover rover = new MarsRover(3, 3, "(2,2)");
-		rover.executeCommand("f");
+		String test =rover.executeCommand("f");
 
 	}
 
