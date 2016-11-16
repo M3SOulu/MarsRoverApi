@@ -181,7 +181,7 @@ public class MarsRover {
 	
 	public boolean verifyCommand(String command){
 		boolean verified = false;
-		String stringa = command;
+		String stringa = String.valueOf(command);
 		
 		if(stringa.matches(commandPattern)) verified = true;
 		
