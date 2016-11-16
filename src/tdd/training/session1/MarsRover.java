@@ -40,7 +40,7 @@ public class MarsRover {
 
 		// Crea il rover e mettilo nella posizione (0,0,N)
 
-		rover = new Rover(0, 0, 'N');
+		rover = new Rover(0, 0, 'E');
 		planet[0][0] = rover;
 
 		// System.out.println(planet[2][1]);
