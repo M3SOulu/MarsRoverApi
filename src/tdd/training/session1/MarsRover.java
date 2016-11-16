@@ -40,7 +40,6 @@ public class MarsRover {
 				A.setPos_y(moment);
 				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 				break;
-				0 1  0 2  
 
 			case 'b':
 				moment = A.getPos_y() - 1;
