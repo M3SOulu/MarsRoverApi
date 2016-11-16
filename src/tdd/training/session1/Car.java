@@ -1,7 +1,7 @@
 package tdd.training.session1;
 
 public class Car {
-	int x, y;
+	public int x, y;
 	String facing="N";
 
 	public Car(){

@@ -42,3 +42,7 @@ RefactoringAction 1479312772331 MarsRover.java RENAME Right(String)=>Car Right()
 RefactoringAction 1479312847202 MarsRoverTest.java ADD void test()/2 METHOD
 RefactoringAction 1479312865216 MarsRoverTest.java RENAME test()/2=>void testForward() METHOD
 EditAction 1479312932614 Car.java 160 1 3 0
+RefactoringAction 1479312939558 MarsRoverTest.java ADD import tdd.training.session1.Car IMPORT
+RefactoringAction 1479312989442 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+FileOpenedAction 1479313166559 Car.java 160 1 3 0
+EditAction 1479313230561 Car.java 167 1 3 0
