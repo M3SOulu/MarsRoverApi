@@ -7,11 +7,6 @@ import org.junit.Test;
 
 public class MarsRoverTest {
 	
-	/*@Before
-	public void setUp() throws MarsRoverException {
-		
-	}*/
-	
 	@Test(expected = MarsRoverException.class)
 	public void testMarsRoverWrongClassCreation() throws MarsRoverException {
 		new MarsRover(50, 50, "(10,)(");
