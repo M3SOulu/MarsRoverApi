@@ -35,7 +35,7 @@ public class MarsRover {
 		return null;
 	}
 	
-	private void positionObstacles(String obstacles){
+	public void positionObstacles(String obstacles){
 		
 		String temp[] = obstacles.split(")");
 		temp[1].replace('(', ' ');
