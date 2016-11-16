@@ -14,7 +14,7 @@ public class MarsRoverTest {
 		MarsRover mars = new MarsRover(0, 0, null);
 
 		//Act
-		String score = mars.Test("ffrff");
+		String score = mars.runner("ffrff");
 		
 		//Assert
 		assertEquals("22E", score);

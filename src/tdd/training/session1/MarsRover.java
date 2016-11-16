@@ -1,8 +1,8 @@
 package tdd.training.session1;
 
 public class MarsRover {
-	int posX;
-	int posY;
+	int posX = 0;
+	int posY = 0;
 	char facing = 'N';
 	
 	public MarsRover(int x, int y, String obstacles){
@@ -15,7 +15,7 @@ public class MarsRover {
 		
 	}
 
-	public String Test (String command) {
+	public String runner (String command) {
 		executeCommand(command);
 		String position = Integer.toString(posX) + Integer.toString(posY) + facing;
 		return position;
