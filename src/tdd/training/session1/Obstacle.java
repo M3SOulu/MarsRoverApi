@@ -17,7 +17,7 @@ package tdd.training.session1;
 	  
 	  public Obstacle(String obstacle){
 		  
-		  String[] xy=obstacle.split("[\\(\\)\\,]");
+		  String[] xy=obstacle.split(",");
 		  
 		  this.x=Integer.parseInt(xy[1]);
 		  this.y=Integer.parseInt(xy[2]);

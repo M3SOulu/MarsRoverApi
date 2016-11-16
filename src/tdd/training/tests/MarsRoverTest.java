@@ -35,10 +35,10 @@ public class MarsRoverTest {
 	public void TestMakeObstacles() {
 		
 		String obstacles="(1,3)(4,8)";
-		ArrayList<Obstacle> obsList= new ArrayList<Obstacle>();
+		ArrayList<Obstacle> obsList= MarsRover.makeObstacles(obstacles);
 		
 		
-		Assert.assertEquals(null,MarsRover.makeObstacles(obstacles));
+		Assert.assertEquals(obsList.get(0),new Obstacle(1,3));
 		
 	}
 

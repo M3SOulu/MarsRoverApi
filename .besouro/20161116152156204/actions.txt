@@ -174,3 +174,7 @@ RefactoringAction 1479310865136 MarsRoverTest.java ADD import java.util.ArrayLis
 CompilationAction 1479310898033 MarsRoverTest.java
 CompilationAction 1479310898191 MarsRoverTest.java
 EditAction 1479310935854 MarsRover.java 1812 3 8 0
+CompilationAction 1479310935957 MarsRoverTest.java
+UnitTestCaseAction 1479310984584 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310984584 MarsRoverTest FAIL
+EditAction 1479311025438 Obstacle.java 911 8 13 0
