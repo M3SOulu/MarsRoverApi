@@ -34,8 +34,9 @@ package tdd.training.session1;
 	public Obstacle(String coords){
 		  
 		  coords=coords.replace("(", "");
-		 this.x=Integer.parseInt(coords.split(",")[0]);
-		 this.y=Integer.parseInt(coords.split(",")[1]);
+		  String[] xy=coords.split(",");
+		 this.x=Integer.parseInt(xy[0]);
+		 this.y=Integer.parseInt(xy(",")[1]);
 	  }
 	  
 	  @Override
