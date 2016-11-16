@@ -65,10 +65,10 @@ public class MarsRover {
 		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
+		System.out.println(commands);
 		if(verifyCommand(commands)) throw new MarsRoverException();
 		char command;
-		System.out.println(commands);
+		
 		for(int i=0; i<commands.length(); i++){
 			command = commands.charAt(i);
 			
