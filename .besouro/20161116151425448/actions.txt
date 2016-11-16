@@ -292,3 +292,4 @@ RefactoringAction 1479315385059 MarsRoverTest.java RENAME receivSingleCommandSho
 RefactoringAction 1479315387066 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForwardIfCommand=>void receivSingleCommandShouldMoveForwardIfCommandIs FIELD
 RefactoringAction 1479315388075 MarsRoverTest.java RENAME receivSingleCommandShouldMoveForwardIfCommandIs=>void receivSingleCommandShouldMoveForwardIfCommandIsF FIELD
 EditAction 1479315405058 MarsRoverTest.java 364 0 0 0
+EditAction 1479315405139 Coordinates.java 1227 11 12 0

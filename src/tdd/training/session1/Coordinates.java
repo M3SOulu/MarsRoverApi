@@ -36,9 +36,8 @@ public class Coordinates {
 	int y_coordinate;
 	Coordinates coordinates;
 	/**
-	 * @param coordinates the coordinates to set
 	 */
-	public void setCoordinates(Coordinates coordinates) {
+	public void setCoordinates() {
 		this.coordinates = coordinates;
 	}
 	public Coordinates getCoordinates(){
