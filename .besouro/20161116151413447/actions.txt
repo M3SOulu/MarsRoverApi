@@ -171,3 +171,10 @@ RefactoringAction 1479312791703 Rover.java RENAME ToString()=>String toString() 
 EditAction 1479312801650 MarsRover.java 2995 3 14 0
 EditAction 1479312803775 Rover.java 575 6 9 0
 EditAction 1479313609721 MarsRover.java 3420 3 12 0
+CompilationAction 1479313609836 MarsRover.java
+CompilationAction 1479313609839 MarsRover.java
+CompilationAction 1479313617485 MarsRover.java
+CompilationAction 1479313617485 MarsRover.java
+CompilationAction 1479313617647 MarsRover.java
+CompilationAction 1479313634110 MarsRover.java
+EditAction 1479313862778 MarsRover.java 3401 3 16 0

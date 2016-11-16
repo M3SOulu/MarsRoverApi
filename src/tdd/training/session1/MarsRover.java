@@ -88,16 +88,14 @@ public class MarsRover {
 
 				}	
 				else if (roverFacing == 'E') {
-					if ((planet[1].length-1) == xRover){
+					if ((planet[0].length-1) == xRover)
 						xRover = -1;
-						yRover =
-					}
-					if (planet[xRover + 1][y] == null) {
-						planet[xRover][rover.getYRover()] = null;
-						planet[xRover][yRover + 1] = rover;
-						rover.SetPosition(xRover, yRover + 1);
+					if (planet[xRover + 1][yRover] == null) {
+						planet[rover.getXRover()][yRover] = null;
+						planet[xRover + 1][yRover] = rover;
+						rover.SetPosition(xRover + 1, yRover);
 					} else {
-						Obstacle obstacle = (Obstacle) planet[xRover][yRover + 1];
+						Obstacle obstacle = (Obstacle) planet[xRover +1][yRover];
 						obPosition += obstacle;
 					}
 
