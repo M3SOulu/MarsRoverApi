@@ -5,8 +5,8 @@ public class MarsRover {
 	private String obstaclesPattern = "([(]{1}[0-9]+[,]{1}[0-9]+[)]{1})+";
 	private int xSize;
 	private int ySize;
-	private int xPos = 0;
-	private int yPos = 0;
+	private int xPos;
+	private int yPos;
 	private Direction direction;
 	private int[][] planet;
 	
@@ -22,7 +22,8 @@ public class MarsRover {
 		
 		xSize = x;
 		ySize = y;
-		
+		xPos = 0;
+		yPos = 0;
 		planet = new int[x][y];	
 		
 		direction = Direction.NORTH;
@@ -96,7 +97,7 @@ public class MarsRover {
 	public void moveForward(){
 		
 	}
-	
+
 	
 	public static Direction moveLeft(Direction direction){
 		Direction newDirection = null;
