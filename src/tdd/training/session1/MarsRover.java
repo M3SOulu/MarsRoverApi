@@ -143,8 +143,14 @@ public class MarsRover {
 			for(Obstacle o : this.obstacles){
 				if((coordX == o.getCoordX())&&(coordY == o.getCoordY())){
 					whereIsObstacles = "(" + coordX + "," + coordY + ")";
-					coordX += -1;
-					coordY += -1;
+					if(this.getRealDirection() == "N")
+						coordY += -1;
+					else if(this.getRealDirection() == "E")
+						coordX += -1;
+					else if(this.getRealDirection() == "S")
+						coordY += 1;
+					else
+						coordX += 1;
 					whereIAm.concat(whereIsObstacles);
 				}
 				else
