@@ -16,3 +16,32 @@ EditAction 1479309724532 MarsRover.java 1569 3 8 0
 EditAction 1479309727359 MarsRoverTest.java 156 1 0 0
 RefactoringAction 1479310114794 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
 EditAction 1479310129734 MarsRoverTest.java 249 1 1 0
+UnitTestCaseAction 1479310131797 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310131806 MarsRoverTest FAIL
+UnitTestCaseAction 1479310185179 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310185182 MarsRoverTest FAIL
+UnitTestCaseAction 1479310197958 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310197958 MarsRoverTest FAIL
+UnitTestCaseAction 1479310299490 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310299490 MarsRoverTest FAIL
+UnitTestCaseAction 1479310335227 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310335228 MarsRoverTest FAIL
+RefactoringAction 1479310353713 MarsRover.java RENAME positionObstacles(String, Boolean=>void positionObstacles(String, boolean METHOD
+UnitTestCaseAction 1479310386997 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310386998 MarsRoverTest FAIL
+UnitTestCaseAction 1479310396367 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310396369 MarsRoverTest FAIL
+RefactoringAction 1479310459541 MarsRover.java RENAME positionObstacles(String, boolean=>void positionObstacles(String, int METHOD
+CompilationAction 1479310462666 MarsRover.java
+CompilationAction 1479310480452 MarsRover.java
+RefactoringAction 1479310516146 MarsRover.java RENAME positionObstacles(String, int=>void positionObstacles(String, int METHOD
+RefactoringAction 1479310523153 MarsRover.java RENAME positionObstacles(String, int=>void positionObstacles(String) METHOD
+UnitTestCaseAction 1479310544854 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310544855 MarsRoverTest FAIL
+UnitTestCaseAction 1479310550221 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310550221 MarsRoverTest FAIL
+UnitTestCaseAction 1479310610850 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310610851 MarsRoverTest FAIL
+UnitTestCaseAction 1479310692046 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310692047 MarsRoverTest FAIL
+EditAction 1479310798977 MarsRoverTest.java 249 1 1 0

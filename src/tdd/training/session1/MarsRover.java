@@ -5,7 +5,7 @@ import java.util.Arrays;
 import javax.management.monitor.StringMonitor;
 
 public class MarsRover {
-	Boolean planet[][];
+	int planet[][];
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
@@ -13,8 +13,10 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		planet = new Boolean[x][y];
-		Arrays.fill(planet, false);
+		//planet = new int[x][y];
+		//Arrays.fill(planet, false);
+		positionObstacles(obstacles);
+		
 		
 
 	}
@@ -33,7 +35,7 @@ public class MarsRover {
 		return null;
 	}
 	
-	private void positionObstacles(String obstacles, Boolean planet [][]){
+	private void positionObstacles(String obstacles){
 		
 		String temp[] = obstacles.split(")");
 		temp[1].replace('(', ' ');
@@ -41,8 +43,11 @@ public class MarsRover {
 		String locationTemp[] = temp[1].split(",");
 		obstacles.replaceAll(")", " ");
 		String coordinate[] = obstacles.split("\\s+");
+		@SuppressWarnings("unused")
+		String coo;
+		coo="gh";
 		
-		planet[Integer.parseInt(locationTemp[1])][Integer.parseInt(locationTemp[2])] = false;
+		//planet[Integer.parseInt(locationTemp[1])][Integer.parseInt(locationTemp[2])] = 0;
 		
 		
 	}
