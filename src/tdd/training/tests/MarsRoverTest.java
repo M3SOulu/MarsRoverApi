@@ -62,7 +62,7 @@ public class MarsRoverTest {
 	@Test
 	public void testMarsRoverMoveOverGrid() throws MarsRoverException {
 		MarsRover rover = new MarsRover(5, 5, "");
-		String result = rover.executeCommand("fffffff");
+		String result = rover.executeCommand("ffffffff");
 		assertEquals("(0,2,N)", result);
 	}
 
