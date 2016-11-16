@@ -35,7 +35,7 @@ public class MarsRoverTest {
 	@Test(expected = MarsRoverException.class)
 	public void testMarsRoverMoveWrongCommand() throws MarsRoverException {
 		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
-		String result = rover.executeCommand("fffg");
+		rover.executeCommand("fffgfl");
 	}
 	
 	@Test
