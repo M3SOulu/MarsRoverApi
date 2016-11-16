@@ -12,7 +12,7 @@ public class NavigationTest {
 	//Act
 	Navigation navTest = new Navigation(5, 5, "?(1,2)(3,5)?");
 	
-	@Test (expected = MarsRoverException.class)
+	@Test 
 	public void testGeneraOstacoli() {
 		//assertEquals(2, navTest.getObstacles().size());		
 	}
