@@ -2,9 +2,15 @@ package tdd.training.session1;
 
 public class MarsRover {
 
+	public MarsRover(int xSizeGrid, int ySizeGrid, Obstacle obs) {
+		this.xSizeGrid = xSizeGrid;
+		this.ySizeGrid = ySizeGrid;
+		this.obs = obs;
+	}
+
 	public int xSizeGrid;
 	public int ySizeGrid;
-	public Obstacle
+	public Obstacle obs;
 	public Coordinates coordinates;
 
 	public void setCoordinates(Coordinates values) {
