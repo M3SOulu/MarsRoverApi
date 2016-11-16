@@ -55,3 +55,10 @@ EditAction 1479313949211 MarsRover.java 6196 2 6 0
 UnitTestCaseAction 1479313954816 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479313954817 MarsRoverTest FAIL
 EditAction 1479313967503 MarsRover.java 6195 2 6 0
+UnitTestCaseAction 1479313969141 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313969141 MarsRoverTest FAIL
+UnitTestCaseAction 1479314068608 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479314068608 MarsRoverTest FAIL
+RefactoringAction 1479314086439 Main.java ADD Main.java CLASS
+FileOpenedAction 1479314086593 Main.java 149 1 0 0
+EditAction 1479314178683 Main.java 249 1 2 0
