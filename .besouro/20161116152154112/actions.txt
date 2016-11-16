@@ -181,3 +181,6 @@ RefactoringAction 1479313651940 Obstacle.java RENAME setCoordY(char)=>void setCo
 RefactoringAction 1479313657949 Obstacle.java RENAME setCoordY(Char)=>void setCoordY(Character) METHOD
 RefactoringAction 1479313674975 Obstacle.java RENAME setCoordX(char)=>void setCoordX(Character) METHOD
 EditAction 1479313694571 Obstacle.java 451 5 6 0
+UnitTestCaseAction 1479313696612 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313696612 MarsRoverTest FAIL
+EditAction 1479313727029 Obstacle.java 457 5 6 0

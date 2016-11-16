@@ -15,7 +15,7 @@ public class Obstacle {
 	}
 
 	public void setCoordX(Character coordX) {
-		this.coordX = coordX.hashCode();
+		this.coordX = coordX.hashCode()-48;
 	}
 
 	public int getCoordY() {
@@ -23,7 +23,7 @@ public class Obstacle {
 	}
 
 	public void setCoordY(Character coordY) {
-		this.coordY = coordY.hashCode();
+		this.coordY = coordY.hashCode()-48;
 	}
 	
 	
