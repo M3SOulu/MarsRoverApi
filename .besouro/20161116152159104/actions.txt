@@ -15,3 +15,8 @@ RefactoringAction 1479307359380 Navigation.java ADD void navigatio() METHOD
 RefactoringAction 1479307364390 Navigation.java RENAME navigatio()=>void Navigatio() METHOD
 RefactoringAction 1479307367406 Navigation.java RENAME Navigatio()=>Navigation() METHOD
 EditAction 1479307371972 Navigation.java 97 1 0 0
+RefactoringAction 1479307407445 Navigation.java RENAME Navigation()=>Navigation(int, int) METHOD
+RefactoringAction 1479307415490 Navigation.java RENAME Navigation(int, int)=>Navigation(int, int, String) METHOD
+RefactoringAction 1479307424555 Navigation.java ADD int x FIELD
+RefactoringAction 1479307450083 Navigation.java ADD int y FIELD
+EditAction 1479307481672 Navigation.java 189 1 2 0
