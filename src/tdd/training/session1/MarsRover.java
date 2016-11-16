@@ -21,7 +21,9 @@ public class MarsRover {
 				Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ",")){
 				throw new MarsRoverException();
 			}
+			System.out.println("ok-2");
 			String[] values = obstacles.replace(")", "").split("(");
+			System.out.println("ok-1");
 			for (String value : values){
 				String xPos = value.split(",")[0];
 				String yPos = value.split(",")[1];
