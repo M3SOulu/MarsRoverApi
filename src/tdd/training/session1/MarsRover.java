@@ -72,7 +72,7 @@ public class MarsRover {
 		
 		for(int i=0; i<commands.length(); i++){
 			command = commands.charAt(i);
-			
+			System.out.println(command);
 			switch(command){
 			case 'l':
 				moveLeft();
