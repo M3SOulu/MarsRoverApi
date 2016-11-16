@@ -397,3 +397,9 @@ EditAction 1479315572642 MarsRoverTest.java 4174 16 68 46
 UnitTestCaseAction 1479315596459 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479315596459 MarsRoverTest FAIL
 EditAction 1479315665577 MarsRoverTest.java 4173 16 68 46
+UnitTestCaseAction 1479315669880 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315669880 MarsRoverTest FAIL
+RefactoringAction 1479315682822 MarsRoverTest.java ADD void testExecuteCommand()/2 METHOD
+RefactoringAction 1479315687842 MarsRoverTest.java REMOVE testExecuteCommand()/2 METHOD
+RefactoringAction 1479315692853 MarsRoverTest.java ADD void testExecuteCommand()/2 METHOD
+EditAction 1479315744312 MarsRover.java 4138 13 32 0
