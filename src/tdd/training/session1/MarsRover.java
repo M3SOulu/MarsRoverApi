@@ -217,7 +217,9 @@ public class MarsRover {
 	
 	public void move(char m){
 		
+		switch(m){
 		
+		}
 	}
 	
 	
