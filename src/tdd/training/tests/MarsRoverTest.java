@@ -14,7 +14,7 @@ public class MarsRoverTest {
 	
 	@Before
 	public void dichiaro(){
-		rover = new MarsRover(100,100,"(3,0)");
+		rover = new MarsRover(100,100,"(33,40)");
 	}
 	
 	@Test
