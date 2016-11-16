@@ -32,6 +32,12 @@ public class MarsRoverTest {
 		assertEquals("(0,3,N)", result);
 	}
 	
+	@Test(expected = MarsRoverException.class)
+	public void testMarsRoverMoveWrongCommand() throws MarsRoverException {
+		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
+		String result = rover.executeCommand("fffg");
+	}
+	
 	@Test
 	public void testMarsRoverMoveFindObstacle() throws MarsRoverException {
 		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
