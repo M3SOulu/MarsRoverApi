@@ -22,8 +22,6 @@ public class MarsRover {
 		
 		planet = new int[x][y];	
 
-		
-		planet[0][0] = 1;	
 	}
 	
 	public final void setObstacles(String obstacles) throws MarsRoverException{
@@ -55,7 +53,7 @@ public class MarsRover {
 		return verified;
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String commands) throws MarsRoverException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -66,8 +64,52 @@ public class MarsRover {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		if(verifyCommand(commands)) throw new MarsRoverException();
+		
+		char direction = 'N';
+		int xPos = 0;
+		int yPos = 0;
+		char command;
+		
+		for(int i=0; i<commands.length(); i++){
+			command = commands.charAt(i);
+			
+			switch(command){
+			case 'l':
+				break;
+			case 'r':
+				break;
+			case 'f':
+				break;
+			case 'b':
+				break;
+			}
+		}
+	
 		return null;
 	}
+	
+	public char moveLeft(char direction){
+		char newDirection;
+		switch(direction){
+		case 'N':
+			newDirection = 'W';
+			break;
+		case 'S':
+			newDirection = 'W';
+			break;
+		case 'E':
+			newDirection = 'W';
+			break;
+		case 'W':
+			newDirection = 'W';
+			break;
+		}
+		
+		
+		return newDirection;
+	}
+	
 	
 	public boolean verifyObstacles(String obstacles){
 		boolean verified = false;
