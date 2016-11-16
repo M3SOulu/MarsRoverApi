@@ -209,3 +209,7 @@ EditAction 1479308705963 MarsRover.java 2196 2 6 0
 UnitTestCaseAction 1479308706804 MarsRoverTest.java OK
 UnitTestSessionAction 1479308706804 MarsRoverTest OK
 EditAction 1479308715912 MarsRover.java 2013 2 4 0
+UnitTestCaseAction 1479308721426 MarsRoverTest.java OK
+UnitTestSessionAction 1479308721427 MarsRoverTest OK
+RefactoringAction 1479308783531 Utils.java ADD String acceptedInput FIELD
+EditAction 1479308803460 Utils.java 959 5 10 0
