@@ -360,3 +360,6 @@ RefactoringAction 1479311496030 MarsRover.java ADD Position rPos/2 FIELD
 RefactoringAction 1479311498045 MarsRover.java REMOVE rPos/2 FIELD
 RefactoringAction 1479311499557 MarsRover.java ADD Position grid FIELD
 EditAction 1479311636708 MarsRover.java 3474 3 16 0
+UnitTestCaseAction 1479311637704 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311637704 MarsRoverTest FAIL
+EditAction 1479311641636 MarsRover.java 3445 3 16 0

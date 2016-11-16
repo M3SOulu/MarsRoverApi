@@ -84,7 +84,6 @@ public class MarsRover {
 			break;
 		case Utils.RIGHT:
 			rDir = Utils.cycleDirectionRight(rDir);
-			System.out.println(rDir);
 			break;
 		default:
 			throw new MarsRoverException("Unknown command: " + command);
