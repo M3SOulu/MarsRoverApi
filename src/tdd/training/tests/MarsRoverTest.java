@@ -114,4 +114,6 @@ public class MarsRoverTest {
 		assertEquals(9, marsRover.getCurrentX());
 		assertEquals(0, marsRover.getCurrentY());
 	}
+	
+
 }

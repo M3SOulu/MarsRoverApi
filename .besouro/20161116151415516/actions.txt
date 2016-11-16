@@ -283,3 +283,8 @@ UnitTestSessionAction 1479313643286 MarsRoverTest FAIL
 RefactoringAction 1479313654092 MarsRoverTest.java ADD void testMoveForwardRight()/2 METHOD
 RefactoringAction 1479313658214 MarsRoverTest.java RENAME testMoveForwardRight()/2=>void testMoveForwardLeft() METHOD
 EditAction 1479313674032 MarsRoverTest.java 3333 11 55 39
+UnitTestCaseAction 1479313679524 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313679529 MarsRoverTest FAIL
+RefactoringAction 1479313688242 MarsRoverTest.java ADD void testMoveForwardLeft()/2 METHOD
+RefactoringAction 1479313717259 MarsRoverTest.java REMOVE testMoveForwardLeft()/2 METHOD
+EditAction 1479313718091 MarsRoverTest.java 3336 11 55 39
