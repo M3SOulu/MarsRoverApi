@@ -1,7 +1,7 @@
 package tdd.training.session1;
 
 public class MarsRover {
-
+	final String NORTH = null;
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
@@ -12,6 +12,7 @@ public class MarsRover {
 	
 	String obs_x = null;
 	String obs_y = null;
+	String roverStarts = NORTH;
 	
 	for(int i = 0; i< x;i++){
 		obstacles = obs_x;
@@ -34,9 +35,7 @@ public class MarsRover {
 		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
-		
-		
+	
 		return null;
 	}
 }

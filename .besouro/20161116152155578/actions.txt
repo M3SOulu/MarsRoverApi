@@ -68,3 +68,14 @@ RefactoringAction 1479309521996 MarsRoverTest.java ADD import tdd.training.sessi
 RefactoringAction 1479309583512 MarsRover.java REMOVE GRID FIELD
 EditAction 1479309596221 MarsRoverTest.java 251 1 1 0
 EditAction 1479309601180 MarsRover.java 1309 2 5 0
+RefactoringAction 1479310434615 MarsRover.java ADD String R FIELD
+RefactoringAction 1479310436118 MarsRover.java RENAME R=>String RO FIELD
+RefactoringAction 1479310438630 MarsRover.java RENAME RO=>String NORT FIELD
+RefactoringAction 1479310440635 MarsRover.java RENAME NORT=>String NORTH FIELD
+RefactoringAction 1479310474668 MarsRover.java REMOVE NORTH FIELD
+RefactoringAction 1479310481178 MarsRover.java ADD String NORTH FIELD
+RefactoringAction 1479311577570 MarsRover.java ADD command f FIELD
+RefactoringAction 1479311579075 MarsRover.java ADD command b FIELD
+RefactoringAction 1479311580590 MarsRover.java ADD command l FIELD
+RefactoringAction 1479311580592 MarsRover.java ADD command r FIELD
+EditAction 1479312032090 MarsRover.java 1358 2 6 0
