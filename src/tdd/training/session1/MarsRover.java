@@ -27,7 +27,7 @@ public class MarsRover {
 	}
 	
 	public final void setObstacles(String obstacles) throws MarsRoverException{
-		String[] ostacoli = obstacles.split("()");
+		String[] ostacoli = obstacles.split(")");
 		
 		for(String ostacolo : ostacoli){
 			System.out.println(ostacolo);
