@@ -49,6 +49,7 @@ public class MarsRover {
 				result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 			} else if (cmd == 'r') {
+				result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 				i++;
 				char cmd1 = command.charAt(i);
@@ -56,18 +57,21 @@ public class MarsRover {
 					if (cmd1 == 'f') {
 						moment = A.getPos_x() + 1;
 						A.setPos_x(moment);
+						result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 						System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 						i++;
 						cmd1 = command.charAt(i);
 					} else if (cmd1 == 'b') {
 						moment = A.getPos_x() - 1;
 						A.setPos_x(moment);
+						result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 						System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 						i++;
 						cmd1 = command.charAt(i);
 					}
 				}
 				if (cmd1 == 'r') {
+					result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 					System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 					i++;
 					char cmd2 = command.charAt(i);
@@ -75,12 +79,14 @@ public class MarsRover {
 						if (cmd2 == 'f') {
 							moment = A.getPos_y() - 1;
 							A.setPos_y(moment);
+							result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 							System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 							i++;
 							cmd2 = command.charAt(i);
 						} else if (cmd2 == 'b') {
 							moment = A.getPos_y() + 1;
 							A.setPos_y(moment);
+							result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 							System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 							i++;
 							cmd2 = command.charAt(i);
