@@ -383,3 +383,9 @@ UnitTestSessionAction 1479311815958 MarsRoverTest FAIL
 UnitTestCaseAction 1479311838997 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479311838997 MarsRoverTest FAIL
 EditAction 1479311918563 MarsRover.java 3608 3 17 0
+UnitTestCaseAction 1479311920092 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311920093 MarsRoverTest FAIL
+RefactoringAction 1479311963869 Position.java ADD boolean equals(Object) METHOD
+RefactoringAction 1479311987464 Position.java RENAME equals(Object)=>boolean equals(Position) METHOD
+RefactoringAction 1479311996470 Position.java RENAME equals(Position)=>boolean equals(Object) METHOD
+EditAction 1479312094080 Position.java 971 5 16 0

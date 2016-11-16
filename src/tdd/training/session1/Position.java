@@ -44,4 +44,14 @@ public class Position {
 			x -= distance;
 		}
 	}
+	
+	@Override
+	public boolean equals(Object that) {
+		boolean result = false;
+		if (that instanceof Position){
+			Position thatPos = (Position) that;
+			result = (this.x == thatPos.x && this.y == thatPos.y);
+		}
+		return result;
+	}
 }
