@@ -62,7 +62,7 @@ public class MarsRover {
 		return pathResult;
 	}
 	
-	public Position move(char command) throws MarsRoverException{
+	private Position move(char command) throws MarsRoverException{
 		Position obstacle = null;
 		//Utils.Direction moveDir = Utils.Direction.getByValue(command);
 		Position nextPosition = rPos;
