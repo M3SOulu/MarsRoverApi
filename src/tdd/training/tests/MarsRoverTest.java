@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import tdd.training.session1.Direction;
 import tdd.training.session1.MarsRover;
 import tdd.training.session1.MarsRoverException;
 
@@ -67,8 +68,11 @@ public class MarsRoverTest {
 	}
 	
 	@Test
-	public void testMoveRight(){
-		
+	public void testMoveRight(){		
+		assertEquals(Direction.EAST, marsRover.moveRight(Direction.NORTH));
+		assertEquals(Direction.WEST, marsRover.moveRight(Direction.SOUTH));
+		assertEquals(Direction.NORTH, marsRover.moveRight(Direction.WEST));
+		assertEquals(Direction.SOUTH, marsRover.moveRight(Direction.EAST));
 	}
 	
 }
