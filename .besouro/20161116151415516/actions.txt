@@ -204,3 +204,6 @@ RefactoringAction 1479311997624 MarsRoverTest.java RENAME testMoveRight()/2=>voi
 RefactoringAction 1479311999662 MarsRoverTest.java RENAME testMovelEFT()=>void testMovel() METHOD
 RefactoringAction 1479312002673 MarsRoverTest.java RENAME testMovel()=>void testMoveLeft() METHOD
 EditAction 1479312048278 MarsRoverTest.java 2678 8 36 33
+UnitTestCaseAction 1479312054895 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312054895 MarsRoverTest FAIL
+EditAction 1479312142980 MarsRoverTest.java 2678 8 36 33

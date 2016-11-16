@@ -79,8 +79,8 @@ public class MarsRoverTest {
 	public void testMoveLeft(){		
 		assertEquals(Direction.WEST, marsRover.moveLeft(Direction.NORTH));
 		assertEquals(Direction.EAST, marsRover.moveLeft(Direction.SOUTH));
-		assertEquals(Direction.NORTH, marsRover.moveLeft(Direction.WEST));
-		assertEquals(Direction.SOUTH, marsRover.moveLeft(Direction.EAST));
+		assertEquals(Direction.SOUTH, marsRover.moveLeft(Direction.WEST));
+		assertEquals(Direction.NORTH, marsRover.moveLeft(Direction.EAST));
 	}
 	
 }
