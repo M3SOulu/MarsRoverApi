@@ -5,7 +5,14 @@ import java.util.ArrayList;
 public class Navigation {
 	private int x;
 	private int y;
+	private int currentX;
+	private int currentY;
 	private static ArrayList<Obstacle> obstacles;
+	
+	public Navigation(int x ,int y){
+		this.x = x;
+		this.y = y;
+	}
 	
 	public Navigation(int x, int y, String obstaclesList){
 		this.x = x;
@@ -47,4 +54,38 @@ public class Navigation {
 	public int getNumberOfObstacles(){
 		return obstacles.size();
 	}
+
+	public int getX() {
+		return x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+
+	public int getCurrentX() {
+		return currentX;
+	}
+
+	public void setCurrentX(int currentX) {
+		this.currentX = currentX;
+	}
+
+	public int getCurrentY() {
+		return currentY;
+	}
+
+	public void setCurrentY(int currentY) {
+		this.currentY = currentY;
+	}
+	
+
 }

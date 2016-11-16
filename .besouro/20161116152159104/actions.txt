@@ -360,3 +360,22 @@ CompilationAction 1479314064522 Navigation.java
 UnitTestCaseAction 1479314065992 NavigationTest.java FAIL
 UnitTestSessionAction 1479314065992 NavigationTest FAIL
 EditAction 1479314232160 MarsRover.java 1320 2 2 0
+CompilationAction 1479314232409 MarsRover.java
+RefactoringAction 1479314262024 Navigation.java ADD Navigation() METHOD
+RefactoringAction 1479314292553 Navigation.java RENAME Navigation()=>Navigation(int, int) METHOD
+RefactoringAction 1479314423074 Navigation.java ADD int currentX FIELD
+RefactoringAction 1479314427079 Navigation.java ADD int c FIELD
+RefactoringAction 1479314429584 Navigation.java RENAME c=>int currentY FIELD
+RefactoringAction 1479314455116 Navigation.java ADD int get FIELD
+RefactoringAction 1479314458123 Navigation.java REMOVE get FIELD
+RefactoringAction 1479314477130 Navigation.java ADD int getX() METHOD
+RefactoringAction 1479314477131 Navigation.java ADD void setX(int) METHOD
+RefactoringAction 1479314477131 Navigation.java ADD int getY() METHOD
+RefactoringAction 1479314477131 Navigation.java ADD void setY(int) METHOD
+RefactoringAction 1479314477131 Navigation.java ADD int getCurrentX() METHOD
+RefactoringAction 1479314477132 Navigation.java ADD void setCurrentX(int) METHOD
+RefactoringAction 1479314477132 Navigation.java ADD int getCurrentY() METHOD
+RefactoringAction 1479314477132 Navigation.java ADD void setCurrentY(int) METHOD
+UnitTestCaseAction 1479314499509 NavigationTest.java FAIL
+UnitTestSessionAction 1479314499509 NavigationTest FAIL
+EditAction 1479314614028 MarsRover.java 1345 2 2 0

@@ -27,6 +27,6 @@ public class MarsRover {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		return nav.esitoNavigazione(command);
 	}
 }
