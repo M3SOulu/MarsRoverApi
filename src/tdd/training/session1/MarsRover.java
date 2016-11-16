@@ -39,23 +39,9 @@ public class MarsRover {
 	public void positionObstacles(String obstacles){
 		
 		
-		String word2 ="";
-		int j=1;
-		int y=0;
-		for (int i = 1; i<obstacles.length()-1;i++) {
-		    word2 = obstacles.substring(j, 4+y);
-		    System.out.println(word2);
-		    j=6*i;
-		    y=+5;
-		}
-		
-		
-		
-		String temp[] = obstacles.split(")");
+		char[] temp = obstacles.toCharArray();
 		System.out.println(temp[1]);
-		temp[1].replace('(', ' ');
-		temp[1] = temp[1].trim();
-		String locationTemp[] = temp[1].split(",");
+		
 		obstacles.replaceAll(")", " ");
 		
 		
