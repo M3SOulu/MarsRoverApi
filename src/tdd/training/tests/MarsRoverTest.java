@@ -2,6 +2,8 @@ package tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -31,7 +33,11 @@ public class MarsRoverTest {
 	
 	@Test
 	public void TestMakeObstacles() {
+		
 		String obstacles="(1,3)(4,8)";
+		ArrayList<Obstacle> obsList= new ArrayList<Obstacle>();
+		
+		
 		Assert.assertEquals(null,MarsRover.makeObstacles(obstacles));
 		
 	}

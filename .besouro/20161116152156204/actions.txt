@@ -168,3 +168,9 @@ CompilationAction 1479310725959 MarsRoverTest.java
 EditAction 1479310760184 MarsRover.java 1805 3 8 0
 CompilationAction 1479310760534 MarsRoverTest.java
 EditAction 1479310842703 MarsRover.java 1805 3 8 0
+CompilationAction 1479310842811 MarsRoverTest.java
+CompilationAction 1479310842988 MarsRoverTest.java
+RefactoringAction 1479310865136 MarsRoverTest.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1479310898033 MarsRoverTest.java
+CompilationAction 1479310898191 MarsRoverTest.java
+EditAction 1479310935854 MarsRover.java 1812 3 8 0

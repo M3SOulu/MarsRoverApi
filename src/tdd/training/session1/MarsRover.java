@@ -42,7 +42,7 @@ public class MarsRover {
 	 * @param obstacles
 	 * @return an array of obstacle or null
 	 */
-	static ArrayList<Obstacle> makeObstacles(String obs){
+	public static ArrayList<Obstacle> makeObstacles(String obs){
 		
 		String[] obstaclesList= obs.split("[\\(\\)]");
 		
