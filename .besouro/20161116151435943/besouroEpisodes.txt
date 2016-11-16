@@ -120,3 +120,12 @@
 1479311247545 test-first 2 165 true
 1479311247546 test-first 2 165 true
 1479311247547 test-last 1 165 false
+1479311306854 test-addition 2 49 true
+1479311306855 test-addition 2 49 true
+1479311306856 test-addition 1 49 true
+1479311306857 test-addition 2 49 true
+1479311306858 test-addition 2 49 true
+1479311306859 test-addition 1 49 true
+1479311306860 test-addition 2 49 true
+1479311306861 test-addition 2 49 true
+1479311306862 test-addition 1 49 true
