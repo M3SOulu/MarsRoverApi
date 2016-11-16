@@ -24,3 +24,4 @@ CompilationAction 1479310063401 MarsRover.java
 EditAction 1479310063741 MarsRoverException.java 211 1 1 0
 RefactoringAction 1479310081242 MarsRoverException.java RENAME MarsRoverException()=>MarsRoverException(Exception) METHOD
 EditAction 1479310095845 MarsRoverException.java 236 1 1 0
+EditAction 1479310887668 MarsRover.java 2516 2 3 0

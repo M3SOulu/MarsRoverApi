@@ -31,7 +31,25 @@ public class MarsRover {
 		 */
 		
 		for (int i = 0; i <= command.length(); i++) {
+			char cmd = command.charAt(i);
 			int moment = 0;
+			int moment1 = 0;
+			
+			if(cmd == 'f'){
+				moment = A.getPos_y() + 1;
+				A.setPos_y(moment);
+				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
+			} else if(cmd  == 'b'){
+				moment = A.getPos_y() - 1;
+				A.setPos_y(moment);
+				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
+			} else if(cmd == 'r'){
+				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
+				while(cmd != 'r' || cmd != 'l'){
+					
+				}
+			}
+			/*int moment = 0;
 			int moment1 = 0;
 			
 			switch (command.charAt(i)) {
@@ -64,7 +82,7 @@ public class MarsRover {
 				A.setPos_y(moment);
 				System.out.print("(" + A.getPos_y() + "," + A.getPos_x() + ")");
 				break;
-			}
+			}*/
 
 		}
 		
