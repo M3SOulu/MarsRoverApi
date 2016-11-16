@@ -13,7 +13,7 @@ public class Obstacle {
 	}
 	
 	@Override
-	public String ToString(){
+	public String toString(){
 		return name;
 	}
 	

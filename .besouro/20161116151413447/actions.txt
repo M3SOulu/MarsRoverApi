@@ -34,3 +34,7 @@ RefactoringAction 1479308324466 Obstacle.java RENAME To=>String ToString FIELD
 RefactoringAction 1479308325479 Obstacle.java RENAME ToString=>String ToString() METHOD
 RefactoringAction 1479308367096 Obstacle.java ADD String name FIELD
 EditAction 1479308375589 Obstacle.java 260 2 3 0
+CompilationAction 1479308375822 Obstacle.java
+RefactoringAction 1479308410221 Obstacle.java RENAME ToString()=>String toString() METHOD
+CompilationAction 1479308414030 Obstacle.java
+EditAction 1479308427408 Obstacle.java 260 2 3 0
