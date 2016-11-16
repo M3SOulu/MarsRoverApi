@@ -47,3 +47,32 @@ RefactoringAction 1479312989442 MarsRoverTest.java ADD import tdd.training.sessi
 FileOpenedAction 1479313166559 Car.java 160 1 3 0
 EditAction 1479313230561 Car.java 167 1 3 0
 EditAction 1479313356150 MarsRover.java 2425 6 13 0
+UnitTestCaseAction 1479313357426 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313357434 MarsRoverTest FAIL
+UnitTestCaseAction 1479313377053 MarsRoverTest.java OK
+UnitTestSessionAction 1479313377054 MarsRoverTest OK
+UnitTestCaseAction 1479313412695 MarsRoverTest.java OK
+UnitTestSessionAction 1479313412696 MarsRoverTest OK
+RefactoringAction 1479313426933 MarsRoverTest.java RENAME testForward()=>void testCommand() METHOD
+RefactoringAction 1479313431940 MarsRoverTest.java RENAME testCommand()=>void testCommand1() METHOD
+RefactoringAction 1479313447467 MarsRoverTest.java ADD void testCommand1()/2 METHOD
+RefactoringAction 1479313454477 MarsRoverTest.java REMOVE testCommand1()/2 METHOD
+RefactoringAction 1479313458487 MarsRoverTest.java RENAME testCommand1()=>void testForward() METHOD
+RefactoringAction 1479313464029 MarsRoverTest.java ADD void testCommand1() METHOD
+RefactoringAction 1479313472586 MarsRoverTest.java RENAME testForward()=>void testC() METHOD
+RefactoringAction 1479313474095 MarsRoverTest.java RENAME testC()=>void testCommand() METHOD
+RefactoringAction 1479313476124 MarsRoverTest.java RENAME testCommand()=>void testCommand1()/2 METHOD
+RefactoringAction 1479313481136 MarsRoverTest.java RENAME testCommand1()/2=>void testCommand2() METHOD
+RefactoringAction 1479313485158 MarsRoverTest.java ADD void testCommand1()/2 METHOD
+RefactoringAction 1479313488178 MarsRoverTest.java RENAME testCommand1()/2=>void testCommand3() METHOD
+UnitTestCaseAction 1479313513990 MarsRoverTest.java OK
+UnitTestSessionAction 1479313513990 MarsRoverTest OK
+RefactoringAction 1479313543266 MarsRoverTest.java ADD void testCommand1()/2 METHOD
+RefactoringAction 1479313546795 MarsRoverTest.java RENAME testCommand1()/2=>void testCommand3()/2 METHOD
+CompilationAction 1479313579168 MarsRoverTest.java
+UnitTestCaseAction 1479313582347 MarsRoverTest.java OK
+UnitTestSessionAction 1479313582347 MarsRoverTest OK
+RefactoringAction 1479313585478 MarsRoverTest.java RENAME testCommand3()/2=>void testCommand4() METHOD
+RefactoringAction 1479313622566 MarsRoverTest.java REMOVE testCommand4() METHOD
+UnitTestCaseAction 1479313626107 MarsRoverTest.java OK
+UnitTestSessionAction 1479313626107 MarsRoverTest OK
