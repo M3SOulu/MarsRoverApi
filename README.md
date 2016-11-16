@@ -31,4 +31,4 @@ Note that the API that you are implementing does not have a graphical user inter
 
 ![mra](http://snappyimages.nextwavesrl.netdna-cdn.com/img/0c87e36563b080b1adfb3c2736dd78f4.png)
 
-**TAKE THE POST-QUESTIONNAIRE AT:** [https://goo.gl/forms/nArKORP8e5pbnfuD3](https://goo.gl/forms/nArKORP8e5pbnfuD3)
+**TAKE THE QUESTIONNAIRE AT:** [https://goo.gl/forms/nArKORP8e5pbnfuD3](https://goo.gl/forms/nArKORP8e5pbnfuD3)
