@@ -14,9 +14,7 @@ public class NavigationTest {
 	
 	@Test (expected = MarsRoverException.class)
 	public void testGeneraOstacoli() {
-		assertEquals(2, navTest.getObstacles().size());
-		System.out.println(navTest.getObstacles().size());
-		
+		assertEquals(2, navTest.getObstacles().size());		
 	}
 
 }
