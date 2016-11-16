@@ -27,3 +27,6 @@ RefactoringAction 1479308431420 Coordinates.java ADD Coordinate get FIELD
 RefactoringAction 1479308434928 Coordinates.java RENAME get=>Coordinate getCoordinates FIELD
 RefactoringAction 1479308489996 Coordinates.java RENAME getCoordinates=>Coordinate getCoordinates() METHOD
 EditAction 1479308561408 Coordinates.java 854 6 6 0
+CompilationAction 1479308561638 Coordinates.java
+CompilationAction 1479308561639 Coordinates.java
+EditAction 1479308561652 MarsRover.java 1802 4 4 0

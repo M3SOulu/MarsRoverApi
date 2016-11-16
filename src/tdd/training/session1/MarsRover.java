@@ -1,16 +1,26 @@
 package tdd.training.session1;
 
 public class MarsRover {
+	private Coordinates coordinates;
 	public MarsRover(int x, int y, String obstacles){
+	
+		
 	/*	x and y represent the size of the grid.
-	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
+	 *  Obstacles is a String formatted as follows: (o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y) with no white spaces. 
 	 *  
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
-	 */
+	 */public void setCoordinates(Coordinates values){
+		 coordinates = values;
+	 }
 	}
 	
 	public String executeCommand(String command){
+		
+		for(char singleCommand : command.toCharArray()){
+			if (!receivedSingleCommand(singleCommand))
+				break;
+		}
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -22,5 +32,30 @@ public class MarsRover {
 		 */
 		
 		return null;
+	}
+
+	private boolean receivedSingleCommand(char command) { /**checks the command is made of 1 letter**/
+		
+		switch(Character.toUpperCase(command)){
+		
+		case 'F' :
+			return getCoordinates().moveForword();
+			
+		case 'B' :
+			return getCoordinates.moveBackward();
+			
+		case 'L' :
+			getCoordinates.changeViewLeft();
+			return true;
+			
+		case 'R' :
+			getCoordinates.changeViewRight();
+			return true;
+		
+		}
+	}
+	
+	public String getPosition(){
+		return getCoordinates().toString();
 	}
 }
