@@ -18,7 +18,7 @@ public class MarsRover {
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		
-		if(verifyObstacles(obstacles)) throw new MarsRoverException();	
+		if(!verifyObstacles(obstacles)) throw new MarsRoverException();	
 		
 		xSize = x;
 		ySize = y;
