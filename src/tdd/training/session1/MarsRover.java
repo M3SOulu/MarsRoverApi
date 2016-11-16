@@ -23,7 +23,7 @@ public class MarsRover {
 			}
 			System.out.println("ok-3");
 			String _obstacles = obstacles.replace(")", "");
-			System.out.println("ok-2");
+			System.out.println("ok-2" + _obstacles);
 			String[] values = _obstacles.split("(");
 			System.out.println("ok-1");
 			for (String value : values){
