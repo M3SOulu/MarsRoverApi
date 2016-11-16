@@ -23,3 +23,9 @@ RefactoringAction 1479307592867 MarsRoverException.java ADD MarsRoverException()
 RefactoringAction 1479307597898 MarsRoverException.java RENAME MarsRoverException()/2=>MarsRoverException(String) METHOD
 EditAction 1479307602650 MarsRoverException.java 294 2 2 0
 EditAction 1479307654856 MarsRoverTest.java 189 1 1 0
+RefactoringAction 1479307678858 MarsRoverTest.java RENAME test()=>void Obstacle() METHOD
+RefactoringAction 1479307711247 Obstacle.java ADD boolean Equals FIELD
+RefactoringAction 1479307712785 Obstacle.java RENAME Equals=>boolean Equals() METHOD
+RefactoringAction 1479307718833 Obstacle.java RENAME Equals()=>boolean erquals() METHOD
+RefactoringAction 1479307720342 Obstacle.java RENAME erquals()=>boolean equals() METHOD
+EditAction 1479307723744 Obstacle.java 605 4 6 0
