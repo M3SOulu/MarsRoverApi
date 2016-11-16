@@ -46,6 +46,7 @@ public class MarsRover {
 		result = result.concat("(");
 		result = result.concat(move[0].toString());
 		result = result.concat(",");
+		
 		result = result.concat(move[1].toString());
 		result = result.concat(")");
 		
