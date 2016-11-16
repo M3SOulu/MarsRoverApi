@@ -39,6 +39,8 @@ public class MarsRover {
 		 */
 		String roverStarts = NORTH;
 		int move ;
+		String obstacles;
+		
 		if(command == roverStarts){
 			 move = 0;
 		}
@@ -46,6 +48,7 @@ public class MarsRover {
 			move = 1;
 		}
 		
-		return ;
+		
+		return (command);
 	}
 }
