@@ -102,3 +102,4 @@ RefactoringAction 1479311657981 MarsRoverTest.java ADD import tdd.training.sessi
 RefactoringAction 1479311751097 MarsRoverTest.java ADD import org.junit.Before IMPORT
 RefactoringAction 1479311774119 MarsRoverTest.java ADD void initialize() METHOD
 EditAction 1479311953268 MarsRover.java 4808 8 18 0
+EditAction 1479311953433 MarsRoverTest.java 347 2 1 0
