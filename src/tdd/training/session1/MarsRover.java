@@ -16,8 +16,8 @@ public class MarsRover {
 	
 	private char face;
 	
-	
-	private ArrayList<Obstacle> obs;
+	private ArrayList<Obstacle> foundObs;
+	private ArrayList<Obstacle> gridObs;
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -29,7 +29,7 @@ public class MarsRover {
 		
 		this.width=x;
 		this.height=y;
-		obs=makeObstacles(obstacles);
+		gridObs=makeObstacles(obstacles);
 		
 		this.x=0;
 		this.y=0;
@@ -92,7 +92,7 @@ public class MarsRover {
 		
 		boolean result=false;
 		
-		Iterator<Obstacle> it= this.obs.iterator();
+		Iterator<Obstacle> it= this.gridObs.iterator();
 		
 		while(it.hasNext()){
 			

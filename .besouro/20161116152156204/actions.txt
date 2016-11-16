@@ -246,3 +246,9 @@ UnitTestCaseAction 1479313173663 MarsRoverTest.java OK
 UnitTestSessionAction 1479313173664 MarsRoverTest OK
 EditAction 1479313206634 MarsRover.java 2839 5 18 0
 EditAction 1479313227774 MarsRover.java 2839 5 18 0
+RefactoringAction 1479313389747 MarsRover.java REMOVE obs FIELD
+RefactoringAction 1479313398752 MarsRover.java ADD ArrayList<Obstacle> grid FIELD
+RefactoringAction 1479313400271 MarsRover.java RENAME grid=>ArrayList<Obstacle> gridObs FIELD
+RefactoringAction 1479313408777 MarsRover.java ADD ArrayList<Obstacle> gridObs/2 FIELD
+RefactoringAction 1479313429784 MarsRover.java RENAME gridObs/2=>ArrayList<Obstacle> foundObs FIELD
+EditAction 1479313430996 MarsRover.java 2888 5 18 0
