@@ -82,6 +82,9 @@ public class MarsRoverTest {
 		
 		Assert.assertEquals(rover.getFace(),'N');
 		
+		rover.changeFace('l');
+		Assert.assertEquals(rover.getFace(),'W');
+		
 	}
 	
 	@Test
