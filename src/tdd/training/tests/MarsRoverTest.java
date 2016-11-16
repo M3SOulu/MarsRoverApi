@@ -14,7 +14,12 @@ public class MarsRoverTest {
 	
 	@Before
 	public void initialize() throws MarsRoverException{
-		sonic = new MarsRover(10,10,"?(2,1)(4,5)?");
+		sonic = new MarsRover(10,10,"?(2,1)?");
+	}
+	
+	@Test
+	public void noMove() throws MarsRoverException{
+		assertEquals("?(0,0,N)?", sonic.executeCommand(""));
 	}
 
 	@Test

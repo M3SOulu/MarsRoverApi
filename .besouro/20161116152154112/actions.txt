@@ -118,3 +118,28 @@ RefactoringAction 1479312065052 MarsRoverTest.java RENAME OneMove()=>void OneMov
 RefactoringAction 1479312066056 MarsRoverTest.java RENAME OneMoveFor()=>void OneMoveForwa() METHOD
 RefactoringAction 1479312067563 MarsRoverTest.java RENAME OneMoveForwa()=>void OneMoveForward() METHOD
 EditAction 1479312187721 MarsRoverTest.java 494 2 2 1
+UnitTestCaseAction 1479312194562 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312194570 MarsRoverTest FAIL
+UnitTestCaseAction 1479312236344 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312236345 MarsRoverTest FAIL
+UnitTestCaseAction 1479312244623 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312244623 MarsRoverTest.OneMoveForward FAIL
+UnitTestCaseAction 1479312261944 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312261945 MarsRoverTest.OneMoveForward FAIL
+UnitTestCaseAction 1479312278772 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312278773 MarsRoverTest.OneMoveForward (Failed Tests first) FAIL
+RefactoringAction 1479312346955 MarsRoverTest.java ADD void noMove() METHOD
+UnitTestCaseAction 1479312391576 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312391576 MarsRoverTest FAIL
+UnitTestCaseAction 1479312402575 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312402576 MarsRoverTest FAIL
+UnitTestCaseAction 1479312433496 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312433497 MarsRoverTest FAIL
+UnitTestCaseAction 1479312440962 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312440963 MarsRoverTest FAIL
+UnitTestCaseAction 1479312458091 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312458092 MarsRoverTest FAIL
+UnitTestCaseAction 1479312464280 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312464281 MarsRoverTest FAIL
+FileOpenedAction 1479312628867 Obstacle.java 419 5 6 0
+EditAction 1479312785147 MarsRover.java 4855 8 22 0
