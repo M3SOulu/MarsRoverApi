@@ -195,3 +195,4 @@
 1479316642212 test-addition 2 59 true
 1479316642213 test-addition 2 59 true
 1479316642214 test-addition 1 59 true
+1479316655179 regression 2 6 true

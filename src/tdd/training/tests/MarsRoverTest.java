@@ -10,10 +10,10 @@ public class MarsRoverTest {
 
 	MarsRover marsRover = new MarsRover(3,3,"");
 	
-	@Test
-	public void executeCommand() {
+	@Test(expected = MarsRoverException.class)
+	public void executeCommand() throws MarsRoverException{
 		assertEquals("(1,2,E)",marsRover.executeCommand("ffrf"));
-		//assertEquals("(1,1,E)",marsRover.executeCommand("frf"));
+		assertEquals("(1,1,E)",marsRover.executeCommand("frf"));
 	}
 
 	
