@@ -34,7 +34,6 @@ public class MarsRover {
 		String[] ostacoli = obstacles.split("(");
 		
 		for(String ostacolo : ostacoli){
-			System.out.println(ostacolo);
 			/*
 			String[] temp = ostacolo.split(",");
 			int xObstacle = Integer.parseInt(temp[0]);
