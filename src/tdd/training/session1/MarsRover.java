@@ -68,8 +68,8 @@ public class MarsRover {
 	
 	
 	public Integer[] commandMove(char c){
-		Integer[] cordFin = {0};
-		if (c=='i')
+		Integer[] cordFin = {0,0};
+		if (c=='l')
 			cordFin[0]=-1;
 			if (cordFin[0]<0)
 			cordFin[0]=this.x;
