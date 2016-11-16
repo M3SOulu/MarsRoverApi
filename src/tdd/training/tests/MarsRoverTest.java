@@ -61,6 +61,9 @@ public class MarsRoverTest {
 		assertFalse(marsRover.verifyObstaclesRange(9, 10));
 	}
 	
-	
+	@Test(expected = MarsRoverException.class)
+	public void testSetObstacles_ThrowException(){
+		
+	}
 	
 }

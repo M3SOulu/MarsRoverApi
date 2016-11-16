@@ -104,3 +104,9 @@ EditAction 1479309950626 MarsRover.java 2424 6 18 0
 CompilationAction 1479309950892 MarsRover.java
 CompilationAction 1479309976635 MarsRover.java
 EditAction 1479309994178 MarsRoverTest.java 1839 5 27 25
+RefactoringAction 1479310021836 MarsRoverTest.java ADD void setObstacles FIELD
+RefactoringAction 1479310024849 MarsRoverTest.java RENAME setObstacles=>void testSetObstacles FIELD
+RefactoringAction 1479310027866 MarsRoverTest.java RENAME testSetObstacles=>void testSetObstacles_ FIELD
+RefactoringAction 1479310034384 MarsRoverTest.java RENAME testSetObstacles_=>void testSetObstacles_ThrowException FIELD
+RefactoringAction 1479310035394 MarsRoverTest.java RENAME testSetObstacles_ThrowException=>void testSetObstacles_ThrowException() METHOD
+EditAction 1479310041365 MarsRoverTest.java 1935 6 27 25
