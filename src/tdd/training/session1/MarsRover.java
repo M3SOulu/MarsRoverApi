@@ -15,7 +15,7 @@ public class MarsRover {
 	private int x;
 	private int y;
 	
-	private String face;
+	private char face;
 	
 	private ArrayList<Obstacle> foundObs;
 	private ArrayList<Obstacle> gridObs;
@@ -42,7 +42,7 @@ public class MarsRover {
 		//E=east
 		//W=west
 		
-		this.face="N";
+		this.face='N';
 
 		
 	}
@@ -159,6 +159,14 @@ public class MarsRover {
 		switch(face){
 		
 		case 'r':
+			
+			if(this.face!='W'){
+				
+				this.face=faces.charAt(faces.indexOf(this.face)+1);
+				
+			}
+				
+			
 			
 			break;
 		
