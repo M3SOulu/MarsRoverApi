@@ -248,3 +248,15 @@ RefactoringAction 1479313098012 MarsRover.java REMOVE Direction FIELD
 RefactoringAction 1479313108562 MarsRover.java RENAME moveLeft(Direction)=>void moveLeft() METHOD
 RefactoringAction 1479313126652 MarsRover.java RENAME moveRight(Direction)=>void moveRight() METHOD
 EditAction 1479313142293 MarsRover.java 3980 11 30 0
+CompilationAction 1479313142560 MarsRover.java
+CompilationAction 1479313142561 MarsRover.java
+CompilationAction 1479313142564 MarsRover.java
+CompilationAction 1479313142564 MarsRoverTest.java
+CompilationAction 1479313142564 MarsRoverTest.java
+CompilationAction 1479313149284 MarsRover.java
+CompilationAction 1479313149285 MarsRover.java
+CompilationAction 1479313149462 MarsRover.java
+RefactoringAction 1479313176278 MarsRover.java ADD Direction get FIELD
+RefactoringAction 1479313179302 MarsRover.java RENAME get=>Direction getDirection FIELD
+RefactoringAction 1479313180309 MarsRover.java RENAME getDirection=>Direction getDirection() METHOD
+EditAction 1479313187141 MarsRover.java 3998 12 30 0

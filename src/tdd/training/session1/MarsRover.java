@@ -56,6 +56,10 @@ public class MarsRover {
 		return yPos;
 	}
 	
+	public Direction getDirection(){
+		return direction;
+	}
+	
 	public boolean verifyObstaclesRange(int xObstacle, int yObstacle){
 		boolean verified = true;
 		
@@ -85,10 +89,10 @@ public class MarsRover {
 			
 			switch(command){
 			case 'l':
-				moveLeft(direction);
+				moveLeft();
 				break;
 			case 'r':
-				moveRight(direction);
+				moveRight();
 				break;
 			case 'f':
 				moveForward();
@@ -156,7 +160,6 @@ public class MarsRover {
 			direction = Direction.NORTH;
 			break;
 		}
-		return newDirection;
 	}
 	
 	
