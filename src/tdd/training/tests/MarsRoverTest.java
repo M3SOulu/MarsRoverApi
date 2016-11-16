@@ -36,7 +36,7 @@ public class MarsRoverTest {
 	public void testMarsRoverMoveFindObstacle() throws MarsRoverException {
 		MarsRover rover = new MarsRover(50, 50, "(10,10)(5,5)");
 		String result = rover.executeCommand("fffff");
-		assertEquals("(0,3,N)", result);
+		assertEquals("(0,5,N)", result);
 	}
 
 }
