@@ -31,7 +31,7 @@ public class MarsRover {
 			
 			if(verifyObstaclesRange(xObstacle, yObstacle)) throw new MarsRoverException();
 			
-			planet[xOb][yOb] = -1;
+			planet[xObstacle][yObstacle] = -1;
 		}
 		
 		planet[0][0] = 1;	

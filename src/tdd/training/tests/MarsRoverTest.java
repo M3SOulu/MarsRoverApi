@@ -42,4 +42,9 @@ public class MarsRoverTest {
 		assertFalse(marsRover.verifyCommand("a"));
 	}
 	
+	@Test
+	public void testVerifyObstaclesRange(){
+		MarsRover marsRover = new MarsRover(x, y, obstacles)
+	}
+	
 }

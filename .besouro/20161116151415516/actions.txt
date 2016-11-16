@@ -71,3 +71,12 @@ RefactoringAction 1479309321132 MarsRover.java RENAME verifyObstaclesRange()=>bo
 RefactoringAction 1479309329149 MarsRover.java RENAME verifyObstaclesRange(int)=>boolean verifyObstaclesRange(int, int) METHOD
 EditAction 1479309430305 MarsRover.java 2326 5 18 0
 EditAction 1479309454823 MarsRover.java 2356 5 18 0
+CompilationAction 1479309454957 MarsRover.java
+CompilationAction 1479309454957 MarsRover.java
+CompilationAction 1479309463214 MarsRover.java
+CompilationAction 1479309463215 MarsRover.java
+RefactoringAction 1479309500049 MarsRoverTest.java ADD void test FIELD
+RefactoringAction 1479309502559 MarsRoverTest.java RENAME test=>void testverifyObstaclesRange FIELD
+RefactoringAction 1479309504566 MarsRoverTest.java RENAME testverifyObstaclesRange=>void testVerifyObstaclesRange FIELD
+RefactoringAction 1479309506082 MarsRoverTest.java RENAME testVerifyObstaclesRange=>void testVerifyObstaclesRange() METHOD
+EditAction 1479309551079 MarsRoverTest.java 1147 5 13 11
