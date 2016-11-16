@@ -7,7 +7,7 @@ import java.util.List;
 public class MarsRover {
 	
 	private static final int nObstacle = 10;
-	private static final List<String> movement = Arrays.asList("f","b","r","l");
+	//private static final List<String> movement = Arrays.asList("f","b","r","l");
 	private static final List<String> cardinalPosition = Arrays.asList("N","E","S","W");
 	private static int gridX;
 	private static int gridY;
@@ -74,7 +74,7 @@ public class MarsRover {
 		
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws MarsRoverException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -86,6 +86,7 @@ public class MarsRover {
 		 */
 		
 		String whereIAm = "?(";
+		String whereIsObstacles = "(";
 		
 		for(int i = 0; i < command.length(); i++){
 			if(command.charAt(i) == 'f'){
@@ -136,10 +137,23 @@ public class MarsRover {
 						direction += -1;
 					}
 				}
+			}else
+				throw new MarsRoverException();
+			
+			for(Obstacle o : this.obstacles){
+				if(coordX == o.getCoordX()&&coordY == o.getCoordY()){
+					whereIsObstacles += coordX + "," + coordY + ")";
+					coordX += -1;
+					coordY += -1;
+				}
 			}
 		}
+		
+		if(coordX > gridX||coordY > gridY)
+			throw new MarsRoverException();
+		
 		whereIAm += coordX + "," + coordY + "," + this.getRealDirection() + ")";
 		
-		return null;
+		return whereIAm.concat(whereIsObstacles);
 	}
 }
