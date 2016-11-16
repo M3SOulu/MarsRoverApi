@@ -21,22 +21,15 @@ public class MarsRover {
 				Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ",")){
 				throw new MarsRoverException();
 			}
-			System.out.println("ok-3");
 			String _obstacles = obstacles.replace("(", "");
-			System.out.println("ok-2" + _obstacles);
-			String[] values = _obstacles.split(")");
-			System.out.println("ok-1");
+			String[] values = _obstacles.split("\\)");
 			for (String value : values){
-				System.out.println(value);
 				String xPos = value.split(",")[0];
 				String yPos = value.split(",")[1];
-				System.out.println("ok0");
 				if (!Utils.isInteger(xPos) || !Utils.isInteger(yPos)){
 					throw new MarsRoverException();
 				}
-				System.out.println("ok1");
 				Position obsPos = new Position(Integer.parseInt(xPos), Integer.parseInt(yPos));
-				System.out.println("ok2");
 				this.obstacles.add(obsPos);
 			}
 		}
