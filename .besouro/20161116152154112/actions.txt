@@ -45,3 +45,11 @@ RefactoringAction 1479307115354 MarsRover.java RENAME position=>List<String> mov
 EditAction 1479307917282 MarsRover.java 2403 8 10 0
 EditAction 1479308293889 MarsRover.java 3187 8 10 0
 EditAction 1479308616721 MarsRover.java 3809 8 13 0
+RefactoringAction 1479308873060 MarsRover.java ADD String FIELD
+RefactoringAction 1479308876567 MarsRover.java RENAME o=>String FIELD
+RefactoringAction 1479309050072 Obstacles.java ADD Obstacles.java CLASS
+FileOpenedAction 1479309050477 Obstacles.java 65 0 0 0
+RefactoringAction 1479309065963 Obstacles.java ADD int coordX FIELD
+RefactoringAction 1479309074495 Obstacles.java ADD int coord FIELD
+RefactoringAction 1479309076006 Obstacles.java RENAME coord=>int coordY FIELD
+EditAction 1479309096328 Obstacles.java 132 0 0 0
