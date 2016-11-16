@@ -219,7 +219,11 @@ public class MarsRover {
 		
 		switch(m){
 		
+		case 'f':
+			break;
 		
+		case 'b':
+			break;
 		
 		}
 	}
