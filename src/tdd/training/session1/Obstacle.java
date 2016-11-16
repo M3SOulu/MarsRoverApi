@@ -14,16 +14,16 @@ public class Obstacle {
 		return coordX;
 	}
 
-	public void setCoordX(char coordX) {
-		this.coordX = (int)coordX;
+	public void setCoordX(Character coordX) {
+		this.coordX = coordX.hashCode();
 	}
 
 	public int getCoordY() {
 		return coordY;
 	}
 
-	public void setCoordY(char coordY) {
-		this.coordY = ((int)coordY);
+	public void setCoordY(Character coordY) {
+		this.coordY = coordY.hashCode();
 	}
 	
 	

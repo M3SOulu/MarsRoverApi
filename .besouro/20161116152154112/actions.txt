@@ -177,3 +177,7 @@ UnitTestCaseAction 1479313487340 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479313487341 MarsRoverTest FAIL
 EditAction 1479313639248 Obstacle.java 431 5 6 0
 EditAction 1479313639403 MarsRover.java 4667 8 23 0
+RefactoringAction 1479313651940 Obstacle.java RENAME setCoordY(char)=>void setCoordY(Char) METHOD
+RefactoringAction 1479313657949 Obstacle.java RENAME setCoordY(Char)=>void setCoordY(Character) METHOD
+RefactoringAction 1479313674975 Obstacle.java RENAME setCoordX(char)=>void setCoordX(Character) METHOD
+EditAction 1479313694571 Obstacle.java 451 5 6 0
