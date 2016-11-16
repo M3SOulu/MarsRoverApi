@@ -18,6 +18,6 @@ public class MarsRoverTest {
 		
 		//Assert
 		assertEquals("12E", score);
-}
+	}
 
 }
