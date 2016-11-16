@@ -142,5 +142,10 @@ public class MarsRoverTest {
 	public void testExecuteCommandThrowException() throws MarsRoverException{
 		marsRover.executeCommand("");
 	}
+	
+	@Test
+	public void testExecuteCommand(){
+		
+	}
 
 }
