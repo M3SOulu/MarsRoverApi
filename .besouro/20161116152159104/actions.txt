@@ -437,3 +437,4 @@ UnitTestSessionAction 1479316338145 MarsRoverTest OK
 UnitTestCaseAction 1479316366805 AllTests.java FAIL
 UnitTestSessionAction 1479316366806 AllTests FAIL
 EditAction 1479316445159 MarsRoverTest.java 297 1 1 1
+EditAction 1479316475080 MarsRoverTest.java 304 1 1 1

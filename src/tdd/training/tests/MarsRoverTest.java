@@ -12,7 +12,7 @@ public class MarsRoverTest {
 	
 	@Test
 	public void test() {
-		assertEquals("",marsRover.executeCommand("ffrf"));
+		assertEquals("(1,2,E)",marsRover.executeCommand("ffrf"));
 	}
 
 	
