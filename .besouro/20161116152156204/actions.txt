@@ -41,3 +41,6 @@ RefactoringAction 1479307827832 Obstacle.java RENAME equals(Obstacle)=>boolean e
 RefactoringAction 1479307830864 Obstacle.java RENAME equals(O)=>boolean equals() METHOD
 RefactoringAction 1479307832882 Obstacle.java RENAME equals()=>boolean equals(Obstacle) METHOD
 EditAction 1479307833946 Obstacle.java 931 8 13 0
+CompilationAction 1479307834071 Obstacle.java
+CompilationAction 1479307839949 Obstacle.java
+EditAction 1479307839968 MarsRoverTest.java 193 1 1 0

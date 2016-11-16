@@ -45,7 +45,7 @@ package tdd.training.session1;
 		  return new String("("+x+","+y+")");
 	  }
 	  
-	  @Override
+	 
 	  public boolean equals(Obstacle ob){
 		  
 		  boolean result=false;

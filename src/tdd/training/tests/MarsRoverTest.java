@@ -9,7 +9,7 @@ public class MarsRoverTest {
 	
 	
 	@Test
-	public void test() {
+	public void Obstacle() {
 		fail("Not yet implemented");
 	}
 
