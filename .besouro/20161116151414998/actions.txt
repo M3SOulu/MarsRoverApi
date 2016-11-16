@@ -11,3 +11,8 @@ RefactoringAction 1479307510902 Rover.java ADD void setPos_x(int) METHOD
 RefactoringAction 1479307510902 Rover.java ADD int getPos_y() METHOD
 RefactoringAction 1479307510903 Rover.java ADD void setPos_y(int) METHOD
 EditAction 1479307515358 Rover.java 388 5 6 0
+RefactoringAction 1479307611167 MarsRover.java ADD Rover A FIELD
+CompilationAction 1479307642501 MarsRover.java
+CompilationAction 1479307642668 MarsRover.java
+CompilationAction 1479308390671 MarsRover.java
+EditAction 1479309173001 MarsRover.java 1618 2 3 0
