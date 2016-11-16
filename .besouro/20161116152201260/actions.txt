@@ -10,3 +10,164 @@ RefactoringAction 1479308016762 MarsRover.java ADD int FIELD
 RefactoringAction 1479308018806 MarsRover.java RENAME get=>int FIELD
 EditAction 1479308028727 MarsRover.java 1525 4 6 0
 EditAction 1479308075084 MarsRoverTest.java 283 1 2 1
+UnitTestCaseAction 1479308079608 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308079617 MarsRoverTest FAIL
+UnitTestCaseAction 1479308102329 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308102330 MarsRoverTest FAIL
+UnitTestCaseAction 1479308105620 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308105621 MarsRoverTest FAIL
+UnitTestCaseAction 1479308483595 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308483596 MarsRoverTest FAIL
+UnitTestCaseAction 1479308532091 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308532092 MarsRoverTest FAIL
+RefactoringAction 1479308606165 MarsRover.java REMOVE getGrid() METHOD
+RefactoringAction 1479308606165 MarsRover.java REMOVE setObstacles(String) METHOD
+RefactoringAction 1479308657208 MarsRover.java ADD void setObstacles(String) METHOD
+RefactoringAction 1479308657208 MarsRover.java ADD int METHOD
+CompilationAction 1479308703511 MarsRover.java
+CompilationAction 1479308703512 MarsRover.java
+CompilationAction 1479308703512 MarsRover.java
+RefactoringAction 1479308729084 MarsRover.java ADD in N FIELD
+CompilationAction 1479308732018 MarsRover.java
+CompilationAction 1479308732019 MarsRover.java
+CompilationAction 1479308732019 MarsRover.java
+CompilationAction 1479308732308 MarsRover.java
+UnitTestCaseAction 1479308744998 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308744998 MarsRoverTest FAIL
+RefactoringAction 1479309044238 MarsRover.java REMOVE setObstacles(String) METHOD
+RefactoringAction 1479309076765 MarsRover.java ADD char N/2 FIELD
+RefactoringAction 1479309076766 MarsRover.java ADD char N/3 FIELD
+RefactoringAction 1479309076767 MarsRover.java ADD char N/4 FIELD
+RefactoringAction 1479309079772 MarsRover.java RENAME N/4=>char S FIELD
+RefactoringAction 1479309083796 MarsRover.java ADD char W FIELD
+RefactoringAction 1479309165934 MarsRover.java ADD char actualPos FIELD
+RefactoringAction 1479309168943 MarsRover.java RENAME actualPos=>char actualFace FIELD
+RefactoringAction 1479310298705 MarsRover.java ADD int ac FIELD
+RefactoringAction 1479310299722 MarsRover.java RENAME ac=>int actuL FIELD
+RefactoringAction 1479310301230 MarsRover.java RENAME actuL=>int actual FIELD
+RefactoringAction 1479310303234 MarsRover.java RENAME actual=>int actualPosition FIELD
+RefactoringAction 1479310317261 MarsRover.java RENAME actualPosition=>int actualPositionX FIELD
+RefactoringAction 1479310325796 MarsRover.java ADD int actualPositionX/2 FIELD
+RefactoringAction 1479310326805 MarsRover.java RENAME actualPositionX/2=>int actualPositionY FIELD
+RefactoringAction 1479310827003 MarsRover.java ADD int ma FIELD
+RefactoringAction 1479310828024 MarsRover.java RENAME ma=>int maz FIELD
+RefactoringAction 1479310829039 MarsRover.java RENAME maz=>int max FIELD
+RefactoringAction 1479310830043 MarsRover.java RENAME max=>int maxX FIELD
+RefactoringAction 1479310837084 MarsRover.java ADD int max FIELD
+RefactoringAction 1479310838605 MarsRover.java RENAME max=>int maxY FIELD
+UnitTestCaseAction 1479311597500 MarsRoverTest.java OK
+UnitTestSessionAction 1479311597500 MarsRoverTest OK
+UnitTestCaseAction 1479311725793 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311725794 MarsRoverTest FAIL
+UnitTestCaseAction 1479311765815 MarsRoverTest.java OK
+UnitTestSessionAction 1479311765816 MarsRoverTest OK
+UnitTestCaseAction 1479311787605 MarsRoverTest.java OK
+UnitTestSessionAction 1479311787606 MarsRoverTest OK
+RefactoringAction 1479312529476 MarsRoverTest.java ADD void test()/2 METHOD
+RefactoringAction 1479312535985 MarsRoverTest.java REMOVE test()/2 METHOD
+RefactoringAction 1479312537494 MarsRoverTest.java ADD void setUP FIELD
+RefactoringAction 1479312543513 MarsRoverTest.java RENAME setUP()=>void setUp() METHOD
+RefactoringAction 1479312551565 MarsRoverTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479312610133 MarsRoverTest.java ADD void test()/2 METHOD
+RefactoringAction 1479312617141 MarsRoverTest.java RENAME test()/2=>void testN() METHOD
+UnitTestCaseAction 1479312724579 MarsRoverTest.java OK
+UnitTestSessionAction 1479312724581 MarsRoverTest OK
+RefactoringAction 1479312768234 MarsRoverTest.java RENAME testN()=>void testNLimit() METHOD
+RefactoringAction 1479312769758 MarsRoverTest.java RENAME testNLimit()=>void testNLimit FIELD
+RefactoringAction 1479312776780 MarsRoverTest.java ADD void testNLimit1()/2 METHOD
+RefactoringAction 1479312780788 MarsRoverTest.java RENAME testNLimit1()/2=>void testNLimit2() METHOD
+UnitTestCaseAction 1479312815055 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312815056 MarsRoverTest FAIL
+RefactoringAction 1479312856908 MarsRoverTest.java REMOVE setUp() METHOD
+UnitTestCaseAction 1479312862390 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312862391 MarsRoverTest FAIL
+RefactoringAction 1479312912238 MarsRoverTest.java ADD import org.junit.Ignore IMPORT
+UnitTestCaseAction 1479312915961 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312915962 MarsRoverTest FAIL
+UnitTestCaseAction 1479313009157 MarsRoverTest.java OK
+UnitTestSessionAction 1479313009158 MarsRoverTest OK
+RefactoringAction 1479313037472 MarsRoverTest.java ADD void testNLimit2()/2 METHOD
+RefactoringAction 1479313043476 MarsRoverTest.java RENAME testNLimit2()/2=>void testN1() METHOD
+UnitTestCaseAction 1479313068387 MarsRoverTest.java OK
+UnitTestSessionAction 1479313068387 MarsRoverTest OK
+RefactoringAction 1479313074492 MarsRoverTest.java ADD void testN1()/2 METHOD
+RefactoringAction 1479313084497 MarsRoverTest.java REMOVE testN1()/2 METHOD
+RefactoringAction 1479313133504 MarsRoverTest.java REMOVE test() METHOD
+RefactoringAction 1479313143008 MarsRoverTest.java ADD void testNLimit1()/2 METHOD
+RefactoringAction 1479313143009 MarsRoverTest.java ADD void testNLimit2()/2 METHOD
+RefactoringAction 1479313143009 MarsRoverTest.java ADD void testN1()/2 METHOD
+RefactoringAction 1479313148014 MarsRoverTest.java RENAME testNLimit1()/2=>void testSLimit1() METHOD
+RefactoringAction 1479313150019 MarsRoverTest.java RENAME testNLimit2()/2=>void testSLimit2() METHOD
+RefactoringAction 1479313152525 MarsRoverTest.java RENAME testN1()/2=>void testS1() METHOD
+UnitTestCaseAction 1479313334104 MarsRoverTest.java OK
+UnitTestSessionAction 1479313334105 MarsRoverTest OK
+RefactoringAction 1479313363606 MarsRoverTest.java ADD void testSLimit2()/2 METHOD
+RefactoringAction 1479313367610 MarsRoverTest.java RENAME testSLimit2()/2=>void testLimit2() METHOD
+RefactoringAction 1479313371617 MarsRoverTest.java RENAME testLimit2()=>void test() METHOD
+RefactoringAction 1479313372621 MarsRoverTest.java RENAME test()=>void testS() METHOD
+UnitTestCaseAction 1479313408144 MarsRoverTest.java OK
+UnitTestSessionAction 1479313408145 MarsRoverTest OK
+RefactoringAction 1479313454681 MarsRoverTest.java REMOVE testS1() METHOD
+RefactoringAction 1479313475196 MarsRoverTest.java ADD void testNLimit1()/2 METHOD
+RefactoringAction 1479313475196 MarsRoverTest.java ADD void testNLimit2()/2 METHOD
+RefactoringAction 1479313475196 MarsRoverTest.java ADD void testN1()/2 METHOD
+RefactoringAction 1479313480716 MarsRoverTest.java RENAME testNLimit1()/2=>void testELimit1() METHOD
+RefactoringAction 1479313483225 MarsRoverTest.java RENAME testNLimit2()/2=>void testELimit2() METHOD
+RefactoringAction 1479313485262 MarsRoverTest.java RENAME testN1()/2=>void testE1() METHOD
+UnitTestCaseAction 1479313658761 MarsRoverTest.java OK
+UnitTestSessionAction 1479313658762 MarsRoverTest OK
+RefactoringAction 1479313672526 MarsRoverTest.java ADD void testNLimit1()/2 METHOD
+RefactoringAction 1479313672526 MarsRoverTest.java ADD void testNLimit2()/2 METHOD
+RefactoringAction 1479313672527 MarsRoverTest.java ADD void testN1()/2 METHOD
+RefactoringAction 1479313676535 MarsRoverTest.java RENAME testNLimit1()/2=>void testWLimit1() METHOD
+RefactoringAction 1479313680540 MarsRoverTest.java RENAME testNLimit2()/2=>void testWLimit2() METHOD
+RefactoringAction 1479313683053 MarsRoverTest.java RENAME testN1()/2=>void testW1() METHOD
+UnitTestCaseAction 1479313894267 MarsRoverTest.java OK
+UnitTestSessionAction 1479313894268 MarsRoverTest OK
+RefactoringAction 1479314008838 MarsRoverTest.java ADD void test FIELD
+RefactoringAction 1479314013352 MarsRoverTest.java RENAME test=>void testE FIELD
+RefactoringAction 1479314015357 MarsRoverTest.java RENAME testE=>void testExample FIELD
+RefactoringAction 1479314016374 MarsRoverTest.java RENAME testExample=>void testExample() METHOD
+UnitTestCaseAction 1479314053189 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479314053196 MarsRoverTest FAIL
+UnitTestCaseAction 1479314066191 MarsRoverTest.java OK
+UnitTestSessionAction 1479314066192 MarsRoverTest OK
+UnitTestCaseAction 1479314073458 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479314073458 MarsRoverTest FAIL
+UnitTestCaseAction 1479314084091 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479314084091 MarsRoverTest FAIL
+UnitTestCaseAction 1479314091315 MarsRoverTest.java OK
+UnitTestSessionAction 1479314091316 MarsRoverTest OK
+RefactoringAction 1479314097097 MarsRoverTest.java ADD void testExample()/2 METHOD
+RefactoringAction 1479314100111 MarsRoverTest.java RENAME testExample()/2=>void testExample2() METHOD
+UnitTestCaseAction 1479314116176 MarsRoverTest.java OK
+UnitTestSessionAction 1479314116177 MarsRoverTest OK
+RefactoringAction 1479314140820 MarsRover.java ADD void setObstacles(String) METHOD
+RefactoringAction 1479314262676 MarsRoverTest.java ADD void testExample2()/2 METHOD
+RefactoringAction 1479314267183 MarsRoverTest.java RENAME testExample2()/2=>void test() METHOD
+RefactoringAction 1479314270198 MarsRoverTest.java RENAME test()=>void testO() METHOD
+RefactoringAction 1479314272202 MarsRoverTest.java RENAME testO()=>void testOBstacoles() METHOD
+RefactoringAction 1479314276207 MarsRoverTest.java RENAME testOBstacoles()=>void testObstacoles() METHOD
+UnitTestCaseAction 1479314756050 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479314756051 MarsRoverTest FAIL
+UnitTestCaseAction 1479314792282 MarsRoverTest.java OK
+UnitTestSessionAction 1479314792283 MarsRoverTest OK
+UnitTestCaseAction 1479314826944 MarsRoverTest.java OK
+UnitTestSessionAction 1479314826944 MarsRoverTest OK
+RefactoringAction 1479314893123 MarsRover.java ADD boolean c FIELD
+RefactoringAction 1479314895634 MarsRover.java RENAME c=>boolean checkOstacoles FIELD
+RefactoringAction 1479314896691 MarsRover.java RENAME checkOstacoles=>boolean checkOstacoles() METHOD
+RefactoringAction 1479314899709 MarsRover.java RENAME checkOstacoles()=>boolean checkOstacoles(int) METHOD
+RefactoringAction 1479314908756 MarsRover.java RENAME checkOstacoles(int)=>boolean checkOstacoles(int, int) METHOD
+UnitTestCaseAction 1479315664966 MarsRoverTest.java OK
+UnitTestSessionAction 1479315664967 MarsRoverTest OK
+RefactoringAction 1479315851055 MarsRoverTest.java ADD void testObstacoles()/2 METHOD
+RefactoringAction 1479315854078 MarsRoverTest.java RENAME testObstacoles()/2=>void testObstacoles1() METHOD
+UnitTestCaseAction 1479315928095 MarsRoverTest.java OK
+UnitTestSessionAction 1479315928095 MarsRoverTest OK
+UnitTestCaseAction 1479317260924 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479317260924 MarsRoverTest FAIL
+UnitTestCaseAction 1479317300500 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479317300501 MarsRoverTest FAIL
+UnitTestCaseAction 1479317317835 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479317317836 MarsRoverTest FAIL
