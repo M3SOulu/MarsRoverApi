@@ -22,14 +22,14 @@ public class MarsRoverTest {
 	}
 
 	@Test
-	public void testVerifyCommand(){
-		assertFalse(marsRover.verifyCommand(""));
-		
+	public void testVerifyCommand(){	
 		assertTrue(marsRover.verifyCommand("l"));
 		assertTrue(marsRover.verifyCommand("r"));
 		assertTrue(marsRover.verifyCommand("f"));
 		assertTrue(marsRover.verifyCommand("b"));
 		assertTrue(marsRover.verifyCommand("lrfb"));
+		assertFalse(marsRover.verifyCommand(""));
+		assertFalse(marsRover.verifyCommand("a"));
 	}
 	
 }

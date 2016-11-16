@@ -19,3 +19,4 @@ RefactoringAction 1479306919498 MarsRoverTest.java RENAME testVerifyCommand=>voi
 EditAction 1479306923401 MarsRoverTest.java 406 3 2 0
 EditAction 1479306989362 MarsRoverTest.java 447 3 3 1
 EditAction 1479307068991 MarsRoverTest.java 673 3 8 6
+EditAction 1479307089961 MarsRoverTest.java 716 3 9 7
