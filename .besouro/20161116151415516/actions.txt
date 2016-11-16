@@ -59,3 +59,4 @@ RefactoringAction 1479308455514 MarsRoverTest.java ADD import tdd.training.sessi
 CompilationAction 1479308460013 MarsRoverTest.java
 EditAction 1479308496787 MarsRover.java 1778 4 12 0
 EditAction 1479308632943 MarsRover.java 1826 4 13 0
+EditAction 1479309097845 MarsRover.java 2003 4 14 0

@@ -17,7 +17,17 @@ public class MarsRover {
 		
 		if(verifyObstacles(obstacles)) throw new MarsRoverException();
 		
-		String[] ostacoli = obstacles.split(")");
+		String[] ostacoli = obstacles.split("()");
+		
+		for(String ostacolo : ostacoli){
+			String[] temp = ostacolo.split(",");
+			int xOb = Integer.parseInt(temp[0]);
+			int yOb = Integer.parseInt(temp[1]);
+			
+			
+		}
+		
+		
 		
 		xSize = x;
 		ySize = y;
