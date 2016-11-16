@@ -1,0 +1,13 @@
+FileOpenedAction 1479305654051 MarsRoverTest.java 184 1 1 0
+FileOpenedAction 1479306084958 MarsRoverException.java 155 0 0 0
+RefactoringAction 1479306606649 MarsRover.java ADD Object Planet FIELD
+RefactoringAction 1479306615273 MarsRover.java RENAME Planet=>Object FIELD
+RefactoringAction 1479306848250 Obstacle.java ADD Obstacle.java CLASS
+FileOpenedAction 1479306848594 Obstacle.java 64 0 0 0
+RefactoringAction 1479306871623 Obstacle.java ADD int x FIELD
+RefactoringAction 1479306917638 Obstacle.java REMOVE x FIELD
+RefactoringAction 1479306926655 Obstacle.java ADD int x FIELD
+RefactoringAction 1479306928161 Obstacle.java ADD int y FIELD
+RefactoringAction 1479306936199 Obstacle.java ADD Obstacle() METHOD
+RefactoringAction 1479306941205 Obstacle.java RENAME Obstacle()=>Obstacle(int, int) METHOD
+EditAction 1479306956793 Obstacle.java 160 1 2 0
