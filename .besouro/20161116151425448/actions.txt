@@ -104,3 +104,95 @@ RefactoringAction 1479309086052 Coordinates.java ADD Coordinates getCoordinates(
 RefactoringAction 1479309089571 Coordinates.java RENAME getCoordinates()/2=>Coordinates etCoordinates() METHOD
 RefactoringAction 1479309091577 Coordinates.java RENAME etCoordinates()=>Coordinates setCoordinates() METHOD
 EditAction 1479309127381 Coordinates.java 1001 7 8 0
+CompilationAction 1479309127468 MarsRover.java
+CompilationAction 1479309127469 MarsRover.java
+CompilationAction 1479309127469 MarsRover.java
+CompilationAction 1479309127470 MarsRover.java
+CompilationAction 1479309127470 MarsRover.java
+CompilationAction 1479309127471 MarsRover.java
+CompilationAction 1479309127471 MarsRover.java
+CompilationAction 1479309127472 MarsRover.java
+CompilationAction 1479309127660 Coordinates.java
+CompilationAction 1479309127660 MarsRover.java
+CompilationAction 1479309127661 MarsRover.java
+CompilationAction 1479309127661 MarsRover.java
+CompilationAction 1479309127662 MarsRover.java
+CompilationAction 1479309127662 MarsRover.java
+CompilationAction 1479309127662 MarsRover.java
+CompilationAction 1479309127663 MarsRover.java
+CompilationAction 1479309127663 MarsRover.java
+RefactoringAction 1479309134882 Coordinates.java RENAME Coordinates(int, int)=>Coordinates(Object, Object) METHOD
+RefactoringAction 1479309138162 Coordinates.java RENAME Coordinates(Object, Object)=>Coordinates(int, int) METHOD
+RefactoringAction 1479309150935 Coordinates.java RENAME Coordinates(int, int)=>Coordinates(Object, Object) METHOD
+RefactoringAction 1479309154172 Coordinates.java RENAME Coordinates(Object, Object)=>Coordinates(int, int) METHOD
+CompilationAction 1479309178369 Coordinates.java
+CompilationAction 1479309178539 Coordinates.java
+CompilationAction 1479309178539 Coordinates.java
+CompilationAction 1479309178540 Coordinates.java
+CompilationAction 1479309178540 Coordinates.java
+RefactoringAction 1479309233915 Coordinates.java RENAME setCoordinates()=>Coordinates setCoordinates(in) METHOD
+RefactoringAction 1479309235420 Coordinates.java RENAME setCoordinates(in)=>Coordinates setCoordinates(int) METHOD
+RefactoringAction 1479309238426 Coordinates.java RENAME setCoordinates(int)=>Coordinates setCoordinates(int, int) METHOD
+RefactoringAction 1479309269959 Coordinates.java RENAME Coordinates(int, int)=>Coordinates(Object, Object) METHOD
+RefactoringAction 1479309276955 Coordinates.java RENAME Coordinates(Object, Object)=>Coordinates(int, int) METHOD
+CompilationAction 1479309278458 Coordinates.java
+CompilationAction 1479309278458 Coordinates.java
+CompilationAction 1479309278458 Coordinates.java
+CompilationAction 1479309278649 Coordinates.java
+CompilationAction 1479309278649 MarsRover.java
+CompilationAction 1479309278650 MarsRover.java
+CompilationAction 1479309278650 MarsRover.java
+CompilationAction 1479309278651 MarsRover.java
+CompilationAction 1479309278651 MarsRover.java
+CompilationAction 1479309278651 MarsRover.java
+CompilationAction 1479309278652 MarsRover.java
+CompilationAction 1479309278652 MarsRover.java
+CompilationAction 1479309361377 MarsRover.java
+CompilationAction 1479309361377 MarsRover.java
+CompilationAction 1479309361377 MarsRover.java
+CompilationAction 1479309361378 MarsRover.java
+CompilationAction 1479309361378 MarsRover.java
+CompilationAction 1479309361550 MarsRover.java
+CompilationAction 1479309361551 MarsRover.java
+CompilationAction 1479309361551 MarsRover.java
+CompilationAction 1479309361552 MarsRover.java
+CompilationAction 1479309361552 MarsRover.java
+CompilationAction 1479309361552 MarsRover.java
+CompilationAction 1479309377340 MarsRover.java
+CompilationAction 1479309377340 MarsRover.java
+CompilationAction 1479309377340 MarsRover.java
+CompilationAction 1479309377341 MarsRover.java
+CompilationAction 1479309377341 MarsRover.java
+CompilationAction 1479309377498 MarsRover.java
+CompilationAction 1479309377498 MarsRover.java
+CompilationAction 1479309377499 MarsRover.java
+CompilationAction 1479309377500 MarsRover.java
+CompilationAction 1479309377500 MarsRover.java
+CompilationAction 1479309377501 MarsRover.java
+CompilationAction 1479309459361 Coordinates.java
+CompilationAction 1479309459522 Coordinates.java
+RefactoringAction 1479309521858 MarsRover.java RENAME getCoordinates()=>void setCoordinates(Coordinates) METHOD
+RefactoringAction 1479309529369 MarsRover.java RENAME getCoordinates()=>void setCoordinates(Coordinates) METHOD
+RefactoringAction 1479309534427 MarsRover.java RENAME getCoordinates()=>void setCoordinates(Coordinates) METHOD
+RefactoringAction 1479309593519 MarsRover.java ADD void setCoordinates(Coordinates) METHOD
+RefactoringAction 1479309608035 MarsRover.java RENAME receivedSingleCommand(char)=><initializer /1> null
+RefactoringAction 1479309618058 MarsRover.java RENAME receivedSingleCommand(char)=>MarsRover(int, int, String) METHOD
+RefactoringAction 1479309660630 Coordinates.java ADD Coordinates(Object, Object) METHOD
+RefactoringAction 1479309677651 Coordinates.java REMOVE Coordinates(Object, Object) METHOD
+CompilationAction 1479309696074 Coordinates.java
+CompilationAction 1479309696237 Coordinates.java
+CompilationAction 1479309696237 MarsRover.java
+RefactoringAction 1479309733634 Coordinates.java RENAME setCoordinates(int, int)=>Coordinates setCoordinates(int, int, Coordinates) METHOD
+RefactoringAction 1479309744765 Coordinates.java RENAME setCoordinates(int, int, Coordinates)=>Coordinates setCoordinates(Coordinates) METHOD
+RefactoringAction 1479309755792 Coordinates.java RENAME setCoordinates(Coordinates)=>Coordinates setCoordinates() METHOD
+RefactoringAction 1479309756815 Coordinates.java RENAME setCoordinates()=>Coordinates setCoordinates(Coordinates) METHOD
+RefactoringAction 1479309759321 Coordinates.java RENAME setCoordinates(Coordinates)=>Coordinates setCoordinates() METHOD
+RefactoringAction 1479309761828 Coordinates.java RENAME setCoordinates()=>Coordinates setCoordinates(int, int, Coordinates) METHOD
+RefactoringAction 1479309762832 Coordinates.java RENAME setCoordinates(int, int, Coordinates)=>Coordinates setCoordinates(int, int) METHOD
+RefactoringAction 1479309847644 Coordinates.java REMOVE setCoordinates(int, int) METHOD
+RefactoringAction 1479309851659 Coordinates.java ADD Coordinates coordinates FIELD
+RefactoringAction 1479309879177 Coordinates.java ADD void setCoordinates(Coordinates) METHOD
+RefactoringAction 1479309904589 MarsRover.java ADD boolean receivedSingleCommand(char) METHOD
+RefactoringAction 1479309938707 MarsRover.java RENAME receivedSingleCommand(char)=>boolean receivedSingleCommand(S) METHOD
+RefactoringAction 1479309942216 MarsRover.java RENAME receivedSingleCommand(S)=>boolean receivedSingleCommand(String) METHOD
+EditAction 1479309967397 MarsRover.java 1633 6 6 0

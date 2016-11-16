@@ -2,6 +2,11 @@ package tdd.training.session1;
 
 public class MarsRover {
 	private Coordinates coordinates;
+	 public void setCoordinates (Coordinates values){
+		 coordinates = values;
+	 }
+	 
+	 
 	public MarsRover(int x, int y, String obstacles){
 	
 		
@@ -10,9 +15,7 @@ public class MarsRover {
 	 *  
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8)*/ 
-	 public void coordinates.setCoordinates(Coordinates values){
-		 this.coordinates = values;
-	 }
+	
 	}
 	
 	public String executeCommand(String command) throws Exception {
@@ -34,32 +37,17 @@ public class MarsRover {
 		return null;
 	}
 
-	private boolean receivedSingleCommand(char command) throws Exception{ /**checks the command is made of 1 letter**/
-		
-		switch(Character.toUpperCase(command)){
-		
-		case 'F' :
-			return coordinates.getCoordinates().moveForword();
-			
-		case 'B' :
-			return coordinates.getCoordinates.moveBackward();
-			
-		case 'L' :
-			coordinates.getCoordinates.changeViewLeft();
-			return true;
-			
-		case 'R' :
-			coordinates.getCoordinates.changeViewRight();
-			return true;
-		
-		default:
-			throw new Exception("Error on" + command + "command.");
-				
-		}
-	}
 	
+	
+	
+	private boolean receivedSingleCommand(String singleCommand) {
+		// TODO Auto-generated method stub
+		return singleCommand.length() == 1;
+	}
+
+
 	private Coordinates getCoordinates() {
-		return ;
+		return coordinates ;
 	}
 
 	public String getPosition(){

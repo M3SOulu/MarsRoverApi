@@ -31,13 +31,16 @@ public class Coordinates {
 	public void setY_coordinate(int y_coordinate) {
 		this.y_coordinate = y_coordinate;
 	}
+	
 	int x_coordinate;
 	int y_coordinate;
 	
 	public Coordinates getCoordinates(){
 		return new Coordinates(getX_coordinate(), getY_coordinate());
 	}
-	public Coordinates setCoordinates(){
-		return new Coordinates(setX_coordinate(x_coordinate), setY_coordinate(y_coordinate));
+
+	public Coordinates setCoordinates(int x, int y){
+		return new Coordinates(coordinates.setX_coordinate(x), coordinates.setY_coordinate(y));
 	}
 }
+
