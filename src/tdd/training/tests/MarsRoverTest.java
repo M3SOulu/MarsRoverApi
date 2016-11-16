@@ -14,7 +14,7 @@ public class MarsRoverTest {
 	
 	@Before
 	public void setUp() throws MarsRoverException{
-		marsRover = new MarsRover(3, 3, "");
+		marsRover = new MarsRover(10, 10, "");
 	}
 	
 	@Test
@@ -44,7 +44,7 @@ public class MarsRoverTest {
 	
 	@Test
 	public void testVerifyObstaclesRange(){
-		MarsRover marsRover = new MarsRover(x, y, obstacles)
+		
 	}
 	
 }
