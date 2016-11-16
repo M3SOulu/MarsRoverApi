@@ -95,3 +95,9 @@ RefactoringAction 1479309786257 MarsRover.java REMOVE verifyObstaclesRange(int, 
 RefactoringAction 1479309789278 MarsRover.java ADD boolean verifyObstaclesRange(int, int) METHOD
 RefactoringAction 1479309789279 MarsRover.java ADD String executeCommand(String) METHOD
 EditAction 1479309790925 MarsRover.java 2372 5 16 0
+UnitTestCaseAction 1479309799591 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479309799592 MarsRoverTest FAIL
+RefactoringAction 1479309913419 MarsRover.java ADD void setObsta FIELD
+RefactoringAction 1479309915464 MarsRover.java RENAME setObsta=>void setObstacles() METHOD
+RefactoringAction 1479309920478 MarsRover.java RENAME setObstacles()=>void setObstacles(String) METHOD
+EditAction 1479309950626 MarsRover.java 2424 6 18 0
