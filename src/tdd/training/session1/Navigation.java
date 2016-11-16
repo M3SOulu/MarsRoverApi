@@ -27,7 +27,6 @@ public class Navigation {
 				}
 				else{
 					currentObstacle += ob.charAt(i);
-					System.out.println(currentObstacle);
 				}
 			}
 		}
