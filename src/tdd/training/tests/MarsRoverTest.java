@@ -8,7 +8,7 @@ import tdd.training.session1.MarsRover;
 import tdd.training.session1.MarsRoverException;
 
 public class MarsRoverTest {
-
+//Act
 	MarsRover marsRover = new MarsRover(3,3,"");
 	
 	@Test
