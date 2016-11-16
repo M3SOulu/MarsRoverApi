@@ -1,5 +1,7 @@
 package tdd.training.session1;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MoveAction;
+
 public class MarsRover {
 	final String NORTH = null;
 	public MarsRover(int x, int y, String obstacles){
@@ -20,7 +22,7 @@ public class MarsRover {
 			obstacles = obs_y;
 		}
 	}
-	MarsRover rover = new MarsRover(x,y,"(obs_x,obs_y)");
+	//MarsRover rover = new MarsRover(x,y,"(obs_x,obs_y)");
 	
 	
 }
@@ -35,7 +37,12 @@ public class MarsRover {
 		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-	
+		String roverStarts = NORTH;
+		int move ;
+		if(command == roverStarts){
+			 move = 0;
+		}
+		else if(command)
 		return null;
 	}
 }
