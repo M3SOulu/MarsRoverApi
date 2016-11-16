@@ -171,3 +171,6 @@ RefactoringAction 1479308412874 MarsRoverTest.java ADD import java.util.regex.Pa
 UnitTestCaseAction 1479308415291 MarsRoverTest.java OK
 UnitTestSessionAction 1479308415292 MarsRoverTest OK
 EditAction 1479308498560 MarsRover.java 2394 2 1 0
+CompilationAction 1479308498837 MarsRover.java
+CompilationAction 1479308505788 MarsRover.java
+EditAction 1479308549740 MarsRover.java 2395 2 6 0
