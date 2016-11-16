@@ -11,3 +11,4 @@ RefactoringAction 1479306928161 Obstacle.java ADD int y FIELD
 RefactoringAction 1479306936199 Obstacle.java ADD Obstacle() METHOD
 RefactoringAction 1479306941205 Obstacle.java RENAME Obstacle()=>Obstacle(int, int) METHOD
 EditAction 1479306956793 Obstacle.java 160 1 2 0
+EditAction 1479306985375 MarsRover.java 1168 2 2 0
