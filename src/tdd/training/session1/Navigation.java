@@ -20,8 +20,7 @@ public class Navigation {
 			System.out.println("Ciao");
 			if(ob.charAt(i) != '?' && ob.charAt(i) != '(' && ob.charAt(i) != ',')
 				if(ob.charAt(i) == ')'){
-					obstacles.add(currentObstacle);
-					
+					obstacles.add(currentObstacle);					
 					currentObstacle = "";
 				}
 				else
