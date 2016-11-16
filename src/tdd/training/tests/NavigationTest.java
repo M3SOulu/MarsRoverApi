@@ -13,7 +13,7 @@ public class NavigationTest {
 	
 	@Test
 	public void testGeneraOstacoli() {
-		
+		assertEquals(2, navTest.getObstacles().size());
 	}
 
 }
