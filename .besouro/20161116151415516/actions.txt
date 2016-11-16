@@ -43,3 +43,10 @@ RefactoringAction 1479308162867 MarsRover.java RENAME obstacles=>String obstacle
 RefactoringAction 1479308202302 MarsRoverTest.java ADD void testverifyObstacles() METHOD
 RefactoringAction 1479308206819 MarsRoverTest.java RENAME testverifyObstacles()=>void testVerifyObstacles() METHOD
 EditAction 1479308231519 MarsRoverTest.java 816 4 10 8
+UnitTestCaseAction 1479308238077 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308238078 MarsRoverTest FAIL
+UnitTestCaseAction 1479308281207 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308281208 MarsRoverTest FAIL
+UnitTestCaseAction 1479308330595 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308330596 MarsRoverTest FAIL
+EditAction 1479308365582 MarsRoverTest.java 871 4 11 9

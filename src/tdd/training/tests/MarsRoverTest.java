@@ -23,7 +23,8 @@ public class MarsRoverTest {
 
 	@Test
 	public void testVerifyObstacles(){
-		assertTrue(marsRover.verifyObstacles("(0,1)"));
+		assertTrue(marsRover.verifyObstacles("(0,0)"));
+		assertTrue(marsRover.verifyObstacles("(0,0)(1,1)"));
 	}
 	
 	
