@@ -31,7 +31,7 @@ public class MarsRover {
 			i++;
 		}
 		
-		System.out.println(planet[2][1]);
+		System.out.println(planet[1][2]);
 		
 	}
 	
