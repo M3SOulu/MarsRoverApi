@@ -308,3 +308,6 @@ EditAction 1479311134872 MarsRoverTest.java 703 2 4 1
 CompilationAction 1479311135159 MarsRoverTest.java
 RefactoringAction 1479311156456 MarsRover.java ADD String getPosition() METHOD
 EditAction 1479311202874 MarsRover.java 3449 4 15 0
+RefactoringAction 1479311214660 MarsRover.java REMOVE getPosition() METHOD
+RefactoringAction 1479311215682 MarsRover.java ADD String getPosition() METHOD
+EditAction 1479311222088 MarsRover.java 3453 3 13 0

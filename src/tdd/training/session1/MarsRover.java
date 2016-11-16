@@ -91,8 +91,8 @@ public class MarsRover {
 		return obstacle;
 	}
 	
-	public String getPosition(){
+	/*public String getPosition(){
 		String str = Utils.formatPosition(rPos.x, rPos.y, rDir);
 		return str;
-	}
+	}*/
 }
