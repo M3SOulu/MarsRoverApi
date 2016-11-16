@@ -93,13 +93,17 @@ public class MarsRoverTest {
 	}
 	
 	@Test
-	public void testMoveForward(){
+	public void testMoveForwardFromStart(){
 		marsRover.moveForward();
 		assertEquals(0, marsRover.getCurrentX());
 		assertEquals(1, marsRover.getCurrentY());
+	}
+	
+	@Test
+	public void testMoveForwardRight(){
 		marsRover.moveRight();	
 		marsRover.moveForward();
 		assertEquals(1, marsRover.getCurrentX());
-		assertEquals(1, marsRover.getCurrentY());
+		assertEquals(0, marsRover.getCurrentY());
 	}
 }
