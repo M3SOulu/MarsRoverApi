@@ -280,3 +280,8 @@ CompilationAction 1479312841525 Navigation.java
 CompilationAction 1479312841526 Navigation.java
 CompilationAction 1479312841526 Obstacle.java
 EditAction 1479312846099 Obstacle.java 226 3 2 0
+CompilationAction 1479312846361 Navigation.java
+CompilationAction 1479312846362 Navigation.java
+RefactoringAction 1479313306729 Obstacle.java RENAME Obstacle()=>Obstacle(int) METHOD
+RefactoringAction 1479313311233 Obstacle.java RENAME Obstacle(int)=>Obstacle(int, int) METHOD
+EditAction 1479313324600 Obstacle.java 264 3 4 0

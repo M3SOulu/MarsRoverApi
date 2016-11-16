@@ -4,8 +4,9 @@ public class Obstacle {
 	private int x;
 	private int y;
 	
-	public Obstacle(){
-		
+	public Obstacle(int x, int y){
+		this.x = x;
+		this.y = y;
 	}
 	
 	public void setX(int x){
