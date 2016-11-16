@@ -155,7 +155,13 @@ public class MarsRover {
 			throw new MarsRoverException();
 		
 		whereIAm += coordX + "," + coordY + "," + this.getRealDirection() + ")";
+		for(int i = 0; i < realObstacles.length; i++){
+			if(realObstacles[i] != null)
+				whereIAm.concat(realObstacles[i]);
+			else
+				break;
+		}
 		
-		return whereIAm.concat(whereIsObstacles);
+		return whereIAm.concat("?");
 	}
 }
