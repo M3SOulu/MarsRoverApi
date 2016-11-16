@@ -24,7 +24,7 @@ public class MarsRover {
 			int xOb = Integer.parseInt(temp[0]);
 			int yOb = Integer.parseInt(temp[1]);
 			
-			
+			planet[xOb][yOb] = -1;
 		}
 		
 		
