@@ -490,3 +490,7 @@ EditAction 1479316840630 Navigation.java 2894 13 23 0
 CompilationAction 1479316840887 Navigation.java
 RefactoringAction 1479316867681 MarsRoverException.java ADD MarsRoverException() METHOD
 EditAction 1479316870484 MarsRoverException.java 191 1 0 0
+UnitTestCaseAction 1479316874340 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316874341 MarsRoverTest FAIL
+RefactoringAction 1479316893688 MarsRoverException.java RENAME MarsRoverException()=>MarsRoverException(String) METHOD
+EditAction 1479316896101 MarsRoverException.java 211 1 0 0
