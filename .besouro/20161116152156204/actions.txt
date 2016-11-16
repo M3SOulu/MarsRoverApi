@@ -237,3 +237,4 @@ CompilationAction 1479312747776 MarsRover.java
 RefactoringAction 1479312893756 MarsRover.java REMOVE isValidCommand(String) METHOD
 RefactoringAction 1479312897547 MarsRover.java ADD boolean isValidCommand(String) METHOD
 EditAction 1479312902096 MarsRover.java 2760 5 18 0
+EditAction 1479312936363 MarsRover.java 2812 5 18 0

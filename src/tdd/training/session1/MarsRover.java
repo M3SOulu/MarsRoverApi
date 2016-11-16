@@ -108,7 +108,7 @@ public class MarsRover {
 	}
 	
 	/**
-	 * 
+	 * return true if the command is valid, false otherwise
 	 * @param cmd
 	 * @return
 	 */
