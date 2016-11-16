@@ -24,3 +24,20 @@ RefactoringAction 1479306344871 Position.java REMOVE Position() METHOD
 RefactoringAction 1479306344872 Position.java REMOVE Position(int, int) METHOD
 EditAction 1479306345118 Position.java 97 0 0 0
 EditAction 1479306354590 MarsRover.java 1171 2 3 0
+RefactoringAction 1479306372617 MarsRover.java ADD ArrayList<Position> obstacles FIELD
+RefactoringAction 1479306385203 MarsRover.java ADD import java.util.ArrayList IMPORT
+RefactoringAction 1479306648873 Utils.java ADD Utils.java CLASS
+FileOpenedAction 1479306649113 Utils.java 61 0 0 0
+RefactoringAction 1479306665171 Utils.java ADD int StringUtils FIELD
+RefactoringAction 1479306666175 Utils.java REMOVE StringUtils FIELD
+RefactoringAction 1479306670182 Utils.java ADD int countOccurencesStringUtils FIELD
+RefactoringAction 1479306671717 Utils.java RENAME countOccurencesStringUtils=>int countOccurences FIELD
+RefactoringAction 1479306672723 Utils.java RENAME countOccurences=>int countOccurencesOf FIELD
+RefactoringAction 1479306673765 Utils.java RENAME countOccurencesOf=>int countOccurencesOf() METHOD
+RefactoringAction 1479306679301 Utils.java RENAME countOccurencesOf()=>int countOccurencesOf(String) METHOD
+RefactoringAction 1479306685831 Utils.java RENAME countOccurencesOf(String)=>int countOccurencesOf(String, String) METHOD
+RefactoringAction 1479306687339 Utils.java RENAME countOccurencesOf(String, String)=>int countOccurencesOf(String) METHOD
+RefactoringAction 1479306688358 Utils.java RENAME countOccurencesOf(String)=>int countOccurencesOf(String, String) METHOD
+RefactoringAction 1479306689369 Utils.java RENAME countOccurencesOf(String, String)=>int countOccurencesOf(String) METHOD
+RefactoringAction 1479306690887 Utils.java RENAME countOccurencesOf(String)=>int countOccurencesOf(String, String) METHOD
+EditAction 1479306727511 Utils.java 201 1 2 0
