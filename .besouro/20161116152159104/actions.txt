@@ -427,3 +427,8 @@ CompilationAction 1479316228547 MarsRover.java
 UnitTestCaseAction 1479316231787 NavigationTest.java FAIL
 UnitTestSessionAction 1479316231788 NavigationTest FAIL
 EditAction 1479316252913 MarsRoverTest.java 158 1 0 0
+RefactoringAction 1479316281962 MarsRoverTest.java ADD void executeCommand(String) METHOD
+RefactoringAction 1479316293489 MarsRoverTest.java ADD MarsRover marsRover FIELD
+RefactoringAction 1479316308533 MarsRoverTest.java REMOVE executeCommand(String) METHOD
+RefactoringAction 1479316316760 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+EditAction 1479316336074 MarsRoverTest.java 280 1 1 0
