@@ -15,3 +15,4 @@ EditAction 1479306985375 MarsRover.java 1168 2 2 0
 RefactoringAction 1479307058833 MarsRover.java ADD int x FIELD
 RefactoringAction 1479307060413 MarsRover.java ADD int y FIELD
 EditAction 1479307334175 MarsRover.java 1235 2 3 0
+EditAction 1479307610810 MarsRover.java 1355 2 5 0

@@ -17,7 +17,12 @@ public class MarsRover {
 	 */
 		planet = new Object[x][y];
 		obstacles.replaceAll("\\D+","");
-		
+		int i=0;
+		while(i<obstacles.length()){
+			int xOb=i;
+			int yOb=i++;
+			Obstacle obstacle = new Obstacle (xOb,yOb);
+		}
 		
 		
 		
