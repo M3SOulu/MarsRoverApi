@@ -67,8 +67,7 @@ public class MarsRover {
 				i++;
 			}else if(!(obstacles.charAt(j) == '?'||obstacles.charAt(j) == '('||obstacles.charAt(j) == ')')){
 				this.obstacles[i].setCoordX(obstacles.charAt(j));
-			}else
-				throw new MarsRoverException();
+			}
 		}
 		
 	}
