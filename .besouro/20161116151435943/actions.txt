@@ -291,3 +291,4 @@ RefactoringAction 1479310720777 Utils.java RENAME cycleDirectionLeft(String, int
 RefactoringAction 1479310723301 Utils.java RENAME cycleDirectionRight(String, int)=>static String cycleDirectionRight(String) METHOD
 RefactoringAction 1479310725807 Utils.java RENAME cycleDirectionLeft(String, int)=>static String cycleDirectionLeft(String) METHOD
 EditAction 1479310746398 Utils.java 2179 7 22 0
+EditAction 1479310839162 MarsRover.java 2975 3 12 0

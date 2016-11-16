@@ -77,6 +77,11 @@ public class MarsRover {
 			rDir = Utils.cycleDirectionRight(rDir);
 			break;
 		}
+		if (obstacles.contains(nextPosition)){
+			obstacle = nextPosition;
+		}else{
+			rPos = nextPosition;
+		}
 		return obstacle;
 	}
 }
