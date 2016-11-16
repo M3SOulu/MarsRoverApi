@@ -140,7 +140,7 @@ public class MarsRover {
 
 	public static void main(String[] args) {
 
-		MarsRover rover = new MarsRover(3, 3, "(2,3)");
+		MarsRover rover = new MarsRover(3, 3, "(2,2)");
 		String test = rover.executeCommand("");
 		System.out.println(test);
 		//Object array[][] = new Object[3][4];
