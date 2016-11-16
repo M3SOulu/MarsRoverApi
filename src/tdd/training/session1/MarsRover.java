@@ -229,7 +229,21 @@ public class MarsRover {
 		
 		case 'N':
 			
-			this.y
+			this.y+=chooser;
+			break;
+		
+		case 'E':
+			
+			this.x+=chooser;
+			break;
+		case 'S':
+	
+			this.y-=chooser;
+			break;
+		
+		case 'W':
+			
+			this.x-=chooser;
 			break;
 		}
 	}
