@@ -24,6 +24,12 @@ public class MarsRoverTest {
 	@Test
 	public void testVerifyCommand(){
 		assertFalse(marsRover.verifyCommand(""));
+		
+		assertTrue(marsRover.verifyCommand("l"));
+		assertTrue(marsRover.verifyCommand("r"));
+		assertTrue(marsRover.verifyCommand("f"));
+		assertTrue(marsRover.verifyCommand("b"));
+		assertTrue(marsRover.verifyCommand("lrfb"));
 	}
 	
 }
