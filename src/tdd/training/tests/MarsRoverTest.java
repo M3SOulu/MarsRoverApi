@@ -8,7 +8,7 @@ import tdd.training.session1.MarsRover;
 
 public class MarsRoverTest {
 
-	MarsRover marsRover = new MarsRover(5,5,"");
+	MarsRover marsRover = new MarsRover(3,3,"");
 	
 	@Test
 	public void executeCommand() {
