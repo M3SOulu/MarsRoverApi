@@ -39,3 +39,17 @@ RefactoringAction 1479308883557 Navigation.java ADD ArrayList<> FIELD
 RefactoringAction 1479308889893 Navigation.java ADD import java.util.ArrayList IMPORT
 RefactoringAction 1479309061276 Navigation.java RENAME obstacle=>ArrayList<String> FIELD
 EditAction 1479309304254 MarsRoverTest.java 228 1 1 0
+CompilationAction 1479309304510 MarsRoverTest.java
+CompilationAction 1479309304510 MarsRoverTest.java
+RefactoringAction 1479309360773 AllTests.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479309360787 AllTests.java ADD AllTests.java CLASS
+FileOpenedAction 1479309360914 AllTests.java 239 0 0 0
+RefactoringAction 1479309385041 AllTests.java REMOVE AllTests.java CLASS
+RefactoringAction 1479309428340 NavigationTest.java ADD void test() METHOD
+RefactoringAction 1479309428348 NavigationTest.java ADD import org.junit.Assert.* IMPORT
+RefactoringAction 1479309428358 NavigationTest.java ADD NavigationTest.java CLASS
+FileOpenedAction 1479309428490 NavigationTest.java 199 1 1 0
+RefactoringAction 1479309449403 AllTests.java ADD import org.junit.runner.RunWith IMPORT
+RefactoringAction 1479309449418 AllTests.java ADD AllTests.java CLASS
+FileOpenedAction 1479309449607 AllTests.java 261 0 0 0
+EditAction 1479309501657 NavigationTest.java 171 1 0 0
