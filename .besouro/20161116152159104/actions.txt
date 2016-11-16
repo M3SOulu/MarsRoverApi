@@ -1,0 +1,17 @@
+FileOpenedAction 1479306119526 MarsRoverTest.java 184 1 1 0
+FileOpenedAction 1479306814720 MarsRover.java 1090 2 1 0
+FileOpenedAction 1479306815846 MarsRoverException.java 155 0 0 0
+RefactoringAction 1479307084105 MarsRover.java ADD int ac FIELD
+RefactoringAction 1479307086125 MarsRover.java RENAME ac=>int actu FIELD
+RefactoringAction 1479307087677 MarsRover.java RENAME actu=>int actual FIELD
+RefactoringAction 1479307090688 MarsRover.java RENAME actual=>int actualPositionx FIELD
+RefactoringAction 1479307092704 MarsRover.java RENAME actualPositionx=>int actualPositionX FIELD
+RefactoringAction 1479307105254 MarsRover.java ADD int actual FIELD
+RefactoringAction 1479307107768 MarsRover.java RENAME actual=>int actualPosition FIELD
+RefactoringAction 1479307110283 MarsRover.java RENAME actualPosition=>int actualPositionY FIELD
+RefactoringAction 1479307349638 Navigation.java ADD Navigation.java CLASS
+FileOpenedAction 1479307349876 Navigation.java 66 0 0 0
+RefactoringAction 1479307359380 Navigation.java ADD void navigatio() METHOD
+RefactoringAction 1479307364390 Navigation.java RENAME navigatio()=>void Navigatio() METHOD
+RefactoringAction 1479307367406 Navigation.java RENAME Navigatio()=>Navigation() METHOD
+EditAction 1479307371972 Navigation.java 97 1 0 0
