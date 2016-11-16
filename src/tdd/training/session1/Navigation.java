@@ -24,4 +24,8 @@ public class Navigation {
 					currentObstacle += ob.charAt(i);	
 		}
 	}
+	
+	public ArrayList<String> getObstacles(){
+		return obstacles;
+	}
 }

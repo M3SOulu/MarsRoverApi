@@ -61,3 +61,7 @@ RefactoringAction 1479309716293 NavigationTest.java REMOVE NavigatioTest() METHO
 RefactoringAction 1479309794331 NavigationTest.java RENAME test()=>void testGenera() METHOD
 RefactoringAction 1479309796838 NavigationTest.java RENAME testGenera()=>void testGeneraOstacoli() METHOD
 EditAction 1479309936326 NavigationTest.java 325 1 0 0
+RefactoringAction 1479310170454 Navigation.java ADD ArrayList<String> get FIELD
+RefactoringAction 1479310173970 Navigation.java RENAME get=>ArrayList<String> getObstacles FIELD
+RefactoringAction 1479310178490 Navigation.java RENAME getObstacles=>ArrayList<String> getObstacles() METHOD
+EditAction 1479310188928 Navigation.java 688 3 6 0
