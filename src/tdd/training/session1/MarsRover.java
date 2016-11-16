@@ -6,7 +6,7 @@ import java.util.List;
 
 public class MarsRover {
 	
-	private static final List<String> position = Arrays.asList("N","S","E","W");
+	private static final List<String> position = Arrays.asList("f","b","r","l");
 	private int coordX;
 	private int coordY;
 	private int direction;

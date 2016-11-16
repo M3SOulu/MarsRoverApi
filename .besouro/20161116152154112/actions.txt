@@ -30,3 +30,6 @@ RefactoringAction 1479306735512 MarsRover.java RENAME getDesDirection()=>int get
 RefactoringAction 1479306737533 MarsRover.java RENAME getDescrDirection()=>int getDirection() METHOD
 RefactoringAction 1479306768050 MarsRover.java RENAME getDirection()=>int getRealDirection() METHOD
 EditAction 1479306798702 MarsRover.java 1825 10 11 0
+RefactoringAction 1479306916757 MarsRover.java REMOVE direction FIELD
+RefactoringAction 1479306918286 MarsRover.java ADD int direction FIELD
+EditAction 1479306954327 MarsRover.java 1825 10 11 0
