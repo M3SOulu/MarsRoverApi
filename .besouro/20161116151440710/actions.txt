@@ -13,3 +13,4 @@ FileOpenedAction 1479307566319 MarsRoverException.java 155 0 0 0
 RefactoringAction 1479308031882 MarsRover.java ADD import javax.management.monitor.StringMonitor IMPORT
 RefactoringAction 1479308681775 MarsRover.java RENAME positionObstacles(String)=>void positionObstacles(String, Boolean METHOD
 EditAction 1479309724532 MarsRover.java 1569 3 8 0
+EditAction 1479309727359 MarsRoverTest.java 156 1 0 0
