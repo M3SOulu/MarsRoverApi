@@ -30,3 +30,77 @@ EditAction 1479308561408 Coordinates.java 854 6 6 0
 CompilationAction 1479308561638 Coordinates.java
 CompilationAction 1479308561639 Coordinates.java
 EditAction 1479308561652 MarsRover.java 1802 4 4 0
+CompilationAction 1479308562699 MarsRover.java
+CompilationAction 1479308562699 MarsRover.java
+CompilationAction 1479308562700 MarsRover.java
+CompilationAction 1479308562700 MarsRover.java
+CompilationAction 1479308562700 MarsRover.java
+CompilationAction 1479308638754 Coordinates.java
+CompilationAction 1479308638755 Coordinates.java
+RefactoringAction 1479308846101 MarsRover.java ADD Object getCoordinates() METHOD
+CompilationAction 1479308894288 MarsRover.java
+CompilationAction 1479308894288 MarsRover.java
+CompilationAction 1479308894482 MarsRover.java
+CompilationAction 1479308894482 MarsRover.java
+CompilationAction 1479308894482 MarsRover.java
+CompilationAction 1479308894483 MarsRover.java
+CompilationAction 1479308894483 MarsRover.java
+CompilationAction 1479308894483 MarsRover.java
+CompilationAction 1479308894484 MarsRover.java
+CompilationAction 1479308920264 MarsRover.java
+CompilationAction 1479308920265 MarsRover.java
+CompilationAction 1479308920421 MarsRover.java
+CompilationAction 1479308920422 MarsRover.java
+CompilationAction 1479308920422 MarsRover.java
+CompilationAction 1479308920423 MarsRover.java
+CompilationAction 1479308920423 MarsRover.java
+CompilationAction 1479308920424 MarsRover.java
+CompilationAction 1479308920424 MarsRover.java
+CompilationAction 1479308974820 MarsRover.java
+CompilationAction 1479308974820 MarsRover.java
+CompilationAction 1479308974820 MarsRover.java
+CompilationAction 1479308974827 MarsRover.java
+CompilationAction 1479308974828 MarsRover.java
+CompilationAction 1479308974828 MarsRover.java
+CompilationAction 1479308974828 MarsRover.java
+CompilationAction 1479308974981 MarsRover.java
+CompilationAction 1479308974982 MarsRover.java
+CompilationAction 1479308974982 MarsRover.java
+CompilationAction 1479308974983 MarsRover.java
+CompilationAction 1479308974983 MarsRover.java
+CompilationAction 1479308974983 MarsRover.java
+CompilationAction 1479308974983 MarsRover.java
+CompilationAction 1479308974984 MarsRover.java
+CompilationAction 1479308974984 MarsRover.java
+RefactoringAction 1479308984203 MarsRover.java REMOVE executeCommand(String) METHOD
+RefactoringAction 1479308991244 MarsRover.java ADD String executeCommand(String) METHOD
+RefactoringAction 1479309000250 MarsRover.java ADD void setCoordinates(Coordinates) METHOD
+RefactoringAction 1479309004372 MarsRover.java REMOVE setCoordinates(Coordinates) METHOD
+CompilationAction 1479309012625 MarsRover.java
+CompilationAction 1479309012626 MarsRover.java
+CompilationAction 1479309012626 MarsRover.java
+CompilationAction 1479309012627 MarsRover.java
+CompilationAction 1479309012802 MarsRover.java
+CompilationAction 1479309012802 MarsRover.java
+CompilationAction 1479309012802 MarsRover.java
+CompilationAction 1479309012803 MarsRover.java
+CompilationAction 1479309012803 MarsRover.java
+CompilationAction 1479309012803 MarsRover.java
+CompilationAction 1479309012804 MarsRover.java
+CompilationAction 1479309012804 MarsRover.java
+CompilationAction 1479309031574 MarsRover.java
+CompilationAction 1479309031575 MarsRover.java
+CompilationAction 1479309031575 MarsRover.java
+CompilationAction 1479309031575 MarsRover.java
+CompilationAction 1479309031738 MarsRover.java
+CompilationAction 1479309031739 MarsRover.java
+CompilationAction 1479309031739 MarsRover.java
+CompilationAction 1479309031740 MarsRover.java
+CompilationAction 1479309031740 MarsRover.java
+CompilationAction 1479309031741 MarsRover.java
+CompilationAction 1479309031741 MarsRover.java
+CompilationAction 1479309031741 MarsRover.java
+RefactoringAction 1479309086052 Coordinates.java ADD Coordinates getCoordinates()/2 METHOD
+RefactoringAction 1479309089571 Coordinates.java RENAME getCoordinates()/2=>Coordinates etCoordinates() METHOD
+RefactoringAction 1479309091577 Coordinates.java RENAME etCoordinates()=>Coordinates setCoordinates() METHOD
+EditAction 1479309127381 Coordinates.java 1001 7 8 0

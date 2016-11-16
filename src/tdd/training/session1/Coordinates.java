@@ -35,6 +35,9 @@ public class Coordinates {
 	int y_coordinate;
 	
 	public Coordinates getCoordinates(){
-		return (getX_coordinate(), getY_coordinate());
+		return new Coordinates(getX_coordinate(), getY_coordinate());
+	}
+	public Coordinates setCoordinates(){
+		return new Coordinates(setX_coordinate(x_coordinate), setY_coordinate(y_coordinate));
 	}
 }

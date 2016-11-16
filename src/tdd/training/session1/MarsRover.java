@@ -9,13 +9,13 @@ public class MarsRover {
 	 *  Obstacles is a String formatted as follows: (o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y) with no white spaces. 
 	 *  
 		Example use:
-		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
-	 */public void setCoordinates(Coordinates values){
-		 coordinates = values;
+		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8)*/ 
+	 public void coordinates.setCoordinates(Coordinates values){
+		 this.coordinates = values;
 	 }
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws Exception {
 		
 		for(char singleCommand : command.toCharArray()){
 			if (!receivedSingleCommand(singleCommand))
@@ -34,27 +34,34 @@ public class MarsRover {
 		return null;
 	}
 
-	private boolean receivedSingleCommand(char command) { /**checks the command is made of 1 letter**/
+	private boolean receivedSingleCommand(char command) throws Exception{ /**checks the command is made of 1 letter**/
 		
 		switch(Character.toUpperCase(command)){
 		
 		case 'F' :
-			return getCoordinates().moveForword();
+			return coordinates.getCoordinates().moveForword();
 			
 		case 'B' :
-			return getCoordinates.moveBackward();
+			return coordinates.getCoordinates.moveBackward();
 			
 		case 'L' :
-			getCoordinates.changeViewLeft();
+			coordinates.getCoordinates.changeViewLeft();
 			return true;
 			
 		case 'R' :
-			getCoordinates.changeViewRight();
+			coordinates.getCoordinates.changeViewRight();
 			return true;
 		
+		default:
+			throw new Exception("Error on" + command + "command.");
+				
 		}
 	}
 	
+	private Coordinates getCoordinates() {
+		return ;
+	}
+
 	public String getPosition(){
 		return getCoordinates().toString();
 	}
