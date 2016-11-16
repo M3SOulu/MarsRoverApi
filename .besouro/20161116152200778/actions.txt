@@ -186,3 +186,6 @@ UnitTestCaseAction 1479316660480 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479316660480 MarsRoverTest FAIL
 RefactoringAction 1479316684759 MarsRover.java RENAME Test(String)=>String runner(String) METHOD
 EditAction 1479316705104 MarsRover.java 2181 3 5 0
+UnitTestCaseAction 1479316717430 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316717430 MarsRoverTest FAIL
+EditAction 1479316797961 MarsRover.java 2202 3 5 0
