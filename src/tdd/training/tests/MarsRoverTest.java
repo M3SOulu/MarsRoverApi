@@ -62,7 +62,7 @@ public class MarsRoverTest {
 	}
 	
 	@Test(expected = MarsRoverException.class)
-	public void testSetObstacles_ThrowException(){
+	public void testSetObstacles_ThrowException() throws MarsRoverException{
 		marsRover.setObstacles("(10,10)");
 	}
 	

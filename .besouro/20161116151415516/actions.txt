@@ -111,3 +111,10 @@ RefactoringAction 1479310034384 MarsRoverTest.java RENAME testSetObstacles_=>voi
 RefactoringAction 1479310035394 MarsRoverTest.java RENAME testSetObstacles_ThrowException=>void testSetObstacles_ThrowException() METHOD
 EditAction 1479310041365 MarsRoverTest.java 1935 6 27 25
 EditAction 1479310073049 MarsRoverTest.java 1969 6 28 25
+CompilationAction 1479310073286 MarsRoverTest.java
+CompilationAction 1479310080849 MarsRoverTest.java
+UnitTestCaseAction 1479310084631 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310084631 MarsRoverTest FAIL
+UnitTestCaseAction 1479310093628 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310093628 MarsRoverTest FAIL
+EditAction 1479310145273 MarsRover.java 2482 6 19 0
