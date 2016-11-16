@@ -40,8 +40,10 @@ public class MarsRover {
 		
 		
 		char[] temp = obstacles.toCharArray();
-		System.out.println(temp[1]);
-		System.out.println(temp[3]);
+		for(int i=0; i<temp.length; i++){
+		System.out.println(temp[i+1]);
+		System.out.println(temp[i+2]);
+		}
 		
 		
 		obstacles.replaceAll(")", " ");
