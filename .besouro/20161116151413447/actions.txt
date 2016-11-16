@@ -70,3 +70,12 @@ CompilationAction 1479309254984 MarsRover.java
 RefactoringAction 1479309310140 Rover.java ADD void Set FIELD
 RefactoringAction 1479309318161 Rover.java RENAME Set=>void SetPosition(int, int) METHOD
 EditAction 1479309341931 Rover.java 329 2 5 0
+CompilationAction 1479309586281 MarsRover.java
+CompilationAction 1479309586281 MarsRover.java
+CompilationAction 1479309698472 MarsRover.java
+CompilationAction 1479309698473 MarsRover.java
+CompilationAction 1479309698637 MarsRover.java
+RefactoringAction 1479309802938 Rover.java ADD String get FIELD
+RefactoringAction 1479309804465 Rover.java RENAME get=>String getFacing FIELD
+RefactoringAction 1479309805479 Rover.java RENAME getFacing=>String getFacing() METHOD
+EditAction 1479309821750 Rover.java 384 3 6 0

@@ -61,14 +61,23 @@ public class MarsRover {
 		 * pointing to (N,S,W,E). The return string should also contain a list
 		 * of coordinates of the encountered obstacles. No white spaces.
 		 */
+		
+		int i = 0;
+		while (i < command.length()) {
+			if(command.charAt(i)=='f')
+				
+		}
+		
+		
+		
 
 		return null;
 	}
 
 	public static void main(String[] args) {
-
+		
 		MarsRover rover = new MarsRover(3, 3, "(2,1)(1,2)");
-
+	    
 	}
 
 }
