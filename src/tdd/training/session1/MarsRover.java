@@ -1,9 +1,9 @@
 package tdd.training.session1;
 
 public class MarsRover {
-	static int posX = 1;
-	static int posY = 1;
-	static char facing = 'O';
+	int posX = 0;
+	int posY = 0;
+	char facing = 'N';
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
