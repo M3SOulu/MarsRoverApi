@@ -23,7 +23,7 @@ public class MarsRoverTest {
 
 	@Test
 	public void testVerifyCommand(){
-		
+		assertFalse(marsRover.verifyCommand(""));
 	}
 	
 }
