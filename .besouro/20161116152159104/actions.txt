@@ -144,3 +144,8 @@ RefactoringAction 1479311060958 Navigation.java RENAME getObstacles()=>int getNu
 RefactoringAction 1479311062965 Navigation.java RENAME getNumberObstacles()=>int getNumberoFObstacles() METHOD
 RefactoringAction 1479311064984 Navigation.java RENAME getNumberoFObstacles()=>int getNumberOfObstacles() METHOD
 EditAction 1479311070292 Navigation.java 725 3 6 0
+CompilationAction 1479311070549 NavigationTest.java
+CompilationAction 1479311086198 NavigationTest.java
+UnitTestCaseAction 1479311088462 NavigationTest.java FAIL
+UnitTestSessionAction 1479311088462 NavigationTest FAIL
+EditAction 1479311150238 Navigation.java 768 3 6 0
