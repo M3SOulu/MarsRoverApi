@@ -379,3 +379,6 @@ RefactoringAction 1479314477132 Navigation.java ADD void setCurrentY(int) METHOD
 UnitTestCaseAction 1479314499509 NavigationTest.java FAIL
 UnitTestSessionAction 1479314499509 NavigationTest FAIL
 EditAction 1479314614028 MarsRover.java 1345 2 2 0
+CompilationAction 1479314614145 MarsRover.java
+RefactoringAction 1479314618088 Navigation.java ADD String esitoNavigazione(String) METHOD
+EditAction 1479314673827 Navigation.java 1738 13 21 0

@@ -86,6 +86,15 @@ public class Navigation {
 	public void setCurrentY(int currentY) {
 		this.currentY = currentY;
 	}
+
+	public String esitoNavigazione(String command) {
+		
+		for(char c : command.toCharArray()){
+			
+			
+		}
+		return null;
+	}
 	
 
 }
