@@ -40,7 +40,7 @@ public class MarsRover {
 
 		// Crea il rover e mettilo nella posizione (0,0,N)
 
-		rover = new Rover(0, 0, 'E');
+		rover = new Rover(0, 0, 'S');
 		planet[0][0] = rover;
 
 		// System.out.println(planet[2][1]);
@@ -86,7 +86,22 @@ public class MarsRover {
 						obPosition += obstacle;
 					}
 
+				}
+				
+				if (roverFacing == 'S') {
+					if ((planet.length-1) == yRover)
+						yRover = 1;
+					if (planet[xRover][yRover - 1] == null) {
+						planet[xRover][rover.getYRover()] = null;
+						planet[xRover][yRover - 1] = rover;
+						rover.SetPosition(xRover, yRover - 1);
+					} else {
+						Obstacle obstacle = (Obstacle) planet[xRover][yRover - 1];
+						obPosition += obstacle;
+					}
+
 				}	
+				
 				else if (roverFacing == 'E') {
 					if ((planet[0].length-1) == xRover)
 						xRover = -1;
