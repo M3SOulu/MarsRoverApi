@@ -7,15 +7,24 @@ import javax.management.monitor.StringMonitor;
 
 public class MarsRover {
 	int planet[][];
+	
+	int x = 0;
+	int y = 0;
+	
+	
+	
 	public MarsRover(int x, int y, String obstacles){
+	
+		this.x = x;
+		this.y = y;
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
 	 *  
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
-		//planet = new int[x][y];
-		//Arrays.fill(planet, false);
+		planet = new int[x][y];
+		
 		//positionObstacles(obstacles);
 		
 		
@@ -23,6 +32,18 @@ public class MarsRover {
 	}
 	
 	public String executeCommand(String command){
+		
+		char comand[] = command.toCharArray();
+		Integer move[]={0};
+		String result = "";
+		
+		for(int i = 0; i< comand.length; i++)
+			move = commandMove(comand[i]);
+		result = result.concat("(");
+		result = result.concat(move[0].toString());
+		result = result.concat(",");
+		result = result.concat(move[1].toString());
+		result = result.concat(")");
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -33,25 +54,37 @@ public class MarsRover {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		
 		return null;
 	}
 	
 	public void positionObstacles(String obstacles){
 		
 		
-		char[] temp = obstacles.toCharArray();
-		for(int i=1; i<temp.length; i++){
-		System.out.println(temp[i+1]);
-		System.out.println(temp[i+2]);
-		}
 		
+	}
+	
+	
+	public Integer[] commandMove(char c){
+		Integer[] cordFin = {0};
+		if (c=='i')
+			cordFin[0]=-1;
+			if (cordFin[0]<0)
+			cordFin[0]=this.x;
+		if (c=='r')
+			cordFin[0]=+1;
+			if (cordFin[0]>this.x)
+			cordFin[0]=0;	
+		if (c=='f')
+			cordFin[1]=+1;
+			if (cordFin[1]>this.y)
+			cordFin[1]=0;
+		if (c=='b')
+			cordFin[1]=-1;
+			if (cordFin[1]<0)
+			cordFin[1]=this.y;	
 		
-		obstacles.replaceAll(")", " ");
-		
-		
-		
-		//planet[Integer.parseInt(locationTemp[1])][Integer.parseInt(locationTemp[2])] = 0;
-		
-		
+		return cordFin;
+			
 	}
 }
