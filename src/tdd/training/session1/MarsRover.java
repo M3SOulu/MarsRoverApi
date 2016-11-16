@@ -96,8 +96,8 @@ public class MarsRover {
 
 	public static void main(String[] args) {
 
-		MarsRover rover = new MarsRover(3, 3, "(3,3)");
-		String test = rover.executeCommand("ffffff");
+		MarsRover rover = new MarsRover(3, 3, "(0,3)");
+		String test = rover.executeCommand("f");
 		System.out.println(test);
 		//Object array[][] = new Object[3][4];
 		//System.out.println(array[0].length);
