@@ -126,3 +126,11 @@ UnitTestSessionAction 1479309552304 MarsRoverTest FAIL
 UnitTestCaseAction 1479309612886 MarsRoverTest.java OK
 UnitTestSessionAction 1479309612887 MarsRoverTest OK
 EditAction 1479309774883 MarsRover.java 1588 3 4 0
+CompilationAction 1479309775136 MarsRover.java
+CompilationAction 1479309779647 MarsRover.java
+RefactoringAction 1479309851209 MarsRoverTest.java ADD void ObstacleTest()/2 METHOD
+RefactoringAction 1479309855729 MarsRoverTest.java RENAME ObstacleTest()/2=>void Test() METHOD
+RefactoringAction 1479309858234 MarsRoverTest.java RENAME Test()=>void TestMake() METHOD
+RefactoringAction 1479309870739 MarsRoverTest.java RENAME TestMake()=>void TestmakeObstacles() METHOD
+RefactoringAction 1479309872743 MarsRoverTest.java RENAME TestmakeObstacles()=>void TestMakeObstacles() METHOD
+EditAction 1479309901431 MarsRoverTest.java 488 2 5 2

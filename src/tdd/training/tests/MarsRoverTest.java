@@ -19,5 +19,13 @@ public class MarsRoverTest {
 		Assert.assertEquals(ob1.toString(),"(1,2)" );
 		Assert.assertTrue(ob1.equals(ob2));
 	}
+	
+	
+	@Test
+	public void TestMakeObstacles() {
+		String obstacles="(1,3)(4,8)";
+		
+		
+	}
 
 }
