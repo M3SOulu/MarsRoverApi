@@ -265,3 +265,8 @@ RefactoringAction 1479316064135 MarsRover.java RENAME setRoverFacing=>void setRo
 RefactoringAction 1479316098258 MarsRover.java RENAME setRoverFacing()=>void setRoverFacing(char) METHOD
 EditAction 1479316100714 MarsRover.java 4709 4 15 0
 EditAction 1479316117114 MarsRoverTest.java 533 2 4 1
+UnitTestCaseAction 1479316122098 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316122099 MarsRoverTest FAIL
+UnitTestCaseAction 1479316145339 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316145340 MarsRoverTest FAIL
+EditAction 1479316160089 MarsRoverTest.java 535 2 3 1
