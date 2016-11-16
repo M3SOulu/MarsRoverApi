@@ -22,7 +22,7 @@ public class MarsRover {
 		if (!obstacles.isEmpty()){
 			if (Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ")") ||
 				Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ",")){
-				throw new MarsRoverException();
+				throw new MarsRoverException("Obstacles positions syntax error.");
 			}
 			String _obstacles = obstacles.replace("(", "");
 			String[] values = _obstacles.split("\\)");
@@ -30,7 +30,7 @@ public class MarsRover {
 				String xPos = value.split(",")[0];
 				String yPos = value.split(",")[1];
 				if (!Utils.isInteger(xPos) || !Utils.isInteger(yPos)){
-					throw new MarsRoverException();
+					throw new MarsRoverException("Obstacles positions syntax error.");
 				}
 				Position obsPos = new Position(Integer.parseInt(xPos), Integer.parseInt(yPos));
 				this.obstacles.add(obsPos);
@@ -77,7 +77,7 @@ public class MarsRover {
 			rDir = Utils.cycleDirectionRight(rDir);
 			break;
 		default:
-			throw new MarsRoverException();
+			throw new MarsRoverException("Unknown command: " + command);
 		}
 		if (obstacles.contains(nextPosition)){
 			obstacle = nextPosition;
