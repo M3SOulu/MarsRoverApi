@@ -140,7 +140,7 @@ public class MarsRoverTest {
 	
 	@Test(expected = MarsRoverException.class)
 	public void testExecuteCommandThrowException() throws MarsRoverException{
-		marsRover.executeCommand("a");
+		marsRover.executeCommand("");
 	}
 	
 	@Test
