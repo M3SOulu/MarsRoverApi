@@ -201,3 +201,6 @@ EditAction 1479311611122 Navigation.java 794 3 6 0
 UnitTestCaseAction 1479311612678 NavigationTest.java FAIL
 UnitTestSessionAction 1479311612678 NavigationTest FAIL
 EditAction 1479311843056 Navigation.java 798 3 6 0
+UnitTestCaseAction 1479311844830 NavigationTest.java FAIL
+UnitTestSessionAction 1479311844831 NavigationTest FAIL
+EditAction 1479311852097 NavigationTest.java 377 1 1 1
