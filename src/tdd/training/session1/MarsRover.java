@@ -24,10 +24,10 @@ public class MarsRover {
 			int xOb = Integer.parseInt(temp[0]);
 			int yOb = Integer.parseInt(temp[1]);
 			
+			if(xOb>=x || yOb>=y) throw new MarsRoverException();
+			
 			planet[xOb][yOb] = -1;
 		}
-		
-		
 		
 		xSize = x;
 		ySize = y;
