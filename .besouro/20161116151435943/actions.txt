@@ -300,3 +300,6 @@ RefactoringAction 1479310918962 MarsRoverException.java RENAME MarsRoverExceptio
 EditAction 1479310923800 MarsRoverException.java 243 2 2 0
 EditAction 1479311000649 MarsRover.java 3172 3 12 0
 EditAction 1479311059534 MarsRover.java 3271 3 13 0
+UnitTestCaseAction 1479311060936 MarsRoverTest.java OK
+UnitTestSessionAction 1479311060937 MarsRoverTest OK
+EditAction 1479311081618 MarsRoverTest.java 627 2 2 0
