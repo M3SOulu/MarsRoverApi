@@ -20,7 +20,7 @@ public class MarsRover {
 		if(!verifyObstacles(obstacles)) throw new MarsRoverException();	
 		
 		xSize = x;
-		ySize = y;
+		ySize = y; 
 		
 		direction = Direction.NORTH;
 
