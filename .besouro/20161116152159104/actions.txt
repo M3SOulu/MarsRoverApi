@@ -534,3 +534,7 @@ EditAction 1479317098485 MarsRoverTest.java 422 1 1 1
 UnitTestCaseAction 1479317098992 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479317098992 MarsRoverTest FAIL
 EditAction 1479317202514 MarsRoverTest.java 422 1 1 1
+RefactoringAction 1479317217502 MarsRoverTest.java ADD void executeCommand()/2 METHOD
+RefactoringAction 1479317226512 MarsRoverTest.java RENAME executeCommand()/2=>void executeCommandE() METHOD
+RefactoringAction 1479317230515 MarsRoverTest.java RENAME executeCommandE()=>void executeCommandException() METHOD
+EditAction 1479317237922 MarsRoverTest.java 531 2 2 2
