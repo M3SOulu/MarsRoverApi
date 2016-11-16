@@ -194,7 +194,7 @@ public class MarsRover {
 		this.y = y;
 	}
 	
-///////////////////////////////////////////
+////////////////////////////////////////////
 	/**
 	 * change the face given the right command
 	 * @param face
