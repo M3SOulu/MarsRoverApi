@@ -32,5 +32,7 @@ public class MarsRover {
 		} catch (MarsRoverException e) {
 			e.printStackTrace();
 		}
+		
+		return out;
 	}
 }
