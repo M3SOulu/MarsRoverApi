@@ -223,3 +223,4 @@ RefactoringAction 1479309106888 Utils.java RENAME FORWARD/2=>char LEFT FIELD
 RefactoringAction 1479309110404 Utils.java ADD char LEFT/2 FIELD
 RefactoringAction 1479309112417 Utils.java RENAME LEFT/2=>char RIGHT FIELD
 EditAction 1479309113894 Utils.java 1055 5 10 0
+EditAction 1479309151994 Utils.java 1083 5 10 0
