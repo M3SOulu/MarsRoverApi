@@ -238,3 +238,10 @@ RefactoringAction 1479312893756 MarsRover.java REMOVE isValidCommand(String) MET
 RefactoringAction 1479312897547 MarsRover.java ADD boolean isValidCommand(String) METHOD
 EditAction 1479312902096 MarsRover.java 2760 5 18 0
 EditAction 1479312936363 MarsRover.java 2812 5 18 0
+RefactoringAction 1479312948874 MarsRoverTest.java ADD void Test FIELD
+RefactoringAction 1479312953890 MarsRoverTest.java RENAME Test=>void TestIsValidCommand() METHOD
+UnitTestCaseAction 1479313091060 MarsRoverTest.java OK
+UnitTestSessionAction 1479313091060 MarsRoverTest OK
+UnitTestCaseAction 1479313173663 MarsRoverTest.java OK
+UnitTestSessionAction 1479313173664 MarsRoverTest OK
+EditAction 1479313206634 MarsRover.java 2839 5 18 0

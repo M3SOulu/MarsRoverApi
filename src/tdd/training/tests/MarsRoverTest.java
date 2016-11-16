@@ -52,5 +52,21 @@ public class MarsRoverTest {
 		Assert.assertFalse(rover.checkObstacle(1,2));
 		
 	}
+	
+	@Test
+	public void TestIsValidCommand(){
+		
+		//right command
+		String cmd="ffrlfb";	
+		Assert.assertTrue(rover.isValidCommand(cmd));
+		
+		//one char wrong
+		cmd+="k";
+		Assert.assertFalse(rover.isValidCommand(cmd));
+		
+		//all command wrong
+		cmd= new String("kkqkw1238");
+		Assert.assertFalse(rover.isValidCommand(cmd));
+	}
 
 }
