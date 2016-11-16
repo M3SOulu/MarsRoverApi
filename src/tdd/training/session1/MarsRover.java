@@ -61,26 +61,38 @@ public class MarsRover {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		String whereIAm = "?(";
+		String movement;
+		String facing;
+		
 		for(int i = 0; i < command.length(); i++){
 			if(command.charAt(i) == 'f'){
 				if(this.getRealDirection() == "N"){
 					coordY += 1;
+					movement = ""+coordY;
 				}else if(this.getRealDirection() == "E"){
 					coordX += 1;
+					movement = ""+coordX;
 				}else if(this.getRealDirection() == "S"){
 					coordY += -1;
+					movement = ""+coordY;
 				}else if(this.getRealDirection() == "W"){
 					coordX += -1;
+					movement = ""+coordX;
 				}
 			}else if(command.charAt(i) == 'b'){
 				if(this.getRealDirection() == "N"){
 					coordY += -1;
+					movement = ""+coordY;
 				}else if(this.getRealDirection() == "E"){
 					coordX += -1;
+					movement = ""+coordX;
 				}else if(this.getRealDirection() == "S"){
 					coordY += 1;
+					movement = ""+coordY;
 				}else if(this.getRealDirection() == "W"){
 					coordX += 1;
+					movement = ""+coordX;
 				}
 			}else if(command.charAt(i) == 'r'){
 				if((direction > 3)){
@@ -88,12 +100,16 @@ public class MarsRover {
 				}else{
 					if(this.getRealDirection() == "N"){
 						direction += 1;
+						facing = ""+this.getRealDirection();
 					}else if(this.getRealDirection() == "E"){
 						direction += 1;
+						facing = ""+this.getRealDirection();
 					}else if(this.getRealDirection() == "S"){
 						direction += 1;
+						facing = ""+this.getRealDirection();
 					}else if(this.getRealDirection() == "W"){
 						direction += 1;
+						facing = ""+this.getRealDirection();
 					}
 				}
 			}else if(command.charAt(i) == 'l'){
@@ -102,17 +118,20 @@ public class MarsRover {
 				}else{
 					if(this.getRealDirection() == "N"){
 						direction += -1;
+						facing = ""+this.getRealDirection();
 					}else if(this.getRealDirection() == "E"){
 						direction += -1;
+						facing = ""+this.getRealDirection();
 					}else if(this.getRealDirection() == "S"){
 						direction += -1;
+						facing = ""+this.getRealDirection();
 					}else if(this.getRealDirection() == "W"){
 						direction += -1;
+						facing = ""+this.getRealDirection();
 					}
 				}
 			}
 		}
-		
 		return null;
 	}
 }
