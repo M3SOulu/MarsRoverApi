@@ -103,7 +103,7 @@ public class MarsRover {
 		String test =rover.executeCommand("f");
 		System.out.println(test);
 		Object array [][] = new Object [3][4];
-		System.out.println(array[4].length);
+			System.out.println(array.length);
 	}
 
 }
