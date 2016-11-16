@@ -15,16 +15,23 @@ public class Navigation {
 	}
 
 	static void generaOstacoli(String ob){
-		String currentXObstacle = "";
-		String currentYObstacle = "";
+		String currentObstacle = "";
+		int x = 0, y = 0;
 		
 		for (int i = 0; i < ob.length() ; i++){
 			
 			if(ob.charAt(i) != '?' && ob.charAt(i) != '('){
 				
-				if(ob.charAt(i) == ')' && ob.charAt(i) != ','){
-					obstacles.add(new Obstacle(Integer.parseInt(currentXObstacle),Integer.parseInt(currentYObstacle));					
-					currentObstacle = "";
+				if(ob.charAt(i) != ','){
+					if(ob.charAt(i) == ')'){					
+						y = Integer.parseInt(currentObstacle);
+						obstacles.add(new Obstacle(x,y));					
+						currentObstacle = "";
+					}else{
+						x =Integer.parseInt(currentObstacle);
+						currentObstacle = "";
+					}
+					
 				}
 				else{
 					currentObstacle += ob.charAt(i);
