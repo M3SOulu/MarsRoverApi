@@ -111,7 +111,7 @@ public class MarsRover {
 
 	public static void main(String[] args) {
 
-		MarsRover rover = new MarsRover(3, 3, "(0,3)");
+		MarsRover rover = new MarsRover(2, 2, "(0,3)");
 		String test = rover.executeCommand("fff");
 		System.out.println(test);
 		//Object array[][] = new Object[3][4];
