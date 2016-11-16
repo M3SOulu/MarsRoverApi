@@ -46,7 +46,7 @@ public class MarsRover {
 		
 	}
 	
-	public String executeCommand(String command){
+	public String executeCommand(String command) throws MarsRoverException{
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
@@ -59,6 +59,8 @@ public class MarsRover {
 		String result=null;
 		
 		if(isValidCommand(command)){
+			
+			
 			
 			
 		}else{
@@ -130,6 +132,15 @@ public class MarsRover {
 		Matcher matcher= pattern.matcher(cmd); 
 		
 		return !matcher.find();
+	}
+	
+	/**
+	 * 
+	 * @param mov a movement
+	 */
+	public void move(char mov){
+		
+		
 	}
 	
 	

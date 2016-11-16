@@ -255,3 +255,11 @@ EditAction 1479313430996 MarsRover.java 2888 5 18 0
 EditAction 1479313458726 MarsRover.java 2926 5 19 0
 FileOpenedAction 1479313553243 MarsRoverException.java 294 2 2 0
 EditAction 1479313564342 MarsRover.java 3062 5 21 0
+CompilationAction 1479313564596 MarsRover.java
+CompilationAction 1479313576226 MarsRover.java
+RefactoringAction 1479313687508 MarsRover.java ADD void moove FIELD
+RefactoringAction 1479313699520 MarsRover.java RENAME moove=>void move() METHOD
+RefactoringAction 1479313708757 MarsRover.java RENAME move()=>void move(char) METHOD
+RefactoringAction 1479313759803 MarsRover.java REMOVE move(char) METHOD
+RefactoringAction 1479313759908 MarsRover.java ADD void move(char) METHOD
+EditAction 1479313767058 MarsRover.java 3177 6 21 0
