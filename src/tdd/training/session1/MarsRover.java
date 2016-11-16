@@ -173,6 +173,15 @@ public class MarsRover {
 		
 		case 'l':
 			
+			if(this.face!='N'){
+				
+				this.face=faces.charAt(faces.indexOf(this.face)-1);
+				
+			}else{
+				
+				this.face='N';
+			}
+			
 			break;
 			
 		}
