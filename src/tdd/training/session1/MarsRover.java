@@ -2,9 +2,9 @@ package tdd.training.session1;
 import java.util.Arrays;
 
 public class MarsRover {
-	public int pos1 = 0;
-	public int pos2 = 0;
-	public String facing = new String("N");
+	public int posX = 0;
+	public int posY = 0;
+	public char facing = 'N';
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -23,10 +23,13 @@ public class MarsRover {
 		return position; 
 	}
 	
-	public void basePoint () {
-		pos1 = 0;
-		pos2 = 0;
+	public String Test (int x, int y, String command) {
+		
+		String position = Integer.toString(posX) + Integer.toString(posY) + facing;
+		return position;
 	}
+	
+
 	
 	public String executeCommand(String command){
 		
@@ -38,6 +41,62 @@ public class MarsRover {
 		 * Where x and y are the final coordinates, facing is the current direction the rover is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		
+		for (int i = 0; i < command.length(); i++) {
+			char action = command.charAt(i);
+			
+			if (facing == 'N') {
+				switch (action) {
+					case 'f':
+						posY++;
+					case 'b':
+						posY--;
+					case 'r':
+						facing = 'E';
+					case 'l':
+						facing = 'O';	
+				}
+			}
+			
+			if (facing == 'S') {
+				switch (action) {
+					case 'f':
+						posY--;
+					case 'b':
+						posY++;
+					case 'r':
+						facing = 'O';
+					case 'l':
+						facing = 'E';	
+				}
+			}
+			
+			if (facing == 'E') {
+				switch (action) {
+					case 'f':
+						posX++;
+					case 'b':
+						posX--;
+					case 'r':
+						facing = 'S';
+					case 'l':
+						facing = 'N';	
+				}
+			}
+			
+			if (facing == 'O') {
+				switch (action) {
+					case 'f':
+						posX--;
+					case 'b':
+						posX++;
+					case 'r':
+						facing = 'N';
+					case 'l':
+						facing = 'S';	
+				}
+			}
+		}
 		
 		return null;
 	}

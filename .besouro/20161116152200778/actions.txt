@@ -25,3 +25,18 @@ RefactoringAction 1479309446846 MarsRover.java REMOVE N FIELD
 RefactoringAction 1479309455412 MarsRover.java ADD String fac FIELD
 RefactoringAction 1479309456427 MarsRover.java RENAME fac=>String facing FIELD
 EditAction 1479309601093 MarsRover.java 1443 4 6 0
+UnitTestCaseAction 1479309607986 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479309607999 MarsRoverTest FAIL
+RefactoringAction 1479310497414 MarsRover.java REMOVE basePoint() METHOD
+RefactoringAction 1479310947237 MarsRover.java RENAME pos1=>int pos1x FIELD
+RefactoringAction 1479310949753 MarsRover.java RENAME pos2=>int pos2y FIELD
+RefactoringAction 1479311614024 MarsRover.java RENAME pos1x=>int posX FIELD
+RefactoringAction 1479311616054 MarsRover.java RENAME pos2y=>int posY FIELD
+RefactoringAction 1479311951044 MarsRover.java ADD String MO FIELD
+RefactoringAction 1479311952576 MarsRover.java REMOVE MO FIELD
+RefactoringAction 1479311957586 MarsRover.java ADD String Test FIELD
+RefactoringAction 1479311961124 MarsRover.java RENAME Test=>String Test() METHOD
+RefactoringAction 1479311968157 MarsRover.java RENAME Test()=>String Test(int) METHOD
+RefactoringAction 1479311971203 MarsRover.java RENAME Test(int)=>String Test(int, int) METHOD
+RefactoringAction 1479311977253 MarsRover.java RENAME Test(int, int)=>String Test(int, int, String) METHOD
+EditAction 1479312179058 MarsRover.java 2383 4 7 0
