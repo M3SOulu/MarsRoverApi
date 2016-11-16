@@ -21,6 +21,7 @@ public class Navigation {
 			if(ob.charAt(i) != '?' && ob.charAt(i) != '(' && ob.charAt(i) != ','){
 				
 				if(ob.charAt(i) == ')'){
+					System.out.println(currentObstacle);
 					//obstacles.add(currentObstacle);					
 					currentObstacle = "";
 				}
