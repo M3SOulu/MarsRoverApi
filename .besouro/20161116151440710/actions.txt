@@ -1,0 +1,236 @@
+FileOpenedAction 1479305681177 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479306598704 MarsRover.java ADD boolean planet FIELD
+RefactoringAction 1479307332895 MarsRover.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1479307369460 MarsRover.java ADD void ini FIELD
+RefactoringAction 1479307371980 MarsRover.java RENAME ini=>void i FIELD
+RefactoringAction 1479307375014 MarsRover.java RENAME i=>void position FIELD
+RefactoringAction 1479307378040 MarsRover.java RENAME position=>void positionO FIELD
+RefactoringAction 1479307379059 MarsRover.java RENAME positionO=>void positionOb FIELD
+RefactoringAction 1479307381067 MarsRover.java RENAME positionOb=>void positionObstacles FIELD
+RefactoringAction 1479307384085 MarsRover.java RENAME positionObstacles=>void positionObstacles() METHOD
+RefactoringAction 1479307390107 MarsRover.java RENAME positionObstacles()=>void positionObstacles(String) METHOD
+FileOpenedAction 1479307566319 MarsRoverException.java 155 0 0 0
+RefactoringAction 1479308031882 MarsRover.java ADD import javax.management.monitor.StringMonitor IMPORT
+RefactoringAction 1479308681775 MarsRover.java RENAME positionObstacles(String)=>void positionObstacles(String, Boolean METHOD
+EditAction 1479309724532 MarsRover.java 1569 3 8 0
+EditAction 1479309727359 MarsRoverTest.java 156 1 0 0
+RefactoringAction 1479310114794 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+EditAction 1479310129734 MarsRoverTest.java 249 1 1 0
+UnitTestCaseAction 1479310131797 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310131806 MarsRoverTest FAIL
+UnitTestCaseAction 1479310185179 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310185182 MarsRoverTest FAIL
+UnitTestCaseAction 1479310197958 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310197958 MarsRoverTest FAIL
+UnitTestCaseAction 1479310299490 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310299490 MarsRoverTest FAIL
+UnitTestCaseAction 1479310335227 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310335228 MarsRoverTest FAIL
+RefactoringAction 1479310353713 MarsRover.java RENAME positionObstacles(String, Boolean=>void positionObstacles(String, boolean METHOD
+UnitTestCaseAction 1479310386997 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310386998 MarsRoverTest FAIL
+UnitTestCaseAction 1479310396367 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310396369 MarsRoverTest FAIL
+RefactoringAction 1479310459541 MarsRover.java RENAME positionObstacles(String, boolean=>void positionObstacles(String, int METHOD
+CompilationAction 1479310462666 MarsRover.java
+CompilationAction 1479310480452 MarsRover.java
+RefactoringAction 1479310516146 MarsRover.java RENAME positionObstacles(String, int=>void positionObstacles(String, int METHOD
+RefactoringAction 1479310523153 MarsRover.java RENAME positionObstacles(String, int=>void positionObstacles(String) METHOD
+UnitTestCaseAction 1479310544854 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310544855 MarsRoverTest FAIL
+UnitTestCaseAction 1479310550221 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310550221 MarsRoverTest FAIL
+UnitTestCaseAction 1479310610850 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310610851 MarsRoverTest FAIL
+UnitTestCaseAction 1479310692046 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310692047 MarsRoverTest FAIL
+EditAction 1479310798977 MarsRoverTest.java 249 1 1 0
+EditAction 1479310857309 MarsRoverTest.java 259 1 0 0
+CompilationAction 1479310857520 MarsRoverTest.java
+CompilationAction 1479310857521 MarsRoverTest.java
+CompilationAction 1479310886250 MarsRoverTest.java
+CompilationAction 1479310886251 MarsRoverTest.java
+UnitTestCaseAction 1479310894257 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310894257 MarsRoverTest FAIL
+EditAction 1479310905884 MarsRoverTest.java 288 1 1 0
+CompilationAction 1479310906139 MarsRoverTest.java
+CompilationAction 1479310917653 MarsRoverTest.java
+UnitTestCaseAction 1479310919708 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310919708 MarsRoverTest FAIL
+UnitTestCaseAction 1479310959513 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310959514 MarsRoverTest FAIL
+UnitTestCaseAction 1479311008668 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311008669 MarsRoverTest FAIL
+UnitTestCaseAction 1479311009351 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311009352 MarsRoverTest FAIL
+UnitTestCaseAction 1479311010069 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311010070 MarsRoverTest FAIL
+UnitTestCaseAction 1479311069338 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311069339 MarsRoverTest FAIL
+RefactoringAction 1479311209793 MarsRover.java ADD import java IMPORT
+RefactoringAction 1479311210822 MarsRover.java REMOVE import java IMPORT
+RefactoringAction 1479311211835 MarsRover.java ADD import java.ut IMPORT
+RefactoringAction 1479311214347 MarsRover.java RENAME import java.ut=>import java.util.* IMPORT
+RefactoringAction 1479311220357 MarsRover.java REMOVE import java.util.* IMPORT
+RefactoringAction 1479311223375 MarsRover.java ADD import java.util.p IMPORT
+RefactoringAction 1479311228882 MarsRover.java REMOVE import java.util.p IMPORT
+RefactoringAction 1479311229890 MarsRover.java ADD import java.util.s IMPORT
+RefactoringAction 1479311232398 MarsRover.java RENAME import java.util.s=>import java.util.sy IMPORT
+RefactoringAction 1479311233415 MarsRover.java RENAME import java.util.sy=>import java.util.s IMPORT
+RefactoringAction 1479311236435 MarsRover.java REMOVE import java.util.s IMPORT
+UnitTestCaseAction 1479311310484 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311310485 MarsRoverTest FAIL
+UnitTestCaseAction 1479311366049 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311366050 MarsRoverTest FAIL
+UnitTestCaseAction 1479311386590 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311386591 MarsRoverTest FAIL
+UnitTestCaseAction 1479311418385 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311418387 MarsRoverTest FAIL
+UnitTestCaseAction 1479311478647 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311478648 MarsRoverTest FAIL
+UnitTestCaseAction 1479311490558 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311490559 MarsRoverTest FAIL
+UnitTestCaseAction 1479311541401 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311541403 MarsRoverTest FAIL
+UnitTestCaseAction 1479311558735 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311558736 MarsRoverTest FAIL
+UnitTestCaseAction 1479311617612 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311617613 MarsRoverTest FAIL
+UnitTestCaseAction 1479311754726 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311754727 MarsRoverTest FAIL
+UnitTestCaseAction 1479311888907 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311888907 MarsRoverTest FAIL
+UnitTestCaseAction 1479311936641 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311936641 MarsRoverTest FAIL
+EditAction 1479312025936 MarsRoverTest.java 286 1 2 0
+UnitTestCaseAction 1479312027485 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312027486 MarsRoverTest FAIL
+UnitTestCaseAction 1479312052513 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312052513 MarsRoverTest FAIL
+UnitTestCaseAction 1479312137031 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312137031 MarsRoverTest FAIL
+UnitTestCaseAction 1479312160329 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312160330 MarsRoverTest FAIL
+UnitTestCaseAction 1479312352264 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312352265 MarsRoverTest FAIL
+UnitTestCaseAction 1479312478613 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312478614 MarsRoverTest FAIL
+UnitTestCaseAction 1479312576595 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312576596 MarsRoverTest FAIL
+UnitTestCaseAction 1479312590603 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312590604 MarsRoverTest FAIL
+UnitTestCaseAction 1479312621965 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312621966 MarsRoverTest FAIL
+UnitTestCaseAction 1479312635909 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312635910 MarsRoverTest FAIL
+UnitTestCaseAction 1479312644737 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312644737 MarsRoverTest FAIL
+EditAction 1479312657800 MarsRoverTest.java 291 1 2 0
+UnitTestCaseAction 1479312660349 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312660350 MarsRoverTest FAIL
+EditAction 1479312721280 MarsRoverTest.java 291 1 2 0
+UnitTestCaseAction 1479312723297 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312723297 MarsRoverTest FAIL
+UnitTestCaseAction 1479312861994 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312861995 MarsRoverTest FAIL
+UnitTestCaseAction 1479312871005 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312871006 MarsRoverTest FAIL
+UnitTestCaseAction 1479312883004 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312883005 MarsRoverTest FAIL
+CompilationAction 1479312889424 MarsRover.java
+CompilationAction 1479312898374 MarsRover.java
+UnitTestCaseAction 1479312899717 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312899718 MarsRoverTest FAIL
+UnitTestCaseAction 1479312917612 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312917613 MarsRoverTest FAIL
+UnitTestCaseAction 1479313049281 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313049282 MarsRoverTest FAIL
+EditAction 1479313079077 MarsRover.java 1554 3 4 0
+UnitTestCaseAction 1479313080556 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313080556 MarsRoverTest FAIL
+EditAction 1479313128676 MarsRover.java 1588 3 5 0
+UnitTestCaseAction 1479313129892 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313129893 MarsRoverTest FAIL
+EditAction 1479313214789 MarsRover.java 1632 3 4 0
+UnitTestCaseAction 1479313216519 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313216519 MarsRoverTest FAIL
+EditAction 1479313226053 MarsRover.java 1632 3 4 0
+UnitTestCaseAction 1479313229167 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313229168 MarsRoverTest FAIL
+RefactoringAction 1479313836159 MarsRover.java ADD Integer N FIELD
+RefactoringAction 1479313836160 MarsRover.java ADD Integer E FIELD
+RefactoringAction 1479313836160 MarsRover.java ADD Integer S FIELD
+RefactoringAction 1479313836160 MarsRover.java ADD Integer W FIELD
+RefactoringAction 1479313836167 MarsRover.java ADD Integer x FIELD
+RefactoringAction 1479313836167 MarsRover.java ADD Integer y FIELD
+RefactoringAction 1479313836168 MarsRover.java ADD Integer facing FIELD
+RefactoringAction 1479313854232 MarsRover.java RENAME N=>Integer l FIELD
+RefactoringAction 1479313863252 MarsRover.java RENAME E=>Integer r FIELD
+RefactoringAction 1479313865350 MarsRover.java RENAME S=>Integer f FIELD
+RefactoringAction 1479313870359 MarsRover.java RENAME W=>Integer b FIELD
+RefactoringAction 1479313884382 MarsRover.java REMOVE x FIELD
+RefactoringAction 1479313884382 MarsRover.java REMOVE b FIELD
+RefactoringAction 1479313884383 MarsRover.java REMOVE l FIELD
+RefactoringAction 1479313884383 MarsRover.java REMOVE y FIELD
+RefactoringAction 1479313884383 MarsRover.java REMOVE f FIELD
+RefactoringAction 1479313884386 MarsRover.java REMOVE r FIELD
+RefactoringAction 1479313884386 MarsRover.java REMOVE facing FIELD
+RefactoringAction 1479313967247 MarsRover.java ADD void command FIELD
+RefactoringAction 1479313970762 MarsRover.java RENAME command=>void commandMove FIELD
+RefactoringAction 1479313973282 MarsRover.java RENAME commandMove=>void commandMove() METHOD
+RefactoringAction 1479313985802 MarsRover.java RENAME commandMove()=>void commandMove(char) METHOD
+RefactoringAction 1479314545316 MarsRover.java ADD int x FIELD
+RefactoringAction 1479314553851 MarsRover.java ADD int x/2 FIELD
+RefactoringAction 1479314556864 MarsRover.java RENAME x/2=>int y FIELD
+EditAction 1479315283406 MarsRoverTest.java 276 1 0 0
+CompilationAction 1479315283542 MarsRoverTest.java
+EditAction 1479315283561 MarsRover.java 2131 4 23 0
+CompilationAction 1479315284626 MarsRoverTest.java
+CompilationAction 1479315461476 MarsRoverTest.java
+UnitTestCaseAction 1479315463537 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315463538 MarsRoverTest FAIL
+EditAction 1479315533973 MarsRover.java 2156 4 25 0
+UnitTestCaseAction 1479315536301 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315536304 MarsRoverTest FAIL
+EditAction 1479315550692 MarsRover.java 2156 4 25 0
+UnitTestCaseAction 1479315552305 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315552306 MarsRoverTest FAIL
+RefactoringAction 1479315561122 MarsRover.java REMOVE planet FIELD
+RefactoringAction 1479315570680 MarsRover.java ADD int FIELD
+EditAction 1479315576997 MarsRover.java 2156 4 25 0
+UnitTestCaseAction 1479315579041 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315579041 MarsRoverTest FAIL
+EditAction 1479315626842 MarsRover.java 2158 4 25 0
+UnitTestCaseAction 1479315628616 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315628617 MarsRoverTest FAIL
+EditAction 1479315648242 MarsRover.java 2160 4 25 0
+UnitTestCaseAction 1479315649767 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315649768 MarsRoverTest FAIL
+EditAction 1479315750402 MarsRover.java 2164 4 25 0
+UnitTestCaseAction 1479315752154 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315752154 MarsRoverTest FAIL
+RefactoringAction 1479315778965 MarsRover.java RENAME commandMove(char)=>Integer METHOD
+RefactoringAction 1479315833068 MarsRover.java RENAME commandMove(char, Integer)=>Integer METHOD
+RefactoringAction 1479315834583 MarsRover.java RENAME commandMove(char)=>Integer METHOD
+EditAction 1479315836793 MarsRover.java 2185 4 25 0
+UnitTestCaseAction 1479315838533 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315838534 MarsRoverTest FAIL
+EditAction 1479315902425 MarsRoverTest.java 302 1 2 1
+UnitTestCaseAction 1479315904261 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315904262 MarsRoverTest FAIL
+UnitTestCaseAction 1479316059655 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316059655 MarsRoverTest FAIL
+UnitTestCaseAction 1479316206595 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316206595 MarsRoverTest FAIL
+UnitTestCaseAction 1479316237888 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316237889 MarsRoverTest FAIL
+UnitTestCaseAction 1479316313298 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316313299 MarsRoverTest FAIL
+RefactoringAction 1479316335531 MarsRover.java RENAME commandMove(char, Integer=>Integer METHOD
+RefactoringAction 1479316343565 MarsRover.java RENAME commandMove(char)=>Integer METHOD
+UnitTestCaseAction 1479316421162 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316421162 MarsRoverTest FAIL
+EditAction 1479316520918 MarsRoverTest.java 303 1 2 1
+UnitTestCaseAction 1479316522487 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316522488 MarsRoverTest FAIL
+EditAction 1479316573838 MarsRoverTest.java 302 1 2 1
