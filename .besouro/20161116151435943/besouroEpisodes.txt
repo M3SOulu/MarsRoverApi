@@ -163,3 +163,7 @@
 1479312751578 test-addition 2 74 true
 1479312751579 test-addition 1 74 true
 1479312813878 regression 1 0 true
+1479312859804 test-addition 2 35 true
+1479312859805 test-addition 1 35 true
+1479312859806 test-addition 2 35 true
+1479312859807 test-addition 1 35 true
