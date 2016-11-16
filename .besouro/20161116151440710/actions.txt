@@ -1,0 +1,15 @@
+FileOpenedAction 1479305681177 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479306598704 MarsRover.java ADD boolean planet FIELD
+RefactoringAction 1479307332895 MarsRover.java ADD import java.util.Arrays IMPORT
+RefactoringAction 1479307369460 MarsRover.java ADD void ini FIELD
+RefactoringAction 1479307371980 MarsRover.java RENAME ini=>void i FIELD
+RefactoringAction 1479307375014 MarsRover.java RENAME i=>void position FIELD
+RefactoringAction 1479307378040 MarsRover.java RENAME position=>void positionO FIELD
+RefactoringAction 1479307379059 MarsRover.java RENAME positionO=>void positionOb FIELD
+RefactoringAction 1479307381067 MarsRover.java RENAME positionOb=>void positionObstacles FIELD
+RefactoringAction 1479307384085 MarsRover.java RENAME positionObstacles=>void positionObstacles() METHOD
+RefactoringAction 1479307390107 MarsRover.java RENAME positionObstacles()=>void positionObstacles(String) METHOD
+FileOpenedAction 1479307566319 MarsRoverException.java 155 0 0 0
+RefactoringAction 1479308031882 MarsRover.java ADD import javax.management.monitor.StringMonitor IMPORT
+RefactoringAction 1479308681775 MarsRover.java RENAME positionObstacles(String)=>void positionObstacles(String, Boolean METHOD
+EditAction 1479309724532 MarsRover.java 1569 3 8 0
