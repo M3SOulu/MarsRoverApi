@@ -27,7 +27,7 @@ public class Navigation {
 		}
 	}
 	
-	public ArrayList<String> getObstacles(){
-		return obstacles;
+	public int getNumberOfObstacles(){
+		return obstacles.size();
 	}
 }

@@ -131,3 +131,16 @@ EditAction 1479310949935 NavigationTest.java 429 1 0 0
 UnitTestCaseAction 1479310951610 NavigationTest.java OK
 UnitTestSessionAction 1479310951610 NavigationTest OK
 EditAction 1479310958348 NavigationTest.java 427 1 0 0
+UnitTestCaseAction 1479310959799 NavigationTest.java FAIL
+UnitTestSessionAction 1479310959800 NavigationTest FAIL
+RefactoringAction 1479310969976 NavigationTest.java REMOVE import tdd.training.session1.MarsRoverException IMPORT
+UnitTestCaseAction 1479310982324 NavigationTest.java FAIL
+UnitTestSessionAction 1479310982324 NavigationTest FAIL
+UnitTestCaseAction 1479311002034 NavigationTest.java FAIL
+UnitTestSessionAction 1479311002035 NavigationTest FAIL
+UnitTestCaseAction 1479311025428 NavigationTest.java FAIL
+UnitTestSessionAction 1479311025429 NavigationTest FAIL
+RefactoringAction 1479311060958 Navigation.java RENAME getObstacles()=>int getNumberObstacles() METHOD
+RefactoringAction 1479311062965 Navigation.java RENAME getNumberObstacles()=>int getNumberoFObstacles() METHOD
+RefactoringAction 1479311064984 Navigation.java RENAME getNumberoFObstacles()=>int getNumberOfObstacles() METHOD
+EditAction 1479311070292 Navigation.java 725 3 6 0

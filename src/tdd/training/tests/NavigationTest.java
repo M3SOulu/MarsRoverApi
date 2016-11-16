@@ -5,7 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-import tdd.training.session1.MarsRoverException;
 import tdd.training.session1.Navigation;
 
 public class NavigationTest {
@@ -14,7 +13,7 @@ public class NavigationTest {
 	
 	@Test 
 	public void testGeneraOstacoli() {
-		//assertEquals(2, navTest.getObstacles().size());		
+		assertEquals(2, navTest.getObstacles().size());		
 	}
 
 }
