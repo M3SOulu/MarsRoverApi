@@ -25,6 +25,8 @@ public class MarsRoverTest {
 	public void testVerifyObstacles(){
 		assertTrue(marsRover.verifyObstacles("(0,0)"));
 		assertTrue(marsRover.verifyObstacles("(0,0)(1,1)"));
+		assertFalse(marsRover.verifyObstacles(""));
+		assertFalse(marsRover.verifyObstacles("a"));
 	}
 	
 	
