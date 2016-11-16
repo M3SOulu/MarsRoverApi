@@ -133,3 +133,20 @@ CompilationAction 1479315364783 MarsRoverTest.java
 CompilationAction 1479315364960 MarsRoverTest.java
 RefactoringAction 1479315409801 MarsRover.java RENAME Test(String)=>String Test() METHOD
 EditAction 1479315410722 MarsRover.java 2186 3 5 0
+CompilationAction 1479315410981 MarsRover.java
+CompilationAction 1479315410982 MarsRoverTest.java
+CompilationAction 1479315444698 MarsRoverTest.java
+CompilationAction 1479315444718 MarsRover.java
+CompilationAction 1479315444865 MarsRover.java
+CompilationAction 1479315444865 MarsRoverTest.java
+RefactoringAction 1479315550879 MarsRover.java RENAME Test()=>String Test(String) METHOD
+CompilationAction 1479315552347 MarsRover.java
+CompilationAction 1479315552515 MarsRoverTest.java
+CompilationAction 1479315605009 MarsRoverTest.java
+CompilationAction 1479315662393 MarsRoverTest.java
+CompilationAction 1479315684520 MarsRoverTest.java
+UnitTestCaseAction 1479315687764 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315687765 MarsRoverTest FAIL
+UnitTestCaseAction 1479315711853 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315711853 MarsRoverTest FAIL
+EditAction 1479315778272 MarsRoverTest.java 334 1 3 1

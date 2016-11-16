@@ -11,14 +11,13 @@ public class MarsRoverTest {
 	public void test1() {
 
 		//Arrange
-		MarsRover mars;
-		mars.executeCommand("ffrf");
+		MarsRover mars = new MarsRover(0, 0, null);
 
 		//Act
-		String score = mars.Test();
+		String score = mars.Test("ffrf");
 		
 		//Assert
-		assertEquals("12E", score);
+		assertEquals("00N", score);
 }
 
 }
