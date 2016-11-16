@@ -332,3 +332,20 @@ EditAction 1479313742116 Navigation.java 990 3 8 0
 UnitTestCaseAction 1479313743687 NavigationTest.java FAIL
 UnitTestSessionAction 1479313743688 NavigationTest FAIL
 EditAction 1479313752586 NavigationTest.java 377 1 1 1
+UnitTestCaseAction 1479313760200 NavigationTest.java FAIL
+UnitTestSessionAction 1479313760201 NavigationTest FAIL
+CompilationAction 1479313839817 Navigation.java
+CompilationAction 1479313839818 Navigation.java
+RefactoringAction 1479313845937 Navigation.java RENAME Navigation(int, int, String)=>Navigation(int, int, ArrayList<Obstacle>) METHOD
+CompilationAction 1479313852347 Navigation.java
+CompilationAction 1479313852348 Navigation.java
+CompilationAction 1479313852504 MarsRover.java
+CompilationAction 1479313852504 Navigation.java
+CompilationAction 1479313852505 Navigation.java
+CompilationAction 1479313852505 NavigationTest.java
+RefactoringAction 1479313855805 Navigation.java RENAME Navigation(int, int, ArrayList<Obstacle>)=>Navigation(int, int, String) METHOD
+CompilationAction 1479313864107 Navigation.java
+CompilationAction 1479313864107 Navigation.java
+CompilationAction 1479313864276 Navigation.java
+CompilationAction 1479313907849 Navigation.java
+EditAction 1479313917061 Navigation.java 990 3 8 0
