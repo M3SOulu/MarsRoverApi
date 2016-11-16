@@ -31,7 +31,7 @@ public class MarsRover {
 		try {
 			out = nav.esitoNavigazione(command);
 		} catch (MarsRoverException e) {
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 		
 		return out;
