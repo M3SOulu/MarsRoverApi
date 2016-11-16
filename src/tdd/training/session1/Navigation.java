@@ -17,7 +17,7 @@ public class Navigation {
 		String currentObstacle = "";
 		
 		for (int i = 0; i < ob.length() ; i++){
-			System.out.println("Ciao");
+			System.out.println(ob.charAt(i));
 			if(ob.charAt(i) != '?' && ob.charAt(i) != '(' && ob.charAt(i) != ',')
 				if(ob.charAt(i) == ')'){
 					obstacles.add(currentObstacle);					
