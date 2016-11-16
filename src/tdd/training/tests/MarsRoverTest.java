@@ -21,9 +21,10 @@ public class MarsRoverTest {
 	
 	@Test
 	public void testExecuteCommand() throws MarsRoverException {
-		//rover.setRoverFacing('W');
+		MarsRover rover = new MarsRover(3, 3, "(2,2)");
+		rover.setRoverFacing('W');
 		String test = rover.executeCommand("ffff");
-		//assertTrue(test.equals("(0,0,N)"));
+		assertTrue(test.equals("(0,0,W)"));
 		
 	}
 
