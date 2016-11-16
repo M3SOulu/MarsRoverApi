@@ -150,3 +150,6 @@ EditAction 1479308264348 MarsRover.java 2380 2 6 0
 UnitTestCaseAction 1479308265358 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479308265358 MarsRoverTest FAIL
 EditAction 1479308305277 MarsRover.java 2379 2 6 0
+UnitTestCaseAction 1479308306230 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479308306230 MarsRoverTest FAIL
+EditAction 1479308308187 MarsRover.java 2380 2 6 0
