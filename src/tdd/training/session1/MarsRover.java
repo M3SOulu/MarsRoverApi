@@ -1,6 +1,9 @@
 package tdd.training.session1;
 
 public class MarsRover {
+	static int x;
+	static int y;
+	String obstacles;
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
@@ -8,10 +11,30 @@ public class MarsRover {
 		Example use:
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
+		x=this.x;
+		y=this.y;
+		obstacles=this.obstacles;
 	}
+	MarsRover rover = new MarsRover(x,y,obstacles);
+	Car Car= new Car();
+	
 	
 	public String executeCommand(String command){
-		
+		for(int i=0; i<command.length(); i++){
+			char a = command.charAt(i);
+			if(a == 'f'){
+				Forward();
+			}
+			if(a == 'b'){
+				Backward();		
+			}
+			if(a == 'l'){
+				Left();		
+			}
+			if(a == 'r'){
+				Right();		
+			}
+		}
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The rover is on a 100x100 grid at location (0, 0) and facing NORTH. The rover is given the commands "ffrff" and should end up at (2, 2) facing East.
@@ -22,5 +45,37 @@ public class MarsRover {
 		 */
 		
 		return null;
+	}
+	public Car Forward(){
+		if(Car.y<=MarsRover.y && Car.facing=="N"){
+			Car.y++;
+		}else if(Car.facing=="S" || Car.facing=="E" || Car.facing=="W"){
+			Car.facing="N";
+		}
+		return Car; //torna lo stato del veicolo dopo forward (x,y,facing)
+	}
+	public Car Backward(){
+		if(Car.y>0 && Car.facing=="S"){
+			Car.y++;
+		}else if(Car.facing=="N"|| Car.facing=="E" || Car.facing=="W"){
+			Car.facing="S";
+		}
+		return Car; //torna lo stato del veicolo dopo backward (x,y,facing)
+	}
+	public Car Left(){
+		if(Car.facing=="N" || Car.facing=="S" || Car.facing=="E"){
+			Car.facing="W";
+		}else if(Car.x>0 && Car.facing=="W"){
+			Car.x--;
+		}
+		return Car; //torna lo stato del veicolo dopo left (x,y,facing)
+	}
+	public Car Right(){
+		if(Car.facing=="N" || Car.facing=="S" || Car.facing=="W"){
+			Car.facing="W";
+		}else if(Car.x<MarsRover.x && Car.facing=="E"){
+			Car.x++;
+		}
+		return Car; //torna lo stato del veicolo dopo right (x,y,facing)
 	}
 }
