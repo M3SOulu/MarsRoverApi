@@ -84,7 +84,7 @@ public class MarsRover {
 				}
 				
 			}
-				System.out.println(rover.getXRover()+" "+rover.getYRover());
+				//System.out.println(rover.getXRover()+" "+rover.getYRover());
 			i++;	
 		}
 		
