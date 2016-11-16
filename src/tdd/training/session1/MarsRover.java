@@ -151,7 +151,7 @@ public class MarsRover {
 						coordY += 1;
 					else
 						coordX += 1;
-					whereIAm.concat(whereIsObstacles);
+					whereIAm = whereIAm + whereIsObstacles;
 				}
 				else
 					break;
