@@ -246,3 +246,4 @@ EditAction 1479312951503 Obstacle.java 194 1 1 0
 CompilationAction 1479312951615 MarsRover.java
 RefactoringAction 1479313219850 MarsRover.java ADD MarsRover(int, int, Obstacle) METHOD
 EditAction 1479313234325 MarsRover.java 2220 7 10 0
+EditAction 1479313299202 Obstacle.java 209 1 0 0
