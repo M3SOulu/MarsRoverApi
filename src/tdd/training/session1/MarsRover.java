@@ -3,19 +3,31 @@ package tdd.training.session1;
 import java.util.ArrayList;
 
 public class MarsRover {
-	private Position rPos;
+	private Position rPos = new Position(0, 0);
 	private String rDir = "N";
 	private ArrayList<Position> obstacles = new ArrayList<Position>();
 
 	/*	x and y represent the size of the grid.
-	 *  Obstacles is a String formatted as follows: ?(o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y)? with no white spaces. 
+	 *  Obstacles is a String formatted as follows: (o1_x,o1_y)(o2_x,o2_y)...(on_x,on_y) with no white spaces. 
 	 *  
 		Example use:
-		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
+		MarsRover rover = new MarsRover(100,100,"(5,5)(7,8)")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 	public MarsRover(int x, int y, String obstacles) throws MarsRoverException {
-		rPos.x = 0;
-		rPos.y = 0;
+		rPos = new Position(0, 0);
+		rDir = "N";
+		if (!obstacles.isEmpty()){
+			if (Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ")") ||
+				Utils.countOccurencesOf(obstacles, "(") != Utils.countOccurencesOf(obstacles, ",")){
+				throw new MarsRoverException();
+			}
+			String[] values = obstacles.replace(")", "").split("(");
+			for (String value : values){
+				String xPos = value.split(",")[0];
+				String yPos = value.split(",")[1];
+				this.obstacles.add(new Position(Integer.parseInt(xPos), Integer.parseInt(yPos)));
+			}
+		}
 	}
 	
 	public String executeCommand(String command){
