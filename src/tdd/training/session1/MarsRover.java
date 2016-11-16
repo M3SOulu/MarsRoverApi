@@ -43,11 +43,11 @@ public class MarsRover {
 		rover = new Rover(0, 0, 'N');
 		planet[0][0] = rover;
 
-		//System.out.println(planet[2][1]);
+		// System.out.println(planet[2][1]);
 
 	}
-	
-//TODO RIMETTERE STRING COME VALORE DI RITORNO
+
+	// TODO RIMETTERE STRING COME VALORE DI RITORNO
 	public String executeCommand(String command) {
 
 		/*
@@ -62,37 +62,35 @@ public class MarsRover {
 		 * pointing to (N,S,W,E). The return string should also contain a list
 		 * of coordinates of the encountered obstacles. No white spaces.
 		 */
-		
+
 		int i = 0;
-		String obPosition ="";
+		String obPosition = "";
 		while (i < command.length()) {
-			
+
 			char actualCommand = command.charAt(i);
 			char roverFacing = rover.getFacing();
 			int xRover = rover.getXRover();
 			int yRover = rover.getYRover();
-			
-			if(actualCommand =='f'){
-				if(roverFacing == 'N'){
-					//if()
-				if(planet[xRover][yRover+1] == null){
-					planet[xRover][yRover]=null;
-					planet[xRover][yRover+1]=rover;
-					rover.SetPosition(xRover, yRover+1);
+
+			if (actualCommand == 'f') {
+				if (roverFacing == 'N') {
+					if (planet.length == yRover) 
+						yRover=-1;						
+						if (planet[xRover][yRover + 1] == null) {
+							planet[xRover][yRover] = null;
+							planet[xRover][yRover + 1] = rover;
+							rover.SetPosition(xRover, yRover + 1);
+						} else {
+							Obstacle obstacle = (Obstacle) planet[xRover][yRover + 1];
+							obPosition += obstacle;
+						}
+
+					
 				}
-				else{
-					Obstacle obstacle = (Obstacle)planet[xRover][yRover+1];
-					obPosition+=obstacle;
-				}
-				
 			}
+			// System.out.println(rover.getXRover()+" "+rover.getYRover());
+			i++;
 		}
-				//System.out.println(rover.getXRover()+" "+rover.getYRover());
-			i++;	
-		}
-		
-		
-		
 
 		return obPosition;
 	}
@@ -100,10 +98,10 @@ public class MarsRover {
 	public static void main(String[] args) {
 
 		MarsRover rover = new MarsRover(3, 3, "(0,1)");
-		String test =rover.executeCommand("f");
+		String test = rover.executeCommand("f");
 		System.out.println(test);
-		Object array [][] = new Object [3][4];
-			System.out.println(array[0].length);
+		Object array[][] = new Object[3][4];
+		System.out.println(array[0].length);
 	}
 
 }
