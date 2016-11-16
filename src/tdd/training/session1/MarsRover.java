@@ -164,6 +164,9 @@ public class MarsRover {
 				
 				this.face=faces.charAt(faces.indexOf(this.face)+1);
 				
+			}else{
+				
+				this.face='N';
 			}
 				
 			
