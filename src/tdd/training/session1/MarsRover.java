@@ -78,7 +78,7 @@ public class MarsRover {
 					rover.SetPosition(xRover, yRover+1);
 				}
 			}
-				
+				System.out.println(rover.getXRover(),rover.getYRover());
 			i++;	
 		}
 		
