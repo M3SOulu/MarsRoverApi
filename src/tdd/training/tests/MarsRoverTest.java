@@ -117,7 +117,23 @@ public class MarsRoverTest {
 	
 	@Test
 	public void testMoveBackwardFromStart(){
-		marsRover.moveBackward();;
+		marsRover.moveBackward();
+		assertEquals(0, marsRover.getCurrentX());
+		assertEquals(9, marsRover.getCurrentY());
+	}
+	
+	@Test
+	public void testMoveBackwardLeft(){
+		marsRover.moveLeft();
+		marsRover.moveBackward();
+		assertEquals(0, marsRover.getCurrentX());
+		assertEquals(9, marsRover.getCurrentY());
+	}
+	
+	@Test
+	public void testMoveBackwardRight(){
+		marsRover.moveRight();	
+		marsRover.moveBackward();
 		assertEquals(0, marsRover.getCurrentX());
 		assertEquals(9, marsRover.getCurrentY());
 	}
