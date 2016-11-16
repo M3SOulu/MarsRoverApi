@@ -83,3 +83,9 @@ RefactoringAction 1479314815682 MarsRoverTest.java ADD import org.junit.After IM
 EditAction 1479315074091 MarsRover.java 6716 2 6 0
 RefactoringAction 1479315208784 Main.java REMOVE Main.java CLASS
 EditAction 1479315277962 MarsRoverTest.java 609 3 4 2
+FileOpenedAction 1479315322954 Rover.java 388 5 6 0
+RefactoringAction 1479315356078 MarsRoverTest.java ADD void test()/2 METHOD
+RefactoringAction 1479315360083 MarsRoverTest.java RENAME test()/2=>void testR() METHOD
+RefactoringAction 1479315366224 MarsRoverTest.java RENAME testR()=>void testRover() METHOD
+RefactoringAction 1479315395240 MarsRoverTest.java ADD Rover d FIELD
+RefactoringAction 1479315437986 MarsRoverTest.java ADD import tdd.training.session1.Rover IMPORT
