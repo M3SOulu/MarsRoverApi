@@ -337,3 +337,4 @@ UnitTestCaseAction 1479316700323 MarsRoverTest.java OK
 UnitTestSessionAction 1479316700323 MarsRoverTest OK
 RefactoringAction 1479316714426 MarsRoverTest.java REMOVE initialize() METHOD
 EditAction 1479316852953 Rover.java 646 7 10 0
+EditAction 1479316859351 Rover.java 643 7 10 0
