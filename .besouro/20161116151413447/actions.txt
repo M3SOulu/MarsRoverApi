@@ -23,3 +23,14 @@ RefactoringAction 1479307686477 MarsRover.java RENAME main()=>static void main(S
 EditAction 1479307749879 MarsRover.java 1470 3 5 0
 CompilationAction 1479307750133 MarsRover.java
 EditAction 1479307762230 MarsRover.java 1471 3 6 0
+CompilationAction 1479307972368 MarsRover.java
+CompilationAction 1479307972369 MarsRover.java
+CompilationAction 1479308067496 MarsRover.java
+CompilationAction 1479308067497 MarsRover.java
+CompilationAction 1479308067663 MarsRover.java
+CompilationAction 1479308105282 MarsRover.java
+RefactoringAction 1479308322950 Obstacle.java ADD String To FIELD
+RefactoringAction 1479308324466 Obstacle.java RENAME To=>String ToString FIELD
+RefactoringAction 1479308325479 Obstacle.java RENAME ToString=>String ToString() METHOD
+RefactoringAction 1479308367096 Obstacle.java ADD String name FIELD
+EditAction 1479308375589 Obstacle.java 260 2 3 0

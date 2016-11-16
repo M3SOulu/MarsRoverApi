@@ -16,16 +16,20 @@ public class MarsRover {
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		planet = new Object[x][y];
-		obstacles.replaceAll("\\D+","");
+		obstacles=obstacles.replaceAll("\\D+","");
 		int i=0;
 		while(i<obstacles.length()){
-			int xOb=i;
-			int yOb=i++;
+			
+			int xOb=Character.getNumericValue(obstacles.charAt(i));
+			int yOb=Character.getNumericValue(obstacles.charAt(i++));
+			
 			Obstacle obstacle = new Obstacle (xOb,yOb);
+			planet[xOb][yOb]= obstacle;
+			//System.out.println(xOb+" "+yOb);
 			i+=2;
 		}
 		
-		
+		System.out.println(planet[1][1]);
 		
 	}
 	
