@@ -439,3 +439,10 @@ EditAction 1479312743899 MarsRoverTest.java 1770 7 16 4
 UnitTestCaseAction 1479312745110 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479312745111 MarsRoverTest FAIL
 EditAction 1479312750796 MarsRoverTest.java 1771 7 16 4
+UnitTestCaseAction 1479312751576 MarsRoverTest.java OK
+UnitTestSessionAction 1479312751576 MarsRoverTest OK
+UnitTestCaseAction 1479312813878 MarsRoverTest.java OK
+UnitTestSessionAction 1479312813878 MarsRoverTest OK
+RefactoringAction 1479312823868 MarsRoverTest.java ADD void testMarsRoverMoveFindTwoObstacles()/2 METHOD
+RefactoringAction 1479312828373 MarsRoverTest.java RENAME testMarsRoverMoveFindTwoObstacles()/2=>void testMarsRoverMoveOverGrid() METHOD
+EditAction 1479312854443 MarsRoverTest.java 1983 8 19 5
