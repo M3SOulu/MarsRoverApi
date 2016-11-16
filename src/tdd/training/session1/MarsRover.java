@@ -22,8 +22,6 @@ public class MarsRover {
 		
 		xSize = x;
 		ySize = y;
-		xPos = 0;
-		yPos = 0;
 		planet = new int[x][y];	
 		
 		direction = Direction.NORTH;
