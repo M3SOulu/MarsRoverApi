@@ -149,3 +149,20 @@ CompilationAction 1479310477201 MarsRover.java
 RefactoringAction 1479310480497 MarsRover.java ADD import java.util.ArrayList IMPORT
 CompilationAction 1479310482312 MarsRover.java
 EditAction 1479310540970 MarsRover.java 1723 3 8 0
+CompilationAction 1479310541212 MarsRover.java
+CompilationAction 1479310581153 MarsRover.java
+CompilationAction 1479310581316 MarsRover.java
+CompilationAction 1479310597856 MarsRover.java
+CompilationAction 1479310598041 MarsRover.java
+CompilationAction 1479310658297 MarsRover.java
+CompilationAction 1479310658476 MarsRoverTest.java
+RefactoringAction 1479310677317 MarsRoverTest.java ADD void setUp() METHOD
+RefactoringAction 1479310682339 MarsRoverTest.java ADD import org.junit.Before IMPORT
+RefactoringAction 1479310692907 MarsRoverTest.java ADD void MarsRover() METHOD
+RefactoringAction 1479310710980 MarsRoverTest.java REMOVE MarsRover() METHOD
+RefactoringAction 1479310718008 MarsRoverTest.java ADD MarsRover rover FIELD
+CompilationAction 1479310719009 MarsRoverTest.java
+CompilationAction 1479310719170 MarsRoverTest.java
+CompilationAction 1479310725792 MarsRoverTest.java
+CompilationAction 1479310725959 MarsRoverTest.java
+EditAction 1479310760184 MarsRover.java 1805 3 8 0

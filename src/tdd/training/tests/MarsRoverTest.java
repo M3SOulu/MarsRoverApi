@@ -2,6 +2,7 @@ package tdd.training.tests;
 
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import junit.framework.Assert;
@@ -10,7 +11,13 @@ import tdd.training.session1.Obstacle;
 
 public class MarsRoverTest {
 	
+	private MarsRover rover;
 	
+	@Before
+	public void setUp(){
+		//TODO
+		
+	}
 	
 	@Test
 	public void ObstacleTest() {

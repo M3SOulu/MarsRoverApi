@@ -7,7 +7,7 @@ public class MarsRover {
 	private int width;
 	private int height;
 	
-	private Obstacle[] obs=null;
+	private ArrayList<Obstacle> obs;
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -19,7 +19,7 @@ public class MarsRover {
 		
 		this.width=x;
 		this.height=y;
-		Obstacle[] obs=makeObstacles(obstacles);
+		obs=makeObstacles(obstacles);
 		
 	}
 	
@@ -42,7 +42,7 @@ public class MarsRover {
 	 * @param obstacles
 	 * @return an array of obstacle or null
 	 */
-	public  static Obstacle[] makeObstacles(String obs){
+	static ArrayList<Obstacle> makeObstacles(String obs){
 		
 		String[] obstaclesList= obs.split("[\\(\\)]");
 		
@@ -50,14 +50,13 @@ public class MarsRover {
 		
 		for(int i=0;i<obstaclesList.length;i++){
 			
-			if(i%2==0){
+			if(i%2==0){//nel vettore restituito dallo split gli oggetti in posizione dispari sono stringhe vuote
 				
 				obstacles.add(new Obstacle(obstaclesList[i]));
 				
 			}
 		}
-			
-		
+					
 		return obstacles;
 	}
 }
