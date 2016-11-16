@@ -15,8 +15,16 @@ package tdd.training.session1;
 				  
 	  }
 	  
+	  public Obstacle(String coords){
+		  
+		  coords=coords.replace("(", "");
+		 this.x=Integer.parseInt(coords.split(",")[0]);
+		 this.y=Integer.parseInt(coords.split(",")[1]);
+	  }
+	  
 	  @Override
 	  public String toString(){
+		  	  
 		  
 		  return new String("("+x+","+y+")");
 	  }
