@@ -135,7 +135,7 @@ public class MarsRover {
 	}
 	
 	/**
-	 * 
+	 * move the rover in  a given position
 	 * @param mov a movement
 	 */
 	public void move(char mov){

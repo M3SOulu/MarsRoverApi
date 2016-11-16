@@ -263,3 +263,4 @@ RefactoringAction 1479313708757 MarsRover.java RENAME move()=>void move(char) ME
 RefactoringAction 1479313759803 MarsRover.java REMOVE move(char) METHOD
 RefactoringAction 1479313759908 MarsRover.java ADD void move(char) METHOD
 EditAction 1479313767058 MarsRover.java 3177 6 21 0
+EditAction 1479313797897 MarsRover.java 3212 6 21 0
