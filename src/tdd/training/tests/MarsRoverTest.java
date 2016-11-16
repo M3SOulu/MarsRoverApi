@@ -138,6 +138,10 @@ public class MarsRoverTest {
 		assertEquals(0, marsRover.getCurrentY());
 	}
 	
+	@Test(expected = MarsRoverException.class)
+	public void testExecuteCommandThrowException() throws MarsRoverException{
+		marsRover.executeCommand("a");
+	}
 	
 	@Test
 	public void testExecuteCommand() throws MarsRoverException{		

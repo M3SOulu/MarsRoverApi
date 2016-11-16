@@ -392,3 +392,5 @@ UnitTestCaseAction 1479315523480 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479315523481 MarsRoverTest FAIL
 RefactoringAction 1479315562231 MarsRoverTest.java REMOVE testExecuteCommandThrowException() METHOD
 EditAction 1479315562881 MarsRoverTest.java 4019 15 67 46
+RefactoringAction 1479315570245 MarsRoverTest.java ADD void testExecuteCommandThrowException() METHOD
+EditAction 1479315572642 MarsRoverTest.java 4174 16 68 46
