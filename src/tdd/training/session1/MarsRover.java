@@ -140,6 +140,11 @@ public class MarsRover {
 	 */
 	public void move(char mov){
 		
+		switch(mov){
+		
+		
+		}
+		
 		
 	}
 	
