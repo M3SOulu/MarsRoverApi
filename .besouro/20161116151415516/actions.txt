@@ -20,3 +20,8 @@ EditAction 1479306923401 MarsRoverTest.java 406 3 2 0
 EditAction 1479306989362 MarsRoverTest.java 447 3 3 1
 EditAction 1479307068991 MarsRoverTest.java 673 3 8 6
 EditAction 1479307089961 MarsRoverTest.java 716 3 9 7
+UnitTestCaseAction 1479307097687 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479307097698 MarsRoverTest FAIL
+RefactoringAction 1479307168246 MarsRover.java ADD int pianeta FIELD
+RefactoringAction 1479307171755 MarsRover.java RENAME pianeta=>int FIELD
+EditAction 1479307215679 MarsRover.java 1419 3 7 0

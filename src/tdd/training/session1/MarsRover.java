@@ -4,7 +4,7 @@ public class MarsRover {
 	private String commandPattern = "[lrfb]+";
 	private int xSize;
 	private int ySize;
-	
+	private int[][] planet;
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -15,6 +15,8 @@ public class MarsRover {
 	 */
 		xSize = x;
 		ySize = y;
+		
+		planet = new int[x][y];
 		
 	}
 	
