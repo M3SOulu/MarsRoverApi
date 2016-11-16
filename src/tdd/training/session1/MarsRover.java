@@ -16,7 +16,6 @@ public class MarsRover {
 	}
 
 	public String Test (String command) {
-		executeCommand(command);
 		String position = Integer.toString(posX) + Integer.toString(posY) + facing;
 		return position;
 	}
