@@ -323,3 +323,6 @@ RefactoringAction 1479316202228 MarsRoverTest.java RENAME gettingCoords()=>void 
 RefactoringAction 1479316205764 MarsRoverTest.java RENAME gettingCoordsAre()=>void get() METHOD
 RefactoringAction 1479316209778 MarsRoverTest.java RENAME get()=>void getCoordinates() METHOD
 EditAction 1479316211071 MarsRoverTest.java 573 1 3 3
+UnitTestCaseAction 1479316213237 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479316213238 MarsRoverTest.getCoordinates FAIL
+EditAction 1479316248958 MarsRoverTest.java 573 1 0 0
