@@ -13,6 +13,7 @@ public class MarsRover {
 		 * Example use: MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")
 		 * //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8)
 		 */
+		A = new Rover();
 	}
 
 	public String executeCommand(String command) {
@@ -28,7 +29,6 @@ public class MarsRover {
 		 * pointing to (N,S,W,E). The return string should also contain a list
 		 * of coordinates of the encountered obstacles. No white spaces.
 		 */
-		String percorso;
 		
 		for (int i = 0; i <= command.length(); i++) {
 			int moment = 0;
@@ -38,11 +38,13 @@ public class MarsRover {
 			case 'f':
 				moment = A.getPos_y() + 1;
 				A.setPos_y(moment);
+				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 				break;
 
 			case 'b':
 				moment = A.getPos_y() - 1;
 				A.setPos_y(moment);
+				System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 				break;
 
 			case 'l':
@@ -51,6 +53,7 @@ public class MarsRover {
 				
 				A.setPos_x(moment);
 				A.setPos_y(moment1);
+				System.out.print("(" + A.getPos_y() + "," + A.getPos_x() + ")");
 				break;
 
 			case 'r':
@@ -59,7 +62,7 @@ public class MarsRover {
 				
 				A.setPos_x(moment1);
 				A.setPos_y(moment);
-				
+				System.out.print("(" + A.getPos_y() + "," + A.getPos_x() + ")");
 				break;
 			}
 
