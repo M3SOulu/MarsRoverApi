@@ -15,7 +15,12 @@ public class MarsRover {
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		
-		if(verifyObstacles(obstacles)) throw new MarsRoverException();
+		if(verifyObstacles(obstacles)) throw new MarsRoverException();	
+		
+		xSize = x;
+		ySize = y;
+		
+		planet = new int[x][y];	
 		
 		String[] ostacoli = obstacles.split("()");
 		
@@ -24,16 +29,12 @@ public class MarsRover {
 			int xOb = Integer.parseInt(temp[0]);
 			int yOb = Integer.parseInt(temp[1]);
 			
-			if(xOb>=x || yOb>=y) throw new MarsRoverException();
+			if(xOb>=xSize || yOb>=ySize) throw new MarsRoverException();
 			
 			planet[xOb][yOb] = -1;
 		}
 		
-		xSize = x;
-		ySize = y;
-		
-		planet = new int[x][y];
-		planet[0][0] = 1;		
+		planet[0][0] = 1;	
 	}
 	
 	
