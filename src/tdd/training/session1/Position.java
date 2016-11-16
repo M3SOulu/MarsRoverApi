@@ -12,10 +12,4 @@ public class Position {
 		this.x = x;
 		this.y = y;
 	}
-	
-	@Override
-	public String toString(){
-		String str = "(" + x + "," + y + ")";
-		return str;
-	}
 }

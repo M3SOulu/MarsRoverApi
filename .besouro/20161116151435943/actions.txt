@@ -47,3 +47,5 @@ EditAction 1479307038989 Position.java 195 2 3 0
 EditAction 1479307042326 Position.java 201 2 3 0
 RefactoringAction 1479307148288 Position.java ADD String toString() METHOD
 EditAction 1479307170259 Position.java 304 3 5 0
+RefactoringAction 1479307250376 Position.java REMOVE toString() METHOD
+EditAction 1479307251510 Position.java 201 2 3 0
