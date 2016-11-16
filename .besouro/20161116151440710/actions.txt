@@ -193,3 +193,8 @@ EditAction 1479315533973 MarsRover.java 2156 4 25 0
 UnitTestCaseAction 1479315536301 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479315536304 MarsRoverTest FAIL
 EditAction 1479315550692 MarsRover.java 2156 4 25 0
+UnitTestCaseAction 1479315552305 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479315552306 MarsRoverTest FAIL
+RefactoringAction 1479315561122 MarsRover.java REMOVE planet FIELD
+RefactoringAction 1479315570680 MarsRover.java ADD int FIELD
+EditAction 1479315576997 MarsRover.java 2156 4 25 0
