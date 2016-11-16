@@ -36,11 +36,11 @@ public class MarsRover {
 	public String executeCommand(String command){
 		
 		char comand[] = command.toCharArray();
-		Integer move[]={0};
+		Integer move[]={0,0};
 		String result = "";
 		
-		for(int i = 0; i< comand.length; i++)
-			move = commandMove(comand[i]);
+		for(int i = 0; i< comand.length; i++){
+			move = commandMove(comand[i]);}
 		result = result.concat("(");
 		result = result.concat(move[0].toString());
 		result = result.concat(",");
