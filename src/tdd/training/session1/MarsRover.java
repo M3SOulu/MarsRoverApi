@@ -74,7 +74,7 @@ public class MarsRover {
 
 			if (actualCommand == 'f') {
 				if (roverFacing == 'N') {
-					if ((planet.length-1) == yRover)
+					if (planet.length == yRover)
 						yRover = -1;
 					if (planet[xRover][yRover + 1] == null) {
 						planet[xRover][yRover] = null;
