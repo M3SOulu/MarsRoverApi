@@ -74,10 +74,10 @@ public class MarsRover {
 		Position nextPosition = rPos;
 		switch (command){
 		case Utils.FORWARD:
-			nextPosition.moveForward(rDir);
+			nextPosition.moveForward(rDir, grid);
 			break;
 		case Utils.BACKWARD:
-			nextPosition.moveBackwards(rDir);
+			nextPosition.moveBackwards(rDir, grid);
 			break;
 		case Utils.LEFT:
 			rDir = Utils.cycleDirectionLeft(rDir);
