@@ -74,7 +74,7 @@ public class MarsRover {
 			
 			if(actualCommand =='f'){
 				if(roverFacing == 'N'){
-					if()
+					//if()
 				if(planet[xRover][yRover+1] == null){
 					planet[xRover][yRover]=null;
 					planet[xRover][yRover+1]=rover;
@@ -102,7 +102,7 @@ public class MarsRover {
 		MarsRover rover = new MarsRover(3, 3, "(0,1)");
 		String test =rover.executeCommand("f");
 		System.out.println(test);
-		Object array [][] = new Object [3][3];
+		Object array [][] = new Object [3][4];
 		System.out.println(array.length);
 	}
 
