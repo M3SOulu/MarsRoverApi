@@ -1,8 +1,8 @@
 package tdd.training.session1;
 
 public class MarsRover {
-	int posX = 0;
-	int posY = 0;
+	int posX;
+	int posY;
 	char facing = 'N';
 	
 	public MarsRover(int x, int y, String obstacles){
