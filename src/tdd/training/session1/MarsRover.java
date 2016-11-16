@@ -31,7 +31,6 @@ public class MarsRover {
 	}
 	
 	public final void setObstacles(String obstacles) throws MarsRoverException{
-
 		throw new MarsRoverException();
 	}
 	
