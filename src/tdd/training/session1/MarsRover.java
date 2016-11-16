@@ -59,9 +59,8 @@ public class MarsRover {
 		for(int i = 0; i < this.obstacles.length; i++){
 			this.obstacles[i] = new Obstacle();
 		}
-		
+		int i = 0;
 		for(int j = 0; j < obstacles.length(); j++){
-			int i = 0;
 			if(obstacles.charAt(j) == ','){
 				j++;
 				if((obstacles.charAt(j)<=gridY)){
