@@ -318,3 +318,6 @@ RefactoringAction 1479314136603 MarsRoverTest.java RENAME testExecuteCommand()=>
 EditAction 1479314157412 MarsRoverTest.java 4041 15 67 45
 RefactoringAction 1479314170183 MarsRoverTest.java ADD void testExecuteCommand() METHOD
 EditAction 1479314174380 MarsRoverTest.java 4091 16 67 45
+RefactoringAction 1479314184229 MarsRoverTest.java REMOVE testExecuteCommand() METHOD
+RefactoringAction 1479314185233 MarsRoverTest.java ADD void testExecuteCommand() METHOD
+EditAction 1479314221491 MarsRoverTest.java 4172 16 68 46
