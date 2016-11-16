@@ -138,3 +138,14 @@ EditAction 1479309953189 MarsRoverTest.java 510 2 4 2
 CompilationAction 1479309953362 MarsRoverTest.java
 CompilationAction 1479309953363 MarsRoverTest.java
 EditAction 1479309980517 MarsRoverTest.java 539 2 6 3
+CompilationAction 1479309980766 MarsRoverTest.java
+RefactoringAction 1479310022028 MarsRoverTest.java ADD import tdd.training.session1.MarsRover IMPORT
+CompilationAction 1479310023303 MarsRoverTest.java
+UnitTestCaseAction 1479310166768 MarsRoverTest.java OK
+UnitTestSessionAction 1479310166769 MarsRoverTest OK
+UnitTestCaseAction 1479310322249 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310322250 MarsRoverTest FAIL
+CompilationAction 1479310477201 MarsRover.java
+RefactoringAction 1479310480497 MarsRover.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1479310482312 MarsRover.java
+EditAction 1479310540970 MarsRover.java 1723 3 8 0

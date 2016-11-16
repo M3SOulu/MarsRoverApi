@@ -1,5 +1,7 @@
 package tdd.training.session1;
 
+import java.util.ArrayList;
+
 public class MarsRover {
 	
 	private int width;
@@ -40,13 +42,22 @@ public class MarsRover {
 	 * @param obstacles
 	 * @return an array of obstacle or null
 	 */
-	public  static Obstacle[] makeObstacles(String obstacles){
+	public  static Obstacle[] makeObstacles(String obs){
 		
-		String[] obstaclesList= obstacles.split("\\(");
+		String[] obstaclesList= obs.split("[\\(\\)]");
 		
+		ArrayList<Obstacle> obstacles= new ArrayList<Obstacle>();
 		
-			//String rowX=obstaclesList[i].substring(, 
+		for(int i=0;i<obstaclesList.length;i++){
+			
+			if(i%2==0){
+				
+				obstacles.add(new Obstacle(obstaclesList[i]));
+				
+			}
+		}
+			
 		
-		return null;
+		return obstacles;
 	}
 }
