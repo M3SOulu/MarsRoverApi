@@ -70,3 +70,28 @@ RefactoringAction 1479308335861 MarsRover.java ADD int width FIELD
 RefactoringAction 1479308342391 MarsRover.java ADD int height FIELD
 RefactoringAction 1479308424063 MarsRover.java ADD Obstacles FIELD
 EditAction 1479308427179 MarsRover.java 1188 2 1 0
+CompilationAction 1479308427426 MarsRover.java
+CompilationAction 1479308427427 MarsRover.java
+CompilationAction 1479308427427 MarsRover.java
+CompilationAction 1479308435418 MarsRover.java
+CompilationAction 1479308435419 MarsRover.java
+CompilationAction 1479308435419 MarsRover.java
+CompilationAction 1479308435577 MarsRover.java
+CompilationAction 1479308435578 MarsRover.java
+RefactoringAction 1479308450173 MarsRover.java ADD void makeObstacles() METHOD
+RefactoringAction 1479308453698 MarsRover.java RENAME makeObstacles()=>void makeObstacles(String) METHOD
+CompilationAction 1479308500136 MarsRover.java
+CompilationAction 1479308500136 MarsRover.java
+CompilationAction 1479308500298 MarsRover.java
+CompilationAction 1479308500298 MarsRover.java
+CompilationAction 1479308500298 MarsRover.java
+CompilationAction 1479308500299 MarsRover.java
+RefactoringAction 1479308517492 MarsRover.java RENAME makeObstacles(String)=>void ObstaclmakeObstacles(String) METHOD
+RefactoringAction 1479308519505 MarsRover.java RENAME ObstaclmakeObstacles(String)=>Obstacle METHOD
+CompilationAction 1479308520683 MarsRover.java
+CompilationAction 1479308520684 MarsRover.java
+CompilationAction 1479308520807 MarsRover.java
+CompilationAction 1479308570735 MarsRover.java
+RefactoringAction 1479309108549 Obstacle.java ADD Obstacle() METHOD
+RefactoringAction 1479309114060 Obstacle.java RENAME Obstacle()=>Obstacle(String) METHOD
+EditAction 1479309153180 Obstacle.java 833 8 10 0

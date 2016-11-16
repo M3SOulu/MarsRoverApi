@@ -14,6 +14,11 @@ package tdd.training.session1;
 		  this.y=y;
 				  
 	  }
+	  
+	  public Obstacle(String obstacle){
+		  
+		  String xy=obstacle.split("(\d+)");
+	  }
 
 
 	  public int getX() {

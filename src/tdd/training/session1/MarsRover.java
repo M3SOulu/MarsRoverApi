@@ -5,7 +5,7 @@ public class MarsRover {
 	private int width;
 	private int height;
 	
-	private Obstacles[] obs=null;
+	private Obstacle[] obs=null;
 	
 	public MarsRover(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -15,7 +15,9 @@ public class MarsRover {
 		MarsRover rover = new MarsRover(100,100,"?(5,5)(7,8)?")  //A 100x100 grid with two obstacles at coordinates (5,5) and (7,8) 
 	 */
 		
-		
+		this.width=x;
+		this.height=y;
+		Obstacle[] obs=makeObstacles(obstacles);
 		
 	}
 	
@@ -33,5 +35,13 @@ public class MarsRover {
 		return null;
 	}
 	
-	public 
+	/**
+	 * create some obstacles in the map
+	 * @param obstacles
+	 * @return an array of obstacle or null
+	 */
+	public  Obstacle[] makeObstacles(String obstacles){
+		
+		return null;
+	}
 }
