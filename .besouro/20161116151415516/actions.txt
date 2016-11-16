@@ -121,3 +121,10 @@ EditAction 1479310145273 MarsRover.java 2482 6 19 0
 UnitTestCaseAction 1479310153353 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479310153353 MarsRoverTest FAIL
 EditAction 1479310171051 MarsRover.java 2482 6 19 0
+UnitTestCaseAction 1479310177378 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479310177379 MarsRoverTest FAIL
+RefactoringAction 1479310191779 MarsRover.java REMOVE executeCommand(String) METHOD
+RefactoringAction 1479310191780 MarsRover.java REMOVE verifyObstaclesRange(int, int) METHOD
+RefactoringAction 1479310196786 MarsRover.java ADD boolean verifyObstaclesRange(int, int) METHOD
+RefactoringAction 1479310196792 MarsRover.java ADD String executeCommand(String) METHOD
+EditAction 1479310206905 MarsRover.java 2495 6 18 0

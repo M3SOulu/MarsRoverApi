@@ -28,8 +28,10 @@ public class MarsRover {
 	
 	public final void setObstacles(String obstacles) throws MarsRoverException{
 		String[] ostacoli = obstacles.split("()");
-		System.out.println(ostacoli[1]);
+		
 		for(String ostacolo : ostacoli){
+			System.out.println(ostacolo);
+			/*
 			String[] temp = ostacolo.split(",");
 			int xObstacle = Integer.parseInt(temp[0]);
 			int yObstacle = Integer.parseInt(temp[1]);
@@ -37,6 +39,7 @@ public class MarsRover {
 			if(verifyObstaclesRange(xObstacle, yObstacle)) throw new MarsRoverException();
 			
 			planet[xObstacle][yObstacle] = -1;
+			*/
 		}
 	}
 	
