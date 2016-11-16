@@ -44,3 +44,8 @@ EditAction 1479308510435 MarsRover.java 1712 3 8 0
 EditAction 1479308538370 MarsRover.java 1712 3 8 0
 EditAction 1479308600799 MarsRover.java 1717 3 8 0
 EditAction 1479308611282 MarsRover.java 1717 3 8 0
+RefactoringAction 1479308649894 MarsRover.java RENAME x=>int xRover FIELD
+RefactoringAction 1479308652403 MarsRover.java RENAME y=>int yRover FIELD
+RefactoringAction 1479308687995 MarsRover.java ADD String facing FIELD
+RefactoringAction 1479308887537 Obstacle.java RENAME Obstacle(int, int)=>Obstacle(int, int, String) METHOD
+EditAction 1479308898527 Obstacle.java 283 2 4 0
