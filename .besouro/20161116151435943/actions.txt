@@ -1,0 +1,11 @@
+FileOpenedAction 1479305676471 MarsRoverTest.java 184 1 1 0
+RefactoringAction 1479306007942 MarsRover.java ADD int r_x FIELD
+RefactoringAction 1479306007952 MarsRover.java ADD int r_y FIELD
+RefactoringAction 1479306027540 MarsRover.java ADD String r_dir FIELD
+RefactoringAction 1479306104945 Position.java ADD Position.java CLASS
+FileOpenedAction 1479306105461 Position.java 64 0 0 0
+RefactoringAction 1479306155544 Position.java ADD int x/2 FIELD
+RefactoringAction 1479306159055 Position.java REMOVE x/2 FIELD
+RefactoringAction 1479306160559 Position.java ADD int x/2 FIELD
+RefactoringAction 1479306167591 Position.java RENAME x/2=>int y FIELD
+EditAction 1479306171033 Position.java 92 0 0 0
