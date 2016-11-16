@@ -19,8 +19,8 @@ package tdd.training.session1;
 		  
 		  String[] xy=obstacle.split(",");
 		  
-		  this.x=Integer.parseInt(xy[1]);
-		  this.y=Integer.parseInt(xy[2]);
+		  this.x=Integer.parseInt(xy[0]);
+		  this.y=Integer.parseInt(xy[1]);
 	  }
 
 

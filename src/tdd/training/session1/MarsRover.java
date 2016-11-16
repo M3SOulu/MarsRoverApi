@@ -1,11 +1,16 @@
 package tdd.training.session1;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class MarsRover {
 	
 	private int width;
 	private int height;
+	
+	private int x;
+	private int y;
+	
 	
 	private ArrayList<Obstacle> obs;
 	
@@ -20,6 +25,10 @@ public class MarsRover {
 		this.width=x;
 		this.height=y;
 		obs=makeObstacles(obstacles);
+		
+		this.x=0;
+		this.y=0;
+
 		
 	}
 	
@@ -50,7 +59,7 @@ public class MarsRover {
 		
 		for(int i=0;i<obstaclesList.length;i++){
 			
-			if(i%2==0){//nel vettore restituito dallo split gli oggetti in posizione dispari sono stringhe vuote
+			if(i%2==1){//nel vettore restituito dallo split gli oggetti in posizione dispari sono stringhe vuote
 				
 				obstacles.add(new Obstacle(obstaclesList[i]));
 				
@@ -59,4 +68,31 @@ public class MarsRover {
 					
 		return obstacles;
 	}
+	
+	/**
+	 * check for obstacle in a given coords
+	 * @param x
+	 * @param y
+	 * @return
+	 */
+	public boolean checkObstacle(int x, int y){
+		
+		boolean result=false;
+		
+		Iterator<Obstacle> it= this.obs.iterator();
+		
+		while(it.hasNext()){
+			
+			Obstacle ob= it.next();
+			
+			if(ob.getX()==x && ob.getY()==y){
+				
+				result=true;
+			}
+		}
+			
+		return result;
+	}
+	
+	
 }

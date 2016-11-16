@@ -178,3 +178,38 @@ CompilationAction 1479310935957 MarsRoverTest.java
 UnitTestCaseAction 1479310984584 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479310984584 MarsRoverTest FAIL
 EditAction 1479311025438 Obstacle.java 911 8 13 0
+UnitTestCaseAction 1479311062042 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311062042 MarsRoverTest FAIL
+UnitTestCaseAction 1479311147765 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311147766 MarsRoverTest FAIL
+UnitTestCaseAction 1479311323918 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479311323918 MarsRoverTest FAIL
+UnitTestCaseAction 1479311366717 MarsRoverTest.java OK
+UnitTestSessionAction 1479311366717 MarsRoverTest OK
+RefactoringAction 1479311408652 MarsRover.java ADD int x FIELD
+RefactoringAction 1479311424673 MarsRover.java ADD int y FIELD
+RefactoringAction 1479311553904 MarsRover.java ADD int FIELD
+RefactoringAction 1479311626090 MarsRover.java REMOVE grid FIELD
+RefactoringAction 1479311692752 MarsRover.java ADD void checkObstacle() METHOD
+CompilationAction 1479311700741 MarsRover.java
+RefactoringAction 1479311745946 MarsRover.java RENAME checkObstacle()=>boolean checkObstacle(int, int) METHOD
+CompilationAction 1479311748225 MarsRover.java
+CompilationAction 1479311748405 MarsRover.java
+RefactoringAction 1479311786056 MarsRover.java ADD import java.util.Iterator IMPORT
+CompilationAction 1479311787321 MarsRover.java
+UnitTestCaseAction 1479312051528 MarsRoverTest.java OK
+UnitTestSessionAction 1479312051528 MarsRoverTest OK
+RefactoringAction 1479312090363 MarsRoverTest.java ADD void TestMakeObstacles()/2 METHOD
+RefactoringAction 1479312096371 MarsRoverTest.java RENAME TestMakeObstacles()/2=>void TestCheckObstacles() METHOD
+RefactoringAction 1479312182522 MarsRoverTest.java ADD String obstacles FIELD
+CompilationAction 1479312193752 MarsRoverTest.java
+CompilationAction 1479312209062 MarsRoverTest.java
+CompilationAction 1479312209229 MarsRoverTest.java
+CompilationAction 1479312272118 MarsRoverTest.java
+UnitTestCaseAction 1479312294006 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479312294007 MarsRoverTest FAIL
+UnitTestCaseAction 1479312315166 MarsRoverTest.java OK
+UnitTestSessionAction 1479312315167 MarsRoverTest OK
+RefactoringAction 1479312338244 MarsRover.java REMOVE checkObstacle(int, int) METHOD
+RefactoringAction 1479312338526 MarsRover.java ADD boolean checkObstacle(int, int) METHOD
+EditAction 1479312349959 MarsRover.java 2272 4 14 0

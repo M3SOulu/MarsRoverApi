@@ -14,10 +14,12 @@ import tdd.training.session1.Obstacle;
 public class MarsRoverTest {
 	
 	private MarsRover rover;
+	private String obstacles="(1,3)(4,8)";
 	
 	@Before
 	public void setUp(){
-		//TODO
+		
+		rover= new MarsRover(10,10, obstacles);
 		
 	}
 	
@@ -34,11 +36,20 @@ public class MarsRoverTest {
 	@Test
 	public void TestMakeObstacles() {
 		
-		String obstacles="(1,3)(4,8)";
 		ArrayList<Obstacle> obsList= MarsRover.makeObstacles(obstacles);
+				
+		Assert.assertTrue(obsList.get(0).equals(new Obstacle(1,3)));
+		Assert.assertTrue(obsList.get(1).equals(new Obstacle(4,8)));
 		
+	}
+	
+	@Test
+	public void TestCheckObstacles() {
 		
-		Assert.assertEquals(obsList.get(0),new Obstacle(1,3));
+		ArrayList<Obstacle> obsList= MarsRover.makeObstacles(obstacles);
+				
+		Assert.assertTrue(rover.checkObstacle(1, 3));
+		Assert.assertFalse(rover.checkObstacle(1,2));
 		
 	}
 
