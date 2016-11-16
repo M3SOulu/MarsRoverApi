@@ -169,12 +169,14 @@ public class MarsRover {
 							if (cmd3 == 'f') {
 								moment = A.getPos_x() + 1;
 								A.setPos_x(moment);
+								result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 								System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 								i++;
 								cmd3 = command.charAt(i);
 							} else if (cmd3 == 'b') {
 								moment = A.getPos_x() - 1;
 								A.setPos_x(moment);
+								result = "(" + A.getPos_x() + "," + A.getPos_y() + ")";
 								System.out.print("(" + A.getPos_x() + "," + A.getPos_y() + ")");
 								i++;
 								cmd3 = command.charAt(i);
