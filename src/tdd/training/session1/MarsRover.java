@@ -40,8 +40,9 @@ public class MarsRover {
 			
 			planet[xObstacle][yObstacle] = -1;
 			*/
-			throw new MarsRoverException();
+			
 		}
+		throw new MarsRoverException();
 	}
 	
 	
