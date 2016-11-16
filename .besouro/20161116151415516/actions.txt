@@ -235,3 +235,5 @@ RefactoringAction 1479312940588 MarsRoverTest.java RENAME test=>void testMoveFor
 RefactoringAction 1479312942094 MarsRoverTest.java RENAME testMoveFor=>void testMoveForward() METHOD
 EditAction 1479312964933 MarsRoverTest.java 2747 9 37 33
 EditAction 1479312973036 MarsRoverTest.java 2750 9 37 33
+RefactoringAction 1479313009899 MarsRover.java RENAME getCurrenTy()=>int getCurrentY() METHOD
+EditAction 1479313010965 MarsRover.java 4180 11 33 0

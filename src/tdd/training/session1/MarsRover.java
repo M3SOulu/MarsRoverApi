@@ -52,7 +52,7 @@ public class MarsRover {
 		return xPos;
 	}
 	
-	public int getCurrenTy(){
+	public int getCurrentY(){
 		return yPos;
 	}
 	
