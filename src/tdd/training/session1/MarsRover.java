@@ -22,6 +22,7 @@ public class MarsRover {
 			int xOb=i;
 			int yOb=i++;
 			Obstacle obstacle = new Obstacle (xOb,yOb);
+			i+=2;
 		}
 		
 		
@@ -41,4 +42,11 @@ public class MarsRover {
 		
 		return null;
 	}
+	
+	public static void main(String[] args){
+		
+		MarsRover rover = new MarsRover(3,3,"(1,1)(1,2)")
+		
+	}
+	
 }
