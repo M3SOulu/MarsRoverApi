@@ -5,17 +5,17 @@ import java.util.ArrayList;
 public class Navigation {
 	private int x;
 	private int y;
-	private static ArrayList<String> obstacles;
+	private static ArrayList<Integer> obstacles;
 	
 	public Navigation(int x, int y, String obstacles){
 		this.x = x;
 		this.y = y;
-		this.obstacles = new ArrayList<String>();
+		this.obstacles = new ArrayList<Integer>();
 		generaOstacoli(obstacles);
 	}
 
 	static void generaOstacoli(String ob){
-		String currentObstacle = "";
+		Integer currentObstacle = 0;
 		
 		for (int i = 0; i < ob.length() ; i++){
 			
@@ -23,7 +23,7 @@ public class Navigation {
 				
 				if(ob.charAt(i) == ')'){
 					obstacles.add(currentObstacle);					
-					currentObstacle = "";
+					currentObstacle = 0;
 				}
 				else{
 					currentObstacle += ob.charAt(i);
