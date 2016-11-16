@@ -137,6 +137,8 @@ public class MarsRover {
 		return !matcher.find();
 	}
 	
+	
+	//TODO to complete
 	/**
 	 * move the rover in  a given position
 	 * @param mov a movement
@@ -215,11 +217,15 @@ public class MarsRover {
 				
 	}
 	
+	//TODO to complete
 	public void move(char m){
 		
 		switch(m){
 		
 		case 'f':
+				
+				if()
+			
 			break;
 		
 		case 'b':
@@ -227,6 +233,7 @@ public class MarsRover {
 		
 		}
 	}
+	
 	
 	
 	

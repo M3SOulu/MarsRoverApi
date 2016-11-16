@@ -345,3 +345,6 @@ EditAction 1479315814285 MarsRover.java 4177 10 25 0
 EditAction 1479315837723 MarsRover.java 4194 10 26 0
 EditAction 1479315890252 MarsRover.java 4200 10 26 0
 EditAction 1479316045251 MarsRover.java 4244 10 26 0
+RefactoringAction 1479316309013 MarsRover.java ADD void s FIELD
+RefactoringAction 1479316310047 MarsRover.java REMOVE s FIELD
+EditAction 1479316333728 MarsRover.java 4306 10 25 0
