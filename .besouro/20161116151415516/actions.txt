@@ -301,3 +301,4 @@ UnitTestCaseAction 1479313922845 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479313922846 MarsRoverTest FAIL
 RefactoringAction 1479313931337 MarsRoverTest.java RENAME testmoveBackwardFromStart()=>void testMoveBackwardFromStart() METHOD
 EditAction 1479313932114 MarsRoverTest.java 3503 12 58 41
+EditAction 1479313962661 MarsRoverTest.java 3505 12 59 41
