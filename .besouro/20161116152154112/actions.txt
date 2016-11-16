@@ -155,3 +155,21 @@ EditAction 1479313024400 Obstacle.java 429 5 6 0
 UnitTestCaseAction 1479313026576 MarsRoverTest.java FAIL
 UnitTestSessionAction 1479313026577 MarsRoverTest FAIL
 EditAction 1479313094592 MarsRover.java 4663 8 23 0
+UnitTestCaseAction 1479313096149 MarsRoverTest.java OK
+UnitTestSessionAction 1479313096150 MarsRoverTest OK
+RefactoringAction 1479313125329 MarsRoverTest.java ADD void OneMoveForward()/2 METHOD
+RefactoringAction 1479313131345 MarsRoverTest.java RENAME OneMoveForward()/2=>void TwoMoveForward() METHOD
+UnitTestCaseAction 1479313137781 MarsRoverTest.java OK
+UnitTestSessionAction 1479313137781 MarsRoverTest OK
+UnitTestCaseAction 1479313152071 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313152072 MarsRoverTest FAIL
+UnitTestCaseAction 1479313159272 MarsRoverTest.java OK
+UnitTestSessionAction 1479313159272 MarsRoverTest OK
+UnitTestCaseAction 1479313214672 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313214673 MarsRoverTest FAIL
+UnitTestCaseAction 1479313223667 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313223668 MarsRoverTest FAIL
+UnitTestCaseAction 1479313272993 MarsRoverTest.java FAIL
+UnitTestSessionAction 1479313272994 MarsRoverTest FAIL
+FileOpenedAction 1479313402702 Obstacle.java 429 5 6 0
+EditAction 1479313483814 MarsRover.java 4667 8 23 0

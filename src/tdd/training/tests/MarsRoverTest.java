@@ -26,5 +26,11 @@ public class MarsRoverTest {
 	public void OneMoveForward() throws MarsRoverException {
 		assertEquals("?(0,1,N)?", sonic.executeCommand("f"));
 	}
+	
+	@Test
+	public void TwoMoveForward() throws MarsRoverException {
+		assertEquals("?(1,1,E)(2,1)?", sonic.executeCommand("frff"));
+	}
+
 
 }

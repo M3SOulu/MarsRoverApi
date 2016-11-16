@@ -141,7 +141,7 @@ public class MarsRover {
 				throw new MarsRoverException();
 			
 			for(Obstacle o : this.obstacles){
-				if(coordX == o.getCoordX()&&coordY == o.getCoordY()){
+				if((coordX == o.getCoordX())&&(coordY == o.getCoordY())){
 					whereIsObstacles += coordX + "," + coordY + ")";
 					coordX += -1;
 					coordY += -1;
