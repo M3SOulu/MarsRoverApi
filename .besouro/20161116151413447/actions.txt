@@ -163,3 +163,5 @@ EditAction 1479312559083 MarsRover.java 2992 3 14 0
 EditAction 1479312607818 MarsRover.java 2987 3 14 0
 EditAction 1479312613613 MarsRover.java 2988 3 14 0
 EditAction 1479312616653 MarsRover.java 2989 3 14 0
+RefactoringAction 1479312686489 Rover.java ADD String ToString() METHOD
+EditAction 1479312745473 Rover.java 578 6 8 0
