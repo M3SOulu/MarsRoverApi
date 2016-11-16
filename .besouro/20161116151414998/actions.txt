@@ -34,3 +34,5 @@ RefactoringAction 1479313047891 Main.java ADD Main.java CLASS
 FileOpenedAction 1479313048080 Main.java 149 1 0 0
 EditAction 1479313098482 Main.java 196 1 1 0
 EditAction 1479313135073 Main.java 229 1 2 0
+RefactoringAction 1479313388715 MarsRoverException.java RENAME MarsRoverException(Exception)=>MarsRoverException(String) METHOD
+EditAction 1479313432777 MarsRover.java 6179 2 5 0

@@ -20,7 +20,7 @@ public class MarsRover {
 		global_y = y;
 	}
 
-	public String executeCommand(String command) {
+	public String executeCommand(String command) throws MarsRoverException {
 		/*
 		 * The command string is composed of "f" (forward), "b" (backward), "l"
 		 * (left) and "r" (right) Example: The rover is on a 100x100 grid at
@@ -164,6 +164,9 @@ public class MarsRover {
 						}
 					}
 				}
+			}
+			if(cmd != 'f' && cmd != 'r' && cmd != 'b' && cmd != 'l'){
+				throw new MarsRoverException("Errore");
 			}
 		}
 
