@@ -89,6 +89,7 @@ public class MarsRover {
 			}
 		}
 		String executedCommand = "("+xPos+","+yPos+","+direction.getValue()+")";
+		System.out.println(executedCommand);
 		return executedCommand;
 	}
 	
