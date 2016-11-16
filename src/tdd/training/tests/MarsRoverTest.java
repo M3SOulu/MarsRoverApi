@@ -31,6 +31,18 @@ public class MarsRoverTest {
 	public void TwoMoveForward() throws MarsRoverException {
 		assertEquals("?(1,1,E)(2,1)?", sonic.executeCommand("frff"));
 	}
+	
+	@Test
+	public void aTourWithRover() throws MarsRoverException {
+		sonic = new MarsRover(10,10,"?(3,1)(4,5)?");
+		assertEquals("?(2,1,N)?", sonic.executeCommand("ffrfflbbf"));
+	}
+	
+	@Test(expected = MarsRoverException.class)
+	public void errorRover() throws MarsRoverException {
+		sonic = new MarsRover(2,2,"?(3,1)(4,5)?");
+		assertEquals("?(2,1,N)?", sonic.executeCommand("fffff"));
+	}
 
 
 }
