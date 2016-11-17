@@ -7,10 +7,12 @@ public class MarsRover {
 	private int actualPositionY;
 	private int maxX;
 	private int maxY;
+	private String obstacles = "";
 	private final static char N = 'N';
 	private final static char S = 'S';
 	private final static char E = 'E';
 	private final static char W = 'W';
+	
 
 	public MarsRover(int x, int y, String obstacles) {
 		/*
@@ -29,8 +31,9 @@ public class MarsRover {
 		actualFace = N;
 		maxX = x - 1;
 		maxY = y - 1;
-		if(obstacles != null){
-		setObstacles(obstacles);
+
+		if (obstacles != null) {
+			setObstacles(obstacles);
 		}
 
 	}
@@ -49,7 +52,7 @@ public class MarsRover {
 		 * pointing to (N,S,W,E). The return string should also contain a list
 		 * of coordinates of the encountered obstacles. No white spaces.
 		 */
-		String obstacoles = "";
+		
 		char commandA[] = command.toCharArray();
 		for (char c : commandA) {
 			if (c == 'l') {
@@ -74,150 +77,140 @@ public class MarsRover {
 					actualFace = N;
 				}
 			} else if (c == 'f') {
-				
+
 				if (actualFace == N) {
-					if(!checkOstacoles(actualPositionX, 0)){
-						
-					}else if (actualPositionY + 1 > maxY && !checkOstacoles(actualPositionX, 0)) {
+
+					if (actualPositionY + 1 > maxY && !checkOstacoles(actualPositionX, 0)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionY = 0;
-						grid[actualPositionX][actualPositionY] = -1;
-					
-					} else if(!checkOstacoles(actualPositionX, actualPositionY+1)){
+						grid[actualPositionX][actualPositionY] = 1;
+
+					} else if (!checkOstacoles(actualPositionX, actualPositionY + 1)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionY++;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 					}
-				} else if (actualFace == S ) {
-					
+				} else if (actualFace == S) {
+
 					if (actualPositionY - 1 < 0 && !checkOstacoles(actualPositionX, maxY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionY = maxY;
-						grid[actualPositionX][actualPositionY] = -1;
-					
-					} else if(!checkOstacoles(actualPositionX, actualPositionY-1)) {
+						grid[actualPositionX][actualPositionY] = 1;
+
+					} else if (!checkOstacoles(actualPositionX, actualPositionY - 1)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionY--;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 					}
 				} else if (actualFace == E) {
 					if (actualPositionX + 1 > maxX && !checkOstacoles(0, actualPositionY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionX = 0;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 
-					} else if(!checkOstacoles(actualPositionX + 1, actualPositionY)){
+					} else if (!checkOstacoles(actualPositionX + 1, actualPositionY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionX++;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 					}
 				} else if (actualFace == W) {
-					
+
 					if (actualPositionX - 1 < 0 && !checkOstacoles(maxX, actualPositionY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionX = maxX;
-						grid[actualPositionX][actualPositionY] = -1;
-					
-					} else if(!checkOstacoles(actualPositionX - 1, actualPositionY)) {
+						grid[actualPositionX][actualPositionY] = 1;
+
+					} else if (!checkOstacoles(actualPositionX - 1, actualPositionY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionX--;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 					}
+
 				}
 
-			} else if (c == 'b') {
+			} else if (c == 'b')
+
+			{
 				if (actualFace == N) {
 					if (actualPositionY - 1 < 0 && !checkOstacoles(actualPositionX, maxY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionY = maxY;
-						grid[actualPositionX][actualPositionY] = -1;
-					} else if(!checkOstacoles(actualPositionX, actualPositionY-1)){
+						grid[actualPositionX][actualPositionY] = 1;
+					} else if (!checkOstacoles(actualPositionX, actualPositionY - 1)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionY--;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 					}
 				} else if (actualFace == S) {
 					if (actualPositionY + 1 > maxY && !checkOstacoles(actualPositionX, 0)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionY = 0;
-						grid[actualPositionX][actualPositionY] = -1;
-					} else if(!checkOstacoles(actualPositionX, actualPositionY +1)) {
+						grid[actualPositionX][actualPositionY] = 1;
+					} else if (!checkOstacoles(actualPositionX, actualPositionY + 1)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionY++;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 					}
 
 				} else if (actualFace == E) {
-					if (actualPositionX -1 < 0 && !checkOstacoles(maxX, actualPositionY)) {
+					if (actualPositionX - 1 < 0 && !checkOstacoles(maxX, actualPositionY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionX = maxX;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 
-					} else if(!checkOstacoles(actualPositionX -1, actualPositionY)){
+					} else if (!checkOstacoles(actualPositionX - 1, actualPositionY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionX--;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 					}
 				} else if (actualFace == W) {
 					if (actualPositionX + 1 > maxX && !checkOstacoles(0, actualPositionY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionX = 0;
-						grid[actualPositionX][actualPositionY] = -1;
-					} else if(!checkOstacoles(actualPositionX +1 ,actualPositionY )){
+						grid[actualPositionX][actualPositionY] = 1;
+					} else if (!checkOstacoles(actualPositionX + 1, actualPositionY)) {
 						grid[actualPositionX][actualPositionY] = 0;
 						actualPositionX++;
-						grid[actualPositionX][actualPositionY] = -1;
+						grid[actualPositionX][actualPositionY] = 1;
 					}
 				}
 			}
 		}
-//		if(checkOstacoles(actualPositionX , 0)){
-//			obstacoles = "(" + actualPositionX + "," + "0" + ")";
-//		}else if(checkOstacoles(actualPositionX, (actualPositionY+1))){
-//			obstacoles = "(" + actualPositionX + "," + (actualPositionY+1) + ")";
-//		}else if(checkOstacoles(actualPositionX, maxY)){
-//			obstacoles = "(" + actualPositionX + "," + maxY + ")";
-//		}else if(checkOstacoles(actualPositionX, actualPositionY-1)){
-//			obstacoles = "(" + actualPositionX + "," + (actualPositionY-1) + ")";
-//		}else if(checkOstacoles(0, actualPositionY)){
-//			obstacoles = "(" + 0 + "," + actualPositionY + ")";
-//		}else if(checkOstacoles(actualPositionX+1, actualPositionY)){
-//			obstacoles = "(" + (actualPositionX+1) + "," + actualPositionY + ")";
-//		}else if(checkOstacoles(maxX, actualPositionY)){
-//			obstacoles = "(" + maxX + "," + actualPositionY + ")";
-//		}else if(checkOstacoles(actualPositionX-1, actualPositionY)){
-//			obstacoles = "(" + (actualPositionX-1) + "," + actualPositionY + ")";
-//		}
-//		if(obstacoles.isEmpty()){
-//			return "(" + actualPositionX + "," + actualPositionY + "," + actualFace + ")";
-//		}else{
-//			return "(" + actualPositionX + "," + actualPositionY + "," + actualFace + ")" + obstacoles;
-//		}
-		return "(" + actualPositionX + "," + actualPositionY + "," + actualFace + ")";
+		
+		if (obstacles.isEmpty()) {
+			return "(" + actualPositionX + "," + actualPositionY + "," + actualFace + ")";
+		} else {
+			return "(" + actualPositionX + "," + actualPositionY + "," + actualFace + ")" + obstacles;
+		}
+
 	}
 
 	private void setObstacles(String obstacles) {
 
 		char[] obstaclesA = obstacles.toCharArray();
-		for (int i = 0; i < obstacles.length(); i++) {
+		for (int i = 0; i < obstacles.length() - 1; i++) {
 			if (obstaclesA[i] == '(') {
-				
+
 				int x = Integer.valueOf(String.valueOf(obstaclesA[i + 1]));
 				int y = Integer.valueOf(String.valueOf(obstaclesA[i + 3]));
 
 				grid[x][y] = -1;
+				this.obstacles = "(" + x + "," + y + ")";
 
 			}
 		}
 
 	}
-	
-	private boolean checkOstacoles(int x, int y){
-		if(grid[x][y] == -1){
-			return true;
-		}else{
-			return false;
+
+	private boolean checkOstacoles(int x, int y) {
+		if (!(x > maxX || y > maxY || x < 0 || y < 0)) {
+			if (grid[x][y] == -1) {
+				return true;
+			} else {
+				return false;
+			}
 		}
+		return false;
 	}
 
 	public int[][] getGrid() {
